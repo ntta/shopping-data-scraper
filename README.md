@@ -2,6 +2,21 @@
 
 Get product data from Woolworths and Coles and generate a single json file for Firebase.
 
+## Category List
+All products must have category ID in the table below
+|       id        |        name        |
+|-----------------|--------------------|
+|meat-seafood-deli|Meat, Seafood & Deli|
+|bakery           |Bakery              |
+|dairy-eggs-fridge|Dairy, Eggs & Fridge|
+|pantry           |Pantry              |
+|freezer          |Freezer             |
+|drinks           |Drinks              |
+|pet              |Pet                 |
+|baby             |Baby                |
+|health-beauty    |Health & Beauty     |
+|household        |Household           |
+
 ## Woolworths
 * Get data from Woolworths API
 * Only Python with requests
