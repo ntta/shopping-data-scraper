@@ -65,15 +65,16 @@ def generateProductDetails(item, category, productId):
         'id': productId,
         'store': 'woolworths',
         'name': item['Name'],
+        'brand': toCapitalized(item['Brand']),
         'price': item['InstorePrice'],
-        'oldPrice': item['InstoreWasPrice'],
+        'orgPrice': item['InstoreWasPrice'],
         'categoryId': 'household' if category == 'lunch-box' else category, # lunch-box will be merged with household
         'imagePath': item['DetailsImagePaths'][0],
         'cupPrice': cupPrice,
         'unit': item['Unit'].lower(),
         'packageSize': item['PackageSize'].lower(),
         'barcode': barcode,
-        'brand': toCapitalized(item['Brand'])
+        'isAvailable': True
     }
 
 def toCapitalized(text):

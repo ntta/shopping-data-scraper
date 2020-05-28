@@ -1,25 +1,21 @@
 import os, json
 
-WOOLWORTHS_DIR = './stores/woolworths/data/'
-COLES_DIR = './stores/coles/data/'
-DATA_DIR = './data/'
+WOOLWORTHS_PATH = './stores/woolworths/products.json'
+COLES_PATH = './stores/coles/products.json'
+DATA_PATH = './data/all-products.json'
 
 if __name__ == '__main__':
-    # Merge Coles file
     coles = []
-    for filename in os.listdir(COLES_DIR):
-        if filename.endswith('.json'):
-            with open(f'{COLES_DIR}{filename}', 'r', encoding='utf-8') as f:
-                print(json.load(f))
-    # Merge Woolworths file
     woolworths = []
-    for filename in os.listdir(WOOLWORTHS_DIR):
-        if filename.endswith('.json'):
-            with open(f'{WOOLWORTHS_DIR}{filename}', 'r', encoding='utf-8') as f:
-                woolworths = woolworths + list(json.load(f))
-    products = coles + woolworths
-    # Write Coles products to a new file
-    with open(f'{DATA_DIR}all-products.json', 'w', encoding='utf-8') as f:
-        json.dump(products, f)
-    print(f'Coles has {len(coles)} products')
-    print(f'Woolworths has {len(woolworths)} products')
+    if os.path.exists(COLES_PATH):
+        with open(COLES_PATH, 'r', encoding='utf-8') as colesFile:
+            coles = coles + list(json.load(colesFile))
+
+    if os.path.exists(WOOLWORTHS_PATH):
+        with open(WOOLWORTHS_PATH, 'r', encoding='utf-8') as woolworthsFile:
+            woolworths = woolworths + list(json.load(woolworthsFile))
+
+    allProducts = coles + woolworths
+    with open(DATA_PATH, 'w', encoding='utf-8') as dataFile:
+        json.dump(allProducts, dataFile)
+    print(f'Total {len(allProducts)} products')
