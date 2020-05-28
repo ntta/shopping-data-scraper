@@ -26,19 +26,22 @@ async function getDataFromHtml(html, categoryId) {
   let cheerio = require('cheerio');
   let $ = cheerio.load(html);
   let products = $('.product-title').find($('a'));
-  let productList = []
+  let productList = [];
+  let count = 0;
   for (let i = 0; i < products.length; i++) {
     let n = products[i].attribs.href.split('/');
     let url = API + n[n.length - 1] + '?catalogId=27101';
-    console.log(`Getting ${url}`);
+    // console.log(`Getting ${url}`);
     const data = await getJsonData(url);
     if (data === null) {
       continue;
     }
+    count++;
     data.categoryId = categoryId;
-    console.log(data);
+    // console.log(data);
     productList.push(data);
   }
+  console.log(`${categoryId} has ${count} products`);
   return productList;
 }
 
@@ -68,10 +71,10 @@ async function getJsonData(url) {
     oldPrice: Number(data.p1['l4']),
     categoryId: '',
     imagePath: (data.fi !== undefined && data.fi !== null) ? `${WEB}${data.fi}` : '',
-    cupPrice: data.u2.toLowerCase(),
-    unit: data.a.U[0].toLowerCase(),
-    packageSize: data.a.O3[0].toLowerCase(),
-    barcode: data.a.B,
+    cupPrice: (data.u2 === undefined) ? null : data.u2.toLowerCase(),
+    unit: (data.a.U[0] === undefined) ? null : data.a.U[0].toLowerCase(),
+    packageSize: (data.a.O3[0] === undefined) ? null : data.a.O3[0].toLowerCase(),
+    barcode: (data.a.B === undefined) ? null : data.a.B,
     brand: data.m
   };
   return product;
@@ -114,6 +117,7 @@ function generatePaginationUrls(url, page_number) {
   for (let i = 1; i <= page_number; i++) {
     urls.push(`${urlWithoutPage}${String(i)}`);
   }
+  console.log(urls);
   return urls;
 }
 
@@ -152,9 +156,10 @@ async function getProducts() {
   for (category in category_urls) {
     bodyHtml = null;
     console.log(`Getting data from ${category}`);
-    console.log(category_urls[category]);
+    // console.log(category_urls[category]);
     let categoryId = getCategoryId(category);
     bodyHtml = await getHtmlBody(category_urls[category]);
+    console.log(category_urls[category]);
     if (bodyHtml) {
       let cheerio = require('cheerio');
       let $ = cheerio.load(bodyHtml);
@@ -164,28 +169,40 @@ async function getProducts() {
       } catch (erron) {
         page_number = 0;
       }
-      console.log(`${category} has ${String(page_number)} page(s)`);
+      console.log(`${category} has ${page_number === 0 ? '1' : String(page_number)} page(s)`);
       if (page_number === 0) {
         let products = await getDataFromHtml(bodyHtml, categoryId);
         let fs = require('fs');
-        console.log(products);
-        // write to file
-        let dataToWrite = JSON.stringify(products);
-        fs.writeFileSync(`./data/coles-${categoryId}.json`, dataToWrite);
+        fs.writeFile(`./data/coles-${categoryId}.json`, JSON.stringify(products), function (err) {
+          if (err) {
+            console.log(`Cannot save file coles-${categoryId}.json`);
+          } else {
+            console.log(`File coles-${categoryId}.json has been saved`);
+          }
+        });
       } else {
         let urls = generatePaginationUrls(category_urls[category], page_number);
-        let products = [];
-        for (let i = 0; i < page_number; i++) {
-          bodyHtml = await getHtmlBody(urls[i]);
-          let productPage = await getDataFromHtml(bodyHtml, categoryId);
-          products.concat(productPage);
-        }
-        let dataToWrite = await JSON.stringify(products);
-        let fs = require('fs');
-        fs.writeFileSync(`./data/coles-${categoryId}.json`, dataToWrite);
+        let fs = require('fs').promises;
+        await fs.writeFile(`./data/coles-${categoryId}.json`, JSON.stringify(fetchProductFromUrls(urls, categoryId)), function (err) {
+          if (err) {
+            console.log(`Cannot save file coles-${categoryId}.json`);
+          } else {
+            console.log(`File coles-${categoryId}.json has been saved`);
+          }
+        });
       }
     }
   }
+}
+
+async function fetchProductFromUrls(urls, categoryId) {
+  let products = []
+  for (let i = 0; i < urls.length; i++) {
+    let bodyHtml = await getHtmlBody(urls[i]);
+    let productPage = await getDataFromHtml(bodyHtml, categoryId);
+    products.concat(productPage);
+  }
+  return products;
 }
 
 getProducts();

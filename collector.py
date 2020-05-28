@@ -1,11 +1,25 @@
-from os import path
-from shutil import copy2
+import os, json
 
-CATEGORY_PATH = './stores/woolworths/categories.json'
-DATA_DIR = './data'
-WOOLWORTHS_PATH = './stores/woolworths/woolworths-products.json'
+WOOLWORTHS_DIR = './stores/woolworths/data/'
+COLES_DIR = './stores/coles/data/'
+DATA_DIR = './data/'
 
 if __name__ == '__main__':
-    if path.exists(CATEGORY_PATH):
-        copy2(CATEGORY_PATH,DATA_DIR)
-        print('Found Categories. Move to data folder.')
+    # Merge Coles file
+    coles = []
+    for filename in os.listdir(COLES_DIR):
+        if filename.endswith('.json'):
+            with open(f'{COLES_DIR}{filename}', 'r', encoding='utf-8') as f:
+                print(json.load(f))
+    # Merge Woolworths file
+    woolworths = []
+    for filename in os.listdir(WOOLWORTHS_DIR):
+        if filename.endswith('.json'):
+            with open(f'{WOOLWORTHS_DIR}{filename}', 'r', encoding='utf-8') as f:
+                woolworths = woolworths + list(json.load(f))
+    products = coles + woolworths
+    # Write Coles products to a new file
+    with open(f'{DATA_DIR}all-products.json', 'w', encoding='utf-8') as f:
+        json.dump(products, f)
+    print(f'Coles has {len(coles)} products')
+    print(f'Woolworths has {len(woolworths)} products')

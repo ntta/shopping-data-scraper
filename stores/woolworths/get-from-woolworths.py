@@ -54,19 +54,25 @@ def generateProductId(item):
     barcode = str(item['Barcode']).replace(' ', '')
     return f'w{stockcode}-{barcode}'
 
-def generateProductDetails(item, category):
+def generateProductDetails(item, category, productId):
+    if not isinstance(item['Barcode'], list):
+        barcode = [item['Barcode']]
+    if item['InstoreHasCupPrice']:
+        cupPrice = item['InstoreCupString'].lower()
+    else:
+        cupPrice = None
     return {
+        'id': productId,
         'store': 'woolworths',
         'name': item['Name'],
         'price': item['InstorePrice'],
         'oldPrice': item['InstoreWasPrice'],
-        'category': 'household' if category == 'lunch-box' else category, # lunch-box will be merged with household
+        'categoryId': 'household' if category == 'lunch-box' else category, # lunch-box will be merged with household
         'imagePath': item['DetailsImagePaths'][0],
-        'hasCupPrice': item['InstoreHasCupPrice'],
-        'cupPrice': item['InstoreCupString'],
-        'unit': item['Unit'],
-        'packageSize': item['PackageSize'],
-        'barcode': item['Barcode'],
+        'cupPrice': cupPrice,
+        'unit': item['Unit'].lower(),
+        'packageSize': item['PackageSize'].lower(),
+        'barcode': barcode,
         'brand': toCapitalized(item['Brand'])
     }
 
@@ -100,7 +106,7 @@ if __name__ == '__main__':
             json.dump(categories, categoryFile)
 
     # Use generated params to get products
-    products = {}
+    products = []
     count = 0
     for i in categoryParamIds:
         printWithTime(f'Getting products of {i}...')
@@ -114,10 +120,9 @@ if __name__ == '__main__':
                 instoreIsAvailable = item['Products'][0]['InstoreIsAvailable']
                 instorePrice = item['Products'][0]['InstorePrice']
                 if instoreIsAvailable and instorePrice > 0:
-                    productId = generateProductId(item['Products'][0])
-                    products[productId] = generateProductDetails(item['Products'][0], i)
+                    products.append(generateProductDetails(item['Products'][0], i, generateProductId(item['Products'][0])))
                     count = count + 1
     printWithTime('Done getting data. Writing to file...')
-    with open('woolworths-products.json','w', encoding='utf-8') as productFile:
+    with open('./data/woolworths-products.json','w', encoding='utf-8') as productFile:
         json.dump(products, productFile)
     printWithTime(f'ALL DONE. TOTAL {count} PRODUCTS!')

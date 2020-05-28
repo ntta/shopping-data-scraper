@@ -1,1 +1,35 @@
-{"meat-seafood-deli": {"name": "Meat, Seafood & Deli"}, "bakery": {"name": "Bakery"}, "dairy-eggs-fridge": {"name": "Dairy, Eggs & Fridge"}, "pantry": {"name": "Pantry"}, "freezer": {"name": "Freezer"}, "drinks": {"name": "Drinks"}, "pet": {"name": "Pet"}, "baby": {"name": "Baby"}, "health-beauty": {"name": "Health & Beauty"}, "household": {"name": "Household"}}
+{
+  "meat-seafood-deli": {
+    "name": "Meat, Seafood & Deli"
+  },
+  "bakery": {
+    "name": "Bakery"
+  },
+  "dairy-eggs-fridge": {
+    "name": "Dairy, Eggs & Fridge"
+  },
+  "pantry": {
+    "name": "Pantry"
+  },
+  "freezer": {
+    "name": "Freezer"
+  },
+  "drinks": {
+    "name": "Drinks"
+  },
+  "pet": {
+    "name": "Pet"
+  },
+  "baby": {
+    "name": "Baby"
+  },
+  "health-beauty": {
+    "name": "Health & Beauty"
+  },
+  "household": {
+    "name": "Household"
+  },
+  "international-foods": {
+    "name": "International Foods"
+  }
+}
