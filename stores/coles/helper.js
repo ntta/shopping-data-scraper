@@ -39,7 +39,7 @@ const getCategoryId = (categoryName) => {
     case 'Frozen':
       return 'freezer';
     case 'Drinks':
-      return 'drink';
+      return 'drinks';
     case 'Pet':
       return 'pet';
     case 'Household':
