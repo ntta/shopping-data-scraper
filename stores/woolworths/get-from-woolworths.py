@@ -68,7 +68,7 @@ def generateProductDetails(item, category, productId):
         'brand': toCapitalized(item['Brand']),
         'price': item['InstorePrice'],
         'orgPrice': item['InstoreWasPrice'],
-        'categoryId': 'household' if category == 'lunch-box' else category, # lunch-box will be merged with household
+        'categoryId': ['household' if category == 'lunch-box' else category], # lunch-box will be merged with household
         'imagePath': item['DetailsImagePaths'][0],
         'cupPrice': cupPrice,
         'unit': item['Unit'].lower(),
@@ -124,6 +124,6 @@ if __name__ == '__main__':
                     products.append(generateProductDetails(item['Products'][0], i, generateProductId(item['Products'][0])))
                     count = count + 1
     printWithTime('Done getting data. Writing to file...')
-    with open('./data/woolworths-products.json','w', encoding='utf-8') as productFile:
+    with open('./woolworths-products.json','w', encoding='utf-8') as productFile:
         json.dump(products, productFile)
     printWithTime(f'ALL DONE. TOTAL {count} PRODUCTS!')

@@ -12,9 +12,7 @@
       "cupPrice": "$1.21 per 100g",
       "unit": "ea",
       "packageSize": "165g",
-      "barcode": [
-        "5000221505709"
-      ],
+      "barcode": ["5000221505709"],
       "isAvailable": true
     },
     {
@@ -29,10 +27,7 @@
       "cupPrice": "$8.00 per 1kg",
       "unit": "ea",
       "packageSize": "250g",
-      "barcode": [
-        "5000221001386",
-        "5000221209942"
-      ],
+      "barcode": ["5000221001386", "5000221209942"],
       "isAvailable": true
     },
     {
@@ -47,10 +42,7 @@
       "cupPrice": "$1.22 per 100g",
       "unit": "ea",
       "packageSize": "205g",
-      "barcode": [
-        "5000221655978",
-        "5000221605973"
-      ],
+      "barcode": ["5000221655978", "5000221605973"],
       "isAvailable": true
     },
     {
@@ -65,9 +57,7 @@
       "cupPrice": "$9.40 per 1kg",
       "unit": "ea",
       "packageSize": "250g",
-      "barcode": [
-        "9300650450196"
-      ],
+      "barcode": ["9300650450196"],
       "isAvailable": true
     },
     {
@@ -82,9 +72,7 @@
       "cupPrice": "$0.66 per 100g",
       "unit": "ea",
       "packageSize": "300g",
-      "barcode": [
-        "5000396015898"
-      ],
+      "barcode": ["5000396015898"],
       "isAvailable": true
     },
     {
@@ -99,10 +87,7 @@
       "cupPrice": "$0.49 per 100g",
       "unit": "ea",
       "packageSize": "400g",
-      "barcode": [
-        "5000396015935",
-        "5000168001159"
-      ],
+      "barcode": ["5000396015935", "5000168001159"],
       "isAvailable": true
     },
     {
@@ -117,9 +102,7 @@
       "cupPrice": "$2.13 per 100g",
       "unit": "ea",
       "packageSize": "94g",
-      "barcode": [
-        "9300605048522"
-      ],
+      "barcode": ["9300605048522"],
       "isAvailable": true
     },
     {
@@ -134,11 +117,7 @@
       "cupPrice": "$0.79 per 100g",
       "unit": "ea",
       "packageSize": "190g",
-      "barcode": [
-        "400003061440",
-        "9300605042360",
-        "9300605027862"
-      ],
+      "barcode": ["400003061440", "9300605042360", "9300605027862"],
       "isAvailable": true
     },
     {
@@ -153,9 +132,7 @@
       "cupPrice": "$1.41 per 100g",
       "unit": "ea",
       "packageSize": "165g",
-      "barcode": [
-        "9310015240621"
-      ],
+      "barcode": ["9310015240621"],
       "isAvailable": true
     },
     {
@@ -170,9 +147,7 @@
       "cupPrice": "$1.41 per 100g",
       "unit": "ea",
       "packageSize": "165g",
-      "barcode": [
-        "9310015240614"
-      ],
+      "barcode": ["9310015240614"],
       "isAvailable": true
     },
     {
@@ -187,9 +162,7 @@
       "cupPrice": "$1.41 per 100g",
       "unit": "ea",
       "packageSize": "165g",
-      "barcode": [
-        "9310015240645"
-      ],
+      "barcode": ["9310015240645"],
       "isAvailable": true
     },
     {
@@ -204,9 +177,7 @@
       "cupPrice": "$0.71 per 100g",
       "unit": "ea",
       "packageSize": "280g",
-      "barcode": [
-        "9300617042976"
-      ],
+      "barcode": ["9300617042976"],
       "isAvailable": true
     },
     {
@@ -221,9 +192,7 @@
       "cupPrice": "$1.88 per 100g",
       "unit": "ea",
       "packageSize": "373g",
-      "barcode": [
-        "9300617075295"
-      ],
+      "barcode": ["9300617075295"],
       "isAvailable": true
     },
     {
@@ -238,9 +207,7 @@
       "cupPrice": "$0.66 per 100g",
       "unit": "ea",
       "packageSize": "300g",
-      "barcode": [
-        "5000396022308"
-      ],
+      "barcode": ["5000396022308"],
       "isAvailable": true
     },
     {
@@ -255,10 +222,7 @@
       "cupPrice": "$0.90 per 100ml",
       "unit": "ea",
       "packageSize": "500ml",
-      "barcode": [
-        "400003457830",
-        "8410660510115"
-      ],
+      "barcode": ["400003457830", "8410660510115"],
       "isAvailable": true
     },
     {
@@ -273,9 +237,7 @@
       "cupPrice": "$1.18 per 100g",
       "unit": "ea",
       "packageSize": "85g",
-      "barcode": [
-        "9300667035065"
-      ],
+      "barcode": ["9300667035065"],
       "isAvailable": true
     },
     {
@@ -290,9 +252,7 @@
       "cupPrice": "$1.18 per 100g",
       "unit": "ea",
       "packageSize": "85g",
-      "barcode": [
-        "9300667035089"
-      ],
+      "barcode": ["9300667035089"],
       "isAvailable": true
     },
     {
@@ -307,9 +267,7 @@
       "cupPrice": "$1.16 per 100g",
       "unit": "ea",
       "packageSize": "185g",
-      "barcode": [
-        "9310060406942"
-      ],
+      "barcode": ["9310060406942"],
       "isAvailable": true
     },
     {
@@ -347,10 +305,7 @@
       "cupPrice": "$2.22 per 100g",
       "unit": "ea",
       "packageSize": "45g",
-      "barcode": [
-        "5000189342910",
-        "93600057"
-      ],
+      "barcode": ["5000189342910", "93600057"],
       "isAvailable": true
     },
     {
@@ -365,11 +320,7 @@
       "cupPrice": "$0.75 per 100g",
       "unit": "ea",
       "packageSize": "200g",
-      "barcode": [
-        "9300605000094",
-        "9300605042391",
-        "9300605094376"
-      ],
+      "barcode": ["9300605000094", "9300605042391", "9300605094376"],
       "isAvailable": true
     },
     {
@@ -384,9 +335,7 @@
       "cupPrice": "$0.95 per 100g",
       "unit": "ea",
       "packageSize": "105g",
-      "barcode": [
-        "9300830018451"
-      ],
+      "barcode": ["9300830018451"],
       "isAvailable": true
     },
     {
@@ -401,10 +350,7 @@
       "cupPrice": "$0.90 per 100g",
       "unit": "ea",
       "packageSize": "218g",
-      "barcode": [
-        "5000396028492",
-        "5000396036152"
-      ],
+      "barcode": ["5000396028492", "5000396036152"],
       "isAvailable": true
     },
     {
@@ -419,9 +365,7 @@
       "cupPrice": "$1.41 per 100g",
       "unit": "ea",
       "packageSize": "165g",
-      "barcode": [
-        "9310015240638"
-      ],
+      "barcode": ["9310015240638"],
       "isAvailable": true
     },
     {
@@ -436,9 +380,7 @@
       "cupPrice": "$2.75 per 100g",
       "unit": "ea",
       "packageSize": "100g",
-      "barcode": [
-        "9315991023596"
-      ],
+      "barcode": ["9315991023596"],
       "isAvailable": true
     },
     {
@@ -453,9 +395,7 @@
       "cupPrice": "$2.13 per 100g",
       "unit": "ea",
       "packageSize": "94g",
-      "barcode": [
-        "9300605048430"
-      ],
+      "barcode": ["9300605048430"],
       "isAvailable": true
     },
     {
@@ -470,9 +410,7 @@
       "cupPrice": "$2.13 per 1g",
       "unit": "ea",
       "packageSize": "94g",
-      "barcode": [
-        "9300605048454"
-      ],
+      "barcode": ["9300605048454"],
       "isAvailable": true
     },
     {
@@ -487,11 +425,7 @@
       "cupPrice": "$0.79 per 100g",
       "unit": "ea",
       "packageSize": "190g",
-      "barcode": [
-        "400003061433",
-        "9300605042490",
-        "9300605031234"
-      ],
+      "barcode": ["400003061433", "9300605042490", "9300605031234"],
       "isAvailable": true
     },
     {
@@ -506,10 +440,7 @@
       "cupPrice": "$0.87 per 100g",
       "unit": "ea",
       "packageSize": "115g",
-      "barcode": [
-        "9300667028777",
-        "9300667006980"
-      ],
+      "barcode": ["9300667028777", "9300667006980"],
       "isAvailable": true
     },
     {
@@ -524,10 +455,7 @@
       "cupPrice": "$0.79 per 100g",
       "unit": "ea",
       "packageSize": "190g",
-      "barcode": [
-        "9300605043022",
-        "9300605027961"
-      ],
+      "barcode": ["9300605043022", "9300605027961"],
       "isAvailable": true
     },
     {
@@ -542,10 +470,7 @@
       "cupPrice": "$0.79 per 100g",
       "unit": "ea",
       "packageSize": "190g",
-      "barcode": [
-        "9300605027978",
-        "9300605042810"
-      ],
+      "barcode": ["9300605027978", "9300605042810"],
       "isAvailable": true
     },
     {
@@ -560,10 +485,7 @@
       "cupPrice": "$0.79 per 100g",
       "unit": "ea",
       "packageSize": "190g",
-      "barcode": [
-        "9300605042421",
-        "9300605027985"
-      ],
+      "barcode": ["9300605042421", "9300605027985"],
       "isAvailable": true
     },
     {
@@ -602,9 +524,7 @@
       "cupPrice": "$1.67 per 100g",
       "unit": "ea",
       "packageSize": "60g",
-      "barcode": [
-        "9300667014756"
-      ],
+      "barcode": ["9300667014756"],
       "isAvailable": true
     },
     {
@@ -619,10 +539,7 @@
       "cupPrice": "$0.79 per 100g",
       "unit": "ea",
       "packageSize": "190g",
-      "barcode": [
-        "9300605000049",
-        "9300605042438"
-      ],
+      "barcode": ["9300605000049", "9300605042438"],
       "isAvailable": true
     },
     {
@@ -637,9 +554,7 @@
       "cupPrice": "$1.00 per 100g",
       "unit": "ea",
       "packageSize": "150g",
-      "barcode": [
-        "9300605012554"
-      ],
+      "barcode": ["9300605012554"],
       "isAvailable": true
     },
     {
@@ -654,9 +569,7 @@
       "cupPrice": "$0.78 per 100g",
       "unit": "ea",
       "packageSize": "192g",
-      "barcode": [
-        "9300605099708"
-      ],
+      "barcode": ["9300605099708"],
       "isAvailable": true
     },
     {
@@ -671,9 +584,7 @@
       "cupPrice": "$2.67 per 100g",
       "unit": "ea",
       "packageSize": "375g",
-      "barcode": [
-        "8003340093567"
-      ],
+      "barcode": ["8003340093567"],
       "isAvailable": true
     },
     {
@@ -688,9 +599,7 @@
       "cupPrice": "$1.54 per 100g",
       "unit": "ea",
       "packageSize": "65g",
-      "barcode": [
-        "9300667022850"
-      ],
+      "barcode": ["9300667022850"],
       "isAvailable": true
     },
     {
@@ -705,9 +614,7 @@
       "cupPrice": "$2.33 per 100g",
       "unit": "ea",
       "packageSize": "43g",
-      "barcode": [
-        "80052760"
-      ],
+      "barcode": ["80052760"],
       "isAvailable": true
     },
     {
@@ -722,9 +629,7 @@
       "cupPrice": "$2.86 per 100g",
       "unit": "ea",
       "packageSize": "35g",
-      "barcode": [
-        "93600101"
-      ],
+      "barcode": ["93600101"],
       "isAvailable": true
     },
     {
@@ -739,9 +644,7 @@
       "cupPrice": "$2.00 per 100g",
       "unit": "ea",
       "packageSize": "50g",
-      "barcode": [
-        "9300600005322"
-      ],
+      "barcode": ["9300600005322"],
       "isAvailable": true
     },
     {
@@ -756,9 +659,7 @@
       "cupPrice": "$1.67 per 100g",
       "unit": "ea",
       "packageSize": "60g",
-      "barcode": [
-        "9300667014732"
-      ],
+      "barcode": ["9300667014732"],
       "isAvailable": true
     },
     {
@@ -773,9 +674,7 @@
       "cupPrice": "$0.83 per 100g",
       "unit": "ea",
       "packageSize": "120g",
-      "barcode": [
-        "9300667022416"
-      ],
+      "barcode": ["9300667022416"],
       "isAvailable": true
     },
     {
@@ -790,9 +689,7 @@
       "cupPrice": "$1.00 per 100g",
       "unit": "ea",
       "packageSize": "175g",
-      "barcode": [
-        "9310988012720"
-      ],
+      "barcode": ["9310988012720"],
       "isAvailable": true
     },
     {
@@ -807,10 +704,7 @@
       "cupPrice": "$0.90 per 100g",
       "unit": "ea",
       "packageSize": "218g",
-      "barcode": [
-        "5000396028454",
-        "5000396035995"
-      ],
+      "barcode": ["5000396028454", "5000396035995"],
       "isAvailable": true
     },
     {
@@ -825,9 +719,7 @@
       "cupPrice": "$0.57 per 100g",
       "unit": "ea",
       "packageSize": "350g",
-      "barcode": [
-        "9300617042990"
-      ],
+      "barcode": ["9300617042990"],
       "isAvailable": true
     },
     {
@@ -842,9 +734,7 @@
       "cupPrice": "$1.21 per 100g",
       "unit": "ea",
       "packageSize": "290g",
-      "barcode": [
-        "9310015245800"
-      ],
+      "barcode": ["9310015245800"],
       "isAvailable": true
     },
     {
@@ -859,11 +749,7 @@
       "cupPrice": "$2.67 per 100g",
       "unit": "ea",
       "packageSize": "375g",
-      "barcode": [
-        "8003340094298",
-        "9323966118512",
-        "8003340099798"
-      ],
+      "barcode": ["8003340094298", "9323966118512", "8003340099798"],
       "isAvailable": true
     },
     {
@@ -878,9 +764,7 @@
       "cupPrice": "$10.53 per 1kg",
       "unit": "ea",
       "packageSize": "95g",
-      "barcode": [
-        "9310645244822"
-      ],
+      "barcode": ["9310645244822"],
       "isAvailable": true
     },
     {
@@ -895,9 +779,7 @@
       "cupPrice": "$1.05 per 100g",
       "unit": "ea",
       "packageSize": "95g",
-      "barcode": [
-        "9310645244839"
-      ],
+      "barcode": ["9310645244839"],
       "isAvailable": true
     },
     {
@@ -933,9 +815,7 @@
       "cupPrice": "$1.16 per 100g",
       "unit": "ea",
       "packageSize": "185g",
-      "barcode": [
-        "9310060406973"
-      ],
+      "barcode": ["9310060406973"],
       "isAvailable": true
     },
     {
@@ -950,9 +830,7 @@
       "cupPrice": "$1.67 per 100g",
       "unit": "ea",
       "packageSize": "60g",
-      "barcode": [
-        "9300667025035"
-      ],
+      "barcode": ["9300667025035"],
       "isAvailable": true
     },
     {
@@ -967,9 +845,7 @@
       "cupPrice": "$1.67 per 100g",
       "unit": "ea",
       "packageSize": "60g",
-      "barcode": [
-        "9300667025059"
-      ],
+      "barcode": ["9300667025059"],
       "isAvailable": true
     },
     {
@@ -984,9 +860,7 @@
       "cupPrice": "$1.00 per 100g",
       "unit": "ea",
       "packageSize": "175g",
-      "barcode": [
-        "9310988012751"
-      ],
+      "barcode": ["9310988012751"],
       "isAvailable": true
     },
     {
@@ -1001,9 +875,7 @@
       "cupPrice": "$1.00 per 100g",
       "unit": "ea",
       "packageSize": "150g",
-      "barcode": [
-        "9300605012578"
-      ],
+      "barcode": ["9300605012578"],
       "isAvailable": true
     },
     {
@@ -1018,9 +890,7 @@
       "cupPrice": "$1.41 per 100g",
       "unit": "ea",
       "packageSize": "165g",
-      "barcode": [
-        "9310015240652"
-      ],
+      "barcode": ["9310015240652"],
       "isAvailable": true
     },
     {
@@ -1035,9 +905,7 @@
       "cupPrice": "$2.00 per 100g",
       "unit": "ea",
       "packageSize": "50g",
-      "barcode": [
-        "9300605094697"
-      ],
+      "barcode": ["9300605094697"],
       "isAvailable": true
     },
     {
@@ -1052,9 +920,7 @@
       "cupPrice": "$1.08 per 100g",
       "unit": "ea",
       "packageSize": "185g",
-      "barcode": [
-        "9400550005226"
-      ],
+      "barcode": ["9400550005226"],
       "isAvailable": true
     },
     {
@@ -1069,11 +935,7 @@
       "cupPrice": "$1.82 per 100g",
       "unit": "ea",
       "packageSize": "55g",
-      "barcode": [
-        "9300605054486",
-        "400003378203",
-        "9300605117549"
-      ],
+      "barcode": ["9300605054486", "400003378203", "9300605117549"],
       "isAvailable": true
     },
     {
@@ -1088,9 +950,7 @@
       "cupPrice": "$1.17 per 100g",
       "unit": "ea",
       "packageSize": "150g",
-      "barcode": [
-        "5000396046700"
-      ],
+      "barcode": ["5000396046700"],
       "isAvailable": true
     },
     {
@@ -1105,10 +965,7 @@
       "cupPrice": "$0.90 per 100ml",
       "unit": "ea",
       "packageSize": "500ml",
-      "barcode": [
-        "400003457847",
-        "8410660510139"
-      ],
+      "barcode": ["400003457847", "8410660510139"],
       "isAvailable": true
     },
     {
@@ -1144,9 +1001,7 @@
       "cupPrice": "$1.33 per 100g",
       "unit": "ea",
       "packageSize": "75g",
-      "barcode": [
-        "9300667015029"
-      ],
+      "barcode": ["9300667015029"],
       "isAvailable": true
     },
     {
@@ -1161,10 +1016,7 @@
       "cupPrice": "$2.00 per 100g",
       "unit": "ea",
       "packageSize": "50g",
-      "barcode": [
-        "93600491",
-        "93555517"
-      ],
+      "barcode": ["93600491", "93555517"],
       "isAvailable": true
     },
     {
@@ -1179,9 +1031,7 @@
       "cupPrice": "$1.16 per 100g",
       "unit": "ea",
       "packageSize": "185g",
-      "barcode": [
-        "9310060406959"
-      ],
+      "barcode": ["9310060406959"],
       "isAvailable": true
     },
     {
@@ -1217,9 +1067,7 @@
       "cupPrice": "$0.88 per 100g",
       "unit": "ea",
       "packageSize": "170g",
-      "barcode": [
-        "9300605101944"
-      ],
+      "barcode": ["9300605101944"],
       "isAvailable": true
     },
     {
@@ -1234,9 +1082,7 @@
       "cupPrice": "$1.17 per 100g",
       "unit": "ea",
       "packageSize": "150g",
-      "barcode": [
-        "5000396046687"
-      ],
+      "barcode": ["5000396046687"],
       "isAvailable": true
     },
     {
@@ -1251,9 +1097,7 @@
       "cupPrice": "$2.00 per 100g",
       "unit": "ea",
       "packageSize": "50g",
-      "barcode": [
-        "9300605228764"
-      ],
+      "barcode": ["9300605228764"],
       "isAvailable": true
     },
     {
@@ -1268,9 +1112,7 @@
       "cupPrice": "$1.82 per 100g",
       "unit": "ea",
       "packageSize": "55g",
-      "barcode": [
-        "9300667038073"
-      ],
+      "barcode": ["9300667038073"],
       "isAvailable": true
     },
     {
@@ -1285,9 +1127,7 @@
       "cupPrice": "$1.00 per 100g",
       "unit": "ea",
       "packageSize": "100g",
-      "barcode": [
-        "9300667035126"
-      ],
+      "barcode": ["9300667035126"],
       "isAvailable": true
     },
     {
@@ -1302,9 +1142,7 @@
       "cupPrice": "$1.11 per 100g",
       "unit": "ea",
       "packageSize": "90g",
-      "barcode": [
-        "9300667035034"
-      ],
+      "barcode": ["9300667035034"],
       "isAvailable": true
     },
     {
@@ -1319,9 +1157,7 @@
       "cupPrice": "$1.33 per 100g",
       "unit": "ea",
       "packageSize": "75g",
-      "barcode": [
-        "9300667015012"
-      ],
+      "barcode": ["9300667015012"],
       "isAvailable": true
     },
     {
@@ -1336,9 +1172,7 @@
       "cupPrice": "$1.00 per 100g",
       "unit": "ea",
       "packageSize": "175g",
-      "barcode": [
-        "9310988012737"
-      ],
+      "barcode": ["9310988012737"],
       "isAvailable": true
     },
     {
@@ -1353,9 +1187,7 @@
       "cupPrice": "$2.75 per 100g",
       "unit": "ea",
       "packageSize": "100g",
-      "barcode": [
-        "9315991023671"
-      ],
+      "barcode": ["9315991023671"],
       "isAvailable": true
     },
     {
@@ -1385,10 +1217,7 @@
       "cupPrice": "$1.36 per 100g",
       "unit": "ea",
       "packageSize": "110g",
-      "barcode": [
-        "5000396047035",
-        "5000168002071"
-      ],
+      "barcode": ["5000396047035", "5000168002071"],
       "isAvailable": true
     },
     {
@@ -1403,9 +1232,7 @@
       "cupPrice": "$1.09 per 100g",
       "unit": "ea",
       "packageSize": "160g",
-      "barcode": [
-        "9310988017176"
-      ],
+      "barcode": ["9310988017176"],
       "isAvailable": true
     },
     {
@@ -1420,9 +1247,7 @@
       "cupPrice": "$0.93 per 100g",
       "unit": "ea",
       "packageSize": "199.8g",
-      "barcode": [
-        "5000168191898"
-      ],
+      "barcode": ["5000168191898"],
       "isAvailable": true
     },
     {
@@ -1437,9 +1262,7 @@
       "cupPrice": "$1.56 per 100g",
       "unit": "ea",
       "packageSize": "90g",
-      "barcode": [
-        "9310288715369"
-      ],
+      "barcode": ["9310288715369"],
       "isAvailable": true
     },
     {
@@ -1454,9 +1277,7 @@
       "cupPrice": "$1.18 per 100g",
       "unit": "ea",
       "packageSize": "85g",
-      "barcode": [
-        "9300667035072"
-      ],
+      "barcode": ["9300667035072"],
       "isAvailable": true
     },
     {
@@ -1471,9 +1292,7 @@
       "cupPrice": "$2.00 per 100g",
       "unit": "ea",
       "packageSize": "50g",
-      "barcode": [
-        "9300667024984"
-      ],
+      "barcode": ["9300667024984"],
       "isAvailable": true
     },
     {
@@ -1488,9 +1307,7 @@
       "cupPrice": "$1.16 per 100g",
       "unit": "ea",
       "packageSize": "185g",
-      "barcode": [
-        "9310060407260"
-      ],
+      "barcode": ["9310060407260"],
       "isAvailable": true
     },
     {
@@ -1505,9 +1322,7 @@
       "cupPrice": "$0.91 per 100g",
       "unit": "ea",
       "packageSize": "220g",
-      "barcode": [
-        "9300617042907"
-      ],
+      "barcode": ["9300617042907"],
       "isAvailable": true
     },
     {
@@ -1522,10 +1337,7 @@
       "cupPrice": "$1.25 per 100g",
       "unit": "ea",
       "packageSize": "160g",
-      "barcode": [
-        "9400550005219",
-        "9300617070771"
-      ],
+      "barcode": ["9400550005219", "9300617070771"],
       "isAvailable": true
     },
     {
@@ -1540,9 +1352,7 @@
       "cupPrice": "$2.75 per 100g",
       "unit": "ea",
       "packageSize": "100g",
-      "barcode": [
-        "9315991023633"
-      ],
+      "barcode": ["9315991023633"],
       "isAvailable": true
     },
     {
@@ -1557,9 +1367,7 @@
       "cupPrice": "$1.64 per 100g",
       "unit": "ea",
       "packageSize": "61g",
-      "barcode": [
-        "9300830037452"
-      ],
+      "barcode": ["9300830037452"],
       "isAvailable": true
     },
     {
@@ -1574,9 +1382,7 @@
       "cupPrice": "$1.56 per 100g",
       "unit": "ea",
       "packageSize": "90g",
-      "barcode": [
-        "9310288715352"
-      ],
+      "barcode": ["9310288715352"],
       "isAvailable": true
     },
     {
@@ -1591,9 +1397,7 @@
       "cupPrice": "$1.18 per 100g",
       "unit": "ea",
       "packageSize": "85g",
-      "barcode": [
-        "9300830018468"
-      ],
+      "barcode": ["9300830018468"],
       "isAvailable": true
     },
     {
@@ -1608,9 +1412,7 @@
       "cupPrice": "$2.50 per 100g",
       "unit": "ea",
       "packageSize": "40g",
-      "barcode": [
-        "9300830037476"
-      ],
+      "barcode": ["9300830037476"],
       "isAvailable": true
     },
     {
@@ -1625,10 +1427,7 @@
       "cupPrice": "$2.56 per 100g",
       "unit": "ea",
       "packageSize": "39g",
-      "barcode": [
-        "93698108",
-        "400003176854"
-      ],
+      "barcode": ["93698108", "400003176854"],
       "isAvailable": true
     },
     {
@@ -1643,9 +1442,7 @@
       "cupPrice": "$10.53 per 1kg",
       "unit": "ea",
       "packageSize": "95g",
-      "barcode": [
-        "9310645244846"
-      ],
+      "barcode": ["9310645244846"],
       "isAvailable": true
     },
     {
@@ -1660,9 +1457,7 @@
       "cupPrice": "$2.13 per 100g",
       "unit": "ea",
       "packageSize": "94g",
-      "barcode": [
-        "9300605125407"
-      ],
+      "barcode": ["9300605125407"],
       "isAvailable": true
     },
     {
@@ -1677,9 +1472,7 @@
       "cupPrice": "$1.09 per 100g",
       "unit": "ea",
       "packageSize": "160g",
-      "barcode": [
-        "9310988017190"
-      ],
+      "barcode": ["9310988017190"],
       "isAvailable": true
     },
     {
@@ -1694,10 +1487,7 @@
       "cupPrice": "$2.22 per 100g",
       "unit": "ea",
       "packageSize": "45g",
-      "barcode": [
-        "400003525102",
-        "9300605122994"
-      ],
+      "barcode": ["400003525102", "9300605122994"],
       "isAvailable": true
     },
     {
@@ -1712,9 +1502,7 @@
       "cupPrice": "$1.52 per 100g",
       "unit": "ea",
       "packageSize": "66g",
-      "barcode": [
-        "9300667015142"
-      ],
+      "barcode": ["9300667015142"],
       "isAvailable": true
     },
     {
@@ -1729,10 +1517,7 @@
       "cupPrice": "$2.86 per 100g",
       "unit": "ea",
       "packageSize": "35g",
-      "barcode": [
-        "9300682050685",
-        "93682152"
-      ],
+      "barcode": ["9300682050685", "93682152"],
       "isAvailable": true
     },
     {
@@ -1747,9 +1532,7 @@
       "cupPrice": "$1.67 per 100g",
       "unit": "ea",
       "packageSize": "60g",
-      "barcode": [
-        "9300667025332"
-      ],
+      "barcode": ["9300667025332"],
       "isAvailable": true
     },
     {
@@ -1764,9 +1547,7 @@
       "cupPrice": "$1.82 per 100g",
       "unit": "ea",
       "packageSize": "55g",
-      "barcode": [
-        "9300667025042"
-      ],
+      "barcode": ["9300667025042"],
       "isAvailable": true
     },
     {
@@ -1781,9 +1562,7 @@
       "cupPrice": "$1.92 per 100g",
       "unit": "ea",
       "packageSize": "52g",
-      "barcode": [
-        "9300830024049"
-      ],
+      "barcode": ["9300830024049"],
       "isAvailable": true
     },
     {
@@ -1798,9 +1577,7 @@
       "cupPrice": "$15.38 per 1kg",
       "unit": "ea",
       "packageSize": "130g",
-      "barcode": [
-        "9310015243844"
-      ],
+      "barcode": ["9310015243844"],
       "isAvailable": true
     },
     {
@@ -1856,9 +1633,7 @@
       "cupPrice": "$10.53 per 1kg",
       "unit": "ea",
       "packageSize": "95g",
-      "barcode": [
-        "9310645244860"
-      ],
+      "barcode": ["9310645244860"],
       "isAvailable": true
     },
     {
@@ -1873,9 +1648,7 @@
       "cupPrice": "$2.62 per 100g",
       "unit": "ea",
       "packageSize": "105g",
-      "barcode": [
-        "8410076620460"
-      ],
+      "barcode": ["8410076620460"],
       "isAvailable": true
     },
     {
@@ -1890,9 +1663,7 @@
       "cupPrice": "$1.16 per 100g",
       "unit": "ea",
       "packageSize": "185g",
-      "barcode": [
-        "9310060406935"
-      ],
+      "barcode": ["9310060406935"],
       "isAvailable": true
     },
     {
@@ -1907,9 +1678,7 @@
       "cupPrice": "$1.00 per 100g",
       "unit": "ea",
       "packageSize": "175g",
-      "barcode": [
-        "9310988012782"
-      ],
+      "barcode": ["9310988012782"],
       "isAvailable": true
     },
     {
@@ -1924,10 +1693,7 @@
       "cupPrice": "$2.86 per 100g",
       "unit": "ea",
       "packageSize": "35g",
-      "barcode": [
-        "9300682045421",
-        "9300682054751"
-      ],
+      "barcode": ["9300682045421", "9300682054751"],
       "isAvailable": true
     },
     {
@@ -1942,9 +1708,7 @@
       "cupPrice": "$0.79 per 100g",
       "unit": "ea",
       "packageSize": "190g",
-      "barcode": [
-        "9300605042414"
-      ],
+      "barcode": ["9300605042414"],
       "isAvailable": true
     },
     {
@@ -1959,10 +1723,7 @@
       "cupPrice": "$1.41 per 100g",
       "unit": "ea",
       "packageSize": "165g",
-      "barcode": [
-        "9310015247514",
-        "9310015246296"
-      ],
+      "barcode": ["9310015247514", "9310015246296"],
       "isAvailable": true
     },
     {
@@ -1977,9 +1738,7 @@
       "cupPrice": "$1.00 per 100g",
       "unit": "ea",
       "packageSize": "175g",
-      "barcode": [
-        "9310988017237"
-      ],
+      "barcode": ["9310988017237"],
       "isAvailable": true
     },
     {
@@ -1994,9 +1753,7 @@
       "cupPrice": "$2.00 per 100g",
       "unit": "ea",
       "packageSize": "50g",
-      "barcode": [
-        "94314212"
-      ],
+      "barcode": ["94314212"],
       "isAvailable": true
     },
     {
@@ -2011,9 +1768,7 @@
       "cupPrice": "$1.16 per 100g",
       "unit": "ea",
       "packageSize": "185g",
-      "barcode": [
-        "9310060406928"
-      ],
+      "barcode": ["9310060406928"],
       "isAvailable": true
     },
     {
@@ -2028,9 +1783,7 @@
       "cupPrice": "$1.89 per 100g",
       "unit": "ea",
       "packageSize": "53g",
-      "barcode": [
-        "9300682046480"
-      ],
+      "barcode": ["9300682046480"],
       "isAvailable": true
     },
     {
@@ -2045,9 +1798,7 @@
       "cupPrice": "$1.41 per 100g",
       "unit": "ea",
       "packageSize": "165g",
-      "barcode": [
-        "9310015246319"
-      ],
+      "barcode": ["9310015246319"],
       "isAvailable": true
     },
     {
@@ -2062,9 +1813,7 @@
       "cupPrice": "$1.00 per 100g",
       "unit": "ea",
       "packageSize": "150g",
-      "barcode": [
-        "9300605118737"
-      ],
+      "barcode": ["9300605118737"],
       "isAvailable": true
     },
     {
@@ -2079,9 +1828,7 @@
       "cupPrice": "$1.92 per 100g",
       "unit": "ea",
       "packageSize": "52g",
-      "barcode": [
-        "9300605126244"
-      ],
+      "barcode": ["9300605126244"],
       "isAvailable": true
     },
     {
@@ -2096,9 +1843,7 @@
       "cupPrice": "$1.67 per 100g",
       "unit": "ea",
       "packageSize": "135g",
-      "barcode": [
-        "9310015247439"
-      ],
+      "barcode": ["9310015247439"],
       "isAvailable": true
     },
     {
@@ -2113,9 +1858,7 @@
       "cupPrice": "$0.95 per 100g",
       "unit": "ea",
       "packageSize": "210g",
-      "barcode": [
-        "9300617060314"
-      ],
+      "barcode": ["9300617060314"],
       "isAvailable": true
     },
     {
@@ -2130,9 +1873,7 @@
       "cupPrice": "$0.83 per 100g",
       "unit": "ea",
       "packageSize": "240g",
-      "barcode": [
-        "9300617060277"
-      ],
+      "barcode": ["9300617060277"],
       "isAvailable": true
     },
     {
@@ -2147,9 +1888,7 @@
       "cupPrice": "$1.83 per 100g",
       "unit": "ea",
       "packageSize": "135g",
-      "barcode": [
-        "9347881000745"
-      ],
+      "barcode": ["9347881000745"],
       "isAvailable": true
     },
     {
@@ -2164,9 +1903,7 @@
       "cupPrice": "$2.04 per 100g",
       "unit": "ea",
       "packageSize": "49g",
-      "barcode": [
-        "93682664"
-      ],
+      "barcode": ["93682664"],
       "isAvailable": true
     },
     {
@@ -2181,9 +1918,7 @@
       "cupPrice": "$2.75 per 100g",
       "unit": "ea",
       "packageSize": "100g",
-      "barcode": [
-        "9315991023619"
-      ],
+      "barcode": ["9315991023619"],
       "isAvailable": true
     },
     {
@@ -2198,9 +1933,7 @@
       "cupPrice": "$0.87 per 100g",
       "unit": "ea",
       "packageSize": "375g",
-      "barcode": [
-        "9311964001349"
-      ],
+      "barcode": ["9311964001349"],
       "isAvailable": true
     },
     {
@@ -2215,9 +1948,7 @@
       "cupPrice": "$10.53 per 1kg",
       "unit": "ea",
       "packageSize": "95g",
-      "barcode": [
-        "9310645244853"
-      ],
+      "barcode": ["9310645244853"],
       "isAvailable": true
     },
     {
@@ -2232,9 +1963,7 @@
       "cupPrice": "$1.67 per 100g",
       "unit": "ea",
       "packageSize": "135g",
-      "barcode": [
-        "9310015247415"
-      ],
+      "barcode": ["9310015247415"],
       "isAvailable": true
     },
     {
@@ -2249,9 +1978,7 @@
       "cupPrice": "$0.88 per 100g",
       "unit": "ea",
       "packageSize": "170g",
-      "barcode": [
-        "9300605127524"
-      ],
+      "barcode": ["9300605127524"],
       "isAvailable": true
     },
     {
@@ -2266,9 +1993,7 @@
       "cupPrice": "$1.83 per 100g",
       "unit": "ea",
       "packageSize": "135g",
-      "barcode": [
-        "9347881000721"
-      ],
+      "barcode": ["9347881000721"],
       "isAvailable": true
     },
     {
@@ -2283,9 +2008,7 @@
       "cupPrice": "$1.83 per 100g",
       "unit": "ea",
       "packageSize": "135g",
-      "barcode": [
-        "9347881000714"
-      ],
+      "barcode": ["9347881000714"],
       "isAvailable": true
     },
     {
@@ -2300,11 +2023,7 @@
       "cupPrice": "$1.43 per 100g",
       "unit": "ea",
       "packageSize": "35g",
-      "barcode": [
-        "9300617000501",
-        "9300617333371",
-        "9300617411031"
-      ],
+      "barcode": ["9300617000501", "9300617333371", "9300617411031"],
       "isAvailable": true
     },
     {
@@ -2319,9 +2038,7 @@
       "cupPrice": "$1.05 per 100g",
       "unit": "ea",
       "packageSize": "95g",
-      "barcode": [
-        "9310645244877"
-      ],
+      "barcode": ["9310645244877"],
       "isAvailable": true
     },
     {
@@ -2336,9 +2053,7 @@
       "cupPrice": "$1.05 per 100g",
       "unit": "ea",
       "packageSize": "95g",
-      "barcode": [
-        "9310645244891"
-      ],
+      "barcode": ["9310645244891"],
       "isAvailable": true
     },
     {
@@ -2353,9 +2068,7 @@
       "cupPrice": "$1.09 per 100g",
       "unit": "ea",
       "packageSize": "160g",
-      "barcode": [
-        "9310988017213"
-      ],
+      "barcode": ["9310988017213"],
       "isAvailable": true
     },
     {
@@ -2370,9 +2083,7 @@
       "cupPrice": "$0.91 per 100g",
       "unit": "ea",
       "packageSize": "220g",
-      "barcode": [
-        "9300617045106"
-      ],
+      "barcode": ["9300617045106"],
       "isAvailable": true
     },
     {
@@ -2387,9 +2098,7 @@
       "cupPrice": "$1.43 per 100g",
       "unit": "ea",
       "packageSize": "35g",
-      "barcode": [
-        "9300617044901"
-      ],
+      "barcode": ["9300617044901"],
       "isAvailable": true
     },
     {
@@ -2404,9 +2113,7 @@
       "cupPrice": "$2.17 per 100g",
       "unit": "ea",
       "packageSize": "46g",
-      "barcode": [
-        "9300830037483"
-      ],
+      "barcode": ["9300830037483"],
       "isAvailable": true
     },
     {
@@ -2421,9 +2128,7 @@
       "cupPrice": "$0.87 per 100g",
       "unit": "ea",
       "packageSize": "375g",
-      "barcode": [
-        "9311964001356"
-      ],
+      "barcode": ["9311964001356"],
       "isAvailable": true
     },
     {
@@ -2438,9 +2143,7 @@
       "cupPrice": "$1.00 per 100g",
       "unit": "ea",
       "packageSize": "175g",
-      "barcode": [
-        "9310988017244"
-      ],
+      "barcode": ["9310988017244"],
       "isAvailable": true
     },
     {
@@ -2455,9 +2158,7 @@
       "cupPrice": "$2.22 per 100g",
       "unit": "ea",
       "packageSize": "45g",
-      "barcode": [
-        "9300605129269"
-      ],
+      "barcode": ["9300605129269"],
       "isAvailable": true
     },
     {
@@ -2472,9 +2173,7 @@
       "cupPrice": "$0.91 per 100g",
       "unit": "ea",
       "packageSize": "220g",
-      "barcode": [
-        "9310434005054"
-      ],
+      "barcode": ["9310434005054"],
       "isAvailable": true
     },
     {
@@ -2489,11 +2188,7 @@
       "cupPrice": "$1.00 per 100g",
       "unit": "ea",
       "packageSize": "175g",
-      "barcode": [
-        "9310988014953",
-        "9310988017886",
-        "9310988016841"
-      ],
+      "barcode": ["9310988014953", "9310988017886", "9310988016841"],
       "isAvailable": true
     },
     {
@@ -2508,9 +2203,7 @@
       "cupPrice": "$2.62 per 100g",
       "unit": "ea",
       "packageSize": "105g",
-      "barcode": [
-        "8410076620453"
-      ],
+      "barcode": ["8410076620453"],
       "isAvailable": true
     },
     {
@@ -2525,9 +2218,7 @@
       "cupPrice": "$1.67 per 100g",
       "unit": "ea",
       "packageSize": "135g",
-      "barcode": [
-        "9310015247422"
-      ],
+      "barcode": ["9310015247422"],
       "isAvailable": true
     },
     {
@@ -2542,9 +2233,7 @@
       "cupPrice": "$1.82 per 100g",
       "unit": "ea",
       "packageSize": "55g",
-      "barcode": [
-        "9300605094666"
-      ],
+      "barcode": ["9300605094666"],
       "isAvailable": true
     },
     {
@@ -2574,9 +2263,7 @@
       "cupPrice": "$10.53 per 1kg",
       "unit": "ea",
       "packageSize": "95g",
-      "barcode": [
-        "9310645244907"
-      ],
+      "barcode": ["9310645244907"],
       "isAvailable": true
     },
     {
@@ -2591,9 +2278,7 @@
       "cupPrice": "$1.05 per 100g",
       "unit": "ea",
       "packageSize": "95g",
-      "barcode": [
-        "9310645244884"
-      ],
+      "barcode": ["9310645244884"],
       "isAvailable": true
     },
     {
@@ -2608,9 +2293,7 @@
       "cupPrice": "$2.22 per 100g",
       "unit": "ea",
       "packageSize": "45g",
-      "barcode": [
-        "93555296"
-      ],
+      "barcode": ["93555296"],
       "isAvailable": true
     },
     {
@@ -2625,9 +2308,7 @@
       "cupPrice": "$1.83 per 100g",
       "unit": "ea",
       "packageSize": "135g",
-      "barcode": [
-        "9347881000769"
-      ],
+      "barcode": ["9347881000769"],
       "isAvailable": true
     },
     {
@@ -2642,9 +2323,7 @@
       "cupPrice": "$0.91 per 100g",
       "unit": "ea",
       "packageSize": "220g",
-      "barcode": [
-        "9310434005016"
-      ],
+      "barcode": ["9310434005016"],
       "isAvailable": true
     },
     {
@@ -2659,9 +2338,7 @@
       "cupPrice": "$2.75 per 100g",
       "unit": "ea",
       "packageSize": "100g",
-      "barcode": [
-        "9315991023794"
-      ],
+      "barcode": ["9315991023794"],
       "isAvailable": true
     },
     {
@@ -2676,9 +2353,7 @@
       "cupPrice": "$2.00 per 100g",
       "unit": "ea",
       "packageSize": "50g",
-      "barcode": [
-        "94314205"
-      ],
+      "barcode": ["94314205"],
       "isAvailable": true
     },
     {
@@ -2693,9 +2368,7 @@
       "cupPrice": "$0.67 per 100g",
       "unit": "ea",
       "packageSize": "300g",
-      "barcode": [
-        "9310645262062"
-      ],
+      "barcode": ["9310645262062"],
       "isAvailable": true
     },
     {
@@ -2710,9 +2383,7 @@
       "cupPrice": "$10.53 per 1kg",
       "unit": "ea",
       "packageSize": "95g",
-      "barcode": [
-        "9310645277394"
-      ],
+      "barcode": ["9310645277394"],
       "isAvailable": true
     },
     {
@@ -2727,9 +2398,7 @@
       "cupPrice": "$1.67 per 100g",
       "unit": "ea",
       "packageSize": "150g",
-      "barcode": [
-        "9310140010724"
-      ],
+      "barcode": ["9310140010724"],
       "isAvailable": true
     },
     {
@@ -2744,9 +2413,7 @@
       "cupPrice": "$1.00 per 100g",
       "unit": "ea",
       "packageSize": "175g",
-      "barcode": [
-        "9310988017251"
-      ],
+      "barcode": ["9310988017251"],
       "isAvailable": true
     },
     {
@@ -2761,9 +2428,7 @@
       "cupPrice": "$1.09 per 100g",
       "unit": "ea",
       "packageSize": "160g",
-      "barcode": [
-        "9310988017206"
-      ],
+      "barcode": ["9310988017206"],
       "isAvailable": true
     },
     {
@@ -2778,9 +2443,7 @@
       "cupPrice": "$4.76 per 1kg",
       "unit": "ea",
       "packageSize": "420g",
-      "barcode": [
-        "9341370003811"
-      ],
+      "barcode": ["9341370003811"],
       "isAvailable": true
     },
     {
@@ -2795,9 +2458,7 @@
       "cupPrice": "$4.76 per 1kg",
       "unit": "ea",
       "packageSize": "420g",
-      "barcode": [
-        "9341370003804"
-      ],
+      "barcode": ["9341370003804"],
       "isAvailable": true
     },
     {
@@ -2812,9 +2473,7 @@
       "cupPrice": "$1.25 per 100g",
       "unit": "ea",
       "packageSize": "160g",
-      "barcode": [
-        "9300617075608"
-      ],
+      "barcode": ["9300617075608"],
       "isAvailable": true
     },
     {
@@ -2829,9 +2488,7 @@
       "cupPrice": "$10.53 per 1kg",
       "unit": "ea",
       "packageSize": "95g",
-      "barcode": [
-        "9310645277400"
-      ],
+      "barcode": ["9310645277400"],
       "isAvailable": true
     },
     {
@@ -2846,9 +2503,7 @@
       "cupPrice": "$1.67 per 100g",
       "unit": "ea",
       "packageSize": "150g",
-      "barcode": [
-        "9310140010731"
-      ],
+      "barcode": ["9310140010731"],
       "isAvailable": true
     },
     {
@@ -2863,9 +2518,7 @@
       "cupPrice": "$1.28 per 100g",
       "unit": "ea",
       "packageSize": "47g",
-      "barcode": [
-        "9310034001227"
-      ],
+      "barcode": ["9310034001227"],
       "isAvailable": true
     },
     {
@@ -2880,9 +2533,7 @@
       "cupPrice": "$10.53 per 1kg",
       "unit": "ea",
       "packageSize": "95g",
-      "barcode": [
-        "9310645277417"
-      ],
+      "barcode": ["9310645277417"],
       "isAvailable": true
     },
     {
@@ -2897,9 +2548,7 @@
       "cupPrice": "$2.00 per 100g",
       "unit": "ea",
       "packageSize": "100g",
-      "barcode": [
-        "9310015247477"
-      ],
+      "barcode": ["9310015247477"],
       "isAvailable": true
     },
     {
@@ -2914,9 +2563,7 @@
       "cupPrice": "$1.75 per 100g",
       "unit": "ea",
       "packageSize": "100g",
-      "barcode": [
-        "7622300878689"
-      ],
+      "barcode": ["7622300878689"],
       "isAvailable": true
     },
     {
@@ -2931,10 +2578,7 @@
       "cupPrice": "$9.93 per 1kg",
       "unit": "ea",
       "packageSize": "400g",
-      "barcode": [
-        "9310213541353",
-        "9310213565892"
-      ],
+      "barcode": ["9310213541353", "9310213565892"],
       "isAvailable": true
     },
     {
@@ -2949,11 +2593,7 @@
       "cupPrice": "$9.40 per 1kg",
       "unit": "ea",
       "packageSize": "300g",
-      "barcode": [
-        "9344372002950",
-        "9300766040991",
-        "9311008049993"
-      ],
+      "barcode": ["9344372002950", "9300766040991", "9311008049993"],
       "isAvailable": true
     },
     {
@@ -2968,9 +2608,7 @@
       "cupPrice": "$5.48 per 1kg",
       "unit": "ea",
       "packageSize": "2.1kg",
-      "barcode": [
-        "9330471002212"
-      ],
+      "barcode": ["9330471002212"],
       "isAvailable": true
     },
     {
@@ -3005,9 +2643,7 @@
       "cupPrice": "$1.25 per 100g",
       "unit": "ea",
       "packageSize": "200g",
-      "barcode": [
-        "9318122381008"
-      ],
+      "barcode": ["9318122381008"],
       "isAvailable": true
     },
     {
@@ -3022,9 +2658,7 @@
       "cupPrice": "$5.00 per 1kg",
       "unit": "ea",
       "packageSize": "500g",
-      "barcode": [
-        "9344372003179"
-      ],
+      "barcode": ["9344372003179"],
       "isAvailable": true
     },
     {
@@ -3039,9 +2673,7 @@
       "cupPrice": "$0.71 per 100g",
       "unit": "ea",
       "packageSize": "175g",
-      "barcode": [
-        "9310663400675"
-      ],
+      "barcode": ["9310663400675"],
       "isAvailable": true
     },
     {
@@ -3071,9 +2703,7 @@
       "cupPrice": "$9.40 per 1kg",
       "unit": "ea",
       "packageSize": "300g",
-      "barcode": [
-        "9344372004619"
-      ],
+      "barcode": ["9344372004619"],
       "isAvailable": true
     },
     {
@@ -3088,10 +2718,7 @@
       "cupPrice": "$1.39 per 100ml",
       "unit": "ea",
       "packageSize": "306ml",
-      "barcode": [
-        "5000159496681",
-        "5000159397292"
-      ],
+      "barcode": ["5000159496681", "5000159397292"],
       "isAvailable": true
     },
     {
@@ -3106,9 +2733,7 @@
       "cupPrice": "$9.40 per 1kg",
       "unit": "ea",
       "packageSize": "300g",
-      "barcode": [
-        "9344372004626"
-      ],
+      "barcode": ["9344372004626"],
       "isAvailable": true
     },
     {
@@ -3138,9 +2763,7 @@
       "cupPrice": "$0.63 per 100g",
       "unit": "ea",
       "packageSize": "200g",
-      "barcode": [
-        "9310663400620"
-      ],
+      "barcode": ["9310663400620"],
       "isAvailable": true
     },
     {
@@ -3155,9 +2778,7 @@
       "cupPrice": "$0.90 per 100ml",
       "unit": "ea",
       "packageSize": "473ml",
-      "barcode": [
-        "9310161014558"
-      ],
+      "barcode": ["9310161014558"],
       "isAvailable": true
     },
     {
@@ -3172,9 +2793,7 @@
       "cupPrice": "$0.76 per 100g",
       "unit": "ea",
       "packageSize": "165g",
-      "barcode": [
-        "9310663400668"
-      ],
+      "barcode": ["9310663400668"],
       "isAvailable": true
     },
     {
@@ -3189,9 +2808,7 @@
       "cupPrice": "$2.00 per 100ml",
       "unit": "ea",
       "packageSize": "213ml",
-      "barcode": [
-        "5000159518895"
-      ],
+      "barcode": ["5000159518895"],
       "isAvailable": true
     },
     {
@@ -3206,9 +2823,7 @@
       "cupPrice": "$1.09 per 100ml",
       "unit": "ea",
       "packageSize": "460ml",
-      "barcode": [
-        "9310161015401"
-      ],
+      "barcode": ["9310161015401"],
       "isAvailable": true
     },
     {
@@ -3223,9 +2838,7 @@
       "cupPrice": "$1.25 per 100ml",
       "unit": "ea",
       "packageSize": "400ml",
-      "barcode": [
-        "9310161015487"
-      ],
+      "barcode": ["9310161015487"],
       "isAvailable": true
     },
     {
@@ -3240,9 +2853,7 @@
       "cupPrice": "$1.09 per 100ml",
       "unit": "ea",
       "packageSize": "460ml",
-      "barcode": [
-        "9310161015395"
-      ],
+      "barcode": ["9310161015395"],
       "isAvailable": true
     },
     {
@@ -3257,9 +2868,7 @@
       "cupPrice": "$1.25 per 100ml",
       "unit": "ea",
       "packageSize": "400ml",
-      "barcode": [
-        "9310161015517"
-      ],
+      "barcode": ["9310161015517"],
       "isAvailable": true
     },
     {
@@ -3274,9 +2883,7 @@
       "cupPrice": "$1.83 per 100g",
       "unit": "ea",
       "packageSize": "1kg",
-      "barcode": [
-        "9310631627691"
-      ],
+      "barcode": ["9310631627691"],
       "isAvailable": true
     },
     {
@@ -3291,9 +2898,7 @@
       "cupPrice": "$1.50 per 100g",
       "unit": "ea",
       "packageSize": "1kg",
-      "barcode": [
-        "9310631622764"
-      ],
+      "barcode": ["9310631622764"],
       "isAvailable": true
     },
     {
@@ -3308,9 +2913,7 @@
       "cupPrice": "$1.50 per 100g",
       "unit": "ea",
       "packageSize": "1kg",
-      "barcode": [
-        "9310631616091"
-      ],
+      "barcode": ["9310631616091"],
       "isAvailable": true
     },
     {
@@ -3325,9 +2928,7 @@
       "cupPrice": "$1.27 per 1l",
       "unit": "ea",
       "packageSize": "1.5l",
-      "barcode": [
-        "9310021039097"
-      ],
+      "barcode": ["9310021039097"],
       "isAvailable": true
     },
     {
@@ -3342,9 +2943,7 @@
       "cupPrice": "$1.27 per 1l",
       "unit": "ea",
       "packageSize": "1.5l",
-      "barcode": [
-        "9310021039080"
-      ],
+      "barcode": ["9310021039080"],
       "isAvailable": true
     },
     {
@@ -3359,9 +2958,7 @@
       "cupPrice": "$1.27 per 1l",
       "unit": "ea",
       "packageSize": "1.5l",
-      "barcode": [
-        "9310021039202"
-      ],
+      "barcode": ["9310021039202"],
       "isAvailable": true
     },
     {
@@ -3376,9 +2973,7 @@
       "cupPrice": "$1.89 per 100g",
       "unit": "ea",
       "packageSize": "185g",
-      "barcode": [
-        "9310021036720"
-      ],
+      "barcode": ["9310021036720"],
       "isAvailable": true
     },
     {
@@ -3393,9 +2988,7 @@
       "cupPrice": "$2.50 per 1l",
       "unit": "ea",
       "packageSize": "6 pack",
-      "barcode": [
-        "9311493003579"
-      ],
+      "barcode": ["9311493003579"],
       "isAvailable": true
     },
     {
@@ -3410,9 +3003,7 @@
       "cupPrice": "$1.27 per 1l",
       "unit": "ea",
       "packageSize": "1.5l",
-      "barcode": [
-        "9310021043476"
-      ],
+      "barcode": ["9310021043476"],
       "isAvailable": true
     },
     {
@@ -3427,9 +3018,7 @@
       "cupPrice": "$1.27 per 1l",
       "unit": "ea",
       "packageSize": "1.5l",
-      "barcode": [
-        "9310021041540"
-      ],
+      "barcode": ["9310021041540"],
       "isAvailable": true
     },
     {
@@ -3444,11 +3033,7 @@
       "cupPrice": "$2.92 per 1l",
       "unit": "ea",
       "packageSize": "600ml",
-      "barcode": [
-        "9310640620010",
-        "9313820043012",
-        "9313820043050"
-      ],
+      "barcode": ["9310640620010", "9313820043012", "9313820043050"],
       "isAvailable": true
     },
     {
@@ -3463,11 +3048,7 @@
       "cupPrice": "$2.92 per 1l",
       "unit": "ea",
       "packageSize": "600ml",
-      "barcode": [
-        "9310640620034",
-        "9313820040011",
-        "9313820040059"
-      ],
+      "barcode": ["9310640620034", "9313820040011", "9313820040059"],
       "isAvailable": true
     },
     {
@@ -3482,9 +3063,7 @@
       "cupPrice": "$2.92 per 1l",
       "unit": "ea",
       "packageSize": "600ml",
-      "barcode": [
-        "9310640620119"
-      ],
+      "barcode": ["9310640620119"],
       "isAvailable": true
     },
     {
@@ -3499,11 +3078,7 @@
       "cupPrice": "$2.92 per 1l",
       "unit": "ea",
       "packageSize": "600ml",
-      "barcode": [
-        "9313820042053",
-        "9310640620058",
-        "9313820042015"
-      ],
+      "barcode": ["9313820042053", "9310640620058", "9313820042015"],
       "isAvailable": true
     },
     {
@@ -3518,10 +3093,7 @@
       "cupPrice": "$2.92 per 1l",
       "unit": "ea",
       "packageSize": "600ml",
-      "barcode": [
-        "9310640620027",
-        "9313820045047"
-      ],
+      "barcode": ["9310640620027", "9313820045047"],
       "isAvailable": true
     },
     {
@@ -3551,9 +3123,7 @@
       "cupPrice": "$1.27 per 1l",
       "unit": "ea",
       "packageSize": "1.5l",
-      "barcode": [
-        "9310021039134"
-      ],
+      "barcode": ["9310021039134"],
       "isAvailable": true
     },
     {
@@ -3568,9 +3138,7 @@
       "cupPrice": "$1.27 per 1l",
       "unit": "ea",
       "packageSize": "1.5l",
-      "barcode": [
-        "9310021039189"
-      ],
+      "barcode": ["9310021039189"],
       "isAvailable": true
     },
     {
@@ -3585,9 +3153,7 @@
       "cupPrice": "$1.27 per 1l",
       "unit": "ea",
       "packageSize": "1.5l",
-      "barcode": [
-        "9300830053469"
-      ],
+      "barcode": ["9300830053469"],
       "isAvailable": true
     },
     {
@@ -3602,10 +3168,7 @@
       "cupPrice": "$0.29 per 100ml",
       "unit": "ea",
       "packageSize": "600ml",
-      "barcode": [
-        "9310640000959",
-        "400003396269"
-      ],
+      "barcode": ["9310640000959", "400003396269"],
       "isAvailable": true
     },
     {
@@ -3620,10 +3183,7 @@
       "cupPrice": "$2.92 per 1l",
       "unit": "ea",
       "packageSize": "600ml",
-      "barcode": [
-        "9310640000935",
-        "400003396276"
-      ],
+      "barcode": ["9310640000935", "400003396276"],
       "isAvailable": true
     },
     {
@@ -3638,9 +3198,7 @@
       "cupPrice": "$0.04 per 1ea",
       "unit": "ea",
       "packageSize": "400 pack",
-      "barcode": [
-        "9311770592475"
-      ],
+      "barcode": ["9311770592475"],
       "isAvailable": true
     },
     {
@@ -3655,9 +3213,7 @@
       "cupPrice": "$19.50 per 1ea",
       "unit": "ea",
       "packageSize": "1 pack",
-      "barcode": [
-        "9311770595582"
-      ],
+      "barcode": ["9311770595582"],
       "isAvailable": true
     },
     {
@@ -3672,9 +3228,7 @@
       "cupPrice": "$16.67 per 100ea",
       "unit": "ea",
       "packageSize": "30 pack",
-      "barcode": [
-        "9311770588522"
-      ],
+      "barcode": ["9311770588522"],
       "isAvailable": true
     },
     {
@@ -3689,10 +3243,7 @@
       "cupPrice": "$1.93 per 100g",
       "unit": "ea",
       "packageSize": "375g",
-      "barcode": [
-        "9314807060770",
-        "9314807008147"
-      ],
+      "barcode": ["9314807060770", "9314807008147"],
       "isAvailable": true
     },
     {
@@ -3707,9 +3258,7 @@
       "cupPrice": "$12.50 per 100ea",
       "unit": "ea",
       "packageSize": "80 pack",
-      "barcode": [
-        "9314807059361"
-      ],
+      "barcode": ["9314807059361"],
       "isAvailable": true
     },
     {
@@ -3724,9 +3273,7 @@
       "cupPrice": "$0.15 per 1ea",
       "unit": "ea",
       "packageSize": "65 pack",
-      "barcode": [
-        "9314807066239"
-      ],
+      "barcode": ["9314807066239"],
       "isAvailable": true
     },
     {
@@ -3741,9 +3288,7 @@
       "cupPrice": "$16.00 per 1ea",
       "unit": "ea",
       "packageSize": "1 pack",
-      "barcode": [
-        "9311770593199"
-      ],
+      "barcode": ["9311770593199"],
       "isAvailable": true
     },
     {
@@ -3758,11 +3303,7 @@
       "cupPrice": "$1.93 per 100g",
       "unit": "ea",
       "packageSize": "375g",
-      "barcode": [
-        "9314807009427",
-        "400003456598",
-        "9314807060763"
-      ],
+      "barcode": ["9314807009427", "400003456598", "9314807060763"],
       "isAvailable": true
     },
     {
@@ -3777,9 +3318,7 @@
       "cupPrice": "$10.00 per 100ea",
       "unit": "ea",
       "packageSize": "100 pack",
-      "barcode": [
-        "9314807046392"
-      ],
+      "barcode": ["9314807046392"],
       "isAvailable": true
     },
     {
@@ -3794,10 +3333,7 @@
       "cupPrice": "$8.89 per 100ea",
       "unit": "ea",
       "packageSize": "90 pack",
-      "barcode": [
-        "9311770588515",
-        "9311770589888"
-      ],
+      "barcode": ["9311770588515", "9311770589888"],
       "isAvailable": true
     },
     {
@@ -3812,9 +3348,7 @@
       "cupPrice": "$0.15 per 1ea",
       "unit": "ea",
       "packageSize": "65 pack",
-      "barcode": [
-        "9314807066222"
-      ],
+      "barcode": ["9314807066222"],
       "isAvailable": true
     },
     {
@@ -3829,9 +3363,7 @@
       "cupPrice": "$12.50 per 1ea",
       "unit": "ea",
       "packageSize": "1 pack",
-      "barcode": [
-        "9311770595834"
-      ],
+      "barcode": ["9311770595834"],
       "isAvailable": true
     },
     {
@@ -3846,9 +3378,7 @@
       "cupPrice": "$18.00 per 1ea",
       "unit": "ea",
       "packageSize": "1 pack",
-      "barcode": [
-        "9311770587266"
-      ],
+      "barcode": ["9311770587266"],
       "isAvailable": true
     },
     {
@@ -3863,11 +3393,7 @@
       "cupPrice": "$1.93 per 100g",
       "unit": "ea",
       "packageSize": "375g",
-      "barcode": [
-        "9314807060787",
-        "400003456604",
-        "9314807008154"
-      ],
+      "barcode": ["9314807060787", "400003456604", "9314807008154"],
       "isAvailable": true
     },
     {
@@ -3912,9 +3438,7 @@
       "cupPrice": "$0.16 per 1ea",
       "unit": "ea",
       "packageSize": "90 pack",
-      "barcode": [
-        "9311770601788"
-      ],
+      "barcode": ["9311770601788"],
       "isAvailable": true
     },
     {
@@ -3929,9 +3453,7 @@
       "cupPrice": "$35.00 per 100ea",
       "unit": "ea",
       "packageSize": "60 pack",
-      "barcode": [
-        "9311770591676"
-      ],
+      "barcode": ["9311770591676"],
       "isAvailable": true
     },
     {
@@ -3946,9 +3468,7 @@
       "cupPrice": "$3.25 per 100g",
       "unit": "ea",
       "packageSize": "400g",
-      "barcode": [
-        "9314807022778"
-      ],
+      "barcode": ["9314807022778"],
       "isAvailable": true
     },
     {
@@ -3963,9 +3483,7 @@
       "cupPrice": "$8.97 per 1l",
       "unit": "ea",
       "packageSize": "1l",
-      "barcode": [
-        "9327693000485"
-      ],
+      "barcode": ["9327693000485"],
       "isAvailable": true
     },
     {
@@ -3980,10 +3498,7 @@
       "cupPrice": "$0.99 per 100ml",
       "unit": "ea",
       "packageSize": "500ml",
-      "barcode": [
-        "9327693000140",
-        "9327693007170"
-      ],
+      "barcode": ["9327693000140", "9327693007170"],
       "isAvailable": true
     },
     {
@@ -3998,10 +3513,7 @@
       "cupPrice": "$0.15 per 1ea",
       "unit": "ea",
       "packageSize": "14 pack",
-      "barcode": [
-        "9325344001751",
-        "9310004342312"
-      ],
+      "barcode": ["9325344001751", "9310004342312"],
       "isAvailable": true
     },
     {
@@ -4036,10 +3548,7 @@
       "cupPrice": "$0.21 per 1ea",
       "unit": "ea",
       "packageSize": "10 pack",
-      "barcode": [
-        "9310004342268",
-        "9325344001690"
-      ],
+      "barcode": ["9310004342268", "9325344001690"],
       "isAvailable": true
     },
     {
@@ -4054,9 +3563,7 @@
       "cupPrice": "$14.58 per 100ea",
       "unit": "ea",
       "packageSize": "120 pack",
-      "barcode": [
-        "9311770590006"
-      ],
+      "barcode": ["9311770590006"],
       "isAvailable": true
     },
     {
@@ -4071,11 +3578,7 @@
       "cupPrice": "$49.00 per 100g",
       "unit": "ea",
       "packageSize": "50g",
-      "barcode": [
-        "4902430558730",
-        "4902430735087",
-        "4902430585538"
-      ],
+      "barcode": ["4902430558730", "4902430735087", "4902430585538"],
       "isAvailable": true
     },
     {
@@ -4090,9 +3593,7 @@
       "cupPrice": "$0.15 per 1ea",
       "unit": "ea",
       "packageSize": "25 pack",
-      "barcode": [
-        "5011451103979"
-      ],
+      "barcode": ["5011451103979"],
       "isAvailable": true
     },
     {
@@ -4107,10 +3608,7 @@
       "cupPrice": "$33.50 per 100g",
       "unit": "ea",
       "packageSize": "50g",
-      "barcode": [
-        "4902430359818",
-        "4902430182003"
-      ],
+      "barcode": ["4902430359818", "4902430182003"],
       "isAvailable": true
     },
     {
@@ -4125,9 +3623,7 @@
       "cupPrice": "$8.33 per 100ea",
       "unit": "ea",
       "packageSize": "120 pack",
-      "barcode": [
-        "9314807025786"
-      ],
+      "barcode": ["9314807025786"],
       "isAvailable": true
     },
     {
@@ -4142,10 +3638,7 @@
       "cupPrice": "$0.99 per 100ml",
       "unit": "ea",
       "packageSize": "500ml",
-      "barcode": [
-        "9327693008436",
-        "9327693008412"
-      ],
+      "barcode": ["9327693008436", "9327693008412"],
       "isAvailable": true
     },
     {
@@ -4160,9 +3653,7 @@
       "cupPrice": "$0.21 per 1ea",
       "unit": "ea",
       "packageSize": "10 pack",
-      "barcode": [
-        "9325344001232"
-      ],
+      "barcode": ["9325344001232"],
       "isAvailable": true
     },
     {
@@ -4177,10 +3668,7 @@
       "cupPrice": "$33.50 per 100g",
       "unit": "ea",
       "packageSize": "50g",
-      "barcode": [
-        "4902430360111",
-        "4902430051231"
-      ],
+      "barcode": ["4902430360111", "4902430051231"],
       "isAvailable": true
     },
     {
@@ -4195,9 +3683,7 @@
       "cupPrice": "$0.97 per 100ml",
       "unit": "ea",
       "packageSize": "620ml",
-      "barcode": [
-        "4902430644266"
-      ],
+      "barcode": ["4902430644266"],
       "isAvailable": true
     },
     {
@@ -4227,9 +3713,7 @@
       "cupPrice": "$8.97 per 1l",
       "unit": "ea",
       "packageSize": "1l",
-      "barcode": [
-        "9327693000225"
-      ],
+      "barcode": ["9327693000225"],
       "isAvailable": true
     },
     {
@@ -4244,9 +3728,7 @@
       "cupPrice": "$6.50 per 100g",
       "unit": "ea",
       "packageSize": "100g",
-      "barcode": [
-        "9300618553105"
-      ],
+      "barcode": ["9300618553105"],
       "isAvailable": true
     },
     {
@@ -4261,9 +3743,7 @@
       "cupPrice": "$10.00 per 1ea",
       "unit": "ea",
       "packageSize": "1 pack",
-      "barcode": [
-        "9314807025533"
-      ],
+      "barcode": ["9314807025533"],
       "isAvailable": true
     },
     {
@@ -4278,9 +3758,7 @@
       "cupPrice": "$3.33 per 100ml",
       "unit": "ea",
       "packageSize": "150ml",
-      "barcode": [
-        "5012254050132"
-      ],
+      "barcode": ["5012254050132"],
       "isAvailable": true
     },
     {
@@ -4295,9 +3773,7 @@
       "cupPrice": "$10.00 per 100ea",
       "unit": "ea",
       "packageSize": "100 pack",
-      "barcode": [
-        "9314807046408"
-      ],
+      "barcode": ["9314807046408"],
       "isAvailable": true
     },
     {
@@ -4312,9 +3788,7 @@
       "cupPrice": "$0.15 per 1ea",
       "unit": "ea",
       "packageSize": "14 pack",
-      "barcode": [
-        "9325344002802"
-      ],
+      "barcode": ["9325344002802"],
       "isAvailable": true
     },
     {
@@ -4329,9 +3803,7 @@
       "cupPrice": "$3.50 per 100ea",
       "unit": "ea",
       "packageSize": "400 pack",
-      "barcode": [
-        "9311770588843"
-      ],
+      "barcode": ["9311770588843"],
       "isAvailable": true
     },
     {
@@ -4346,9 +3818,7 @@
       "cupPrice": "$0.18 per 1ea",
       "unit": "ea",
       "packageSize": "12 pack",
-      "barcode": [
-        "9325344000082"
-      ],
+      "barcode": ["9325344000082"],
       "isAvailable": true
     },
     {
@@ -4363,9 +3833,7 @@
       "cupPrice": "$18.33 per 100ea",
       "unit": "ea",
       "packageSize": "60 pack",
-      "barcode": [
-        "9311770587617"
-      ],
+      "barcode": ["9311770587617"],
       "isAvailable": true
     },
     {
@@ -4380,10 +3848,7 @@
       "cupPrice": "$0.18 per 1ea",
       "unit": "ea",
       "packageSize": "12 pack",
-      "barcode": [
-        "9310004342329",
-        "9325344001768"
-      ],
+      "barcode": ["9310004342329", "9325344001768"],
       "isAvailable": true
     },
     {
@@ -4418,10 +3883,7 @@
       "cupPrice": "$49.00 per 100ml",
       "unit": "ea",
       "packageSize": "50ml",
-      "barcode": [
-        "4902430469852",
-        "4902430529938"
-      ],
+      "barcode": ["4902430469852", "4902430529938"],
       "isAvailable": true
     },
     {
@@ -4436,9 +3898,7 @@
       "cupPrice": "$0.21 per 1ea",
       "unit": "ea",
       "packageSize": "10 pack",
-      "barcode": [
-        "9325344000129"
-      ],
+      "barcode": ["9325344000129"],
       "isAvailable": true
     },
     {
@@ -4453,9 +3913,7 @@
       "cupPrice": "$16.67 per 100ea",
       "unit": "ea",
       "packageSize": "60 pack",
-      "barcode": [
-        "9314807052003"
-      ],
+      "barcode": ["9314807052003"],
       "isAvailable": true
     },
     {
@@ -4470,9 +3928,7 @@
       "cupPrice": "$0.12 per 1ea",
       "unit": "ea",
       "packageSize": "180 pack",
-      "barcode": [
-        "9311770597500"
-      ],
+      "barcode": ["9311770597500"],
       "isAvailable": true
     },
     {
@@ -4487,11 +3943,7 @@
       "cupPrice": "$0.15 per 1ea",
       "unit": "ea",
       "packageSize": "14 pack",
-      "barcode": [
-        "9310004342336",
-        "9325344000471",
-        "9325344001737"
-      ],
+      "barcode": ["9310004342336", "9325344000471", "9325344001737"],
       "isAvailable": true
     },
     {
@@ -4506,9 +3958,7 @@
       "cupPrice": "$5.13 per 100ml",
       "unit": "ea",
       "packageSize": "150ml",
-      "barcode": [
-        "4902430986717"
-      ],
+      "barcode": ["4902430986717"],
       "isAvailable": true
     },
     {
@@ -4523,9 +3973,7 @@
       "cupPrice": "$2.00 per 1ea",
       "unit": "ea",
       "packageSize": "2 pack",
-      "barcode": [
-        "9300632067091"
-      ],
+      "barcode": ["9300632067091"],
       "isAvailable": true
     },
     {
@@ -4540,10 +3988,7 @@
       "cupPrice": "$5.13 per 100ml",
       "unit": "ea",
       "packageSize": "150ml",
-      "barcode": [
-        "4902430951432",
-        "400003159048"
-      ],
+      "barcode": ["4902430951432", "400003159048"],
       "isAvailable": true
     },
     {
@@ -4558,9 +4003,7 @@
       "cupPrice": "$0.97 per 100ml",
       "unit": "ea",
       "packageSize": "620ml",
-      "barcode": [
-        "4902430644273"
-      ],
+      "barcode": ["4902430644273"],
       "isAvailable": true
     },
     {
@@ -4575,9 +4018,7 @@
       "cupPrice": "$0.97 per 100ml",
       "unit": "ea",
       "packageSize": "620ml",
-      "barcode": [
-        "4902430644310"
-      ],
+      "barcode": ["4902430644310"],
       "isAvailable": true
     },
     {
@@ -4607,9 +4048,7 @@
       "cupPrice": "$2.00 per 1ea",
       "unit": "ea",
       "packageSize": "2 pack",
-      "barcode": [
-        "9300632069125"
-      ],
+      "barcode": ["9300632069125"],
       "isAvailable": true
     },
     {
@@ -4624,9 +4063,7 @@
       "cupPrice": "$6.50 per 100g",
       "unit": "ea",
       "packageSize": "100g",
-      "barcode": [
-        "4902430129411"
-      ],
+      "barcode": ["4902430129411"],
       "isAvailable": true
     },
     {
@@ -4641,9 +4078,7 @@
       "cupPrice": "$163.34 per 100ml",
       "unit": "ea",
       "packageSize": "15ml",
-      "barcode": [
-        "4902430719582"
-      ],
+      "barcode": ["4902430719582"],
       "isAvailable": true
     },
     {
@@ -4658,9 +4093,7 @@
       "cupPrice": "$9.17 per 100ea",
       "unit": "ea",
       "packageSize": "60 pack",
-      "barcode": [
-        "9311770588492"
-      ],
+      "barcode": ["9311770588492"],
       "isAvailable": true
     },
     {
@@ -4675,9 +4108,7 @@
       "cupPrice": "$4.20 per 100ml",
       "unit": "ea",
       "packageSize": "125ml",
-      "barcode": [
-        "5011451103931"
-      ],
+      "barcode": ["5011451103931"],
       "isAvailable": true
     },
     {
@@ -4692,10 +4123,7 @@
       "cupPrice": "$6.50 per 100g",
       "unit": "ea",
       "packageSize": "100g",
-      "barcode": [
-        "9300618556519",
-        "4902430497190"
-      ],
+      "barcode": ["9300618556519", "4902430497190"],
       "isAvailable": true
     },
     {
@@ -4710,10 +4138,7 @@
       "cupPrice": "$4.33 per 100ml",
       "unit": "ea",
       "packageSize": "150ml",
-      "barcode": [
-        "4902430116275",
-        "9300618551774"
-      ],
+      "barcode": ["4902430116275", "9300618551774"],
       "isAvailable": true
     },
     {
@@ -4749,10 +4174,7 @@
       "cupPrice": "$0.15 per 1ea",
       "unit": "ea",
       "packageSize": "14 pack",
-      "barcode": [
-        "9325344002710",
-        "9325344003052"
-      ],
+      "barcode": ["9325344002710", "9325344003052"],
       "isAvailable": true
     },
     {
@@ -4767,9 +4189,7 @@
       "cupPrice": "$17.67 per 100ea",
       "unit": "ea",
       "packageSize": "60 pack",
-      "barcode": [
-        "9311770588584"
-      ],
+      "barcode": ["9311770588584"],
       "isAvailable": true
     },
     {
@@ -4784,10 +4204,7 @@
       "cupPrice": "$9.09 per 100ea",
       "unit": "ea",
       "packageSize": "110 pack",
-      "barcode": [
-        "9314807069193",
-        "9314807025762"
-      ],
+      "barcode": ["9314807069193", "9314807025762"],
       "isAvailable": true
     },
     {
@@ -4802,9 +4219,7 @@
       "cupPrice": "$0.15 per 1ea",
       "unit": "ea",
       "packageSize": "25 each",
-      "barcode": [
-        "8717163687611"
-      ],
+      "barcode": ["8717163687611"],
       "isAvailable": true
     },
     {
@@ -4819,9 +4234,7 @@
       "cupPrice": "$30.00 per 100ea",
       "unit": "ea",
       "packageSize": "60 pack",
-      "barcode": [
-        "9311770587259"
-      ],
+      "barcode": ["9311770587259"],
       "isAvailable": true
     },
     {
@@ -4836,9 +4249,7 @@
       "cupPrice": "$24.17 per 100ea",
       "unit": "ea",
       "packageSize": "60 pack",
-      "barcode": [
-        "93388139"
-      ],
+      "barcode": ["93388139"],
       "isAvailable": true
     },
     {
@@ -4853,9 +4264,7 @@
       "cupPrice": "$13.50 per 100ea",
       "unit": "ea",
       "packageSize": "60 pack",
-      "barcode": [
-        "9311770589666"
-      ],
+      "barcode": ["9311770589666"],
       "isAvailable": true
     },
     {
@@ -4870,9 +4279,7 @@
       "cupPrice": "$0.19 per 1ea",
       "unit": "ea",
       "packageSize": "12 pack",
-      "barcode": [
-        "9325344002994"
-      ],
+      "barcode": ["9325344002994"],
       "isAvailable": true
     },
     {
@@ -4887,9 +4294,7 @@
       "cupPrice": "$0.20 per 1ea",
       "unit": "ea",
       "packageSize": "10 pack",
-      "barcode": [
-        "9325344002116"
-      ],
+      "barcode": ["9325344002116"],
       "isAvailable": true
     },
     {
@@ -4904,9 +4309,7 @@
       "cupPrice": "$0.99 per 100ml",
       "unit": "ea",
       "packageSize": "500ml",
-      "barcode": [
-        "9327693000430"
-      ],
+      "barcode": ["9327693000430"],
       "isAvailable": true
     },
     {
@@ -4921,10 +4324,7 @@
       "cupPrice": "$0.18 per 1ea",
       "unit": "ea",
       "packageSize": "12 pack",
-      "barcode": [
-        "9310004342343",
-        "9325344000488"
-      ],
+      "barcode": ["9310004342343", "9325344000488"],
       "isAvailable": true
     },
     {
@@ -4939,9 +4339,7 @@
       "cupPrice": "$17.50 per 100ea",
       "unit": "ea",
       "packageSize": "60 pack",
-      "barcode": [
-        "9311770588508"
-      ],
+      "barcode": ["9311770588508"],
       "isAvailable": true
     },
     {
@@ -4956,9 +4354,7 @@
       "cupPrice": "$24.17 per 100ea",
       "unit": "ea",
       "packageSize": "60 pack",
-      "barcode": [
-        "93454117"
-      ],
+      "barcode": ["93454117"],
       "isAvailable": true
     },
     {
@@ -4973,9 +4369,7 @@
       "cupPrice": "$8.75 per 100ea",
       "unit": "ea",
       "packageSize": "120 pack",
-      "barcode": [
-        "9314807026981"
-      ],
+      "barcode": ["9314807026981"],
       "isAvailable": true
     },
     {
@@ -4990,10 +4384,7 @@
       "cupPrice": "$0.75 per 100ml",
       "unit": "ea",
       "packageSize": "400ml",
-      "barcode": [
-        "8850006480830",
-        "8850006480878"
-      ],
+      "barcode": ["8850006480830", "8850006480878"],
       "isAvailable": true
     },
     {
@@ -5008,9 +4399,7 @@
       "cupPrice": "$200.01 per 100ml",
       "unit": "ea",
       "packageSize": "15ml",
-      "barcode": [
-        "4902430917681"
-      ],
+      "barcode": ["4902430917681"],
       "isAvailable": true
     },
     {
@@ -5025,10 +4414,7 @@
       "cupPrice": "$17.50 per 100g",
       "unit": "ea",
       "packageSize": "50g",
-      "barcode": [
-        "400003156351",
-        "4902430483322"
-      ],
+      "barcode": ["400003156351", "4902430483322"],
       "isAvailable": true
     },
     {
@@ -5043,9 +4429,7 @@
       "cupPrice": "$0.18 per 1ea",
       "unit": "ea",
       "packageSize": "12 pack",
-      "barcode": [
-        "9325344002819"
-      ],
+      "barcode": ["9325344002819"],
       "isAvailable": true
     },
     {
@@ -5060,9 +4444,7 @@
       "cupPrice": "$0.19 per 1ea",
       "unit": "ea",
       "packageSize": "12 pack",
-      "barcode": [
-        "9325344002987"
-      ],
+      "barcode": ["9325344002987"],
       "isAvailable": true
     },
     {
@@ -5077,9 +4459,7 @@
       "cupPrice": "$3.57 per 100ml",
       "unit": "ea",
       "packageSize": "140ml",
-      "barcode": [
-        "9300830053407"
-      ],
+      "barcode": ["9300830053407"],
       "isAvailable": true
     },
     {
@@ -5094,9 +4474,7 @@
       "cupPrice": "$8.70 per 100g",
       "unit": "ea",
       "packageSize": "100g",
-      "barcode": [
-        "4902430240604"
-      ],
+      "barcode": ["4902430240604"],
       "isAvailable": true
     },
     {
@@ -5111,10 +4489,7 @@
       "cupPrice": "$9.09 per 100ea",
       "unit": "ea",
       "packageSize": "110 pack",
-      "barcode": [
-        "9314807025779",
-        "9314807066703"
-      ],
+      "barcode": ["9314807025779", "9314807066703"],
       "isAvailable": true
     },
     {
@@ -5129,9 +4504,7 @@
       "cupPrice": "$0.97 per 100ml",
       "unit": "ea",
       "packageSize": "620ml",
-      "barcode": [
-        "4902430644259"
-      ],
+      "barcode": ["4902430644259"],
       "isAvailable": true
     },
     {
@@ -5146,9 +4519,7 @@
       "cupPrice": "$0.97 per 100ml",
       "unit": "ea",
       "packageSize": "620ml",
-      "barcode": [
-        "4902430644303"
-      ],
+      "barcode": ["4902430644303"],
       "isAvailable": true
     },
     {
@@ -5163,9 +4534,7 @@
       "cupPrice": "$16.00 per 1ea",
       "unit": "ea",
       "packageSize": "1 pack",
-      "barcode": [
-        "93555166"
-      ],
+      "barcode": ["93555166"],
       "isAvailable": true
     },
     {
@@ -5180,9 +4549,7 @@
       "cupPrice": "$88.34 per 100ml",
       "unit": "ea",
       "packageSize": "30ml",
-      "barcode": [
-        "4902430734066"
-      ],
+      "barcode": ["4902430734066"],
       "isAvailable": true
     },
     {
@@ -5197,9 +4564,7 @@
       "cupPrice": "$0.97 per 100ml",
       "unit": "ea",
       "packageSize": "620ml",
-      "barcode": [
-        "4902430644280"
-      ],
+      "barcode": ["4902430644280"],
       "isAvailable": true
     },
     {
@@ -5214,9 +4579,7 @@
       "cupPrice": "$3.67 per 100ml",
       "unit": "ea",
       "packageSize": "150ml",
-      "barcode": [
-        "8710447474419"
-      ],
+      "barcode": ["8710447474419"],
       "isAvailable": true
     },
     {
@@ -5231,9 +4594,7 @@
       "cupPrice": "$14.50 per 1ea",
       "unit": "ea",
       "packageSize": "1 pack",
-      "barcode": [
-        "93554701"
-      ],
+      "barcode": ["93554701"],
       "isAvailable": true
     },
     {
@@ -5248,9 +4609,7 @@
       "cupPrice": "$22.92 per 100g",
       "unit": "ea",
       "packageSize": "1 each",
-      "barcode": [
-        "4902430893664"
-      ],
+      "barcode": ["4902430893664"],
       "isAvailable": true
     },
     {
@@ -5265,9 +4624,7 @@
       "cupPrice": "$49.00 per 100g",
       "unit": "ea",
       "packageSize": "50g",
-      "barcode": [
-        "4902430800099"
-      ],
+      "barcode": ["4902430800099"],
       "isAvailable": true
     },
     {
@@ -5282,11 +4639,7 @@
       "cupPrice": "$33.50 per 100g",
       "unit": "ea",
       "packageSize": "50g",
-      "barcode": [
-        "075609001659",
-        "4902430359764",
-        "4902430092944"
-      ],
+      "barcode": ["075609001659", "4902430359764", "4902430092944"],
       "isAvailable": true
     },
     {
@@ -5301,9 +4654,7 @@
       "cupPrice": "$10.00 per 1ea",
       "unit": "ea",
       "packageSize": "1 pack",
-      "barcode": [
-        "9319871000783"
-      ],
+      "barcode": ["9319871000783"],
       "isAvailable": true
     },
     {
@@ -5318,9 +4669,7 @@
       "cupPrice": "$163.34 per 100ml",
       "unit": "ea",
       "packageSize": "15ml",
-      "barcode": [
-        "075609197437"
-      ],
+      "barcode": ["075609197437"],
       "isAvailable": true
     },
     {
@@ -5335,9 +4684,7 @@
       "cupPrice": "$0.99 per 100ml",
       "unit": "ea",
       "packageSize": "500ml",
-      "barcode": [
-        "9327693008382"
-      ],
+      "barcode": ["9327693008382"],
       "isAvailable": true
     },
     {
@@ -5352,10 +4699,7 @@
       "cupPrice": "$10.00 per 100ml",
       "unit": "ea",
       "packageSize": "75ml",
-      "barcode": [
-        "4902430979160",
-        "4902430755641"
-      ],
+      "barcode": ["4902430979160", "4902430755641"],
       "isAvailable": true
     },
     {
@@ -5370,10 +4714,7 @@
       "cupPrice": "$116.67 per 100ml",
       "unit": "ea",
       "packageSize": "15ml",
-      "barcode": [
-        "4902430479561",
-        "4902430529945"
-      ],
+      "barcode": ["4902430479561", "4902430529945"],
       "isAvailable": true
     },
     {
@@ -5388,9 +4729,7 @@
       "cupPrice": "$4.90 per 10g",
       "unit": "ea",
       "packageSize": "50g",
-      "barcode": [
-        "4902430799881"
-      ],
+      "barcode": ["4902430799881"],
       "isAvailable": true
     },
     {
@@ -5405,9 +4744,7 @@
       "cupPrice": "$25.00 per 1ea",
       "unit": "ea",
       "packageSize": "1 pack",
-      "barcode": [
-        "9311770601719"
-      ],
+      "barcode": ["9311770601719"],
       "isAvailable": true
     },
     {
@@ -5422,9 +4759,7 @@
       "cupPrice": "$0.75 per 100ml",
       "unit": "ea",
       "packageSize": "400ml",
-      "barcode": [
-        "8850006480854"
-      ],
+      "barcode": ["8850006480854"],
       "isAvailable": true
     },
     {
@@ -5439,9 +4774,7 @@
       "cupPrice": "$0.99 per 100ml",
       "unit": "ea",
       "packageSize": "500ml",
-      "barcode": [
-        "9327693008399"
-      ],
+      "barcode": ["9327693008399"],
       "isAvailable": true
     },
     {
@@ -5456,9 +4789,7 @@
       "cupPrice": "$2.00 per 1ea",
       "unit": "ea",
       "packageSize": "2 pack",
-      "barcode": [
-        "9300632088386"
-      ],
+      "barcode": ["9300632088386"],
       "isAvailable": true
     },
     {
@@ -5473,9 +4804,7 @@
       "cupPrice": "$17.86 per 100ml",
       "unit": "ea",
       "packageSize": "98ml",
-      "barcode": [
-        "075609197451"
-      ],
+      "barcode": ["075609197451"],
       "isAvailable": true
     },
     {
@@ -5505,9 +4834,7 @@
       "cupPrice": "$11.11 per 100g",
       "unit": "ea",
       "packageSize": "180g",
-      "barcode": [
-        "9311770602938"
-      ],
+      "barcode": ["9311770602938"],
       "isAvailable": true
     },
     {
@@ -5542,9 +4869,7 @@
       "cupPrice": "$0.42 per 100ml",
       "unit": "ea",
       "packageSize": "900ml",
-      "barcode": [
-        "9300615055664"
-      ],
+      "barcode": ["9300615055664"],
       "isAvailable": true
     },
     {
@@ -5559,9 +4884,7 @@
       "cupPrice": "$0.30 per 1ea",
       "unit": "ea",
       "packageSize": "44 pack",
-      "barcode": [
-        "4015400897095"
-      ],
+      "barcode": ["4015400897095"],
       "isAvailable": true
     },
     {
@@ -5576,9 +4899,7 @@
       "cupPrice": "$0.39 per 1ea",
       "unit": "ea",
       "packageSize": "45 pack",
-      "barcode": [
-        "8001090985460"
-      ],
+      "barcode": ["8001090985460"],
       "isAvailable": true
     },
     {
@@ -5593,9 +4914,7 @@
       "cupPrice": "$0.47 per 1ea",
       "unit": "ea",
       "packageSize": "30 pack",
-      "barcode": [
-        "8001090985439"
-      ],
+      "barcode": ["8001090985439"],
       "isAvailable": true
     },
     {
@@ -5610,9 +4929,7 @@
       "cupPrice": "$4.38 per 1l",
       "unit": "ea",
       "packageSize": "2l",
-      "barcode": [
-        "9350376003848"
-      ],
+      "barcode": ["9350376003848"],
       "isAvailable": true
     },
     {
@@ -5627,9 +4944,7 @@
       "cupPrice": "$0.42 per 100ml",
       "unit": "ea",
       "packageSize": "900ml",
-      "barcode": [
-        "9300615055695"
-      ],
+      "barcode": ["9300615055695"],
       "isAvailable": true
     },
     {
@@ -5659,9 +4974,7 @@
       "cupPrice": "$0.53 per 1ea",
       "unit": "ea",
       "packageSize": "15 pack",
-      "barcode": [
-        "8001090985491"
-      ],
+      "barcode": ["8001090985491"],
       "isAvailable": true
     },
     {
@@ -5676,9 +4989,7 @@
       "cupPrice": "$4.38 per 1kg",
       "unit": "ea",
       "packageSize": "2kg",
-      "barcode": [
-        "9350376004524"
-      ],
+      "barcode": ["9350376004524"],
       "isAvailable": true
     },
     {
@@ -5693,9 +5004,7 @@
       "cupPrice": "$1.09 per 1ea",
       "unit": "ea",
       "packageSize": "8 pack",
-      "barcode": [
-        "5000394091481"
-      ],
+      "barcode": ["5000394091481"],
       "isAvailable": true
     },
     {
@@ -5710,9 +5019,7 @@
       "cupPrice": "$0.42 per 100ml",
       "unit": "ea",
       "packageSize": "900ml",
-      "barcode": [
-        "9300615055671"
-      ],
+      "barcode": ["9300615055671"],
       "isAvailable": true
     },
     {
@@ -5727,9 +5034,7 @@
       "cupPrice": "$4.38 per 1l",
       "unit": "ea",
       "packageSize": "2l",
-      "barcode": [
-        "9350376003923"
-      ],
+      "barcode": ["9350376003923"],
       "isAvailable": true
     },
     {
@@ -5744,9 +5049,7 @@
       "cupPrice": "$4.38 per 1kg",
       "unit": "ea",
       "packageSize": "2kg",
-      "barcode": [
-        "9350376004579"
-      ],
+      "barcode": ["9350376004579"],
       "isAvailable": true
     },
     {
@@ -5761,9 +5064,7 @@
       "cupPrice": "$4.50 per 1l",
       "unit": "ea",
       "packageSize": "1l",
-      "barcode": [
-        "9300632072750"
-      ],
+      "barcode": ["9300632072750"],
       "isAvailable": true
     },
     {
@@ -5778,9 +5079,7 @@
       "cupPrice": "$4.00 per 1l",
       "unit": "ea",
       "packageSize": "1.5l",
-      "barcode": [
-        "9350376000199"
-      ],
+      "barcode": ["9350376000199"],
       "isAvailable": true
     },
     {
@@ -5795,9 +5094,7 @@
       "cupPrice": "$4.00 per 1l",
       "unit": "ea",
       "packageSize": "1.5l",
-      "barcode": [
-        "9350376000205"
-      ],
+      "barcode": ["9350376000205"],
       "isAvailable": true
     },
     {
@@ -5812,9 +5109,7 @@
       "cupPrice": "$4.38 per 1l",
       "unit": "ea",
       "packageSize": "2l",
-      "barcode": [
-        "9350376003886"
-      ],
+      "barcode": ["9350376003886"],
       "isAvailable": true
     },
     {
@@ -5829,9 +5124,7 @@
       "cupPrice": "$6.67 per 1l",
       "unit": "ea",
       "packageSize": "900ml",
-      "barcode": [
-        "9350376003695"
-      ],
+      "barcode": ["9350376003695"],
       "isAvailable": true
     },
     {
@@ -5846,9 +5139,7 @@
       "cupPrice": "$1.45 per 100g",
       "unit": "ea",
       "packageSize": "275g",
-      "barcode": [
-        "4902430345156"
-      ],
+      "barcode": ["4902430345156"],
       "isAvailable": true
     },
     {
@@ -5863,9 +5154,7 @@
       "cupPrice": "$4.50 per 1l",
       "unit": "ea",
       "packageSize": "1l",
-      "barcode": [
-        "9300632072736"
-      ],
+      "barcode": ["9300632072736"],
       "isAvailable": true
     },
     {
@@ -5895,9 +5184,7 @@
       "cupPrice": "$3.00 per 1ea",
       "unit": "ea",
       "packageSize": "2 pack",
-      "barcode": [
-        "3086123566385"
-      ],
+      "barcode": ["3086123566385"],
       "isAvailable": true
     },
     {
@@ -5912,9 +5199,7 @@
       "cupPrice": "$6.67 per 1l",
       "unit": "ea",
       "packageSize": "900ml",
-      "barcode": [
-        "9350376003619"
-      ],
+      "barcode": ["9350376003619"],
       "isAvailable": true
     },
     {
@@ -5929,9 +5214,7 @@
       "cupPrice": "$4.86 per 1l",
       "unit": "ea",
       "packageSize": "1.8l",
-      "barcode": [
-        "9350376003947"
-      ],
+      "barcode": ["9350376003947"],
       "isAvailable": true
     },
     {
@@ -5946,10 +5229,7 @@
       "cupPrice": "$10.00 per 1ea",
       "unit": "ea",
       "packageSize": "1 each",
-      "barcode": [
-        "9325005013208",
-        "6923282610344"
-      ],
+      "barcode": ["9325005013208", "6923282610344"],
       "isAvailable": true
     },
     {
@@ -5979,9 +5259,7 @@
       "cupPrice": "$1.45 per 100g",
       "unit": "ea",
       "packageSize": "275g",
-      "barcode": [
-        "4902430304757"
-      ],
+      "barcode": ["4902430304757"],
       "isAvailable": true
     },
     {
@@ -6064,9 +5342,7 @@
       "cupPrice": "$2.62 per 10ml",
       "unit": "ea",
       "packageSize": "21ml",
-      "barcode": [
-        "9300701781033"
-      ],
+      "barcode": ["9300701781033"],
       "isAvailable": true
     },
     {
@@ -6231,9 +5507,7 @@
       "cupPrice": "$5.00 per 1l",
       "unit": "ea",
       "packageSize": "900ml",
-      "barcode": [
-        "9300632086078"
-      ],
+      "barcode": ["9300632086078"],
       "isAvailable": true
     },
     {
@@ -6248,9 +5522,7 @@
       "cupPrice": "$4.86 per 1l",
       "unit": "ea",
       "packageSize": "1.8l",
-      "barcode": [
-        "9350376003978"
-      ],
+      "barcode": ["9350376003978"],
       "isAvailable": true
     },
     {
@@ -6346,9 +5618,7 @@
       "cupPrice": "$5.00 per 1l",
       "unit": "ea",
       "packageSize": "900ml",
-      "barcode": [
-        "8850006930687"
-      ],
+      "barcode": ["8850006930687"],
       "isAvailable": true
     },
     {
@@ -6363,9 +5633,7 @@
       "cupPrice": "$4.31 per 100g",
       "unit": "ea",
       "packageSize": "174g",
-      "barcode": [
-        "9300701799328"
-      ],
+      "barcode": ["9300701799328"],
       "isAvailable": true
     },
     {
@@ -6380,9 +5648,7 @@
       "cupPrice": "$5.88 per 1l",
       "unit": "ea",
       "packageSize": "850ml",
-      "barcode": [
-        "8850006934272"
-      ],
+      "barcode": ["8850006934272"],
       "isAvailable": true
     },
     {
@@ -6397,9 +5663,7 @@
       "cupPrice": "$5.88 per 1l",
       "unit": "ea",
       "packageSize": "850ml",
-      "barcode": [
-        "8850006934289"
-      ],
+      "barcode": ["8850006934289"],
       "isAvailable": true
     },
     {
@@ -6414,9 +5678,7 @@
       "cupPrice": "$5.88 per 1l",
       "unit": "ea",
       "packageSize": "850ml",
-      "barcode": [
-        "8850006934296"
-      ],
+      "barcode": ["8850006934296"],
       "isAvailable": true
     },
     {
@@ -6431,9 +5693,7 @@
       "cupPrice": "$6.67 per 10ml",
       "unit": "ea",
       "packageSize": "7.5ml",
-      "barcode": [
-        "4902430571906"
-      ],
+      "barcode": ["4902430571906"],
       "isAvailable": true
     },
     {
@@ -6448,9 +5708,7 @@
       "cupPrice": "$2.50 per 1ea",
       "unit": "ea",
       "packageSize": "1 pack",
-      "barcode": [
-        "810005410953"
-      ],
+      "barcode": ["810005410953"],
       "isAvailable": true
     },
     {
@@ -6465,9 +5723,7 @@
       "cupPrice": "$10.23 / 1kg",
       "unit": "each",
       "packageSize": "440g",
-      "barcode": [
-        "9310037148196"
-      ],
+      "barcode": ["9310037148196"],
       "isAvailable": true
     },
     {
@@ -6482,9 +5738,7 @@
       "cupPrice": "$10.23 / 1kg",
       "unit": "each",
       "packageSize": "440g",
-      "barcode": [
-        "9310037148189"
-      ],
+      "barcode": ["9310037148189"],
       "isAvailable": true
     },
     {
@@ -6499,9 +5753,7 @@
       "cupPrice": "$1.30 / 1ea",
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "0276964000008"
-      ],
+      "barcode": ["0276964000008"],
       "isAvailable": true
     },
     {
@@ -6516,9 +5768,7 @@
       "cupPrice": "$0.46 / 100g",
       "unit": "each",
       "packageSize": "600g",
-      "barcode": [
-        "9310023135988"
-      ],
+      "barcode": ["9310023135988"],
       "isAvailable": true
     },
     {
@@ -6533,9 +5783,7 @@
       "cupPrice": "$0.42 / 100g",
       "unit": "each",
       "packageSize": "480g",
-      "barcode": [
-        "0280725000008"
-      ],
+      "barcode": ["0280725000008"],
       "isAvailable": true
     },
     {
@@ -6550,9 +5798,7 @@
       "cupPrice": "$1.25 / 1l",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "41570081013"
-      ],
+      "barcode": ["41570081013"],
       "isAvailable": true
     },
     {
@@ -6567,9 +5813,7 @@
       "cupPrice": "$2.00 / 1l",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "9315090207033"
-      ],
+      "barcode": ["9315090207033"],
       "isAvailable": true
     },
     {
@@ -6584,9 +5828,7 @@
       "cupPrice": "$1.25 / 1l",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "41570108918"
-      ],
+      "barcode": ["41570108918"],
       "isAvailable": true
     },
     {
@@ -6601,9 +5843,7 @@
       "cupPrice": "$26.55 / 1kg",
       "unit": "each",
       "packageSize": "226g",
-      "barcode": [
-        "9300605131668"
-      ],
+      "barcode": ["9300605131668"],
       "isAvailable": true
     },
     {
@@ -6618,9 +5858,7 @@
       "cupPrice": "$1.19 / 100g",
       "unit": "each",
       "packageSize": "210g",
-      "barcode": [
-        "9315090209723"
-      ],
+      "barcode": ["9315090209723"],
       "isAvailable": true
     },
     {
@@ -6635,9 +5873,7 @@
       "cupPrice": "$1.19 / 100g",
       "unit": "each",
       "packageSize": "210g",
-      "barcode": [
-        "9315090209730"
-      ],
+      "barcode": ["9315090209730"],
       "isAvailable": true
     },
     {
@@ -6652,9 +5888,7 @@
       "cupPrice": "$1.19 / 100g",
       "unit": "each",
       "packageSize": "210g",
-      "barcode": [
-        "9315090209747"
-      ],
+      "barcode": ["9315090209747"],
       "isAvailable": true
     },
     {
@@ -6669,9 +5903,7 @@
       "cupPrice": "$1.04 / 100g",
       "unit": "each",
       "packageSize": "175g",
-      "barcode": [
-        "9310072001210"
-      ],
+      "barcode": ["9310072001210"],
       "isAvailable": true
     },
     {
@@ -6686,9 +5918,7 @@
       "cupPrice": "$0.91 / 100g",
       "unit": "each",
       "packageSize": "200g",
-      "barcode": [
-        "9310072013855"
-      ],
+      "barcode": ["9310072013855"],
       "isAvailable": true
     },
     {
@@ -6703,9 +5933,7 @@
       "cupPrice": "$1.14 / 100g",
       "unit": "each",
       "packageSize": "160g",
-      "barcode": [
-        "9310072029979"
-      ],
+      "barcode": ["9310072029979"],
       "isAvailable": true
     },
     {
@@ -6720,9 +5948,7 @@
       "cupPrice": "$0.91 / 100g",
       "unit": "each",
       "packageSize": "200g",
-      "barcode": [
-        "9310072000282"
-      ],
+      "barcode": ["9310072000282"],
       "isAvailable": true
     },
     {
@@ -6737,9 +5963,7 @@
       "cupPrice": "$0.91 / 100g",
       "unit": "each",
       "packageSize": "200g",
-      "barcode": [
-        "9310072012599"
-      ],
+      "barcode": ["9310072012599"],
       "isAvailable": true
     },
     {
@@ -6754,9 +5978,7 @@
       "cupPrice": "$1.10 / 100g",
       "unit": "each",
       "packageSize": "165g",
-      "barcode": [
-        "9310072025155"
-      ],
+      "barcode": ["9310072025155"],
       "isAvailable": true
     },
     {
@@ -6771,9 +5993,7 @@
       "cupPrice": "$1.14 / 100g",
       "unit": "each",
       "packageSize": "160g",
-      "barcode": [
-        "9310072031538"
-      ],
+      "barcode": ["9310072031538"],
       "isAvailable": true
     },
     {
@@ -6788,9 +6008,7 @@
       "cupPrice": "$1.04 / 100g",
       "unit": "each",
       "packageSize": "160g",
-      "barcode": [
-        "9310072031514"
-      ],
+      "barcode": ["9310072031514"],
       "isAvailable": true
     },
     {
@@ -6805,9 +6023,7 @@
       "cupPrice": "$1.14 / 100g",
       "unit": "each",
       "packageSize": "160g",
-      "barcode": [
-        "9310072031545"
-      ],
+      "barcode": ["9310072031545"],
       "isAvailable": true
     },
     {
@@ -6822,9 +6038,7 @@
       "cupPrice": "$1.14 / 100g",
       "unit": "each",
       "packageSize": "160g",
-      "barcode": [
-        "9310072031521"
-      ],
+      "barcode": ["9310072031521"],
       "isAvailable": true
     },
     {
@@ -6839,9 +6053,7 @@
       "cupPrice": "$1.59 / 100g",
       "unit": "each",
       "packageSize": "56g",
-      "barcode": [
-        "5000159523073"
-      ],
+      "barcode": ["5000159523073"],
       "isAvailable": true
     },
     {
@@ -6856,9 +6068,7 @@
       "cupPrice": "$1.11 / 100g",
       "unit": "each",
       "packageSize": "90g",
-      "barcode": [
-        "9310015248757"
-      ],
+      "barcode": ["9310015248757"],
       "isAvailable": true
     },
     {
@@ -6873,9 +6083,7 @@
       "cupPrice": "$1.33 / 100g",
       "unit": "each",
       "packageSize": "150g",
-      "barcode": [
-        "9310034000695"
-      ],
+      "barcode": ["9310034000695"],
       "isAvailable": true
     },
     {
@@ -6890,9 +6098,7 @@
       "cupPrice": "$1.54 / 100g",
       "unit": "each",
       "packageSize": "130g",
-      "barcode": [
-        "9310034001340"
-      ],
+      "barcode": ["9310034001340"],
       "isAvailable": true
     },
     {
@@ -6907,9 +6113,7 @@
       "cupPrice": "$1.54 / 100g",
       "unit": "each",
       "packageSize": "130g",
-      "barcode": [
-        "9310034001357"
-      ],
+      "barcode": ["9310034001357"],
       "isAvailable": true
     },
     {
@@ -6924,9 +6128,7 @@
       "cupPrice": "$1.67 / 100g",
       "unit": "each",
       "packageSize": "60g bar",
-      "barcode": [
-        "9300617302834"
-      ],
+      "barcode": ["9300617302834"],
       "isAvailable": true
     },
     {
@@ -6941,9 +6143,7 @@
       "cupPrice": "$1.92 / 100g",
       "unit": "each",
       "packageSize": "52g bar",
-      "barcode": [
-        "9300617408741"
-      ],
+      "barcode": ["9300617408741"],
       "isAvailable": true
     },
     {
@@ -6958,9 +6158,7 @@
       "cupPrice": "$2.13 / 100g",
       "unit": "each",
       "packageSize": "47g bar",
-      "barcode": [
-        "9300617045182"
-      ],
+      "barcode": ["9300617045182"],
       "isAvailable": true
     },
     {
@@ -6975,9 +6173,7 @@
       "cupPrice": "$2.00 / 100g",
       "unit": "each",
       "packageSize": "50g bar",
-      "barcode": [
-        "9300617322863"
-      ],
+      "barcode": ["9300617322863"],
       "isAvailable": true
     },
     {
@@ -6992,9 +6188,7 @@
       "cupPrice": "$1.82 / 100g",
       "unit": "each",
       "packageSize": "55g bar",
-      "barcode": [
-        "9300617041962"
-      ],
+      "barcode": ["9300617041962"],
       "isAvailable": true
     },
     {
@@ -7009,9 +6203,7 @@
       "cupPrice": "$2.00 / 100g",
       "unit": "each",
       "packageSize": "50g bar",
-      "barcode": [
-        "9300617043089"
-      ],
+      "barcode": ["9300617043089"],
       "isAvailable": true
     },
     {
@@ -7026,9 +6218,7 @@
       "cupPrice": "$1.82 / 100g",
       "unit": "each",
       "packageSize": "55g bar",
-      "barcode": [
-        "9300617042068"
-      ],
+      "barcode": ["9300617042068"],
       "isAvailable": true
     },
     {
@@ -7043,9 +6233,7 @@
       "cupPrice": "$2.00 / 100g",
       "unit": "each",
       "packageSize": "50g bar",
-      "barcode": [
-        "9300617042310"
-      ],
+      "barcode": ["9300617042310"],
       "isAvailable": true
     },
     {
@@ -7060,9 +6248,7 @@
       "cupPrice": "$1.82 / 100g",
       "unit": "each",
       "packageSize": "55g roll",
-      "barcode": [
-        "9300617320319"
-      ],
+      "barcode": ["9300617320319"],
       "isAvailable": true
     },
     {
@@ -7077,9 +6263,7 @@
       "cupPrice": "$2.22 / 100g",
       "unit": "each",
       "packageSize": "45g",
-      "barcode": [
-        "9300617070146"
-      ],
+      "barcode": ["9300617070146"],
       "isAvailable": true
     },
     {
@@ -7094,9 +6278,7 @@
       "cupPrice": "$2.00 / 100g",
       "unit": "each",
       "packageSize": "50g bar",
-      "barcode": [
-        "9300617042266"
-      ],
+      "barcode": ["9300617042266"],
       "isAvailable": true
     },
     {
@@ -7111,9 +6293,7 @@
       "cupPrice": "$3.33 / 100g",
       "unit": "each",
       "packageSize": "30g bar",
-      "barcode": [
-        "93617406"
-      ],
+      "barcode": ["93617406"],
       "isAvailable": true
     },
     {
@@ -7128,9 +6308,7 @@
       "cupPrice": "$1.82 / 100g",
       "unit": "each",
       "packageSize": "55g bar",
-      "barcode": [
-        "9300617320289"
-      ],
+      "barcode": ["9300617320289"],
       "isAvailable": true
     },
     {
@@ -7145,9 +6323,7 @@
       "cupPrice": "$1.82 / 100g",
       "unit": "each",
       "packageSize": "55g",
-      "barcode": [
-        "9300617067160"
-      ],
+      "barcode": ["9300617067160"],
       "isAvailable": true
     },
     {
@@ -7162,9 +6338,7 @@
       "cupPrice": "$2.17 / 100g",
       "unit": "each",
       "packageSize": "46g bar",
-      "barcode": [
-        "9300617408642"
-      ],
+      "barcode": ["9300617408642"],
       "isAvailable": true
     },
     {
@@ -7179,9 +6353,7 @@
       "cupPrice": "$2.50 / 100g",
       "unit": "each",
       "packageSize": "40g bar",
-      "barcode": [
-        "9300617325079"
-      ],
+      "barcode": ["9300617325079"],
       "isAvailable": true
     },
     {
@@ -7196,9 +6368,7 @@
       "cupPrice": "$2.56 / 100g",
       "unit": "each",
       "packageSize": "39g bar",
-      "barcode": [
-        "9300617408710"
-      ],
+      "barcode": ["9300617408710"],
       "isAvailable": true
     },
     {
@@ -7213,9 +6383,7 @@
       "cupPrice": "$2.56 / 100g",
       "unit": "each",
       "packageSize": "39g",
-      "barcode": [
-        "9300617288084"
-      ],
+      "barcode": ["9300617288084"],
       "isAvailable": true
     },
     {
@@ -7230,9 +6398,7 @@
       "cupPrice": "$0.20 / 100ml",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "9300644043618"
-      ],
+      "barcode": ["9300644043618"],
       "isAvailable": true
     },
     {
@@ -7247,9 +6413,7 @@
       "cupPrice": "$0.20 / 100ml",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "9300644432603"
-      ],
+      "barcode": ["9300644432603"],
       "isAvailable": true
     },
     {
@@ -7264,9 +6428,7 @@
       "cupPrice": "$0.20 / 100ml",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "9300644043601"
-      ],
+      "barcode": ["9300644043601"],
       "isAvailable": true
     },
     {
@@ -7281,9 +6443,7 @@
       "cupPrice": "$0.20 / 100ml",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "9300644043632"
-      ],
+      "barcode": ["9300644043632"],
       "isAvailable": true
     },
     {
@@ -7298,9 +6458,7 @@
       "cupPrice": "$0.20 / 100ml",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "9300644705288"
-      ],
+      "barcode": ["9300644705288"],
       "isAvailable": true
     },
     {
@@ -7315,9 +6473,7 @@
       "cupPrice": "$0.20 / 100ml",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "9300644705158"
-      ],
+      "barcode": ["9300644705158"],
       "isAvailable": true
     },
     {
@@ -7332,9 +6488,7 @@
       "cupPrice": "$0.20 / 100ml",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "9300644043625"
-      ],
+      "barcode": ["9300644043625"],
       "isAvailable": true
     },
     {
@@ -7349,9 +6503,7 @@
       "cupPrice": "$0.20 / 100ml",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "9300644433006"
-      ],
+      "barcode": ["9300644433006"],
       "isAvailable": true
     },
     {
@@ -7366,9 +6518,7 @@
       "cupPrice": "$1.11 / 100g",
       "unit": "each",
       "packageSize": "90g",
-      "barcode": [
-        "9310015248764"
-      ],
+      "barcode": ["9310015248764"],
       "isAvailable": true
     },
     {
@@ -7383,9 +6533,7 @@
       "cupPrice": "$1.25 / 100g",
       "unit": "each",
       "packageSize": "80g",
-      "barcode": [
-        "9310015248801"
-      ],
+      "barcode": ["9310015248801"],
       "isAvailable": true
     },
     {
@@ -7400,9 +6548,7 @@
       "cupPrice": "$1.00 / 100g",
       "unit": "each",
       "packageSize": "125g",
-      "barcode": [
-        "9310988016346"
-      ],
+      "barcode": ["9310988016346"],
       "isAvailable": true
     },
     {
@@ -7417,9 +6563,7 @@
       "cupPrice": "$1.00 / 100g",
       "unit": "each",
       "packageSize": "125g",
-      "barcode": [
-        "9310988017145"
-      ],
+      "barcode": ["9310988017145"],
       "isAvailable": true
     },
     {
@@ -7434,9 +6578,7 @@
       "cupPrice": "$2.23 / 100g",
       "unit": "each",
       "packageSize": "56g",
-      "barcode": [
-        "9300830057597"
-      ],
+      "barcode": ["9300830057597"],
       "isAvailable": true
     },
     {
@@ -7451,9 +6593,7 @@
       "cupPrice": "$2.05 / 100g",
       "unit": "each",
       "packageSize": "61g",
-      "barcode": [
-        "9300830057573"
-      ],
+      "barcode": ["9300830057573"],
       "isAvailable": true
     },
     {
@@ -7468,9 +6608,7 @@
       "cupPrice": "$2.08 / 100g",
       "unit": "each",
       "packageSize": "60g",
-      "barcode": [
-        "9300830057542"
-      ],
+      "barcode": ["9300830057542"],
       "isAvailable": true
     },
     {
@@ -7485,9 +6623,7 @@
       "cupPrice": "$2.02 / 100g",
       "unit": "each",
       "packageSize": "62g",
-      "barcode": [
-        "9300830057566"
-      ],
+      "barcode": ["9300830057566"],
       "isAvailable": true
     },
     {
@@ -7502,9 +6638,7 @@
       "cupPrice": "$1.79 / 100g",
       "unit": "each",
       "packageSize": "70g",
-      "barcode": [
-        "9300830057580"
-      ],
+      "barcode": ["9300830057580"],
       "isAvailable": true
     },
     {
@@ -7519,9 +6653,7 @@
       "cupPrice": "$1.84 / 100g",
       "unit": "each",
       "packageSize": "68g",
-      "barcode": [
-        "9300830057504"
-      ],
+      "barcode": ["9300830057504"],
       "isAvailable": true
     },
     {
@@ -7536,9 +6668,7 @@
       "cupPrice": "$2.60 / 100g",
       "unit": "each",
       "packageSize": "48g",
-      "barcode": [
-        "9300830057528"
-      ],
+      "barcode": ["9300830057528"],
       "isAvailable": true
     },
     {
@@ -7553,9 +6683,7 @@
       "cupPrice": "$2.31 / 100g",
       "unit": "each",
       "packageSize": "54g",
-      "barcode": [
-        "9300830057559"
-      ],
+      "barcode": ["9300830057559"],
       "isAvailable": true
     },
     {
@@ -7570,9 +6698,7 @@
       "cupPrice": "$1.75 / 100g",
       "unit": "each",
       "packageSize": "60g",
-      "barcode": [
-        "9310015243714"
-      ],
+      "barcode": ["9310015243714"],
       "isAvailable": true
     },
     {
@@ -7587,9 +6713,7 @@
       "cupPrice": "$1.17 / 100g",
       "unit": "each",
       "packageSize": "150g",
-      "barcode": [
-        "9310015249600"
-      ],
+      "barcode": ["9310015249600"],
       "isAvailable": true
     },
     {
@@ -7604,9 +6728,7 @@
       "cupPrice": "$1.17 / 100g",
       "unit": "each",
       "packageSize": "150g",
-      "barcode": [
-        "9310015248436"
-      ],
+      "barcode": ["9310015248436"],
       "isAvailable": true
     },
     {
@@ -7621,9 +6743,7 @@
       "cupPrice": "$1.03 / 100g",
       "unit": "each",
       "packageSize": "170g",
-      "barcode": [
-        "9310015241925"
-      ],
+      "barcode": ["9310015241925"],
       "isAvailable": true
     },
     {
@@ -7638,9 +6758,7 @@
       "cupPrice": "$1.03 / 100g",
       "unit": "each",
       "packageSize": "170g",
-      "barcode": [
-        "9310015241932"
-      ],
+      "barcode": ["9310015241932"],
       "isAvailable": true
     },
     {
@@ -7655,9 +6773,7 @@
       "cupPrice": "$1.03 / 100g",
       "unit": "each",
       "packageSize": "170g",
-      "barcode": [
-        "9310015241918"
-      ],
+      "barcode": ["9310015241918"],
       "isAvailable": true
     },
     {
@@ -7672,9 +6788,7 @@
       "cupPrice": "$1.03 / 100g",
       "unit": "each",
       "packageSize": "170g",
-      "barcode": [
-        "9310015241949"
-      ],
+      "barcode": ["9310015241949"],
       "isAvailable": true
     },
     {
@@ -7689,9 +6803,7 @@
       "cupPrice": "$1.17 / 100g",
       "unit": "each",
       "packageSize": "150g",
-      "barcode": [
-        "9310015248443"
-      ],
+      "barcode": ["9310015248443"],
       "isAvailable": true
     },
     {
@@ -7706,9 +6818,7 @@
       "cupPrice": "$2.50 / 100g",
       "unit": "each",
       "packageSize": "40g bar",
-      "barcode": [
-        "9300617408963"
-      ],
+      "barcode": ["9300617408963"],
       "isAvailable": true
     },
     {
@@ -7723,9 +6833,7 @@
       "cupPrice": "$2.50 / 100g",
       "unit": "each",
       "packageSize": "40g bar",
-      "barcode": [
-        "9300617408802"
-      ],
+      "barcode": ["9300617408802"],
       "isAvailable": true
     },
     {
@@ -7740,9 +6848,7 @@
       "cupPrice": "$3.15 / 100g",
       "unit": "each",
       "packageSize": "16 pack",
-      "barcode": [
-        "8000500003787"
-      ],
+      "barcode": ["8000500003787"],
       "isAvailable": true
     },
     {
@@ -7757,9 +6863,7 @@
       "cupPrice": "$1.67 / 100g",
       "unit": "each",
       "packageSize": "8 pack",
-      "barcode": [
-        "9421904804234"
-      ],
+      "barcode": ["9421904804234"],
       "isAvailable": true
     },
     {
@@ -7774,9 +6878,7 @@
       "cupPrice": "$1.67 / 100g",
       "unit": "each",
       "packageSize": "8 pack",
-      "barcode": [
-        "9421904804241"
-      ],
+      "barcode": ["9421904804241"],
       "isAvailable": true
     },
     {
@@ -7791,9 +6893,7 @@
       "cupPrice": "$2.29 / 100g",
       "unit": "each",
       "packageSize": "120g",
-      "barcode": [
-        "9300617074755"
-      ],
+      "barcode": ["9300617074755"],
       "isAvailable": true
     },
     {
@@ -7808,9 +6908,7 @@
       "cupPrice": "$2.29 / 100g",
       "unit": "each",
       "packageSize": "120g",
-      "barcode": [
-        "9300617074731"
-      ],
+      "barcode": ["9300617074731"],
       "isAvailable": true
     },
     {
@@ -7825,9 +6923,7 @@
       "cupPrice": "$2.36 / 100g",
       "unit": "each",
       "packageSize": "90g",
-      "barcode": [
-        "9300617074489"
-      ],
+      "barcode": ["9300617074489"],
       "isAvailable": true
     },
     {
@@ -7842,9 +6938,7 @@
       "cupPrice": "$10.53 / 1kg",
       "unit": "each",
       "packageSize": "95g",
-      "barcode": [
-        "9300657008369"
-      ],
+      "barcode": ["9300657008369"],
       "isAvailable": true
     },
     {
@@ -7859,9 +6953,7 @@
       "cupPrice": "$10.53 / 1kg",
       "unit": "each",
       "packageSize": "95g",
-      "barcode": [
-        "9300657008444"
-      ],
+      "barcode": ["9300657008444"],
       "isAvailable": true
     },
     {
@@ -7876,9 +6968,7 @@
       "cupPrice": "$10.53 / 1kg",
       "unit": "each",
       "packageSize": "95g",
-      "barcode": [
-        "93657341"
-      ],
+      "barcode": ["93657341"],
       "isAvailable": true
     },
     {
@@ -7893,9 +6983,7 @@
       "cupPrice": "$10.53 / 1kg",
       "unit": "each",
       "packageSize": "95g",
-      "barcode": [
-        "93305143"
-      ],
+      "barcode": ["93305143"],
       "isAvailable": true
     },
     {
@@ -7910,9 +6998,7 @@
       "cupPrice": "$10.53 / 1kg",
       "unit": "each",
       "packageSize": "95g",
-      "barcode": [
-        "93305150"
-      ],
+      "barcode": ["93305150"],
       "isAvailable": true
     },
     {
@@ -7927,9 +7013,7 @@
       "cupPrice": "$10.53 / 1kg",
       "unit": "each",
       "packageSize": "95g",
-      "barcode": [
-        "93657686"
-      ],
+      "barcode": ["93657686"],
       "isAvailable": true
     },
     {
@@ -7944,9 +7028,7 @@
       "cupPrice": "$10.53 / 1kg",
       "unit": "each",
       "packageSize": "95g",
-      "barcode": [
-        "9300657029357"
-      ],
+      "barcode": ["9300657029357"],
       "isAvailable": true
     },
     {
@@ -7961,9 +7043,7 @@
       "cupPrice": "$10.53 / 1kg",
       "unit": "each",
       "packageSize": "95g",
-      "barcode": [
-        "9300657029364"
-      ],
+      "barcode": ["9300657029364"],
       "isAvailable": true
     },
     {
@@ -7978,9 +7058,7 @@
       "cupPrice": "$10.53 / 1kg",
       "unit": "each",
       "packageSize": "95g",
-      "barcode": [
-        "93430906"
-      ],
+      "barcode": ["93430906"],
       "isAvailable": true
     },
     {
@@ -7995,9 +7073,7 @@
       "cupPrice": "$10.53 / 1kg",
       "unit": "each",
       "packageSize": "95g",
-      "barcode": [
-        "93305174"
-      ],
+      "barcode": ["93305174"],
       "isAvailable": true
     },
     {
@@ -8012,9 +7088,7 @@
       "cupPrice": "$0.26 / 100g",
       "unit": "each",
       "packageSize": "420g",
-      "barcode": [
-        "9300657005009"
-      ],
+      "barcode": ["9300657005009"],
       "isAvailable": true
     },
     {
@@ -8029,9 +7103,7 @@
       "cupPrice": "$0.26 / 100g",
       "unit": "each",
       "packageSize": "420g",
-      "barcode": [
-        "9300657006075"
-      ],
+      "barcode": ["9300657006075"],
       "isAvailable": true
     },
     {
@@ -8046,9 +7118,7 @@
       "cupPrice": "$16.67 / 1kg",
       "unit": "each",
       "packageSize": "120g",
-      "barcode": [
-        "9310055103887"
-      ],
+      "barcode": ["9310055103887"],
       "isAvailable": true
     },
     {
@@ -8063,9 +7133,7 @@
       "cupPrice": "$16.67 / 1kg",
       "unit": "each",
       "packageSize": "120g",
-      "barcode": [
-        "9310055103870"
-      ],
+      "barcode": ["9310055103870"],
       "isAvailable": true
     },
     {
@@ -8080,9 +7148,7 @@
       "cupPrice": "$2.33 / 100g",
       "unit": "each",
       "packageSize": "43g bar",
-      "barcode": [
-        "80052760"
-      ],
+      "barcode": ["80052760"],
       "isAvailable": true
     },
     {
@@ -8097,9 +7163,7 @@
       "cupPrice": "$2.56 / 100g",
       "unit": "each",
       "packageSize": "39g",
-      "barcode": [
-        "93698108"
-      ],
+      "barcode": ["93698108"],
       "isAvailable": true
     },
     {
@@ -8114,9 +7178,7 @@
       "cupPrice": "$1.39 / 100g",
       "unit": "each",
       "packageSize": "21g",
-      "barcode": [
-        "80050094"
-      ],
+      "barcode": ["80050094"],
       "isAvailable": true
     },
     {
@@ -8131,9 +7193,7 @@
       "cupPrice": "$2.97 / 100g",
       "unit": "each",
       "packageSize": "337g box",
-      "barcode": [
-        "8003340093116"
-      ],
+      "barcode": ["8003340093116"],
       "isAvailable": true
     },
     {
@@ -8148,9 +7208,7 @@
       "cupPrice": "$2.97 / 100g",
       "unit": "each",
       "packageSize": "337g box",
-      "barcode": [
-        "8003340093109"
-      ],
+      "barcode": ["8003340093109"],
       "isAvailable": true
     },
     {
@@ -8165,9 +7223,7 @@
       "cupPrice": "$17.86 / 1kg",
       "unit": "each",
       "packageSize": "140g",
-      "barcode": [
-        "9310064005387"
-      ],
+      "barcode": ["9310064005387"],
       "isAvailable": true
     },
     {
@@ -8182,9 +7238,7 @@
       "cupPrice": "$17.86 / 1kg",
       "unit": "each",
       "packageSize": "140g",
-      "barcode": [
-        "9310064004892"
-      ],
+      "barcode": ["9310064004892"],
       "isAvailable": true
     },
     {
@@ -8199,9 +7253,7 @@
       "cupPrice": "$16.67 / 1kg",
       "unit": "each",
       "packageSize": "150g",
-      "barcode": [
-        "9310064005431"
-      ],
+      "barcode": ["9310064005431"],
       "isAvailable": true
     },
     {
@@ -8216,9 +7268,7 @@
       "cupPrice": "$1.63 / 100g",
       "unit": "each",
       "packageSize": "130g",
-      "barcode": [
-        "9300682050142"
-      ],
+      "barcode": ["9300682050142"],
       "isAvailable": true
     },
     {
@@ -8233,9 +7283,7 @@
       "cupPrice": "$1.46 / 100g",
       "unit": "each",
       "packageSize": "145g",
-      "barcode": [
-        "9300682047548"
-      ],
+      "barcode": ["9300682047548"],
       "isAvailable": true
     },
     {
@@ -8250,9 +7298,7 @@
       "cupPrice": "$1.18 / 100g",
       "unit": "each",
       "packageSize": "180g",
-      "barcode": [
-        "9300682047623"
-      ],
+      "barcode": ["9300682047623"],
       "isAvailable": true
     },
     {
@@ -8267,9 +7313,7 @@
       "cupPrice": "$2.54 / 100g",
       "unit": "each",
       "packageSize": "35g",
-      "barcode": [
-        "40000000396"
-      ],
+      "barcode": ["40000000396"],
       "isAvailable": true
     },
     {
@@ -8284,9 +7328,7 @@
       "cupPrice": "$1.46 / 100g",
       "unit": "each",
       "packageSize": "145g",
-      "barcode": [
-        "9300682047562"
-      ],
+      "barcode": ["9300682047562"],
       "isAvailable": true
     },
     {
@@ -8301,9 +7343,7 @@
       "cupPrice": "$1.33 / 100g",
       "unit": "each",
       "packageSize": "160g",
-      "barcode": [
-        "9300682056540"
-      ],
+      "barcode": ["9300682056540"],
       "isAvailable": true
     },
     {
@@ -8318,9 +7358,7 @@
       "cupPrice": "$1.18 / 100g",
       "unit": "each",
       "packageSize": "180g",
-      "barcode": [
-        "9300682047647"
-      ],
+      "barcode": ["9300682047647"],
       "isAvailable": true
     },
     {
@@ -8335,9 +7373,7 @@
       "cupPrice": "$1.77 / 100g",
       "unit": "each",
       "packageSize": "120g",
-      "barcode": [
-        "9300682056243"
-      ],
+      "barcode": ["9300682056243"],
       "isAvailable": true
     },
     {
@@ -8352,9 +7388,7 @@
       "cupPrice": "$1.77 / 100g",
       "unit": "each",
       "packageSize": "120g",
-      "barcode": [
-        "9300682055567"
-      ],
+      "barcode": ["9300682055567"],
       "isAvailable": true
     },
     {
@@ -8369,9 +7403,7 @@
       "cupPrice": "$1.51 / 100g",
       "unit": "each",
       "packageSize": "140g",
-      "barcode": [
-        "9300682047500"
-      ],
+      "barcode": ["9300682047500"],
       "isAvailable": true
     },
     {
@@ -8386,9 +7418,7 @@
       "cupPrice": "$1.96 / 100g",
       "unit": "each",
       "packageSize": "45.5g",
-      "barcode": [
-        "9300682057257"
-      ],
+      "barcode": ["9300682057257"],
       "isAvailable": true
     },
     {
@@ -8403,9 +7433,7 @@
       "cupPrice": "$1.68 / 100g",
       "unit": "each",
       "packageSize": "53g",
-      "barcode": [
-        "93682459"
-      ],
+      "barcode": ["93682459"],
       "isAvailable": true
     },
     {
@@ -8420,9 +7448,7 @@
       "cupPrice": "$1.33 / 100g",
       "unit": "each",
       "packageSize": "160g",
-      "barcode": [
-        "9300682056441"
-      ],
+      "barcode": ["9300682056441"],
       "isAvailable": true
     },
     {
@@ -8437,9 +7463,7 @@
       "cupPrice": "$1.68 / 100g",
       "unit": "each",
       "packageSize": "53g",
-      "barcode": [
-        "9300682046480"
-      ],
+      "barcode": ["9300682046480"],
       "isAvailable": true
     },
     {
@@ -8454,9 +7478,7 @@
       "cupPrice": "$2.22 / 100g",
       "unit": "each",
       "packageSize": "45g",
-      "barcode": [
-        "9300605129702"
-      ],
+      "barcode": ["9300605129702"],
       "isAvailable": true
     },
     {
@@ -8471,9 +7493,7 @@
       "cupPrice": "$2.22 / 100g",
       "unit": "each",
       "packageSize": "45g",
-      "barcode": [
-        "9300605129696"
-      ],
+      "barcode": ["9300605129696"],
       "isAvailable": true
     },
     {
@@ -8488,9 +7508,7 @@
       "cupPrice": "$2.00 / 100g",
       "unit": "each",
       "packageSize": "100g",
-      "barcode": [
-        "9310015249273"
-      ],
+      "barcode": ["9310015249273"],
       "isAvailable": true
     },
     {
@@ -8505,9 +7523,7 @@
       "cupPrice": "$2.00 / 100g",
       "unit": "each",
       "packageSize": "100g",
-      "barcode": [
-        "9310015246357"
-      ],
+      "barcode": ["9310015246357"],
       "isAvailable": true
     },
     {
@@ -8522,9 +7538,7 @@
       "cupPrice": "$2.00 / 100g",
       "unit": "each",
       "packageSize": "100g",
-      "barcode": [
-        "9310015249280"
-      ],
+      "barcode": ["9310015249280"],
       "isAvailable": true
     },
     {
@@ -8539,9 +7553,7 @@
       "cupPrice": "$0.67 / 100g",
       "unit": "each",
       "packageSize": "485g",
-      "barcode": [
-        "9300695002305"
-      ],
+      "barcode": ["9300695002305"],
       "isAvailable": true
     },
     {
@@ -8556,9 +7568,7 @@
       "cupPrice": "$0.92 / 100g",
       "unit": "each",
       "packageSize": "355g",
-      "barcode": [
-        "8410076471987"
-      ],
+      "barcode": ["8410076471987"],
       "isAvailable": true
     },
     {
@@ -8573,9 +7583,7 @@
       "cupPrice": "$0.63 / 100g",
       "unit": "each",
       "packageSize": "520g",
-      "barcode": [
-        "9300695001810"
-      ],
+      "barcode": ["9300695001810"],
       "isAvailable": true
     },
     {
@@ -8590,9 +7598,7 @@
       "cupPrice": "$0.67 / 100g",
       "unit": "each",
       "packageSize": "485g",
-      "barcode": [
-        "9300695008383"
-      ],
+      "barcode": ["9300695008383"],
       "isAvailable": true
     },
     {
@@ -8607,9 +7613,7 @@
       "cupPrice": "$0.80 / 100g",
       "unit": "each",
       "packageSize": "405g",
-      "barcode": [
-        "9300695008772"
-      ],
+      "barcode": ["9300695008772"],
       "isAvailable": true
     },
     {
@@ -8624,9 +7628,7 @@
       "cupPrice": "$0.84 / 100g",
       "unit": "each",
       "packageSize": "418g",
-      "barcode": [
-        "8410076473967"
-      ],
+      "barcode": ["8410076473967"],
       "isAvailable": true
     },
     {
@@ -8641,9 +7643,7 @@
       "cupPrice": "$0.68 / 100g",
       "unit": "each",
       "packageSize": "518g",
-      "barcode": [
-        "8410076474247"
-      ],
+      "barcode": ["8410076474247"],
       "isAvailable": true
     },
     {
@@ -8658,9 +7658,7 @@
       "cupPrice": "$1.00 / 100g",
       "unit": "each",
       "packageSize": "350g",
-      "barcode": [
-        "9300695008420"
-      ],
+      "barcode": ["9300695008420"],
       "isAvailable": true
     },
     {
@@ -8675,9 +7673,7 @@
       "cupPrice": "$0.94 / 100g",
       "unit": "each",
       "packageSize": "345g",
-      "barcode": [
-        "9300695003739"
-      ],
+      "barcode": ["9300695003739"],
       "isAvailable": true
     },
     {
@@ -8692,9 +7688,7 @@
       "cupPrice": "$1.12 / 100g",
       "unit": "each",
       "packageSize": "290g",
-      "barcode": [
-        "9300695001254"
-      ],
+      "barcode": ["9300695001254"],
       "isAvailable": true
     },
     {
@@ -8709,9 +7703,7 @@
       "cupPrice": "$1.27 / 100g",
       "unit": "each",
       "packageSize": "275g",
-      "barcode": [
-        "9300695007195"
-      ],
+      "barcode": ["9300695007195"],
       "isAvailable": true
     },
     {
@@ -8726,9 +7718,7 @@
       "cupPrice": "$0.80 / 100g",
       "unit": "each",
       "packageSize": "405g",
-      "barcode": [
-        "9300695001872"
-      ],
+      "barcode": ["9300695001872"],
       "isAvailable": true
     },
     {
@@ -8743,9 +7733,7 @@
       "cupPrice": "$1.01 / 100g",
       "unit": "each",
       "packageSize": "348g",
-      "barcode": [
-        "8410076472182"
-      ],
+      "barcode": ["8410076472182"],
       "isAvailable": true
     },
     {
@@ -8760,9 +7748,7 @@
       "cupPrice": "$1.19 / 100g",
       "unit": "each",
       "packageSize": "295g",
-      "barcode": [
-        "9300695003975"
-      ],
+      "barcode": ["9300695003975"],
       "isAvailable": true
     },
     {
@@ -8777,9 +7763,7 @@
       "cupPrice": "$0.88 / 100g",
       "unit": "each",
       "packageSize": "370g",
-      "barcode": [
-        "9300695004576"
-      ],
+      "barcode": ["9300695004576"],
       "isAvailable": true
     },
     {
@@ -8794,9 +7778,7 @@
       "cupPrice": "$1.60 / 100g",
       "unit": "each",
       "packageSize": "47g",
-      "barcode": [
-        "9310034001197"
-      ],
+      "barcode": ["9310034001197"],
       "isAvailable": true
     },
     {
@@ -8811,9 +7793,7 @@
       "cupPrice": "$1.33 / 100g",
       "unit": "each",
       "packageSize": "160g",
-      "barcode": [
-        "9300682047913"
-      ],
+      "barcode": ["9300682047913"],
       "isAvailable": true
     },
     {
@@ -8828,9 +7808,7 @@
       "cupPrice": "$1.33 / 100g",
       "unit": "each",
       "packageSize": "160g",
-      "barcode": [
-        "9300682047944"
-      ],
+      "barcode": ["9300682047944"],
       "isAvailable": true
     },
     {
@@ -8845,9 +7823,7 @@
       "cupPrice": "$2.10 / 100g",
       "unit": "each",
       "packageSize": "50g",
-      "barcode": [
-        "9310015248818"
-      ],
+      "barcode": ["9310015248818"],
       "isAvailable": true
     },
     {
@@ -8862,9 +7838,7 @@
       "cupPrice": "$0.56 / 100g",
       "unit": "each",
       "packageSize": "450g",
-      "barcode": [
-        "9326666010285"
-      ],
+      "barcode": ["9326666010285"],
       "isAvailable": true
     },
     {
@@ -8879,9 +7853,7 @@
       "cupPrice": "$0.50 / 100g",
       "unit": "each",
       "packageSize": "500g",
-      "barcode": [
-        "9326666010209"
-      ],
+      "barcode": ["9326666010209"],
       "isAvailable": true
     },
     {
@@ -8896,9 +7868,7 @@
       "cupPrice": "$0.56 / 100g",
       "unit": "each",
       "packageSize": "450g",
-      "barcode": [
-        "9326666010254"
-      ],
+      "barcode": ["9326666010254"],
       "isAvailable": true
     },
     {
@@ -8913,9 +7883,7 @@
       "cupPrice": "$0.53 / 100g",
       "unit": "each",
       "packageSize": "475g",
-      "barcode": [
-        "9326666010247"
-      ],
+      "barcode": ["9326666010247"],
       "isAvailable": true
     },
     {
@@ -8930,9 +7898,7 @@
       "cupPrice": "$0.74 / 100g",
       "unit": "each",
       "packageSize": "8 pack",
-      "barcode": [
-        "9326666010353"
-      ],
+      "barcode": ["9326666010353"],
       "isAvailable": true
     },
     {
@@ -8947,9 +7913,7 @@
       "cupPrice": "$0.53 / 100g",
       "unit": "each",
       "packageSize": "475g",
-      "barcode": [
-        "9326666010230"
-      ],
+      "barcode": ["9326666010230"],
       "isAvailable": true
     },
     {
@@ -8964,9 +7928,7 @@
       "cupPrice": "$0.74 / 100g",
       "unit": "each",
       "packageSize": "8 pack",
-      "barcode": [
-        "9326666010346"
-      ],
+      "barcode": ["9326666010346"],
       "isAvailable": true
     },
     {
@@ -8981,9 +7943,7 @@
       "cupPrice": "$0.53 / 100g",
       "unit": "each",
       "packageSize": "475g",
-      "barcode": [
-        "9326666010223"
-      ],
+      "barcode": ["9326666010223"],
       "isAvailable": true
     },
     {
@@ -8998,9 +7958,7 @@
       "cupPrice": "$0.56 / 100g",
       "unit": "each",
       "packageSize": "450g",
-      "barcode": [
-        "9326666010278"
-      ],
+      "barcode": ["9326666010278"],
       "isAvailable": true
     },
     {
@@ -9015,9 +7973,7 @@
       "cupPrice": "$0.56 / 100g",
       "unit": "each",
       "packageSize": "450g",
-      "barcode": [
-        "9326666010261"
-      ],
+      "barcode": ["9326666010261"],
       "isAvailable": true
     },
     {
@@ -9032,9 +7988,7 @@
       "cupPrice": "$0.74 / 100g",
       "unit": "each",
       "packageSize": "8 pack",
-      "barcode": [
-        "9326666010308"
-      ],
+      "barcode": ["9326666010308"],
       "isAvailable": true
     },
     {
@@ -9049,9 +8003,7 @@
       "cupPrice": "$0.74 / 100g",
       "unit": "each",
       "packageSize": "8 pack",
-      "barcode": [
-        "9326666010322"
-      ],
+      "barcode": ["9326666010322"],
       "isAvailable": true
     },
     {
@@ -9066,9 +8018,7 @@
       "cupPrice": "$0.74 / 100g",
       "unit": "each",
       "packageSize": "8 pack",
-      "barcode": [
-        "9326666010315"
-      ],
+      "barcode": ["9326666010315"],
       "isAvailable": true
     },
     {
@@ -9083,9 +8033,7 @@
       "cupPrice": "$0.25 / 100g",
       "unit": "each",
       "packageSize": "1kg",
-      "barcode": [
-        "9326666010360"
-      ],
+      "barcode": ["9326666010360"],
       "isAvailable": true
     },
     {
@@ -9100,9 +8048,7 @@
       "cupPrice": "$0.25 / 100g",
       "unit": "each",
       "packageSize": "1kg",
-      "barcode": [
-        "9326666010377"
-      ],
+      "barcode": ["9326666010377"],
       "isAvailable": true
     },
     {
@@ -9117,9 +8063,7 @@
       "cupPrice": "$0.74 / 100g",
       "unit": "each",
       "packageSize": "8 pack",
-      "barcode": [
-        "9326666010339"
-      ],
+      "barcode": ["9326666010339"],
       "isAvailable": true
     },
     {
@@ -9134,9 +8078,7 @@
       "cupPrice": "$0.50 / 100g",
       "unit": "each",
       "packageSize": "500g",
-      "barcode": [
-        "9326666010216"
-      ],
+      "barcode": ["9326666010216"],
       "isAvailable": true
     },
     {
@@ -9151,9 +8093,7 @@
       "cupPrice": "$1.06 / 100g",
       "unit": "each",
       "packageSize": "200g",
-      "barcode": [
-        "9300613105460"
-      ],
+      "barcode": ["9300613105460"],
       "isAvailable": true
     },
     {
@@ -9168,9 +8108,7 @@
       "cupPrice": "$1.12 / 100g",
       "unit": "each",
       "packageSize": "190g",
-      "barcode": [
-        "9300613105446"
-      ],
+      "barcode": ["9300613105446"],
       "isAvailable": true
     },
     {
@@ -9185,9 +8123,7 @@
       "cupPrice": "$1.75 / 100g",
       "unit": "each",
       "packageSize": "60g",
-      "barcode": [
-        "9310015243677"
-      ],
+      "barcode": ["9310015243677"],
       "isAvailable": true
     },
     {
@@ -9202,9 +8138,7 @@
       "cupPrice": "$1.75 / 100g",
       "unit": "each",
       "packageSize": "60g",
-      "barcode": [
-        "9310015243691"
-      ],
+      "barcode": ["9310015243691"],
       "isAvailable": true
     },
     {
@@ -9219,9 +8153,7 @@
       "cupPrice": "$1.75 / 100g",
       "unit": "each",
       "packageSize": "60g",
-      "barcode": [
-        "9310015243684"
-      ],
+      "barcode": ["9310015243684"],
       "isAvailable": true
     },
     {
@@ -9236,9 +8168,7 @@
       "cupPrice": "$1.75 / 100g",
       "unit": "each",
       "packageSize": "60g",
-      "barcode": [
-        "9310015243707"
-      ],
+      "barcode": ["9310015243707"],
       "isAvailable": true
     },
     {
@@ -9253,9 +8183,7 @@
       "cupPrice": "$1.78 / 100g",
       "unit": "each",
       "packageSize": "50g",
-      "barcode": [
-        "9300682052825"
-      ],
+      "barcode": ["9300682052825"],
       "isAvailable": true
     },
     {
@@ -9270,9 +8198,7 @@
       "cupPrice": "$2.23 / 100g",
       "unit": "each",
       "packageSize": "40g",
-      "barcode": [
-        "4607065738624"
-      ],
+      "barcode": ["4607065738624"],
       "isAvailable": true
     },
     {
@@ -9287,9 +8213,7 @@
       "cupPrice": "$2.07 / 100g",
       "unit": "each",
       "packageSize": "145g",
-      "barcode": [
-        "9334279006069"
-      ],
+      "barcode": ["9334279006069"],
       "isAvailable": true
     },
     {
@@ -9304,9 +8228,7 @@
       "cupPrice": "$1.00 / 100g",
       "unit": "each",
       "packageSize": "175g",
-      "barcode": [
-        "9310988009461"
-      ],
+      "barcode": ["9310988009461"],
       "isAvailable": true
     },
     {
@@ -9321,9 +8243,7 @@
       "cupPrice": "$1.00 / 100g",
       "unit": "each",
       "packageSize": "175g",
-      "barcode": [
-        "9310988009478"
-      ],
+      "barcode": ["9310988009478"],
       "isAvailable": true
     },
     {
@@ -9338,9 +8258,7 @@
       "cupPrice": "$1.00 / 100g",
       "unit": "each",
       "packageSize": "175g",
-      "barcode": [
-        "9310988009287"
-      ],
+      "barcode": ["9310988009287"],
       "isAvailable": true
     },
     {
@@ -9355,9 +8273,7 @@
       "cupPrice": "$1.00 / 100g",
       "unit": "each",
       "packageSize": "175g",
-      "barcode": [
-        "9310988009294"
-      ],
+      "barcode": ["9310988009294"],
       "isAvailable": true
     },
     {
@@ -9372,9 +8288,7 @@
       "cupPrice": "$1.00 / 100g",
       "unit": "each",
       "packageSize": "175g",
-      "barcode": [
-        "9310988009270"
-      ],
+      "barcode": ["9310988009270"],
       "isAvailable": true
     },
     {
@@ -9389,9 +8303,7 @@
       "cupPrice": "$1.00 / 100g",
       "unit": "each",
       "packageSize": "175g",
-      "barcode": [
-        "9310988017664"
-      ],
+      "barcode": ["9310988017664"],
       "isAvailable": true
     },
     {
@@ -9406,9 +8318,7 @@
       "cupPrice": "$2.00 / 100g",
       "unit": "each",
       "packageSize": "50g",
-      "barcode": [
-        "76145513"
-      ],
+      "barcode": ["76145513"],
       "isAvailable": true
     },
     {
@@ -9423,9 +8333,7 @@
       "cupPrice": "$1.11 / 100g",
       "unit": "each",
       "packageSize": "90g",
-      "barcode": [
-        "9310015248788"
-      ],
+      "barcode": ["9310015248788"],
       "isAvailable": true
     },
     {
@@ -9440,9 +8348,7 @@
       "cupPrice": "$1.11 / 100g",
       "unit": "each",
       "packageSize": "90g",
-      "barcode": [
-        "9310015248771"
-      ],
+      "barcode": ["9310015248771"],
       "isAvailable": true
     },
     {
@@ -9457,9 +8363,7 @@
       "cupPrice": "$1.78 / 100g",
       "unit": "each",
       "packageSize": "50g",
-      "barcode": [
-        "9300682051385"
-      ],
+      "barcode": ["9300682051385"],
       "isAvailable": true
     },
     {
@@ -9474,9 +8378,7 @@
       "cupPrice": "$1.36 / 100g",
       "unit": "each",
       "packageSize": "165g bag",
-      "barcode": [
-        "9350515001018"
-      ],
+      "barcode": ["9350515001018"],
       "isAvailable": true
     },
     {
@@ -9491,9 +8393,7 @@
       "cupPrice": "$1.36 / 100g",
       "unit": "each",
       "packageSize": "165g bag",
-      "barcode": [
-        "9350515001001"
-      ],
+      "barcode": ["9350515001001"],
       "isAvailable": true
     },
     {
@@ -9508,9 +8408,7 @@
       "cupPrice": "$3.08 / 100g",
       "unit": "each",
       "packageSize": "65g",
-      "barcode": [
-        "9350007005043"
-      ],
+      "barcode": ["9350007005043"],
       "isAvailable": true
     },
     {
@@ -9525,9 +8423,7 @@
       "cupPrice": "$3.08 / 100g",
       "unit": "each",
       "packageSize": "65g",
-      "barcode": [
-        "9350007005029"
-      ],
+      "barcode": ["9350007005029"],
       "isAvailable": true
     },
     {
@@ -9542,9 +8438,7 @@
       "cupPrice": "$3.13 / 100g",
       "unit": "each",
       "packageSize": "80g",
-      "barcode": [
-        "9350007006026"
-      ],
+      "barcode": ["9350007006026"],
       "isAvailable": true
     },
     {
@@ -9559,9 +8453,7 @@
       "cupPrice": "$3.13 / 100g",
       "unit": "each",
       "packageSize": "80g",
-      "barcode": [
-        "9350007006019"
-      ],
+      "barcode": ["9350007006019"],
       "isAvailable": true
     },
     {
@@ -9576,9 +8468,7 @@
       "cupPrice": "$3.08 / 100g",
       "unit": "each",
       "packageSize": "65g",
-      "barcode": [
-        "9350007005036"
-      ],
+      "barcode": ["9350007005036"],
       "isAvailable": true
     },
     {
@@ -9593,9 +8483,7 @@
       "cupPrice": "$3.13 / 100g",
       "unit": "each",
       "packageSize": "80g",
-      "barcode": [
-        "9350007005067"
-      ],
+      "barcode": ["9350007005067"],
       "isAvailable": true
     },
     {
@@ -9610,9 +8498,7 @@
       "cupPrice": "$3.13 / 100g",
       "unit": "each",
       "packageSize": "80g",
-      "barcode": [
-        "9350007005081"
-      ],
+      "barcode": ["9350007005081"],
       "isAvailable": true
     },
     {
@@ -9627,9 +8513,7 @@
       "cupPrice": "$2.86 / 100g",
       "unit": "each",
       "packageSize": "70g",
-      "barcode": [
-        "9350007005050"
-      ],
+      "barcode": ["9350007005050"],
       "isAvailable": true
     },
     {
@@ -9644,9 +8528,7 @@
       "cupPrice": "$2.22 / 100g",
       "unit": "each",
       "packageSize": "45g bar",
-      "barcode": [
-        "94314243"
-      ],
+      "barcode": ["94314243"],
       "isAvailable": true
     },
     {
@@ -9661,9 +8543,7 @@
       "cupPrice": "$2.00 / 100g",
       "unit": "each",
       "packageSize": "50g bar",
-      "barcode": [
-        "94314205"
-      ],
+      "barcode": ["94314205"],
       "isAvailable": true
     },
     {
@@ -9678,9 +8558,7 @@
       "cupPrice": "$2.00 / 100g",
       "unit": "each",
       "packageSize": "50g bar",
-      "barcode": [
-        "94314212"
-      ],
+      "barcode": ["94314212"],
       "isAvailable": true
     },
     {
@@ -9695,9 +8573,7 @@
       "cupPrice": "$2.25 / 100ea",
       "unit": "each",
       "packageSize": "100 pack",
-      "barcode": [
-        "7640110709122"
-      ],
+      "barcode": ["7640110709122"],
       "isAvailable": true
     },
     {
@@ -9712,9 +8588,7 @@
       "cupPrice": "$0.21 / 100ml",
       "unit": "each",
       "packageSize": "2l tub",
-      "barcode": [
-        "9310161001480"
-      ],
+      "barcode": ["9310161001480"],
       "isAvailable": true
     },
     {
@@ -9729,9 +8603,7 @@
       "cupPrice": "$0.21 / 100ml",
       "unit": "each",
       "packageSize": "2l tub",
-      "barcode": [
-        "9310161005488"
-      ],
+      "barcode": ["9310161005488"],
       "isAvailable": true
     },
     {
@@ -9746,9 +8618,7 @@
       "cupPrice": "$0.21 / 100ml",
       "unit": "each",
       "packageSize": "2l tub",
-      "barcode": [
-        "9310161001497"
-      ],
+      "barcode": ["9310161001497"],
       "isAvailable": true
     },
     {
@@ -9763,9 +8633,7 @@
       "cupPrice": "$0.71 / 100ml",
       "unit": "each",
       "packageSize": "4 pack",
-      "barcode": [
-        "9310161015203"
-      ],
+      "barcode": ["9310161015203"],
       "isAvailable": true
     },
     {
@@ -9780,9 +8648,7 @@
       "cupPrice": "$0.21 / 100ml",
       "unit": "each",
       "packageSize": "2l tub",
-      "barcode": [
-        "9310161001343"
-      ],
+      "barcode": ["9310161001343"],
       "isAvailable": true
     },
     {
@@ -9797,9 +8663,7 @@
       "cupPrice": "$0.21 / 100ml",
       "unit": "each",
       "packageSize": "2l",
-      "barcode": [
-        "9310161012110"
-      ],
+      "barcode": ["9310161012110"],
       "isAvailable": true
     },
     {
@@ -9814,9 +8678,7 @@
       "cupPrice": "$1.18 / 100ml",
       "unit": "each",
       "packageSize": "4 pack",
-      "barcode": [
-        "9347043001955"
-      ],
+      "barcode": ["9347043001955"],
       "isAvailable": true
     },
     {
@@ -9831,9 +8693,7 @@
       "cupPrice": "$1.42 / 100ml",
       "unit": "each",
       "packageSize": "4 pack",
-      "barcode": [
-        "9347043001740"
-      ],
+      "barcode": ["9347043001740"],
       "isAvailable": true
     },
     {
@@ -9848,9 +8708,7 @@
       "cupPrice": "$1.06 / 100ml",
       "unit": "each",
       "packageSize": "470ml",
-      "barcode": [
-        "9347042002793"
-      ],
+      "barcode": ["9347042002793"],
       "isAvailable": true
     },
     {
@@ -9865,9 +8723,7 @@
       "cupPrice": "$0.76 / 100g",
       "unit": "each",
       "packageSize": "660g",
-      "barcode": [
-        "9310076666361"
-      ],
+      "barcode": ["9310076666361"],
       "isAvailable": true
     },
     {
@@ -9882,9 +8738,7 @@
       "cupPrice": "$1.00 / 100g",
       "unit": "each",
       "packageSize": "750g",
-      "barcode": [
-        "9336529005990"
-      ],
+      "barcode": ["9336529005990"],
       "isAvailable": true
     },
     {
@@ -9899,9 +8753,7 @@
       "cupPrice": "$1.00 / 100g",
       "unit": "each",
       "packageSize": "750g",
-      "barcode": [
-        "9336529006003"
-      ],
+      "barcode": ["9336529006003"],
       "isAvailable": true
     },
     {
@@ -9916,9 +8768,7 @@
       "cupPrice": "$1.00 / 100g",
       "unit": "each",
       "packageSize": "750g",
-      "barcode": [
-        "9336529005983"
-      ],
+      "barcode": ["9336529005983"],
       "isAvailable": true
     },
     {
@@ -9933,9 +8783,7 @@
       "cupPrice": "$3.33 / 100g",
       "unit": "each",
       "packageSize": "120g",
-      "barcode": [
-        "9311008461016"
-      ],
+      "barcode": ["9311008461016"],
       "isAvailable": true
     },
     {
@@ -9950,9 +8798,7 @@
       "cupPrice": "$0.51 / 100g",
       "unit": "each",
       "packageSize": "640g",
-      "barcode": [
-        "9310375000026"
-      ],
+      "barcode": ["9310375000026"],
       "isAvailable": true
     },
     {
@@ -9967,9 +8813,7 @@
       "cupPrice": "$8.75 / 1kg",
       "unit": "each",
       "packageSize": "200g",
-      "barcode": [
-        "9310174172245"
-      ],
+      "barcode": ["9310174172245"],
       "isAvailable": true
     },
     {
@@ -9984,9 +8828,7 @@
       "cupPrice": "$8.75 / 1kg",
       "unit": "each",
       "packageSize": "200g",
-      "barcode": [
-        "9310174172252"
-      ],
+      "barcode": ["9310174172252"],
       "isAvailable": true
     },
     {
@@ -10001,9 +8843,7 @@
       "cupPrice": "$7.61 / 1kg",
       "unit": "each",
       "packageSize": "230g",
-      "barcode": [
-        "9310174172276"
-      ],
+      "barcode": ["9310174172276"],
       "isAvailable": true
     },
     {
@@ -10018,9 +8858,7 @@
       "cupPrice": "$4.44 / 1kg",
       "unit": "each",
       "packageSize": "450g",
-      "barcode": [
-        "9339687034307"
-      ],
+      "barcode": ["9339687034307"],
       "isAvailable": true
     },
     {
@@ -10035,9 +8873,7 @@
       "cupPrice": "$1.25 / 1l",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "41570080856"
-      ],
+      "barcode": ["41570080856"],
       "isAvailable": true
     },
     {
@@ -10052,9 +8888,7 @@
       "cupPrice": "$1.32 / 1l",
       "unit": "each",
       "packageSize": "1.25l",
-      "barcode": [
-        "9300675072403"
-      ],
+      "barcode": ["9300675072403"],
       "isAvailable": true
     },
     {
@@ -10069,9 +8903,7 @@
       "cupPrice": "$1.32 / 1l",
       "unit": "each",
       "packageSize": "1.25l",
-      "barcode": [
-        "9300675072502"
-      ],
+      "barcode": ["9300675072502"],
       "isAvailable": true
     },
     {
@@ -10086,9 +8918,7 @@
       "cupPrice": "$0.32 / 1ea",
       "unit": "each",
       "packageSize": "10 pack",
-      "barcode": [
-        "5011546451466"
-      ],
+      "barcode": ["5011546451466"],
       "isAvailable": true
     },
     {
@@ -10103,9 +8933,7 @@
       "cupPrice": "$1.85 / 100g",
       "unit": "each",
       "packageSize": "10 pack",
-      "barcode": [
-        "8801055061815"
-      ],
+      "barcode": ["8801055061815"],
       "isAvailable": true
     },
     {
@@ -10120,9 +8948,7 @@
       "cupPrice": "$1.75 / 100g",
       "unit": "each",
       "packageSize": "10 pack",
-      "barcode": [
-        "8801055061846"
-      ],
+      "barcode": ["8801055061846"],
       "isAvailable": true
     },
     {
@@ -10137,9 +8963,7 @@
       "cupPrice": "$1.70 / 100g",
       "unit": "each",
       "packageSize": "10 pack",
-      "barcode": [
-        "8801055061808"
-      ],
+      "barcode": ["8801055061808"],
       "isAvailable": true
     },
     {
@@ -10154,9 +8978,7 @@
       "cupPrice": "$1.75 / 100g",
       "unit": "each",
       "packageSize": "10 pack",
-      "barcode": [
-        "8801055062799"
-      ],
+      "barcode": ["8801055062799"],
       "isAvailable": true
     },
     {
@@ -10171,9 +8993,7 @@
       "cupPrice": "$2.39 / 100g",
       "unit": "each",
       "packageSize": "10 pack",
-      "barcode": [
-        "8801055062287"
-      ],
+      "barcode": ["8801055062287"],
       "isAvailable": true
     },
     {
@@ -10188,9 +9008,7 @@
       "cupPrice": "$0.32 / 1ea",
       "unit": "each",
       "packageSize": "10 pack",
-      "barcode": [
-        "9300605126411"
-      ],
+      "barcode": ["9300605126411"],
       "isAvailable": true
     },
     {
@@ -10205,9 +9023,7 @@
       "cupPrice": "$0.39 / 1ea",
       "unit": "each",
       "packageSize": "8 pack",
-      "barcode": [
-        "9300605127395"
-      ],
+      "barcode": ["9300605127395"],
       "isAvailable": true
     },
     {
@@ -10222,9 +9038,7 @@
       "cupPrice": "$0.39 / 1ea",
       "unit": "each",
       "packageSize": "8 pack",
-      "barcode": [
-        "9300605127388"
-      ],
+      "barcode": ["9300605127388"],
       "isAvailable": true
     },
     {
@@ -10239,9 +9053,7 @@
       "cupPrice": "$0.39 / 1ea",
       "unit": "each",
       "packageSize": "8 pack",
-      "barcode": [
-        "9300605127104"
-      ],
+      "barcode": ["9300605127104"],
       "isAvailable": true
     },
     {
@@ -10256,9 +9068,7 @@
       "cupPrice": "$0.32 / 1ea",
       "unit": "each",
       "packageSize": "10 pack",
-      "barcode": [
-        "9300605126466"
-      ],
+      "barcode": ["9300605126466"],
       "isAvailable": true
     },
     {
@@ -10273,9 +9083,7 @@
       "cupPrice": "$2.50 / 1l",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "9369999603052"
-      ],
+      "barcode": ["9369999603052"],
       "isAvailable": true
     },
     {
@@ -10290,9 +9098,7 @@
       "cupPrice": "$2.81 / 100g",
       "unit": "each",
       "packageSize": "80g",
-      "barcode": [
-        "9337824002721"
-      ],
+      "barcode": ["9337824002721"],
       "isAvailable": true
     },
     {
@@ -10307,9 +9113,7 @@
       "cupPrice": "$2.81 / 100g",
       "unit": "each",
       "packageSize": "80g",
-      "barcode": [
-        "9337824002738"
-      ],
+      "barcode": ["9337824002738"],
       "isAvailable": true
     },
     {
@@ -10324,9 +9128,7 @@
       "cupPrice": "$1.00 / 1ea",
       "unit": "each",
       "packageSize": "3 pack",
-      "barcode": [
-        "9339687093595"
-      ],
+      "barcode": ["9339687093595"],
       "isAvailable": true
     },
     {
@@ -10341,9 +9143,7 @@
       "cupPrice": "$1.00 / 1ea",
       "unit": "each",
       "packageSize": "3 pack",
-      "barcode": [
-        "9339687093601"
-      ],
+      "barcode": ["9339687093601"],
       "isAvailable": true
     },
     {
@@ -10358,9 +9158,7 @@
       "cupPrice": "$1.75 / 1ea",
       "unit": "each",
       "packageSize": "2 pack",
-      "barcode": [
-        "9339687093571"
-      ],
+      "barcode": ["9339687093571"],
       "isAvailable": true
     },
     {
@@ -10375,9 +9173,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "5 pack",
-      "barcode": [
-        "9337303011725"
-      ],
+      "barcode": ["9337303011725"],
       "isAvailable": true
     },
     {
@@ -10392,9 +9188,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "6 pack",
-      "barcode": [
-        "9337303014085"
-      ],
+      "barcode": ["9337303014085"],
       "isAvailable": true
     },
     {
@@ -10409,9 +9203,7 @@
       "cupPrice": "$2.50 / 1ea",
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "8714789183800"
-      ],
+      "barcode": ["8714789183800"],
       "isAvailable": true
     },
     {
@@ -10426,9 +9218,7 @@
       "cupPrice": "$2.50 / 1ea",
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "8714789183824"
-      ],
+      "barcode": ["8714789183824"],
       "isAvailable": true
     },
     {
@@ -10443,9 +9233,7 @@
       "cupPrice": "$25.00 / 1ea",
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "8718951242180"
-      ],
+      "barcode": ["8718951242180"],
       "isAvailable": true
     },
     {
@@ -10460,9 +9248,7 @@
       "cupPrice": "$35.00 / 1ea",
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "8850006933268"
-      ],
+      "barcode": ["8850006933268"],
       "isAvailable": true
     },
     {
@@ -10477,9 +9263,7 @@
       "cupPrice": "$1.54 / 100ml",
       "unit": "each",
       "packageSize": "390ml",
-      "barcode": [
-        "3600542221061"
-      ],
+      "barcode": ["3600542221061"],
       "isAvailable": true
     },
     {
@@ -10494,9 +9278,7 @@
       "cupPrice": "$1.11 / 100ml",
       "unit": "each",
       "packageSize": "315ml",
-      "barcode": [
-        "8901526541263"
-      ],
+      "barcode": ["8901526541263"],
       "isAvailable": true
     },
     {
@@ -10511,9 +9293,7 @@
       "cupPrice": "$1.11 / 100ml",
       "unit": "each",
       "packageSize": "315ml",
-      "barcode": [
-        "8901526540761"
-      ],
+      "barcode": ["8901526540761"],
       "isAvailable": true
     },
     {
@@ -10528,9 +9308,7 @@
       "cupPrice": "$1.11 / 100ml",
       "unit": "each",
       "packageSize": "315ml",
-      "barcode": [
-        "8901526537068"
-      ],
+      "barcode": ["8901526537068"],
       "isAvailable": true
     },
     {
@@ -10545,9 +9323,7 @@
       "cupPrice": "$0.88 / 100ml",
       "unit": "each",
       "packageSize": "850ml",
-      "barcode": [
-        "8901526538768"
-      ],
+      "barcode": ["8901526538768"],
       "isAvailable": true
     },
     {
@@ -10562,9 +9338,7 @@
       "cupPrice": "$1.11 / 100ml",
       "unit": "each",
       "packageSize": "315ml",
-      "barcode": [
-        "8901526536764"
-      ],
+      "barcode": ["8901526536764"],
       "isAvailable": true
     },
     {
@@ -10579,9 +9353,7 @@
       "cupPrice": "$0.88 / 100ml",
       "unit": "each",
       "packageSize": "850ml",
-      "barcode": [
-        "8901526537365"
-      ],
+      "barcode": ["8901526537365"],
       "isAvailable": true
     },
     {
@@ -10596,9 +9368,7 @@
       "cupPrice": "$1.11 / 100ml",
       "unit": "each",
       "packageSize": "315ml",
-      "barcode": [
-        "8901526537112"
-      ],
+      "barcode": ["8901526537112"],
       "isAvailable": true
     },
     {
@@ -10613,9 +9383,7 @@
       "cupPrice": "$0.88 / 100ml",
       "unit": "each",
       "packageSize": "850ml",
-      "barcode": [
-        "8901526537662"
-      ],
+      "barcode": ["8901526537662"],
       "isAvailable": true
     },
     {
@@ -10630,9 +9398,7 @@
       "cupPrice": "$1.11 / 100ml",
       "unit": "each",
       "packageSize": "315ml",
-      "barcode": [
-        "8901526536818"
-      ],
+      "barcode": ["8901526536818"],
       "isAvailable": true
     },
     {
@@ -10647,9 +9413,7 @@
       "cupPrice": "$0.88 / 100ml",
       "unit": "each",
       "packageSize": "850ml",
-      "barcode": [
-        "8901526537419"
-      ],
+      "barcode": ["8901526537419"],
       "isAvailable": true
     },
     {
@@ -10664,9 +9428,7 @@
       "cupPrice": "$1.11 / 100ml",
       "unit": "each",
       "packageSize": "315ml",
-      "barcode": [
-        "8901526537167"
-      ],
+      "barcode": ["8901526537167"],
       "isAvailable": true
     },
     {
@@ -10681,9 +9443,7 @@
       "cupPrice": "$0.88 / 100ml",
       "unit": "each",
       "packageSize": "850ml",
-      "barcode": [
-        "8901526537716"
-      ],
+      "barcode": ["8901526537716"],
       "isAvailable": true
     },
     {
@@ -10698,9 +9458,7 @@
       "cupPrice": "$1.11 / 100ml",
       "unit": "each",
       "packageSize": "315ml",
-      "barcode": [
-        "8901526536863"
-      ],
+      "barcode": ["8901526536863"],
       "isAvailable": true
     },
     {
@@ -10715,9 +9473,7 @@
       "cupPrice": "$0.88 / 100ml",
       "unit": "each",
       "packageSize": "850ml",
-      "barcode": [
-        "8901526537464"
-      ],
+      "barcode": ["8901526537464"],
       "isAvailable": true
     },
     {
@@ -10732,9 +9488,7 @@
       "cupPrice": "$1.11 / 100ml",
       "unit": "each",
       "packageSize": "315ml",
-      "barcode": [
-        "8901526537266"
-      ],
+      "barcode": ["8901526537266"],
       "isAvailable": true
     },
     {
@@ -10749,9 +9503,7 @@
       "cupPrice": "$0.88 / 100ml",
       "unit": "each",
       "packageSize": "850ml",
-      "barcode": [
-        "8901526538812"
-      ],
+      "barcode": ["8901526538812"],
       "isAvailable": true
     },
     {
@@ -10766,9 +9518,7 @@
       "cupPrice": "$1.11 / 100ml",
       "unit": "each",
       "packageSize": "315ml",
-      "barcode": [
-        "8901526536962"
-      ],
+      "barcode": ["8901526536962"],
       "isAvailable": true
     },
     {
@@ -10783,9 +9533,7 @@
       "cupPrice": "$0.88 / 100ml",
       "unit": "each",
       "packageSize": "850ml",
-      "barcode": [
-        "8901526537563"
-      ],
+      "barcode": ["8901526537563"],
       "isAvailable": true
     },
     {
@@ -10800,9 +9548,7 @@
       "cupPrice": "$1.54 / 100ml",
       "unit": "each",
       "packageSize": "390ml",
-      "barcode": [
-        "3600542143585"
-      ],
+      "barcode": ["3600542143585"],
       "isAvailable": true
     },
     {
@@ -10817,9 +9563,7 @@
       "cupPrice": "$1.11 / 100ml",
       "unit": "each",
       "packageSize": "315ml",
-      "barcode": [
-        "8901526537310"
-      ],
+      "barcode": ["8901526537310"],
       "isAvailable": true
     },
     {
@@ -10834,9 +9578,7 @@
       "cupPrice": "$0.88 / 100ml",
       "unit": "each",
       "packageSize": "850ml",
-      "barcode": [
-        "8901526537815"
-      ],
+      "barcode": ["8901526537815"],
       "isAvailable": true
     },
     {
@@ -10851,9 +9593,7 @@
       "cupPrice": "$1.11 / 100ml",
       "unit": "each",
       "packageSize": "315ml",
-      "barcode": [
-        "8901526537013"
-      ],
+      "barcode": ["8901526537013"],
       "isAvailable": true
     },
     {
@@ -10868,9 +9608,7 @@
       "cupPrice": "$0.88 / 100ml",
       "unit": "each",
       "packageSize": "850ml",
-      "barcode": [
-        "8901526537617"
-      ],
+      "barcode": ["8901526537617"],
       "isAvailable": true
     },
     {
@@ -10885,9 +9623,7 @@
       "cupPrice": "$3.97 / 100ml",
       "unit": "each",
       "packageSize": "150ml",
-      "barcode": [
-        "3600541214804"
-      ],
+      "barcode": ["3600541214804"],
       "isAvailable": true
     },
     {
@@ -10902,9 +9638,7 @@
       "cupPrice": "$1.54 / 100ml",
       "unit": "each",
       "packageSize": "390ml",
-      "barcode": [
-        "3600542143592"
-      ],
+      "barcode": ["3600542143592"],
       "isAvailable": true
     },
     {
@@ -10919,9 +9653,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "1pk",
-      "barcode": [
-        "3600541248120"
-      ],
+      "barcode": ["3600541248120"],
       "isAvailable": true
     },
     {
@@ -10936,9 +9668,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "1pk",
-      "barcode": [
-        "3600541248779"
-      ],
+      "barcode": ["3600541248779"],
       "isAvailable": true
     },
     {
@@ -10953,9 +9683,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "3600541248175"
-      ],
+      "barcode": ["3600541248175"],
       "isAvailable": true
     },
     {
@@ -10970,9 +9698,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "3600541248328"
-      ],
+      "barcode": ["3600541248328"],
       "isAvailable": true
     },
     {
@@ -10987,9 +9713,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "3600541248427"
-      ],
+      "barcode": ["3600541248427"],
       "isAvailable": true
     },
     {
@@ -11004,9 +9728,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "3600541248526"
-      ],
+      "barcode": ["3600541248526"],
       "isAvailable": true
     },
     {
@@ -11021,9 +9743,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "3600541248670"
-      ],
+      "barcode": ["3600541248670"],
       "isAvailable": true
     },
     {
@@ -11038,9 +9758,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "3600542122863"
-      ],
+      "barcode": ["3600542122863"],
       "isAvailable": true
     },
     {
@@ -11055,9 +9773,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "3600542123211"
-      ],
+      "barcode": ["3600542123211"],
       "isAvailable": true
     },
     {
@@ -11072,9 +9788,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "3600542123600"
-      ],
+      "barcode": ["3600542123600"],
       "isAvailable": true
     },
     {
@@ -11089,9 +9803,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "1pk",
-      "barcode": [
-        "3600541247970"
-      ],
+      "barcode": ["3600541247970"],
       "isAvailable": true
     },
     {
@@ -11106,9 +9818,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "3600541524323"
-      ],
+      "barcode": ["3600541524323"],
       "isAvailable": true
     },
     {
@@ -11123,9 +9833,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "3600541248229"
-      ],
+      "barcode": ["3600541248229"],
       "isAvailable": true
     },
     {
@@ -11140,9 +9848,7 @@
       "cupPrice": "$1.54 / 100ml",
       "unit": "each",
       "packageSize": "390ml",
-      "barcode": [
-        "3600542143608"
-      ],
+      "barcode": ["3600542143608"],
       "isAvailable": true
     },
     {
@@ -11157,9 +9863,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "2 pack",
-      "barcode": [
-        "9337303103116"
-      ],
+      "barcode": ["9337303103116"],
       "isAvailable": true
     },
     {
@@ -11174,9 +9878,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9337303103024"
-      ],
+      "barcode": ["9337303103024"],
       "isAvailable": true
     },
     {
@@ -11191,9 +9893,7 @@
       "cupPrice": "$8.00 / 100ml",
       "unit": "each",
       "packageSize": "100ml",
-      "barcode": [
-        "9421027311961"
-      ],
+      "barcode": ["9421027311961"],
       "isAvailable": true
     },
     {
@@ -11208,9 +9908,7 @@
       "cupPrice": "$10.67 / 100ml",
       "unit": "each",
       "packageSize": "75ml",
-      "barcode": [
-        "9421027312692"
-      ],
+      "barcode": ["9421027312692"],
       "isAvailable": true
     },
     {
@@ -11225,9 +9923,7 @@
       "cupPrice": "$50.00 / 100ml",
       "unit": "each",
       "packageSize": "30ml",
-      "barcode": [
-        "9421027311879"
-      ],
+      "barcode": ["9421027311879"],
       "isAvailable": true
     },
     {
@@ -11242,9 +9938,7 @@
       "cupPrice": "$5.71 / 100ml",
       "unit": "each",
       "packageSize": "140ml",
-      "barcode": [
-        "9421027311930"
-      ],
+      "barcode": ["9421027311930"],
       "isAvailable": true
     },
     {
@@ -11259,9 +9953,7 @@
       "cupPrice": "$12.50 / 1ea",
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9421027311978"
-      ],
+      "barcode": ["9421027311978"],
       "isAvailable": true
     },
     {
@@ -11276,9 +9968,7 @@
       "cupPrice": "$8.00 / 100ml",
       "unit": "each",
       "packageSize": "100ml",
-      "barcode": [
-        "9421027311909"
-      ],
+      "barcode": ["9421027311909"],
       "isAvailable": true
     },
     {
@@ -11293,9 +9983,7 @@
       "cupPrice": "$20.00 / 100g",
       "unit": "each",
       "packageSize": "50g",
-      "barcode": [
-        "9421027311916"
-      ],
+      "barcode": ["9421027311916"],
       "isAvailable": true
     },
     {
@@ -11310,9 +9998,7 @@
       "cupPrice": "$4.86 / 100ml",
       "unit": "each",
       "packageSize": "180ml",
-      "barcode": [
-        "9330344009911"
-      ],
+      "barcode": ["9330344009911"],
       "isAvailable": true
     },
     {
@@ -11327,9 +10013,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "8001090222992"
-      ],
+      "barcode": ["8001090222992"],
       "isAvailable": true
     },
     {
@@ -11344,9 +10028,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "8001090222961"
-      ],
+      "barcode": ["8001090222961"],
       "isAvailable": true
     },
     {
@@ -11361,9 +10043,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "8001090645517"
-      ],
+      "barcode": ["8001090645517"],
       "isAvailable": true
     },
     {
@@ -11378,9 +10058,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "4902430881852"
-      ],
+      "barcode": ["4902430881852"],
       "isAvailable": true
     },
     {
@@ -11395,9 +10073,7 @@
       "cupPrice": "$1.42 / 100ml",
       "unit": "each",
       "packageSize": "600ml",
-      "barcode": [
-        "190679000897"
-      ],
+      "barcode": ["190679000897"],
       "isAvailable": true
     },
     {
@@ -11412,9 +10088,7 @@
       "cupPrice": "$1.42 / 100ml",
       "unit": "each",
       "packageSize": "600ml",
-      "barcode": [
-        "190679000972"
-      ],
+      "barcode": ["190679000972"],
       "isAvailable": true
     },
     {
@@ -11429,9 +10103,7 @@
       "cupPrice": "$1.42 / 100ml",
       "unit": "each",
       "packageSize": "600ml",
-      "barcode": [
-        "4902430902199"
-      ],
+      "barcode": ["4902430902199"],
       "isAvailable": true
     },
     {
@@ -11446,9 +10118,7 @@
       "cupPrice": "$1.42 / 100ml",
       "unit": "each",
       "packageSize": "600ml",
-      "barcode": [
-        "4902430902175"
-      ],
+      "barcode": ["4902430902175"],
       "isAvailable": true
     },
     {
@@ -11463,9 +10133,7 @@
       "cupPrice": "$1.42 / 100ml",
       "unit": "each",
       "packageSize": "600ml",
-      "barcode": [
-        "190679000903"
-      ],
+      "barcode": ["190679000903"],
       "isAvailable": true
     },
     {
@@ -11480,9 +10148,7 @@
       "cupPrice": "$1.42 / 100ml",
       "unit": "each",
       "packageSize": "600ml",
-      "barcode": [
-        "190679000989"
-      ],
+      "barcode": ["190679000989"],
       "isAvailable": true
     },
     {
@@ -11497,9 +10163,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "8001090645487"
-      ],
+      "barcode": ["8001090645487"],
       "isAvailable": true
     },
     {
@@ -11514,9 +10178,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "4902430881845"
-      ],
+      "barcode": ["4902430881845"],
       "isAvailable": true
     },
     {
@@ -11531,9 +10193,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "8001090222459"
-      ],
+      "barcode": ["8001090222459"],
       "isAvailable": true
     },
     {
@@ -11548,9 +10208,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "8001090222428"
-      ],
+      "barcode": ["8001090222428"],
       "isAvailable": true
     },
     {
@@ -11565,9 +10223,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "190679003942"
-      ],
+      "barcode": ["190679003942"],
       "isAvailable": true
     },
     {
@@ -11582,9 +10238,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "190679003928"
-      ],
+      "barcode": ["190679003928"],
       "isAvailable": true
     },
     {
@@ -11599,9 +10253,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "8001090222510"
-      ],
+      "barcode": ["8001090222510"],
       "isAvailable": true
     },
     {
@@ -11616,9 +10268,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "8001090222480"
-      ],
+      "barcode": ["8001090222480"],
       "isAvailable": true
     },
     {
@@ -11633,9 +10283,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "8001090222879"
-      ],
+      "barcode": ["8001090222879"],
       "isAvailable": true
     },
     {
@@ -11650,9 +10298,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "8001090222848"
-      ],
+      "barcode": ["8001090222848"],
       "isAvailable": true
     },
     {
@@ -11667,9 +10313,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "190679003911"
-      ],
+      "barcode": ["190679003911"],
       "isAvailable": true
     },
     {
@@ -11684,9 +10328,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "8001090222756"
-      ],
+      "barcode": ["8001090222756"],
       "isAvailable": true
     },
     {
@@ -11701,9 +10343,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "8001090222725"
-      ],
+      "barcode": ["8001090222725"],
       "isAvailable": true
     },
     {
@@ -11718,9 +10358,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "190679002464"
-      ],
+      "barcode": ["190679002464"],
       "isAvailable": true
     },
     {
@@ -11735,9 +10373,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "190679003935"
-      ],
+      "barcode": ["190679003935"],
       "isAvailable": true
     },
     {
@@ -11752,9 +10388,7 @@
       "cupPrice": "$1.38 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "190679002501"
-      ],
+      "barcode": ["190679002501"],
       "isAvailable": true
     },
     {
@@ -11769,9 +10403,7 @@
       "cupPrice": "$2.12 / 100ml",
       "unit": "each",
       "packageSize": "165ml",
-      "barcode": [
-        "9300830054428"
-      ],
+      "barcode": ["9300830054428"],
       "isAvailable": true
     },
     {
@@ -11786,9 +10418,7 @@
       "cupPrice": "$2.12 / 100ml",
       "unit": "each",
       "packageSize": "165ml",
-      "barcode": [
-        "9300830055425"
-      ],
+      "barcode": ["9300830055425"],
       "isAvailable": true
     },
     {
@@ -11803,9 +10433,7 @@
       "cupPrice": "$2.12 / 100ml",
       "unit": "each",
       "packageSize": "165ml",
-      "barcode": [
-        "9300830054336"
-      ],
+      "barcode": ["9300830054336"],
       "isAvailable": true
     },
     {
@@ -11820,9 +10448,7 @@
       "cupPrice": "$2.12 / 100ml",
       "unit": "each",
       "packageSize": "165ml",
-      "barcode": [
-        "9300830055463"
-      ],
+      "barcode": ["9300830055463"],
       "isAvailable": true
     },
     {
@@ -11837,9 +10463,7 @@
       "cupPrice": "$2.12 / 100ml",
       "unit": "each",
       "packageSize": "165ml",
-      "barcode": [
-        "9300830054473"
-      ],
+      "barcode": ["9300830054473"],
       "isAvailable": true
     },
     {
@@ -11854,9 +10478,7 @@
       "cupPrice": "$2.12 / 100ml",
       "unit": "each",
       "packageSize": "165ml",
-      "barcode": [
-        "9300830054404"
-      ],
+      "barcode": ["9300830054404"],
       "isAvailable": true
     },
     {
@@ -11871,9 +10493,7 @@
       "cupPrice": "$0.75 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "9300830051823"
-      ],
+      "barcode": ["9300830051823"],
       "isAvailable": true
     },
     {
@@ -11888,9 +10508,7 @@
       "cupPrice": "$2.12 / 100ml",
       "unit": "each",
       "packageSize": "165ml",
-      "barcode": [
-        "9300830056118"
-      ],
+      "barcode": ["9300830056118"],
       "isAvailable": true
     },
     {
@@ -11905,9 +10523,7 @@
       "cupPrice": "$2.12 / 100ml",
       "unit": "each",
       "packageSize": "165ml",
-      "barcode": [
-        "9300830054480"
-      ],
+      "barcode": ["9300830054480"],
       "isAvailable": true
     },
     {
@@ -11922,9 +10538,7 @@
       "cupPrice": "$4.00 / 100ml",
       "unit": "each",
       "packageSize": "50ml",
-      "barcode": [
-        "93666398"
-      ],
+      "barcode": ["93666398"],
       "isAvailable": true
     },
     {
@@ -11939,9 +10553,7 @@
       "cupPrice": "$0.75 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "9300830005970"
-      ],
+      "barcode": ["9300830005970"],
       "isAvailable": true
     },
     {
@@ -11956,9 +10568,7 @@
       "cupPrice": "$0.75 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "9300830023189"
-      ],
+      "barcode": ["9300830023189"],
       "isAvailable": true
     },
     {
@@ -11973,9 +10583,7 @@
       "cupPrice": "$6.53 / 100ml",
       "unit": "each",
       "packageSize": "75ml",
-      "barcode": [
-        "96082584"
-      ],
+      "barcode": ["96082584"],
       "isAvailable": true
     },
     {
@@ -11990,9 +10598,7 @@
       "cupPrice": "$6.53 / 100ml",
       "unit": "each",
       "packageSize": "75ml",
-      "barcode": [
-        "8712561657372"
-      ],
+      "barcode": ["8712561657372"],
       "isAvailable": true
     },
     {
@@ -12007,9 +10613,7 @@
       "cupPrice": "$6.53 / 100ml",
       "unit": "each",
       "packageSize": "75ml",
-      "barcode": [
-        "96082676"
-      ],
+      "barcode": ["96082676"],
       "isAvailable": true
     },
     {
@@ -12024,9 +10628,7 @@
       "cupPrice": "$0.75 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "9300830047642"
-      ],
+      "barcode": ["9300830047642"],
       "isAvailable": true
     },
     {
@@ -12041,9 +10643,7 @@
       "cupPrice": "$2.12 / 100ml",
       "unit": "each",
       "packageSize": "165ml",
-      "barcode": [
-        "9300830055401"
-      ],
+      "barcode": ["9300830055401"],
       "isAvailable": true
     },
     {
@@ -12058,9 +10658,7 @@
       "cupPrice": "$0.75 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "8717163088500"
-      ],
+      "barcode": ["8717163088500"],
       "isAvailable": true
     },
     {
@@ -12075,9 +10673,7 @@
       "cupPrice": "$2.12 / 100ml",
       "unit": "each",
       "packageSize": "165ml",
-      "barcode": [
-        "9300830054381"
-      ],
+      "barcode": ["9300830054381"],
       "isAvailable": true
     },
     {
@@ -12092,9 +10688,7 @@
       "cupPrice": "$7.50 / 10g",
       "unit": "each",
       "packageSize": "10g",
-      "barcode": [
-        "9331880007805"
-      ],
+      "barcode": ["9331880007805"],
       "isAvailable": true
     },
     {
@@ -12109,9 +10703,7 @@
       "cupPrice": "$7.00 / 10g",
       "unit": "each",
       "packageSize": "10g",
-      "barcode": [
-        "9331880007799"
-      ],
+      "barcode": ["9331880007799"],
       "isAvailable": true
     },
     {
@@ -12126,9 +10718,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9337303103000"
-      ],
+      "barcode": ["9337303103000"],
       "isAvailable": true
     },
     {
@@ -12143,9 +10733,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9337303102997"
-      ],
+      "barcode": ["9337303102997"],
       "isAvailable": true
     },
     {
@@ -12160,9 +10748,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9337303103017"
-      ],
+      "barcode": ["9337303103017"],
       "isAvailable": true
     },
     {
@@ -12177,9 +10763,7 @@
       "cupPrice": "$3.33 / 100g",
       "unit": "each",
       "packageSize": "5 pack",
-      "barcode": [
-        "9324401005121"
-      ],
+      "barcode": ["9324401005121"],
       "isAvailable": true
     },
     {
@@ -12194,9 +10778,7 @@
       "cupPrice": "$3.33 / 100g",
       "unit": "each",
       "packageSize": "5 pack",
-      "barcode": [
-        "9324401005114"
-      ],
+      "barcode": ["9324401005114"],
       "isAvailable": true
     },
     {
@@ -12211,9 +10793,7 @@
       "cupPrice": "$3.33 / 100g",
       "unit": "each",
       "packageSize": "5 pack",
-      "barcode": [
-        "9324401005138"
-      ],
+      "barcode": ["9324401005138"],
       "isAvailable": true
     },
     {
@@ -12228,9 +10808,7 @@
       "cupPrice": "$3.33 / 100g",
       "unit": "each",
       "packageSize": "5 pack",
-      "barcode": [
-        "9324401005145"
-      ],
+      "barcode": ["9324401005145"],
       "isAvailable": true
     },
     {
@@ -12245,9 +10823,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "2 pack",
-      "barcode": [
-        "9339687040728"
-      ],
+      "barcode": ["9339687040728"],
       "isAvailable": true
     },
     {
@@ -12262,9 +10838,7 @@
       "cupPrice": "$0.83 / 100ml",
       "unit": "each",
       "packageSize": "450ml",
-      "barcode": [
-        "8850006931202"
-      ],
+      "barcode": ["8850006931202"],
       "isAvailable": true
     },
     {
@@ -12279,9 +10853,7 @@
       "cupPrice": "$8.00 / 1ea",
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "4891228304454"
-      ],
+      "barcode": ["4891228304454"],
       "isAvailable": true
     },
     {
@@ -12296,9 +10868,7 @@
       "cupPrice": "$8.00 / 1ea",
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "4891228305291"
-      ],
+      "barcode": ["4891228305291"],
       "isAvailable": true
     },
     {
@@ -12313,9 +10883,7 @@
       "cupPrice": "$0.63 / 1ea",
       "unit": "each",
       "packageSize": "4 pack",
-      "barcode": [
-        "6937266733516"
-      ],
+      "barcode": ["6937266733516"],
       "isAvailable": true
     },
     {
@@ -12330,9 +10898,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9337303103048"
-      ],
+      "barcode": ["9337303103048"],
       "isAvailable": true
     },
     {
@@ -12347,9 +10913,7 @@
       "cupPrice": "$1.29 / 100ml",
       "unit": "each",
       "packageSize": "350ml",
-      "barcode": [
-        "9300830051069"
-      ],
+      "barcode": ["9300830051069"],
       "isAvailable": true
     },
     {
@@ -12364,9 +10928,7 @@
       "cupPrice": "$1.29 / 100ml",
       "unit": "each",
       "packageSize": "350ml",
-      "barcode": [
-        "9300830056293"
-      ],
+      "barcode": ["9300830056293"],
       "isAvailable": true
     },
     {
@@ -12381,9 +10943,7 @@
       "cupPrice": "$1.29 / 100ml",
       "unit": "each",
       "packageSize": "350ml",
-      "barcode": [
-        "9300830051137"
-      ],
+      "barcode": ["9300830051137"],
       "isAvailable": true
     },
     {
@@ -12398,9 +10958,7 @@
       "cupPrice": "$1.29 / 100ml",
       "unit": "each",
       "packageSize": "350ml",
-      "barcode": [
-        "9300830051076"
-      ],
+      "barcode": ["9300830051076"],
       "isAvailable": true
     },
     {
@@ -12415,9 +10973,7 @@
       "cupPrice": "$1.29 / 100ml",
       "unit": "each",
       "packageSize": "350ml",
-      "barcode": [
-        "9300830051021"
-      ],
+      "barcode": ["9300830051021"],
       "isAvailable": true
     },
     {
@@ -12432,9 +10988,7 @@
       "cupPrice": "$1.29 / 100ml",
       "unit": "each",
       "packageSize": "350ml",
-      "barcode": [
-        "9300830051090"
-      ],
+      "barcode": ["9300830051090"],
       "isAvailable": true
     },
     {
@@ -12449,9 +11003,7 @@
       "cupPrice": "$0.96 / 100ml",
       "unit": "each",
       "packageSize": "675ml",
-      "barcode": [
-        "9300830052424"
-      ],
+      "barcode": ["9300830052424"],
       "isAvailable": true
     },
     {
@@ -12466,9 +11018,7 @@
       "cupPrice": "$0.96 / 100ml",
       "unit": "each",
       "packageSize": "675ml",
-      "barcode": [
-        "9300830052363"
-      ],
+      "barcode": ["9300830052363"],
       "isAvailable": true
     },
     {
@@ -12483,9 +11033,7 @@
       "cupPrice": "$1.29 / 100ml",
       "unit": "each",
       "packageSize": "350ml",
-      "barcode": [
-        "9300830051144"
-      ],
+      "barcode": ["9300830051144"],
       "isAvailable": true
     },
     {
@@ -12500,9 +11048,7 @@
       "cupPrice": "$1.29 / 100ml",
       "unit": "each",
       "packageSize": "350ml",
-      "barcode": [
-        "9300830051113"
-      ],
+      "barcode": ["9300830051113"],
       "isAvailable": true
     },
     {
@@ -12517,9 +11063,7 @@
       "cupPrice": "$0.96 / 100ml",
       "unit": "each",
       "packageSize": "675ml",
-      "barcode": [
-        "9300830052370"
-      ],
+      "barcode": ["9300830052370"],
       "isAvailable": true
     },
     {
@@ -12534,9 +11078,7 @@
       "cupPrice": "$0.96 / 100ml",
       "unit": "each",
       "packageSize": "675ml",
-      "barcode": [
-        "9300830052417"
-      ],
+      "barcode": ["9300830052417"],
       "isAvailable": true
     },
     {
@@ -12551,9 +11093,7 @@
       "cupPrice": "$1.29 / 100ml",
       "unit": "each",
       "packageSize": "350ml",
-      "barcode": [
-        "9300830051083"
-      ],
+      "barcode": ["9300830051083"],
       "isAvailable": true
     },
     {
@@ -12568,9 +11108,7 @@
       "cupPrice": "$1.29 / 100ml",
       "unit": "each",
       "packageSize": "350ml",
-      "barcode": [
-        "9300830051014"
-      ],
+      "barcode": ["9300830051014"],
       "isAvailable": true
     },
     {
@@ -12585,9 +11123,7 @@
       "cupPrice": "$1.29 / 100ml",
       "unit": "each",
       "packageSize": "350ml",
-      "barcode": [
-        "9300830051106"
-      ],
+      "barcode": ["9300830051106"],
       "isAvailable": true
     },
     {
@@ -12602,9 +11138,7 @@
       "cupPrice": "$0.96 / 100ml",
       "unit": "each",
       "packageSize": "675ml",
-      "barcode": [
-        "9300830052431"
-      ],
+      "barcode": ["9300830052431"],
       "isAvailable": true
     },
     {
@@ -12619,9 +11153,7 @@
       "cupPrice": "$1.29 / 100ml",
       "unit": "each",
       "packageSize": "350ml",
-      "barcode": [
-        "9300830051045"
-      ],
+      "barcode": ["9300830051045"],
       "isAvailable": true
     },
     {
@@ -12636,9 +11168,7 @@
       "cupPrice": "$0.96 / 100ml",
       "unit": "each",
       "packageSize": "675ml",
-      "barcode": [
-        "9300830058921"
-      ],
+      "barcode": ["9300830058921"],
       "isAvailable": true
     },
     {
@@ -12653,9 +11183,7 @@
       "cupPrice": "$0.96 / 100ml",
       "unit": "each",
       "packageSize": "675ml",
-      "barcode": [
-        "9300830058471"
-      ],
+      "barcode": ["9300830058471"],
       "isAvailable": true
     },
     {
@@ -12670,9 +11198,7 @@
       "cupPrice": "$1.25 / 1ea",
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325005002882"
-      ],
+      "barcode": ["9325005002882"],
       "isAvailable": true
     },
     {
@@ -12687,9 +11213,7 @@
       "cupPrice": "$0.10 / 1ea",
       "unit": "each",
       "packageSize": "20 pack",
-      "barcode": [
-        "9339687084333"
-      ],
+      "barcode": ["9339687084333"],
       "isAvailable": true
     },
     {
@@ -12704,9 +11228,7 @@
       "cupPrice": "$0.20 / 1ea",
       "unit": "each",
       "packageSize": "10 pack",
-      "barcode": [
-        "9339687081486"
-      ],
+      "barcode": ["9339687081486"],
       "isAvailable": true
     },
     {
@@ -12721,9 +11243,7 @@
       "cupPrice": "$0.30 / 1ea",
       "unit": "each",
       "packageSize": "10 pack",
-      "barcode": [
-        "9339687081752"
-      ],
+      "barcode": ["9339687081752"],
       "isAvailable": true
     },
     {
@@ -12738,9 +11258,7 @@
       "cupPrice": "$0.10 / 1ea",
       "unit": "each",
       "packageSize": "20 pack",
-      "barcode": [
-        "9339687084340"
-      ],
+      "barcode": ["9339687084340"],
       "isAvailable": true
     },
     {
@@ -12755,9 +11273,7 @@
       "cupPrice": "$0.30 / 1ea",
       "unit": "each",
       "packageSize": "10 pack",
-      "barcode": [
-        "9339687081639"
-      ],
+      "barcode": ["9339687081639"],
       "isAvailable": true
     },
     {
@@ -12772,9 +11288,7 @@
       "cupPrice": "$0.09 / 1ea",
       "unit": "each",
       "packageSize": "20 pack",
-      "barcode": [
-        "9339687084319"
-      ],
+      "barcode": ["9339687084319"],
       "isAvailable": true
     },
     {
@@ -12789,9 +11303,7 @@
       "cupPrice": "$0.13 / 1ea",
       "unit": "each",
       "packageSize": "12 pack",
-      "barcode": [
-        "9339687081592"
-      ],
+      "barcode": ["9339687081592"],
       "isAvailable": true
     },
     {
@@ -12806,9 +11318,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "3 pack",
-      "barcode": [
-        "3086123307520"
-      ],
+      "barcode": ["3086123307520"],
       "isAvailable": true
     },
     {
@@ -12823,9 +11333,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "4 pack",
-      "barcode": [
-        "70330144576"
-      ],
+      "barcode": ["70330144576"],
       "isAvailable": true
     },
     {
@@ -12840,9 +11348,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "3 pack",
-      "barcode": [
-        "3086123008946"
-      ],
+      "barcode": ["3086123008946"],
       "isAvailable": true
     },
     {
@@ -12857,9 +11363,7 @@
       "cupPrice": "$3.00 / 1ea",
       "unit": "each",
       "packageSize": "2 pack",
-      "barcode": [
-        "3086123566385"
-      ],
+      "barcode": ["3086123566385"],
       "isAvailable": true
     },
     {
@@ -12874,9 +11378,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "10 pack",
-      "barcode": [
-        "9310025201247"
-      ],
+      "barcode": ["9310025201247"],
       "isAvailable": true
     },
     {
@@ -12891,9 +11393,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "10 pack",
-      "barcode": [
-        "9310025728942"
-      ],
+      "barcode": ["9310025728942"],
       "isAvailable": true
     },
     {
@@ -12908,9 +11408,7 @@
       "cupPrice": "$5.00 / 1kg",
       "unit": "each",
       "packageSize": "2kg",
-      "barcode": [
-        "4901301511591"
-      ],
+      "barcode": ["4901301511591"],
       "isAvailable": true
     },
     {
@@ -12925,9 +11423,7 @@
       "cupPrice": "$5.00 / 1l",
       "unit": "each",
       "packageSize": "2l",
-      "barcode": [
-        "4710363777698"
-      ],
+      "barcode": ["4710363777698"],
       "isAvailable": true
     },
     {
@@ -12942,9 +11438,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "4712937058431"
-      ],
+      "barcode": ["4712937058431"],
       "isAvailable": true
     },
     {
@@ -12959,9 +11453,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "4712937051715"
-      ],
+      "barcode": ["4712937051715"],
       "isAvailable": true
     },
     {
@@ -12976,9 +11468,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "71662103934"
-      ],
+      "barcode": ["71662103934"],
       "isAvailable": true
     },
     {
@@ -12993,9 +11483,7 @@
       "cupPrice": "$6.48 / 100g",
       "unit": "each",
       "packageSize": "38.6g",
-      "barcode": [
-        "9300622001388"
-      ],
+      "barcode": ["9300622001388"],
       "isAvailable": true
     },
     {
@@ -13010,9 +11498,7 @@
       "cupPrice": "$6.48 / 100g",
       "unit": "each",
       "packageSize": "38.6g",
-      "barcode": [
-        "9300622001326"
-      ],
+      "barcode": ["9300622001326"],
       "isAvailable": true
     },
     {
@@ -13027,9 +11513,7 @@
       "cupPrice": "$6.48 / 100g",
       "unit": "each",
       "packageSize": "38.6g",
-      "barcode": [
-        "9300622001319"
-      ],
+      "barcode": ["9300622001319"],
       "isAvailable": true
     },
     {
@@ -13044,9 +11528,7 @@
       "cupPrice": "$5.56 / 1l",
       "unit": "each",
       "packageSize": "1.8l",
-      "barcode": [
-        "9350376003701"
-      ],
+      "barcode": ["9350376003701"],
       "isAvailable": true
     },
     {
@@ -13061,9 +11543,7 @@
       "cupPrice": "$5.56 / 1l",
       "unit": "each",
       "packageSize": "1.8l",
-      "barcode": [
-        "9350376003671"
-      ],
+      "barcode": ["9350376003671"],
       "isAvailable": true
     },
     {
@@ -13078,9 +11558,7 @@
       "cupPrice": "$5.56 / 1l",
       "unit": "each",
       "packageSize": "1.8l",
-      "barcode": [
-        "9350376003688"
-      ],
+      "barcode": ["9350376003688"],
       "isAvailable": true
     },
     {
@@ -13095,9 +11573,7 @@
       "cupPrice": "$5.56 / 1l",
       "unit": "each",
       "packageSize": "1.8l",
-      "barcode": [
-        "9350376003756"
-      ],
+      "barcode": ["9350376003756"],
       "isAvailable": true
     },
     {
@@ -13112,9 +11588,7 @@
       "cupPrice": "$5.56 / 1l",
       "unit": "each",
       "packageSize": "1.8l",
-      "barcode": [
-        "9350376003626"
-      ],
+      "barcode": ["9350376003626"],
       "isAvailable": true
     },
     {
@@ -13129,9 +11603,7 @@
       "cupPrice": "$0.75 / 1ea",
       "unit": "each",
       "packageSize": "16 pack",
-      "barcode": [
-        "8888021206043"
-      ],
+      "barcode": ["8888021206043"],
       "isAvailable": true
     },
     {
@@ -13146,9 +11618,7 @@
       "cupPrice": "$0.75 / 1ea",
       "unit": "each",
       "packageSize": "16 pack",
-      "barcode": [
-        "8888021206036"
-      ],
+      "barcode": ["8888021206036"],
       "isAvailable": true
     },
     {
@@ -13163,9 +11633,7 @@
       "cupPrice": "$1.60 / 100ml",
       "unit": "each",
       "packageSize": "250ml",
-      "barcode": [
-        "9300701414689"
-      ],
+      "barcode": ["9300701414689"],
       "isAvailable": true
     },
     {
@@ -13180,9 +11648,7 @@
       "cupPrice": "$1.60 / 100ml",
       "unit": "each",
       "packageSize": "250ml",
-      "barcode": [
-        "9300701526818"
-      ],
+      "barcode": ["9300701526818"],
       "isAvailable": true
     },
     {
@@ -13197,9 +11663,7 @@
       "cupPrice": "$3.88 / 1l",
       "unit": "each",
       "packageSize": "900ml",
-      "barcode": [
-        "9300632082674"
-      ],
+      "barcode": ["9300632082674"],
       "isAvailable": true
     },
     {
@@ -13214,9 +11678,7 @@
       "cupPrice": "$3.88 / 1l",
       "unit": "each",
       "packageSize": "900ml",
-      "barcode": [
-        "9300632084173"
-      ],
+      "barcode": ["9300632084173"],
       "isAvailable": true
     },
     {
@@ -13231,9 +11693,7 @@
       "cupPrice": "$3.49 / 1l",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "9300632087617"
-      ],
+      "barcode": ["9300632087617"],
       "isAvailable": true
     },
     {
@@ -13248,9 +11708,7 @@
       "cupPrice": "$3.49 / 1l",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "9300632076307"
-      ],
+      "barcode": ["9300632076307"],
       "isAvailable": true
     },
     {
@@ -13265,9 +11723,7 @@
       "cupPrice": "$3.49 / 1l",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "8850006930700"
-      ],
+      "barcode": ["8850006930700"],
       "isAvailable": true
     },
     {
@@ -13282,9 +11738,7 @@
       "cupPrice": "$3.49 / 1l",
       "unit": "each",
       "packageSize": "1l",
-      "barcode": [
-        "9300632072798"
-      ],
+      "barcode": ["9300632072798"],
       "isAvailable": true
     },
     {
@@ -13299,9 +11753,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "5 pack",
-      "barcode": [
-        "9339687096435"
-      ],
+      "barcode": ["9339687096435"],
       "isAvailable": true
     },
     {
@@ -13316,9 +11768,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "5 pack",
-      "barcode": [
-        "9339687096466"
-      ],
+      "barcode": ["9339687096466"],
       "isAvailable": true
     },
     {
@@ -13333,9 +11783,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "3 pack",
-      "barcode": [
-        "9339687096459"
-      ],
+      "barcode": ["9339687096459"],
       "isAvailable": true
     },
     {
@@ -13350,9 +11798,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "5 pack",
-      "barcode": [
-        "9339687096411"
-      ],
+      "barcode": ["9339687096411"],
       "isAvailable": true
     },
     {
@@ -13367,9 +11813,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "5 pack",
-      "barcode": [
-        "9339687096404"
-      ],
+      "barcode": ["9339687096404"],
       "isAvailable": true
     },
     {
@@ -13384,9 +11828,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9300633636371"
-      ],
+      "barcode": ["9300633636371"],
       "isAvailable": true
     },
     {
@@ -13401,9 +11843,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "24 pack",
-      "barcode": [
-        "9311262008781"
-      ],
+      "barcode": ["9311262008781"],
       "isAvailable": true
     },
     {
@@ -13418,9 +11858,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9311183005951"
-      ],
+      "barcode": ["9311183005951"],
       "isAvailable": true
     },
     {
@@ -13435,9 +11873,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9300633647810"
-      ],
+      "barcode": ["9300633647810"],
       "isAvailable": true
     },
     {
@@ -13452,9 +11888,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9300633647728"
-      ],
+      "barcode": ["9300633647728"],
       "isAvailable": true
     },
     {
@@ -13469,9 +11903,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9300633675820"
-      ],
+      "barcode": ["9300633675820"],
       "isAvailable": true
     },
     {
@@ -13486,9 +11918,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9300633565763"
-      ],
+      "barcode": ["9300633565763"],
       "isAvailable": true
     },
     {
@@ -13503,9 +11933,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9300633749958"
-      ],
+      "barcode": ["9300633749958"],
       "isAvailable": true
     },
     {
@@ -13520,9 +11948,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9300633749941"
-      ],
+      "barcode": ["9300633749941"],
       "isAvailable": true
     },
     {
@@ -13537,9 +11963,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9300633675837"
-      ],
+      "barcode": ["9300633675837"],
       "isAvailable": true
     },
     {
@@ -13554,9 +11978,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "2 pack",
-      "barcode": [
-        "9300633749897"
-      ],
+      "barcode": ["9300633749897"],
       "isAvailable": true
     },
     {
@@ -13571,9 +11993,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "2 pack",
-      "barcode": [
-        "9339687046515"
-      ],
+      "barcode": ["9339687046515"],
       "isAvailable": true
     },
     {
@@ -13588,9 +12008,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "2 pack",
-      "barcode": [
-        "9300633749880"
-      ],
+      "barcode": ["9300633749880"],
       "isAvailable": true
     },
     {
@@ -13605,9 +12023,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9300633749927"
-      ],
+      "barcode": ["9300633749927"],
       "isAvailable": true
     },
     {
@@ -13622,9 +12038,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9339687046522"
-      ],
+      "barcode": ["9339687046522"],
       "isAvailable": true
     },
     {
@@ -13639,9 +12053,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9300633749910"
-      ],
+      "barcode": ["9300633749910"],
       "isAvailable": true
     },
     {
@@ -13656,9 +12068,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "500ml",
-      "barcode": [
-        "9300633565886"
-      ],
+      "barcode": ["9300633565886"],
       "isAvailable": true
     },
     {
@@ -13673,9 +12083,7 @@
       "cupPrice": "$4.00 / 1l",
       "unit": "each",
       "packageSize": "1.5l",
-      "barcode": [
-        "9350376000205"
-      ],
+      "barcode": ["9350376000205"],
       "isAvailable": true
     },
     {
@@ -13690,9 +12098,7 @@
       "cupPrice": "$4.00 / 1l",
       "unit": "each",
       "packageSize": "1.5l",
-      "barcode": [
-        "9350376003374"
-      ],
+      "barcode": ["9350376003374"],
       "isAvailable": true
     },
     {
@@ -13707,9 +12113,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9328854008302"
-      ],
+      "barcode": ["9328854008302"],
       "isAvailable": true
     },
     {
@@ -13724,9 +12128,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9328854007992"
-      ],
+      "barcode": ["9328854007992"],
       "isAvailable": true
     },
     {
@@ -13741,9 +12143,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9328854009651"
-      ],
+      "barcode": ["9328854009651"],
       "isAvailable": true
     },
     {
@@ -13758,9 +12158,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9328854010572"
-      ],
+      "barcode": ["9328854010572"],
       "isAvailable": true
     },
     {
@@ -13775,9 +12173,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9328854010619"
-      ],
+      "barcode": ["9328854010619"],
       "isAvailable": true
     },
     {
@@ -13792,9 +12188,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9328854008357"
-      ],
+      "barcode": ["9328854008357"],
       "isAvailable": true
     },
     {
@@ -13809,9 +12203,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9328854008166"
-      ],
+      "barcode": ["9328854008166"],
       "isAvailable": true
     },
     {
@@ -13826,9 +12218,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9328854002119"
-      ],
+      "barcode": ["9328854002119"],
       "isAvailable": true
     },
     {
@@ -13843,9 +12233,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9328854008111"
-      ],
+      "barcode": ["9328854008111"],
       "isAvailable": true
     },
     {
@@ -13860,9 +12248,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9328854010657"
-      ],
+      "barcode": ["9328854010657"],
       "isAvailable": true
     },
     {
@@ -13877,9 +12263,7 @@
       "cupPrice": "$0.54 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "9300615055909"
-      ],
+      "barcode": ["9300615055909"],
       "isAvailable": true
     },
     {
@@ -13894,9 +12278,7 @@
       "cupPrice": "$0.54 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "9300615055817"
-      ],
+      "barcode": ["9300615055817"],
       "isAvailable": true
     },
     {
@@ -13911,9 +12293,7 @@
       "cupPrice": "$0.54 / 100ml",
       "unit": "each",
       "packageSize": "400ml",
-      "barcode": [
-        "9300615055862"
-      ],
+      "barcode": ["9300615055862"],
       "isAvailable": true
     },
     {
@@ -13928,9 +12308,7 @@
       "cupPrice": "$0.75 / 1ea",
       "unit": "each",
       "packageSize": "2 pack",
-      "barcode": [
-        "9310124715119"
-      ],
+      "barcode": ["9310124715119"],
       "isAvailable": true
     },
     {
@@ -13945,9 +12323,7 @@
       "cupPrice": "$0.33 / 1ea",
       "unit": "each",
       "packageSize": "30 pack",
-      "barcode": [
-        "8710447496695"
-      ],
+      "barcode": ["8710447496695"],
       "isAvailable": true
     },
     {
@@ -13962,9 +12338,7 @@
       "cupPrice": "$0.33 / 1ea",
       "unit": "each",
       "packageSize": "30 pack",
-      "barcode": [
-        "8710447496718"
-      ],
+      "barcode": ["8710447496718"],
       "isAvailable": true
     },
     {
@@ -13979,9 +12353,7 @@
       "cupPrice": "$1.00 / 100ss",
       "unit": "each",
       "packageSize": "100 pack",
-      "barcode": [
-        "9311505810041"
-      ],
+      "barcode": ["9311505810041"],
       "isAvailable": true
     },
     {
@@ -13996,9 +12368,7 @@
       "cupPrice": "$0.07 / 1ea",
       "unit": "each",
       "packageSize": "48 pack",
-      "barcode": [
-        "9310345000100"
-      ],
+      "barcode": ["9310345000100"],
       "isAvailable": true
     },
     {
@@ -14013,9 +12383,7 @@
       "cupPrice": "$3.49 / 1kg",
       "unit": "each",
       "packageSize": "1kg",
-      "barcode": [
-        "9350376000717"
-      ],
+      "barcode": ["9350376000717"],
       "isAvailable": true
     },
     {
@@ -14030,9 +12398,7 @@
       "cupPrice": "$3.88 / 1kg",
       "unit": "each",
       "packageSize": "900g",
-      "barcode": [
-        "9350376002223"
-      ],
+      "barcode": ["9350376002223"],
       "isAvailable": true
     },
     {
@@ -14047,9 +12413,7 @@
       "cupPrice": "$3.49 / 1kg",
       "unit": "each",
       "packageSize": "1kg",
-      "barcode": [
-        "9350376000731"
-      ],
+      "barcode": ["9350376000731"],
       "isAvailable": true
     },
     {
@@ -14064,9 +12428,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325448168633"
-      ],
+      "barcode": ["9325448168633"],
       "isAvailable": true
     },
     {
@@ -14081,9 +12443,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325448168657"
-      ],
+      "barcode": ["9325448168657"],
       "isAvailable": true
     },
     {
@@ -14098,9 +12458,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325448168572"
-      ],
+      "barcode": ["9325448168572"],
       "isAvailable": true
     },
     {
@@ -14115,9 +12473,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325448168602"
-      ],
+      "barcode": ["9325448168602"],
       "isAvailable": true
     },
     {
@@ -14132,9 +12488,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325448168589"
-      ],
+      "barcode": ["9325448168589"],
       "isAvailable": true
     },
     {
@@ -14149,9 +12503,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325448168619"
-      ],
+      "barcode": ["9325448168619"],
       "isAvailable": true
     },
     {
@@ -14166,9 +12518,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325448168596"
-      ],
+      "barcode": ["9325448168596"],
       "isAvailable": true
     },
     {
@@ -14183,9 +12533,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325448168688"
-      ],
+      "barcode": ["9325448168688"],
       "isAvailable": true
     },
     {
@@ -14200,9 +12548,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325448168718"
-      ],
+      "barcode": ["9325448168718"],
       "isAvailable": true
     },
     {
@@ -14217,9 +12563,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325448168664"
-      ],
+      "barcode": ["9325448168664"],
       "isAvailable": true
     },
     {
@@ -14234,9 +12578,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325448168701"
-      ],
+      "barcode": ["9325448168701"],
       "isAvailable": true
     },
     {
@@ -14251,9 +12593,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325448168732"
-      ],
+      "barcode": ["9325448168732"],
       "isAvailable": true
     },
     {
@@ -14268,9 +12608,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325448168695"
-      ],
+      "barcode": ["9325448168695"],
       "isAvailable": true
     },
     {
@@ -14285,9 +12623,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9325448168725"
-      ],
+      "barcode": ["9325448168725"],
       "isAvailable": true
     },
     {
@@ -14302,9 +12638,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "8 pack",
-      "barcode": [
-        "9325448168671"
-      ],
+      "barcode": ["9325448168671"],
       "isAvailable": true
     },
     {
@@ -14319,9 +12653,7 @@
       "cupPrice": "$5.75 / 1ea",
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "683010606792"
-      ],
+      "barcode": ["683010606792"],
       "isAvailable": true
     },
     {
@@ -14336,9 +12668,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "683010206367"
-      ],
+      "barcode": ["683010206367"],
       "isAvailable": true
     },
     {
@@ -14353,9 +12683,7 @@
       "cupPrice": "$9.00 / 1ea",
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "9300633636357"
-      ],
+      "barcode": ["9300633636357"],
       "isAvailable": true
     },
     {
@@ -14370,9 +12698,7 @@
       "cupPrice": "$1.33 / 1ea",
       "unit": "each",
       "packageSize": "3 pack",
-      "barcode": [
-        "9300633356712"
-      ],
+      "barcode": ["9300633356712"],
       "isAvailable": true
     },
     {
@@ -14387,9 +12713,7 @@
       "cupPrice": "$1.33 / 1ea",
       "unit": "each",
       "packageSize": "3 pack",
-      "barcode": [
-        "9300633356736"
-      ],
+      "barcode": ["9300633356736"],
       "isAvailable": true
     },
     {
@@ -14404,9 +12728,7 @@
       "cupPrice": "$1.33 / 1ea",
       "unit": "each",
       "packageSize": "3 pack",
-      "barcode": [
-        "9300633376239"
-      ],
+      "barcode": ["9300633376239"],
       "isAvailable": true
     },
     {
@@ -14421,9 +12743,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "4894063037815"
-      ],
+      "barcode": ["4894063037815"],
       "isAvailable": true
     },
     {
@@ -14438,9 +12758,7 @@
       "cupPrice": null,
       "unit": "each",
       "packageSize": "each",
-      "barcode": [
-        "4894063037884"
-      ],
+      "barcode": ["4894063037884"],
       "isAvailable": true
     },
     {
@@ -14455,9 +12773,7 @@
       "cupPrice": "$2.19 / 100g",
       "unit": "each",
       "packageSize": "8 pack",
-      "barcode": [
-        "9315090204292"
-      ],
+      "barcode": ["9315090204292"],
       "isAvailable": true
     },
     {
@@ -14472,9 +12788,7 @@
       "cupPrice": "$2.19 / 100g",
       "unit": "each",
       "packageSize": "8x160g",
-      "barcode": [
-        "9315090204360"
-      ],
+      "barcode": ["9315090204360"],
       "isAvailable": true
     },
     {
@@ -14489,11 +12803,10 @@
       "cupPrice": "$2.19 / 100g",
       "unit": "each",
       "packageSize": "8x160g",
-      "barcode": [
-        "9315090204346"
-      ],
+      "barcode": ["9315090204346"],
       "isAvailable": true
     }
   ],
   "data-date": "01-06-2020"
 }
+

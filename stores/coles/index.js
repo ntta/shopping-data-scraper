@@ -13,7 +13,7 @@ CATEGORIES = [
 ];
 WEB = 'https://shop.coles.com.au';
 API =
-  'https://shop.coles.com.au/search/resources/store/20501/productview/bySeoUrlKeyword/';
+  'https://shop.coles.com.au/search/resources/store/20529/productview/bySeoUrlKeyword/';
 FIRST_PAGE =
   'https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials';
 COOKIE_PATH = './cookie.txt';

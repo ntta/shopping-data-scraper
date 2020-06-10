@@ -1,11 +1,10 @@
 const puppeteer = require('puppeteer');
-const cheerio = require('cheerio');
 const fs = require('fs');
 const axios = require('axios');
 
 const fetchBodyHtml = async (url, cookiePath = undefined) => {
   console.log(`Fetching body HTML of ${url}...`);
-  let browser = await puppeteer.launch({ headless: true });
+  let browser = await puppeteer.launch({ headless: false });
   let page = await browser.newPage();
   // await page.setUserAgent(
   //   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36'
@@ -92,7 +91,7 @@ const getJsonData = async (url, categoryId, cookiePath, web) => {
     brand: data.m,
     price: Number(data.p1['o']),
     orgPrice: Number(data.p1['l4']),
-    categoryId: categoryId,
+    categoryId: [categoryId],
     imagePath:
       data.fi !== undefined && data.fi !== null ? `${web}${data.fi}` : '',
     cupPrice: data.u2 === undefined ? null : data.u2.toLowerCase(),
