@@ -91,7 +91,7 @@ const getJsonData = async (url, categoryId, cookiePath, web) => {
     brand: data.m,
     price: Number(data.p1['o']),
     orgPrice: Number(data.p1['l4']),
-    categoryId: [categoryId],
+    categoryIds: [categoryId],
     imagePath:
       data.fi !== undefined && data.fi !== null ? `${web}${data.fi}` : '',
     cupPrice: data.u2 === undefined ? null : data.u2.toLowerCase(),

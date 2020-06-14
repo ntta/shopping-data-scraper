@@ -16,6 +16,10 @@ if __name__ == '__main__':
             woolworths = woolworths + list(json.load(woolworthsFile))
 
     allProducts = coles + woolworths
+    fileFormat = {
+        'products': allProducts,
+        'data-date': ''
+    }
     with open(DATA_PATH, 'w', encoding='utf-8') as dataFile:
-        json.dump(allProducts, dataFile)
+        json.dump(fileFormat, dataFile)
     print(f'Total {len(allProducts)} products')
