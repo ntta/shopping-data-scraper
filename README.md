@@ -1,6 +1,12 @@
 # Shopping Data Scraper
 
+*Folder `rev` contains refactored code for the project, all will be converted to TypeScript and NodeJS* 
+
 Get product data from Woolworths and Coles and generate a single json file for Firebase.
+Coles is using NodeJS.
+Woolworths is using Python.
+
+At the end of the day, Python is used to collect all data and to filter duplicates.
 
 ## Category List
 All products must have category ID in the table below
