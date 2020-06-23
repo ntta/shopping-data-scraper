@@ -38,5 +38,6 @@ if __name__ == '__main__':
         'data-date': ''
     }
 
+    print(f'Total {len(products)} products')
     with open('./data/filered-products.json', 'w', encoding='utf-8') as dataFile:
         json.dump(fileFormat, dataFile)

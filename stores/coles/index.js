@@ -15,17 +15,21 @@ WEB = 'https://shop.coles.com.au';
 API =
   'https://shop.coles.com.au/search/resources/store/20529/productview/bySeoUrlKeyword/';
 FIRST_PAGE =
-  'https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials';
+  'https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials';
 COOKIE_PATH = './cookie.txt';
 
 const cheerio = require('cheerio');
 const fs = require('fs');
+const inquirer = require('inquirer');
+const constants = require('./constants');
 const helper = require('./helper');
 
 // Use firstPageHtml to get available categories and get category URL list
-const getCategoryUrlList = async () => {
+const getCategoryUrlList = async (location) => {
   try {
-    let firstPageHtml = await helper.fetchBodyHtml(FIRST_PAGE, COOKIE_PATH);
+    let firstPageHtml = await helper.fetchBodyHtml(
+      constants.FIRST_PAGES[location].url
+    );
     let $ = cheerio.load(firstPageHtml);
     let categories = $("li[class='cat-nav-item']")
       .not('.is-disabled')
@@ -33,10 +37,10 @@ const getCategoryUrlList = async () => {
     let categoryUrlList = {};
     for (let i = 0; i < categories.length; i++) {
       let categoryName = categories[i].children[0].data;
-      if (CATEGORIES.includes(categoryName)) {
+      if (constants.CATEGORIES.includes(categoryName)) {
         categoryUrlList[
           helper.getCategoryId(categoryName)
-        ] = `${WEB}${categories[i].parent.parent.attribs.href}`;
+        ] = `${constants.WEB}${categories[i].parent.parent.attribs.href}`;
       }
     }
     return categoryUrlList;
@@ -46,15 +50,12 @@ const getCategoryUrlList = async () => {
 };
 
 // For each category URL, get number of pages and urls
-const getUrlsOfEachCategory = async () => {
+const getUrlsOfEachCategory = async (location) => {
   let urlsOfEachCategory = {};
-  let categoryUrlList = await getCategoryUrlList();
+  let categoryUrlList = await getCategoryUrlList(location);
   for (categoryId in categoryUrlList) {
     urlsOfEachCategory[categoryId] = [];
-    let bodyHtml = await helper.fetchBodyHtml(
-      categoryUrlList[categoryId],
-      COOKIE_PATH
-    );
+    let bodyHtml = await helper.fetchBodyHtml(categoryUrlList[categoryId]);
     let $ = cheerio.load(bodyHtml);
     let pageNumber = 0;
     try {
@@ -90,8 +91,7 @@ const getProducts = async () => {
     console.log(`Fetching ${categoryId}`);
     for (let i = 0; i < urlsOfEachCategory[categoryId].length; i++) {
       let bodyHtml = await helper.fetchBodyHtml(
-        urlsOfEachCategory[categoryId][i],
-        COOKIE_PATH
+        urlsOfEachCategory[categoryId][i]
       );
       let $ = cheerio.load(bodyHtml);
       let productTags = $('.product-title').find($('a'));
@@ -113,4 +113,53 @@ const writeProductsToFile = async () => {
   let products = await getProducts();
   fs.writeFileSync('products.json', JSON.stringify(products));
 };
-writeProductsToFile();
+//writeProductsToFile();
+
+// Options:
+// 1. Choose location: vic, tas, sa, qld, wa, nsw, nt, act
+const choices = [
+  { title: 'Fetch URL of each category', action: 'fetch_url' },
+  { title: 'Fetch products of each category', action: 'fetch_products' },
+];
+inquirer
+  .prompt([
+    {
+      type: 'list',
+      name: 'location',
+      message: 'Choose location: ',
+      choices: ['VIC', 'TAS', 'NSW', 'QLD', 'WA', 'SA', 'NT', 'ACT'],
+      filter: function (val) {
+        return val.toLowerCase();
+      },
+    },
+    {
+      type: 'list',
+      name: 'action',
+      message: 'Actions: ',
+      choices: Object.values(choices).map((c) => {
+        return c.title;
+      }),
+      filter: function (val) {
+        return Object.values(choices).map((c) => {
+          if (c.title === val) {
+            return c.action;
+          }
+        })[0];
+      },
+    },
+  ])
+  .then(async (answers) => {
+    switch (answers.action) {
+      case 'fetch_url':
+        let urls = await getUrlsOfEachCategory(answers.location);
+        fs.writeFileSync(
+          `./urls/${answers.location}/urls.json`,
+          JSON.stringify(urls)
+        );
+        return;
+      case 'fetch_products':
+        return;
+    }
+  });
+// 2. Fetch URL of each category, save to file
+// 3. For each URL, write products to file

@@ -1,25 +1,17 @@
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-extra');
 const fs = require('fs');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const axios = require('axios');
 
-const fetchBodyHtml = async (url, cookiePath = undefined) => {
+const fetchBodyHtml = async (url) => {
   console.log(`Fetching body HTML of ${url}...`);
-  let browser = await puppeteer.launch({ headless: false });
-  let page = await browser.newPage();
-  // await page.setUserAgent(
-  //   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36'
-  // );
-  await page.setExtraHTTPHeaders({
-    'user-agent':
-      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
-    'Accept-Language': 'en-AU,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
-    accept:
-      'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'accept-encoding': 'gzip, deflate, br',
-    'cache-control': 'no-cache',
-    cookie: cookiePath ? fs.readFileSync(cookiePath, 'utf8') : '',
+  puppeteer.use(StealthPlugin());
+  let browser = await puppeteer.launch({
+    headless: false,
+    args: ['--igcognito'],
   });
-  await page.goto(url, { waitUntil: 'load', timeout: 0 });
+  let page = await browser.newPage();
+  await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
   const bodyHtml = await page.evaluate(() => document.body.innerHTML);
   await browser.close();
   return bodyHtml;

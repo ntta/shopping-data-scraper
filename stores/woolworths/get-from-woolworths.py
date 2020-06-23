@@ -61,6 +61,7 @@ def generateProductDetails(item, category, productId):
         cupPrice = item['InstoreCupString'].lower()
     else:
         cupPrice = None
+    print(item)
     return {
         'id': productId,
         'store': 'woolworths',
@@ -74,10 +75,13 @@ def generateProductDetails(item, category, productId):
         'unit': item['Unit'].lower(),
         'packageSize': item['PackageSize'].lower(),
         'barcode': barcode,
-        'isAvailable': True
+        'isAvailable': True,
+        'location': ['vic']
     }
 
 def toCapitalized(text):
+    if text is None:
+        return ''
     words = text.split()
     result = []
     for word in words:
