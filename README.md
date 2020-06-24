@@ -2,6 +2,10 @@
 
 **Folder `rev` contains refactored code for the project, all will be converted to TypeScript and NodeJS**
 
+## Todo
+* Refactor Coles, don't use axios, web scraping IS ENOUGH
+* Migrate everything to NodeJS
+
 Get product data from Woolworths and Coles and generate a single json file for Firebase.
 Coles is using NodeJS.
 Woolworths is using Python.
