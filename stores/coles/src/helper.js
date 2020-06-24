@@ -45,79 +45,103 @@ const getPaginationUrls = (url, pageNumber) => {
   return urls;
 };
 
-const fetchUrls = async (locationUp) => {
-  console.log(`Fetching category URLs from ${locationUp}...`);
-  const location = locationUp.toLowerCase();
-  const url = constants.FIRST_PAGES[location].url;
-  const postcode = constants.FIRST_PAGES[location].postcode;
+const fetchUrls = async () => {
   puppeteer.use(StealthPlugin());
   let browser = await puppeteer.launch({
     headless: false,
   });
   try {
     let page = await browser.newPage();
-    await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
-    await page.click('#changeLocationBar');
-    await page.waitFor(1000);
-    await page.type('#search-form > p', postcode);
-    await page.waitFor(1000);
-    await page.keyboard.press('Enter');
-    await page.waitFor(1000);
-    await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
-    const bodyHtml = await page.evaluate(() => document.body.innerHTML);
-    let $ = cheerio.load(bodyHtml);
-    let categories = $("li[class='cat-nav-item']")
-      .not('.is-disabled')
-      .find($('.item-title'));
-    let categoryUrlList = {};
-    for (let i = 0; i < categories.length; i++) {
-      let categoryName = categories[i].children[0].data;
-      if (constants.CATEGORIES.includes(categoryName)) {
-        categoryUrlList[
-          getCategoryId(categoryName)
-        ] = `${constants.WEB}${categories[i].parent.parent.attribs.href}`;
-      }
-    }
-
-    let urlsOfEachCategory = {};
-    for (categoryId in categoryUrlList) {
-      urlsOfEachCategory[categoryId] = [];
-      await page.goto(categoryUrlList[categoryId], {
-        timeout: 0,
-        waitUntil: 'networkidle2',
-      });
+    let categoryUrlLists = {};
+    for (let location of Object.keys(constants.FIRST_PAGES)) {
+      console.log(`Fetching category URLs from ${location.toUpperCase()}...`);
+      let url = constants.FIRST_PAGES[location].url;
+      let postcode = constants.FIRST_PAGES[location].postcode;
+      await page.goto(url, { waitUntil: 'networkidle0' });
+      await page.waitFor(5000);
+      await page.click('#changeLocationBar');
+      await page.waitFor(1000);
+      await page.type('#search-form > p', postcode);
+      await page.waitFor(1000);
+      await page.keyboard.press('Enter');
+      await page.waitFor(1000);
+      await page.goto(url, { waitUntil: 'networkidle0' });
       let bodyHtml = await page.evaluate(() => document.body.innerHTML);
       let $ = cheerio.load(bodyHtml);
-      let pageNumber = 0;
-      try {
-        pageNumber = Number(
-          $("ul[class='pagination']").find(
-            $('.page-number').last().children().find($('.number'))
-          )[0].children[0].data
-        );
-      } catch (err) {
-        pageNumber = 1;
+      let categories = $("li[class='cat-nav-item']")
+        .not('.is-disabled')
+        .find($('.item-title'));
+      let categoryUrlList = {};
+      for (let i = 0; i < categories.length; i++) {
+        let categoryName = categories[i].children[0].data;
+        if (constants.CATEGORIES.includes(categoryName)) {
+          categoryUrlList[
+            getCategoryId(categoryName)
+          ] = `${constants.WEB}${categories[i].parent.parent.attribs.href}`;
+        }
       }
-      urlsOfEachCategory[categoryId] =
-        pageNumber === 1
-          ? [categoryUrlList[categoryId]]
-          : getPaginationUrls(categoryUrlList[categoryId], pageNumber);
-    }
 
-    urlsOfEachCategory['health-beauty'] = urlsOfEachCategory[
-      'health-beauty'
-    ].concat(urlsOfEachCategory['health-beauty2']);
-    delete urlsOfEachCategory['health-beauty2'];
+      let urlsOfEachCategory = {};
+      for (categoryId in categoryUrlList) {
+        urlsOfEachCategory[categoryId] = [];
+        await page.goto(categoryUrlList[categoryId], {
+          timeout: 0,
+          waitUntil: 'networkidle2',
+        });
+        let bodyHtml = await page.evaluate(() => document.body.innerHTML);
+        let $ = cheerio.load(bodyHtml);
+        let pageNumber = 0;
+        try {
+          pageNumber = Number(
+            $("ul[class='pagination']").find(
+              $('.page-number').last().children().find($('.number'))
+            )[0].children[0].data
+          );
+        } catch (err) {
+          pageNumber = 1;
+        }
+        urlsOfEachCategory[categoryId] =
+          pageNumber === 1
+            ? [categoryUrlList[categoryId]]
+            : getPaginationUrls(categoryUrlList[categoryId], pageNumber);
+      }
+
+      urlsOfEachCategory['health-beauty'] = urlsOfEachCategory[
+        'health-beauty'
+      ].concat(urlsOfEachCategory['health-beauty2']);
+      delete urlsOfEachCategory['health-beauty2'];
+      categoryUrlLists[location] = urlsOfEachCategory;
+    }
     await browser.close();
-    return urlsOfEachCategory;
+    return categoryUrlLists;
   } catch (err) {
-    console.log('Fetching failed. Trying again...');
-    await browser.close();
-    await fetchProducts(locationUp);
+    console.log(err);
   }
 };
+let PRODUCTS = [];
 
 const getJsonData = async (apiUrl, categoryId, location) => {
+  console.log(PRODUCTS.length);
+  let filteredProducts = PRODUCTS.filter((p) => p.apiUrl === apiUrl);
+  if (filteredProducts.length > 0) {
+    if (filteredProducts.length > 1) {
+      console.log(apiUrl);
+    }
+    PRODUCTS.map((p) => {
+      if (p.apiUrl === apiUrl) {
+        if (!p.categoryIds.includes(categoryId)) {
+          p.categoryIds = p.categoryIds.concat([categoryId]);
+        }
+        if (!p.locations.includes(location)) {
+          p.locations = p.locations.concat([location]);
+        }
+      }
+      p.categoryIds = [...new Set(p.categoryIds)];
+      p.locations = [...new Set(p.locations)];
+      return p;
+    });
+    return null;
+  }
   let params = {
     cookie: fs.readFileSync(constants.COOKIE_PATH, 'utf8'),
   };
@@ -137,6 +161,7 @@ const getJsonData = async (apiUrl, categoryId, location) => {
     id = `c${String(Math.floor(Math.random() * 99999))}`;
   }
   const product = {
+    apiUrl: apiUrl,
     id: id.toLowerCase(),
     store: 'coles',
     name: data.n,
@@ -153,62 +178,60 @@ const getJsonData = async (apiUrl, categoryId, location) => {
     packageSize: data.a.O3[0] === undefined ? null : data.a.O3[0].toLowerCase(),
     barcode: data.a.B === undefined ? null : data.a.B,
     isAvailable: true,
-    location: [location],
+    locations: [location],
   };
   return product;
 };
 
-const fetchProducts = async (locationUp, filePath) => {
-  console.log(`Fetching products from ${locationUp}...`);
-  const location = locationUp.toLowerCase();
-  const rawdata = fs.readFileSync(filePath);
-  const urlsOfEachCategory = JSON.parse(rawdata);
-  let products = [];
+const fetchProducts = async (filePath) => {
   puppeteer.use(StealthPlugin());
   let browser = await puppeteer.launch({
     headless: false,
   });
-  const postcode = constants.FIRST_PAGES[location].postcode;
+  const rawdata = fs.readFileSync(filePath);
+  const categoryUrlLists = JSON.parse(rawdata);
+  let page = await browser.newPage();
   try {
-    let page = await browser.newPage();
-    await page.goto(constants.FIRST_PAGES[location].url, {
-      waitUntil: 'networkidle2',
-    });
-    await page.click('#changeLocationBar');
-    await page.waitFor(1000);
-    await page.type('#search-form > p', postcode);
-    await page.waitFor(1000);
-    await page.keyboard.press('Enter');
-    await page.waitFor(1000);
-    for (categoryId in urlsOfEachCategory) {
-      console.log(`Fetching ${categoryId}...`);
-      for (let i = 0; i < urlsOfEachCategory[categoryId].length; i++) {
-        console.log(`Page ${i + 1}`);
-        await page.goto(urlsOfEachCategory[categoryId][i], {
-          timeout: 0,
+    for (let location of Object.keys(categoryUrlLists)) {
+      console.log(`Fetching products from ${location.toUpperCase()}...`);
+      const postcode = constants.FIRST_PAGES[location].postcode;
+      await Promise.all([
+        page.goto(constants.FIRST_PAGES[location].url, {
           waitUntil: 'networkidle2',
-        });
-        let bodyHtml = await page.evaluate(() => document.body.innerHTML);
-        let $ = cheerio.load(bodyHtml);
-        let productTags = $('.product-title').find($('a'));
-        let productsOfUrl = [];
-        for (let j = 0; j < productTags.length; j++) {
-          let n = productTags[j].attribs.href.split('/');
-          let apiUrl = constants.API + n[n.length - 1] + '?catalogId=27101';
-          let data = await getJsonData(apiUrl, categoryId, location);
-          if (data === null) continue;
-          productsOfUrl.push(data);
+        }),
+        page.waitForNavigation({ timeout: 0, waitUntil: 'networkidle2' }),
+      ]);
+      await page.click('#changeLocationBar');
+      await page.waitFor(1000);
+      await page.type('#search-form > p', postcode);
+      await page.waitFor(1000);
+      await page.keyboard.press('Enter');
+      await page.waitFor(1000);
+      let urlsOfEachCategory = categoryUrlLists[location];
+      for (categoryId in urlsOfEachCategory) {
+        console.log(`Fetching ${categoryId}...`);
+        for (let i = 0; i < urlsOfEachCategory[categoryId].length; i++) {
+          console.log(`Page ${i + 1}`);
+          await page.goto(urlsOfEachCategory[categoryId][i], {
+            timeout: 0,
+            waitUntil: 'networkidle2',
+          });
+          let bodyHtml = await page.evaluate(() => document.body.innerHTML);
+          let $ = cheerio.load(bodyHtml);
+          let productTags = $('.product-title').find($('a'));
+          for (let j = 0; j < productTags.length; j++) {
+            let n = productTags[j].attribs.href.split('/');
+            let apiUrl = constants.API + n[n.length - 1] + '?catalogId=27101';
+            let data = await getJsonData(apiUrl, categoryId, location);
+            if (data === null) continue;
+            PRODUCTS.push(data);
+          }
         }
-        // should remove url of category that has fetched
-        products = products.concat(productsOfUrl);
       }
     }
     await browser.close();
-    return products;
+    return PRODUCTS;
   } catch (err) {
-    // console.log('Fetching failed. Trying again...');
-    // await fetchProducts(locationUp, filePath);
-    //await browser.close();
     console.log(err);
   }
 };

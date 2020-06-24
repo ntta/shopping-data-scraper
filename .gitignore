@@ -1,3 +1,4 @@
+.DS_STORE
 stores/coles/node_modules/**/*
 stores/coles-rev/node_modules/**/*
 stores/coles/~/**/*
