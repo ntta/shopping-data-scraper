@@ -52,7 +52,7 @@ const fetchUrls = async (locationUp) => {
   const postcode = constants.FIRST_PAGES[location].postcode;
   puppeteer.use(StealthPlugin());
   let browser = await puppeteer.launch({
-    headless: true,
+    headless: false,
   });
   try {
     let page = await browser.newPage();
