@@ -76,7 +76,7 @@ def generateProductDetails(item, category, productId):
         'packageSize': item['PackageSize'].lower(),
         'barcode': barcode,
         'isAvailable': True,
-        'location': ['vic']
+        'location': ['vic','nsw','qld','wa','sa','tas','nt','act']
     }
 
 def toCapitalized(text):

@@ -45,7 +45,9 @@ inquirer
         try {
           if (fs.existsSync(urlPath)) {
             const products = await helper.fetchProducts(urlPath);
-            fs.writeFileSync(productPath, JSON.stringify(products));
+            fs.writeFileSync(productPath, JSON.stringify(products), {
+              encoding: 'utf8',
+            });
           } else {
             console.log('Cannot find URL file');
           }
