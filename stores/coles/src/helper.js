@@ -121,45 +121,55 @@ const fetchUrls = async () => {
 let PRODUCTS = [];
 
 const getJsonData = async (apiUrl, categoryId, location) => {
-  const params = {
-    cookie: fs.readFileSync('./cookie.txt', 'utf8'),
-  };
-  let response = await axios.get(apiUrl, { params });
-  let data = response.data.catalogEntryView[0];
-  if (data === undefined) return null;
-  let id = data.p !== undefined && data.p !== null ? `c${data.p}` : 'c';
-  if (
-    data.a.B !== undefined &&
-    data.a.B !== null &&
-    data.a.B[0] !== undefined &&
-    data.a.B[0] !== null
-  ) {
-    id = `${id}-${data.a.B[0]}`;
+  try {
+    const params = {
+      cookie: fs.readFileSync('./cookie.txt', 'utf8'),
+    };
+    let response = await axios.get(apiUrl, { params });
+    if (response.data.catalogEntryView === undefined) return null;
+    let data = response.data.catalogEntryView[0];
+    if (data === undefined) return null;
+    let id = data.p !== undefined && data.p !== null ? `c${data.p}` : 'c';
+    if (
+      data.a.B !== undefined &&
+      data.a.B !== null &&
+      data.a.B[0] !== undefined &&
+      data.a.B[0] !== null
+    ) {
+      id = `${id}-${data.a.B[0]}`;
+    }
+    if (id === 'c') {
+      id = `c${String(Math.floor(Math.random() * 99999))}`;
+    }
+    const product = {
+      apiUrl: apiUrl,
+      id: id.toLowerCase(),
+      store: 'coles',
+      name: data.n,
+      brand: data.m,
+      price: Number(data.p1['o']),
+      orgPrice: Number(data.p1['l4']),
+      categoryIds: [categoryId],
+      imagePath:
+        data.fi !== undefined && data.fi !== null
+          ? `${constants.WEB}${data.fi}`
+          : '',
+      cupPrice: data.u2 === undefined ? null : data.u2.toLowerCase(),
+      unit:
+        data.a.U === undefined || data.a.U[0] === undefined
+          ? null
+          : data.a.U[0].toLowerCase(),
+      packageSize:
+        data.a.O3[0] === undefined ? null : data.a.O3[0].toLowerCase(),
+      barcode: data.a.B === undefined ? null : data.a.B,
+      isAvailable: true,
+      locations: [location],
+    };
+    return product;
+  } catch (err) {
+    console.log(`Err: ${apiUrl}`);
+    return null;
   }
-  if (id === 'c') {
-    id = `c${String(Math.floor(Math.random() * 99999))}`;
-  }
-  const product = {
-    apiUrl: apiUrl,
-    id: id.toLowerCase(),
-    store: 'coles',
-    name: data.n,
-    brand: data.m,
-    price: Number(data.p1['o']),
-    orgPrice: Number(data.p1['l4']),
-    categoryIds: [categoryId],
-    imagePath:
-      data.fi !== undefined && data.fi !== null
-        ? `${constants.WEB}${data.fi}`
-        : '',
-    cupPrice: data.u2 === undefined ? null : data.u2.toLowerCase(),
-    unit: data.a.U[0] === undefined ? null : data.a.U[0].toLowerCase(),
-    packageSize: data.a.O3[0] === undefined ? null : data.a.O3[0].toLowerCase(),
-    barcode: data.a.B === undefined ? null : data.a.B,
-    isAvailable: true,
-    locations: [location],
-  };
-  return product;
 };
 
 const fetchProducts = async (filePath) => {
