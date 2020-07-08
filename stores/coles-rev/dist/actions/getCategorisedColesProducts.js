@@ -45,12 +45,11 @@ var _variables = require("../variables");
  * }
  */
 var postcode = _variables.colesEverything.postcode;
-var categoryUrlList = [];
 var allProducts = [];
 
-var getAllColesProducts = /*#__PURE__*/function () {
-  var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee() {
-    var browser, page, url;
+var getCategorisedColesProducts = /*#__PURE__*/function () {
+  var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee(url) {
+    var browser, page, category;
     return _regenerator["default"].wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
@@ -71,77 +70,78 @@ var getAllColesProducts = /*#__PURE__*/function () {
 
           case 7:
             page = _context.sent;
-            url = _variables.colesEverything.url; // Navigate to url and enter postcode
+            category = getProductCategory(url);
+            console.log("Getting products from ".concat(category)); // Navigate to url and enter postcode
 
-            _context.next = 11;
+            _context.next = 12;
             return page["goto"](url, {
               timeout: 0,
               waitUntil: 'networkidle2'
             });
 
-          case 11:
-            _context.next = 13;
+          case 12:
+            _context.next = 14;
             return page["goto"](url, {
               timeout: 0,
               waitUntil: 'networkidle2'
             });
 
-          case 13:
-            _context.next = 15;
+          case 14:
+            _context.next = 16;
             return page.click('#changeLocationBar');
 
-          case 15:
-            _context.next = 17;
+          case 16:
+            _context.next = 18;
             return page.waitFor(1000);
 
-          case 17:
-            _context.next = 19;
+          case 18:
+            _context.next = 20;
             return page.type('#search-form > p', postcode.toString());
 
-          case 19:
-            _context.next = 21;
+          case 20:
+            _context.next = 22;
             return page.waitFor(1000);
 
-          case 21:
-            _context.next = 23;
+          case 22:
+            _context.next = 24;
             return page.keyboard.press('Enter');
 
-          case 23:
-            _context.next = 25;
+          case 24:
+            _context.next = 26;
             return page.waitForNavigation({
               timeout: 0,
               waitUntil: 'networkidle2'
             });
 
-          case 25:
-            _context.next = 27;
+          case 26:
+            _context.next = 28;
             return getDeepestSubCategoryList(page, url);
 
-          case 27:
-            _context.next = 29;
+          case 28:
+            _context.next = 30;
             return browser.close();
 
-          case 29:
-            _fs["default"].writeFileSync('./data/products.json', JSON.stringify(allProducts));
+          case 30:
+            _fs["default"].writeFileSync("./data/products/".concat(category, ".json"), JSON.stringify(allProducts));
 
-            _context.next = 36;
+            _context.next = 37;
             break;
 
-          case 32:
-            _context.prev = 32;
+          case 33:
+            _context.prev = 33;
             _context.t0 = _context["catch"](0);
             console.log(_context.t0);
             return _context.abrupt("return");
 
-          case 36:
+          case 37:
           case "end":
             return _context.stop();
         }
       }
-    }, _callee, null, [[0, 32]]);
+    }, _callee, null, [[0, 33]]);
   }));
 
-  return function getAllColesProducts() {
+  return function getCategorisedColesProducts(_x) {
     return _ref.apply(this, arguments);
   };
 }();
@@ -200,7 +200,7 @@ var getDeepestSubCategoryList = /*#__PURE__*/function () {
             break;
 
           case 17:
-            _context2.next = 22;
+            _context2.next = 21;
             break;
 
           case 19:
@@ -208,9 +208,6 @@ var getDeepestSubCategoryList = /*#__PURE__*/function () {
             return getProductsOfCategory(page, url);
 
           case 21:
-            categoryUrlList.push(url);
-
-          case 22:
           case "end":
             return _context2.stop();
         }
@@ -218,7 +215,7 @@ var getDeepestSubCategoryList = /*#__PURE__*/function () {
     }, _callee2);
   }));
 
-  return function getDeepestSubCategoryList(_x, _x2) {
+  return function getDeepestSubCategoryList(_x2, _x3) {
     return _ref2.apply(this, arguments);
   };
 }();
@@ -279,14 +276,14 @@ var getProductsOfCategory = /*#__PURE__*/function () {
     }, _callee3);
   }));
 
-  return function getProductsOfCategory(_x3, _x4) {
+  return function getProductsOfCategory(_x4, _x5) {
     return _ref3.apply(this, arguments);
   };
 }();
 
 var getProductsEachPage = /*#__PURE__*/function () {
   var _ref4 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee4(page, url) {
-    var bodyHtml, $, category;
+    var bodyHtml, $, category, tags;
     return _regenerator["default"].wrap(function _callee4$(_context4) {
       while (1) {
         switch (_context4.prev = _context4.next) {
@@ -307,6 +304,8 @@ var getProductsEachPage = /*#__PURE__*/function () {
             bodyHtml = _context4.sent;
             $ = _cheerio["default"].load(bodyHtml);
             category = getProductCategory(url);
+            tags = getProductTags(url);
+            console.log(tags);
             $('.product-header').each(function (i, elm) {
               var id = getProductId($(elm).find('.product-image-link').attr('href').toString());
               var name = $(elm).find('.product-name').text().trim();
@@ -324,6 +323,8 @@ var getProductsEachPage = /*#__PURE__*/function () {
                   if (p.id === id) {
                     p.categories.push(category);
                     p.categories = (0, _toConsumableArray2["default"])(new Set(p.categories));
+                    p.tags.concat(tags);
+                    p.tags = (0, _toConsumableArray2["default"])(new Set(p.tags));
                   }
                 });
               } else {
@@ -334,6 +335,7 @@ var getProductsEachPage = /*#__PURE__*/function () {
                   name: name,
                   imageUrl: imageUrl,
                   categories: categories,
+                  tags: tags,
                   locations: {
                     vic: {
                       price: price,
@@ -348,7 +350,7 @@ var getProductsEachPage = /*#__PURE__*/function () {
               }
             });
 
-          case 8:
+          case 10:
           case "end":
             return _context4.stop();
         }
@@ -356,7 +358,7 @@ var getProductsEachPage = /*#__PURE__*/function () {
     }, _callee4);
   }));
 
-  return function getProductsEachPage(_x5, _x6) {
+  return function getProductsEachPage(_x6, _x7) {
     return _ref4.apply(this, arguments);
   };
 }();
@@ -379,14 +381,16 @@ var getProductId = function getProductId(str) {
 
 var getProductCategory = function getProductCategory(str) {
   var parts = str.split('/');
+  var result = '';
 
   for (var i = 0; i < parts.length; i++) {
     if (parts[i] === 'browse') {
-      return parts[i + 1];
+      result = parts[i + 1];
+      break;
     }
   }
 
-  return '';
+  return result.split('?')[0];
 };
 
 var getDiscountText = function getDiscountText(str) {
@@ -395,5 +399,25 @@ var getDiscountText = function getDiscountText(str) {
   return polishedStr.replace(parts[0], parts[0] + ' ');
 };
 
-var _default = getAllColesProducts;
+var getProductTags = function getProductTags(str) {
+  var parts = str.split('/');
+  var result = [];
+
+  for (var i = 0; i < parts.length; i++) {
+    if (parts[i] === 'browse' && i + 1 < parts.length) {
+      result = parts.slice(parts.indexOf(parts[i + 1]), parts.length);
+      break;
+    }
+  }
+
+  var category = getProductCategory(str);
+  result = result.filter(function (tag) {
+    return tag !== category;
+  });
+  return result.map(function (tag) {
+    return tag.split('?')[0];
+  });
+};
+
+var _default = getCategorisedColesProducts;
 exports["default"] = _default;

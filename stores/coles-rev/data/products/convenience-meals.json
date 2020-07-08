@@ -1,0 +1,1427 @@
+[
+  {
+    "id": "coles-asian-thai-green-chicken-curry-with-rice",
+    "brand": "Coles",
+    "name": "Kitchen Thai Green Chicken Curry With Rice",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/8/7/2875110-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["ready-to-heat-meals", "asian-meals"],
+    "locations": {
+      "vic": {
+        "price": 6.5,
+        "promoText": "Any 2 $12",
+        "packageSize": "350g",
+        "packagePrice": "$1.86 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-asian-beef-massaman-curry-with-rice-meal",
+    "brand": "Coles",
+    "name": "Kitchen Beef Massaman Curry With Rice",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/8/7/2875120-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["ready-to-heat-meals", "asian-meals"],
+    "locations": {
+      "vic": {
+        "price": 6.5,
+        "promoText": "Any 2 $12",
+        "packageSize": "350g",
+        "packagePrice": "$1.86 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-curry-pot-half-pack-butter-chicken-rice",
+    "brand": "Coles",
+    "name": "Kitchen Butter Chicken With Rice",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/7/3/2/7325091-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["ready-to-heat-meals", "indian-meals"],
+    "locations": {
+      "vic": {
+        "price": 6.5,
+        "promoText": "Any 2 $12",
+        "packageSize": "350g",
+        "packagePrice": "$1.86 per 100G"
+      }
+    }
+  },
+  {
+    "id": "stonefire-garlic-naan",
+    "brand": "Stonefire",
+    "name": "Roasted Garlic Naan 2 pack",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/8/8/2885532-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["ready-to-heat-meals", "indian-meals"],
+    "locations": {
+      "vic": {
+        "price": 3,
+        "promoText": " ",
+        "packageSize": "250g",
+        "packagePrice": "$1.20 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-natures-kitchen-meat-free-butter-chicken",
+    "brand": "Coles",
+    "name": "Natures Kitchen Meat Free Butter Chicken",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/6/4/3649648-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["ready-to-heat-meals", "indian-meals"],
+    "locations": {
+      "vic": {
+        "price": 7.5,
+        "promoText": "Any 2 $12",
+        "packageSize": "350g",
+        "packagePrice": "$2.14 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-tikka-masala-chicken-curry-meal",
+    "brand": "Coles",
+    "name": "Kitchen Chicken Tikka Masala With Rice",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/8/7/2877523-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["ready-to-heat-meals", "indian-meals"],
+    "locations": {
+      "vic": {
+        "price": 6.5,
+        "promoText": "Any 2 $12",
+        "packageSize": "350g",
+        "packagePrice": "$1.86 per 100G"
+      }
+    }
+  },
+  {
+    "id": "ready-chef-beef-lasagne",
+    "brand": "Ready Chef",
+    "name": "Beef Lasagne",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/9/1/9/9196207-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["ready-to-heat-meals", "italian-classics"],
+    "locations": {
+      "vic": {
+        "price": 15,
+        "promoText": " ",
+        "packageSize": "2kg",
+        "packagePrice": "$0.75 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-cuisine-beef-lasagne",
+    "brand": "Coles",
+    "name": "Kitchen Beef Lasagne",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/1/7/2/1728062-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["ready-to-heat-meals", "italian-classics"],
+    "locations": {
+      "vic": {
+        "price": 7.5,
+        "promoText": "Any 2 $12",
+        "packageSize": "400g",
+        "packagePrice": "$1.88 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-natures-kitchen-lentil-spag-bolognese",
+    "brand": "Coles",
+    "name": "Natures Kitchen Lentil Spag Bolognese",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/4/6/3468031-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["ready-to-heat-meals", "italian-classics"],
+    "locations": {
+      "vic": {
+        "price": 7.5,
+        "promoText": "Any 2 $12",
+        "packageSize": "350g",
+        "packagePrice": "$2.14 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-spaghetti-carbonara-pasta",
+    "brand": "Coles",
+    "name": "Kitchen Spaghetti Carbonara",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/6/8/2680802-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["ready-to-heat-meals", "italian-classics"],
+    "locations": {
+      "vic": {
+        "price": 7.5,
+        "promoText": "Any 2 $12",
+        "packageSize": "350g",
+        "packagePrice": "$2.14 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-beef-lasagne-3165991p",
+    "brand": "Coles",
+    "name": "Beef Lasagne",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/1/6/3165991-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["ready-to-heat-meals", "italian-classics"],
+    "locations": {
+      "vic": {
+        "price": 10,
+        "promoText": " ",
+        "packageSize": "1.8kg",
+        "packagePrice": "$5.56 per 1KG"
+      }
+    }
+  },
+  {
+    "id": "coles-kitchen-cannelloni-spnch-ricta",
+    "brand": "Coles",
+    "name": "Kitchen Spinach & Ricotta Cannelloni",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/7/7/3771277-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["ready-to-heat-meals", "family"],
+    "locations": {
+      "vic": {
+        "price": 6.5,
+        "promoText": "Any 2 $12",
+        "packageSize": "350g",
+        "packagePrice": "$1.86 per 100G"
+      }
+    }
+  },
+  {
+    "id": "banquet--everyday-quiche-lorraine",
+    "brand": "Banquet",
+    "name": "Quiche Lorraine",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/8/1/2815898-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["ready-to-heat-meals", "family"],
+    "locations": {
+      "vic": {
+        "price": 9,
+        "promoText": " ",
+        "packageSize": "700g",
+        "packagePrice": "$1.29 per 100G"
+      }
+    }
+  },
+  {
+    "id": "pitango-godness-bowl-butter-chicken",
+    "brand": "Pitango",
+    "name": "Goodness Bowl Butter Chicken",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/7/6/3761841-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["ready-to-heat-meals", "family"],
+    "locations": {
+      "vic": {
+        "price": 6,
+        "promoText": " ",
+        "packageSize": "350g",
+        "packagePrice": "$1.71 per 100G"
+      }
+    }
+  },
+  {
+    "id": "pitango-free-range-chicken-vegetable-soup",
+    "brand": "Pitango",
+    "name": "Free Range Chicken & Vegetable Soup",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/1/8/3183122-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["chilled-soup", "all-soups"],
+    "locations": {
+      "vic": {
+        "price": 6,
+        "promoText": " ",
+        "packageSize": "500g",
+        "packagePrice": "$1.20 per 100G"
+      }
+    }
+  },
+  {
+    "id": "darikay-hearty-chicken-soup",
+    "brand": "Darikay",
+    "name": "Hearty Chicken Soup",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/1/1/9/1196600-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["chilled-soup", "all-soups"],
+    "locations": {
+      "vic": {
+        "price": 6.5,
+        "promoText": " ",
+        "packageSize": "550g",
+        "packagePrice": "$1.18 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-butternut-pumpkin-soup",
+    "brand": "Coles",
+    "name": "Kitchen Butternut Pumpkin Soup",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/4/6/3467447-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["chilled-soup", "all-soups"],
+    "locations": {
+      "vic": {
+        "price": 3,
+        "promoText": "Any 2 $5",
+        "packageSize": "300g",
+        "packagePrice": "$1.00 per 100G"
+      }
+    }
+  },
+  {
+    "id": "darikay-chicken-noodle-soup",
+    "brand": "Darikay",
+    "name": "Chicken Noodle Soup",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/1/1/9/1196611-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["chilled-soup", "all-soups"],
+    "locations": {
+      "vic": {
+        "price": 6.5,
+        "promoText": " ",
+        "packageSize": "550g",
+        "packagePrice": "$1.18 per 100G"
+      }
+    }
+  },
+  {
+    "id": "youfodz-country-chicken-pumpkin-mash",
+    "brand": "Youfoodz",
+    "name": "Country Chicken & Pumpkin Mash",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/7/6/3769570-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["entertaining-sides", "entertaining-meals"],
+    "locations": {
+      "vic": {
+        "price": 7.95,
+        "promoText": "$2.00 ",
+        "packageSize": "346g",
+        "packagePrice": "$2.30 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-fresh-ravioli-beef",
+    "brand": "Latina",
+    "name": "Fresh Beef Ravioli",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/5/4/0/5404110-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 8,
+        "promoText": " ",
+        "packageSize": "625g",
+        "packagePrice": "$1.28 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-fresh-agnolotti-ricotta-spinach",
+    "brand": "Latina",
+    "name": "Fresh Ricotta & Spinach Agnolotti",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/5/4/6/5469181-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 8,
+        "promoText": " ",
+        "packageSize": "625g",
+        "packagePrice": "$1.28 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-fresh-pasta-ricotta-spinach-agnolotti",
+    "brand": "Latina",
+    "name": "Fresh Ricotta & Spinach Agnolotti",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/5/2/8/5280232-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 4,
+        "promoText": "$2.50 ",
+        "packageSize": "375g",
+        "packagePrice": "$1.07 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-spinach-ricotta-agnolotti-pasta",
+    "brand": "Coles",
+    "name": "Ricotta & Spinach Agnolotti Pasta",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/7/1/2714303-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 4,
+        "promoText": " ",
+        "packageSize": "600g",
+        "packagePrice": "$0.67 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-fresh-pasta-beef-ravioli",
+    "brand": "Latina",
+    "name": "Fresh Beef Ravioli",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/5/0/5/5051858-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 4,
+        "promoText": "$2.50 ",
+        "packageSize": "375g",
+        "packagePrice": "$1.07 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-pasta-lasagne-sheets-fresh",
+    "brand": "Coles",
+    "name": "Lasagne Sheets 12 Pack",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/7/7/1/7712156-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 2.9,
+        "promoText": " ",
+        "packageSize": "375g",
+        "packagePrice": "$0.77 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-potato-gnocchi-3167363p",
+    "brand": "Coles",
+    "name": "Potato Gnocchi",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/1/6/3167363-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 4,
+        "promoText": " ",
+        "packageSize": "500g",
+        "packagePrice": "$0.80 per 100G"
+      }
+    }
+  },
+  {
+    "id": "rana-spinach-ricotta-tortellini",
+    "brand": "La Famiglia Rana",
+    "name": "Ricotta & Spinach Tortellini",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/0/9/3091046-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 7,
+        "promoText": " ",
+        "packageSize": "325g",
+        "packagePrice": "$2.15 per 100G"
+      }
+    }
+  },
+  {
+    "id": "rana-ravioli-pumpkin-caramelised-onion",
+    "brand": "La Famiglia Rana",
+    "name": "Pumpkin & Roasted Onion Ravioli",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/0/9/3091148-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 7,
+        "promoText": " ",
+        "packageSize": "325g",
+        "packagePrice": "$2.15 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-fresh-lasagne-sheets",
+    "brand": "Latina",
+    "name": "Fresh Lasagne Sheets 8 Pack",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/5/1/6/5165427-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 5,
+        "promoText": " ",
+        "packageSize": "375g",
+        "packagePrice": "$1.33 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-beef-ravioli-pasta",
+    "brand": "Coles",
+    "name": "Beef Ravioli Pasta",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/7/1/2716080-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 4,
+        "promoText": " ",
+        "packageSize": "600g",
+        "packagePrice": "$0.67 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-veal-tortellini",
+    "brand": "Coles",
+    "name": "Veal Tortellini Pasta",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/7/1/2714289-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 4,
+        "promoText": " ",
+        "packageSize": "600g",
+        "packagePrice": "$0.67 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-fresh-tortellini-veal-5051836p",
+    "brand": "Latina",
+    "name": "Fresh Veal Tortellini",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/5/0/5/5051836-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 4,
+        "promoText": "$2.50 ",
+        "packageSize": "375g",
+        "packagePrice": "$1.07 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-pasta-tortellini-spinach-ricotta",
+    "brand": "Latina",
+    "name": "Fresh Spinach & Ricotta Tortellini",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/1/2/0/1202146-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 8,
+        "promoText": " ",
+        "packageSize": "625g",
+        "packagePrice": "$1.28 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-fresh-tortellini-veal",
+    "brand": "Latina",
+    "name": "Fresh Veal Tortellini",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/5/4/0/5404131-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 8,
+        "promoText": " ",
+        "packageSize": "625g",
+        "packagePrice": "$1.28 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-fresh-fettuccine-egg-5051790p",
+    "brand": "Latina",
+    "name": "Fresh Egg Fettuccine",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/5/0/5/5051790-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 5,
+        "promoText": " ",
+        "packageSize": "375g",
+        "packagePrice": "$1.33 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-finest-filled-pasta-pork-fennel",
+    "brand": "Coles Finest",
+    "name": "Italian Style Pork & Fennel Mezzalune Pasta",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/1/6/3166101-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 5,
+        "promoText": " ",
+        "packageSize": "350g",
+        "packagePrice": "$1.43 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-roast-chicken-garlic-ravioli",
+    "brand": "Latina",
+    "name": "Fresh Roast Chicken & Garlic Ravioli",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/7/2/9/7294409-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 8,
+        "promoText": " ",
+        "packageSize": "625g",
+        "packagePrice": "$1.28 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-fresh-gluten-free-beef-ravioli",
+    "brand": "Latina",
+    "name": "Gluten Free Beef Ravioli",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/2/7/2271450-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-pasta-lasagne-shets"],
+    "locations": {
+      "vic": {
+        "price": 7.5,
+        "promoText": " ",
+        "packageSize": "280g",
+        "packagePrice": "$2.68 per 100G"
+      }
+    }
+  },
+  {
+    "id": "fantastic-noodles-fresh-hokkien",
+    "brand": "Fantastic",
+    "name": "Hokkien Noodles",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/8/6/7/8679624-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "fresh-nodles"],
+    "locations": {
+      "vic": {
+        "price": 2.65,
+        "promoText": "2 for $4",
+        "packageSize": "450g",
+        "packagePrice": "$0.59 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-fresh-pasta-sauce-creamy-sundried-tomato",
+    "brand": "Latina",
+    "name": "Fresh Creamy Sundried Tomato Pasta Sauce",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/6/0/2/6026890-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "chilled-sauces"],
+    "locations": {
+      "vic": {
+        "price": 6,
+        "promoText": " ",
+        "packageSize": "425g",
+        "packagePrice": "$1.41 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-fresh-pasta-sauce-bolognese",
+    "brand": "Latina",
+    "name": "Fresh Beef Bolognese",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/5/2/2/5220241-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "chilled-sauces"],
+    "locations": {
+      "vic": {
+        "price": 6,
+        "promoText": " ",
+        "packageSize": "425g",
+        "packagePrice": "$1.41 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-fresh-pasta-sauce-creamy-carbonara-5404109p",
+    "brand": "Latina",
+    "name": "Fresh Creamy Carbonara Pasta Sauce",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/5/4/0/5404109-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "chilled-sauces"],
+    "locations": {
+      "vic": {
+        "price": 6,
+        "promoText": " ",
+        "packageSize": "425g",
+        "packagePrice": "$1.41 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-pasta-sauce-tomato-basil",
+    "brand": "Coles",
+    "name": "Tomato & Basil Pasta Sauce",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/8/7/2877330-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "chilled-sauces"],
+    "locations": {
+      "vic": {
+        "price": 3.7,
+        "promoText": " ",
+        "packageSize": "425g",
+        "packagePrice": "$0.87 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-fresh-pasta-sauce-italian-tomato-garlic-5233232p",
+    "brand": "Latina",
+    "name": "Fresh Italian Tomato & Garlic Pasta Sauce",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/5/2/3/5233232-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "chilled-sauces"],
+    "locations": {
+      "vic": {
+        "price": 6,
+        "promoText": " ",
+        "packageSize": "425g",
+        "packagePrice": "$1.41 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-pasta-sauce-carbonara",
+    "brand": "Coles",
+    "name": "Carbonara Pasta Sauce",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/8/7/2877341-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "chilled-sauces"],
+    "locations": {
+      "vic": {
+        "price": 3.7,
+        "promoText": " ",
+        "packageSize": "425g",
+        "packagePrice": "$0.87 per 100G"
+      }
+    }
+  },
+  {
+    "id": "latina-stir-through-sauce-tomato-smoked-bacon",
+    "brand": "Latina Fresh",
+    "name": "Tomato & Smoked Bacon Stir Through Sauce",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/6/5/3653725-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "chilled-sauces"],
+    "locations": {
+      "vic": {
+        "price": 3,
+        "promoText": "$1.00 ",
+        "packageSize": "250g",
+        "packagePrice": "$1.20 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-pasta-sauce-chese",
+    "brand": "Coles",
+    "name": "Creamy Cheese Pasta Sauce",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/7/7/3776962-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["fresh-pasta-sauce", "chilled-sauces"],
+    "locations": {
+      "vic": {
+        "price": 3.7,
+        "promoText": " ",
+        "packageSize": "425g",
+        "packagePrice": "$0.87 per 100G"
+      }
+    }
+  },
+  {
+    "id": "antoniou-pastry-filo",
+    "brand": "Antoniou",
+    "name": "Filo Pastry Chilled",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/9/7/297384-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["chilled-pizza", "pizza-bases-dough"],
+    "locations": {
+      "vic": {
+        "price": 4,
+        "promoText": " ",
+        "packageSize": "375g",
+        "packagePrice": "$1.07 per 100G"
+      }
+    }
+  },
+  {
+    "id": "pomodoro-bros-pizza-bases-stone-baked",
+    "brand": "Pomodoro Bros",
+    "name": "Stone Baked Pizza Base Twin pack",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/8/7/1/8714656-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["chilled-pizza", "pizza-bases-dough"],
+    "locations": {
+      "vic": {
+        "price": 4.2,
+        "promoText": " ",
+        "packageSize": "560g",
+        "packagePrice": "$0.75 per 100G"
+      }
+    }
+  },
+  {
+    "id": "gerry-pittes-bread-pita-souvlaki-pizza",
+    "brand": "Gerry Pittes",
+    "name": "Souvlaki Pizza Pita Bread",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/4/8/5/485602-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["chilled-pizza", "pizza-bases-dough"],
+    "locations": {
+      "vic": {
+        "price": 3.15,
+        "promoText": " ",
+        "packageSize": "450g",
+        "packagePrice": "$0.70 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-bread-garlic-twin-pack",
+    "brand": "Coles",
+    "name": "Garlic Baguette Twin Pack",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/6/1/1/6113633-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["chilled-garlic-bread-speciality-bread", "garlic-bread"],
+    "locations": {
+      "vic": {
+        "price": 2.8,
+        "promoText": " ",
+        "packageSize": "450g",
+        "packagePrice": "$0.62 per 100G"
+      }
+    }
+  },
+  {
+    "id": "la-famiglia-bread-garlic",
+    "brand": "La Famiglia",
+    "name": "Garlic Bread",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/6/1/4/6146213-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["chilled-garlic-bread-speciality-bread", "garlic-bread"],
+    "locations": {
+      "vic": {
+        "price": 4,
+        "promoText": " ",
+        "packageSize": "400g",
+        "packagePrice": "$1.00 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-smart-buy-bread-garlic-twin-pack",
+    "brand": "Coles",
+    "name": "Garlic Bread Twin Pack",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/7/3/1/7319725-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["chilled-garlic-bread-speciality-bread", "garlic-bread"],
+    "locations": {
+      "vic": {
+        "price": 1.9,
+        "promoText": " ",
+        "packageSize": "450g",
+        "packagePrice": "$0.42 per 100G"
+      }
+    }
+  },
+  {
+    "id": "la-famiglia--garlic-bread-for-2",
+    "brand": "La Famiglia",
+    "name": "Garlic Bread",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/6/8/2681882-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["chilled-garlic-bread-speciality-bread", "garlic-bread"],
+    "locations": {
+      "vic": {
+        "price": 3,
+        "promoText": " ",
+        "packageSize": "170g",
+        "packagePrice": "$1.76 per 100G"
+      }
+    }
+  },
+  {
+    "id": "la-famiglia-bread-garlic-slices",
+    "brand": "La Famiglia",
+    "name": "Garlic Bread Slices 9 pack",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/9/4/3/9435160-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["chilled-garlic-bread-speciality-bread", "garlic-bread"],
+    "locations": {
+      "vic": {
+        "price": 5.2,
+        "promoText": " ",
+        "packageSize": "270g",
+        "packagePrice": "$1.93 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-kaleslaw-salad-kit",
+    "brand": "Coles",
+    "name": "Kaleslaw Salad Kit Prepacked",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/7/9/2790390-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "salad-kits-slaws"],
+    "locations": {
+      "vic": {
+        "price": 5,
+        "promoText": " ",
+        "packageSize": "350g",
+        "packagePrice": "$14.29 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-asian-style-salad-kit",
+    "brand": "Coles",
+    "name": "Asian Style Salad Kit",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/7/8/2787974-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "salad-kits-slaws"],
+    "locations": {
+      "vic": {
+        "price": 5,
+        "promoText": " ",
+        "packageSize": "350g",
+        "packagePrice": "$14.29 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-coleslaw",
+    "brand": "Coles",
+    "name": "Coleslaw",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/7/9/2791406-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "salad-kits-slaws"],
+    "locations": {
+      "vic": {
+        "price": 2,
+        "promoText": " ",
+        "packageSize": "200g",
+        "packagePrice": "$10.00 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-superfood-vegetable-mix",
+    "brand": "Coles",
+    "name": "Superfood Vegetable Mix",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/0/1/3016120-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "salad-kits-slaws"],
+    "locations": {
+      "vic": {
+        "price": 3,
+        "promoText": " ",
+        "packageSize": "350g",
+        "packagePrice": "$8.57 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-mediterranean-slaw-kit",
+    "brand": "Coles",
+    "name": "Mediterranean Style Salad Kit",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/6/1/3615431-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "salad-kits-slaws"],
+    "locations": {
+      "vic": {
+        "price": 5,
+        "promoText": " ",
+        "packageSize": "350g",
+        "packagePrice": "$14.29 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-japanese-slaw-kit",
+    "brand": "Coles",
+    "name": "Pokeslaw Salad Kit",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/6/1/3615544-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "salad-kits-slaws"],
+    "locations": {
+      "vic": {
+        "price": 5,
+        "promoText": " ",
+        "packageSize": "400g",
+        "packagePrice": "$1.25 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-family-coleslaw-kit",
+    "brand": "Coles",
+    "name": "Coleslaw Family Kit",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/6/1/3615657-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "salad-kits-slaws"],
+    "locations": {
+      "vic": {
+        "price": 4,
+        "promoText": " ",
+        "packageSize": "520g",
+        "packagePrice": "$7.69 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-caesar-salad-kit",
+    "brand": "Coles",
+    "name": "Caesar Salad Kit Prepacked",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/7/8/2789619-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "salad-kits-slaws"],
+    "locations": {
+      "vic": {
+        "price": 5,
+        "promoText": " ",
+        "packageSize": "265g",
+        "packagePrice": "$1.89 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-asian-style-salad-bowl",
+    "brand": "Coles",
+    "name": "Asian Style Salad Bowl",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/7/8/2786585-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "salad-kits-slaws"],
+    "locations": {
+      "vic": {
+        "price": 5,
+        "promoText": " ",
+        "packageSize": "230g",
+        "packagePrice": "$21.74 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-bbq-chicken-bowl",
+    "brand": "Coles",
+    "name": "BBQ Chicken Salad Bowl",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/6/1/3617812-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "salad-kits-slaws"],
+    "locations": {
+      "vic": {
+        "price": 6,
+        "promoText": " ",
+        "packageSize": "190g",
+        "packagePrice": "$3.16 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-chicken-caesar-salad-bowl-3294724p",
+    "brand": "Coles",
+    "name": "Chicken Caesar Salad Bowl",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/2/9/3294724-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "salad-kits-slaws"],
+    "locations": {
+      "vic": {
+        "price": 6,
+        "promoText": " ",
+        "packageSize": "180g",
+        "packagePrice": "$3.33 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-burger-slaw-kit",
+    "brand": "Coles",
+    "name": "Special Burger Slaw Kit",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/6/1/3615602-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "salad-kits-slaws"],
+    "locations": {
+      "vic": {
+        "price": 5,
+        "promoText": " ",
+        "packageSize": "350g",
+        "packagePrice": "$14.29 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-potato-salad-3016288p",
+    "brand": "Coles",
+    "name": "Potato Salad",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/0/1/3016288-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "dressed-salad"],
+    "locations": {
+      "vic": {
+        "price": 3,
+        "promoText": " ",
+        "packageSize": "250g",
+        "packagePrice": "$1.20 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-salad-coleslaw-classic-prepacked-9960523p",
+    "brand": "Coles",
+    "name": "Coleslaw Salad",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/9/9/6/9960523-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "dressed-salad"],
+    "locations": {
+      "vic": {
+        "price": 5,
+        "promoText": " ",
+        "packageSize": "450g",
+        "packagePrice": "$11.11 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-creamy-potato-salad",
+    "brand": "Coles",
+    "name": "Potato Salad",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/1/9/8/1988904-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "dressed-salad"],
+    "locations": {
+      "vic": {
+        "price": 6.5,
+        "promoText": " ",
+        "packageSize": "800g",
+        "packagePrice": "$8.13 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-pasta-salad",
+    "brand": "Coles",
+    "name": "Pasta Salad",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/1/9/9/1991647-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "dressed-salad"],
+    "locations": {
+      "vic": {
+        "price": 6.5,
+        "promoText": " ",
+        "packageSize": "800g",
+        "packagePrice": "$8.13 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-coleslaw-salad-prepacked",
+    "brand": "Coles",
+    "name": "Coleslaw Salad",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/1/9/9/1991851-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "dressed-salad"],
+    "locations": {
+      "vic": {
+        "price": 6.5,
+        "promoText": " ",
+        "packageSize": "800g",
+        "packagePrice": "$8.13 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-pasta-salad-3016299p",
+    "brand": "Coles",
+    "name": "Pasta Salad",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/0/1/3016299-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "dressed-salad"],
+    "locations": {
+      "vic": {
+        "price": 3,
+        "promoText": " ",
+        "packageSize": "250g",
+        "packagePrice": "$12.00 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-fresh-lettuce---spinach-prepacked",
+    "brand": "Coles",
+    "name": "Baby Spinach Prepacked",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/1/4/9/1499340-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "mixed-leaf-lettuce"],
+    "locations": {
+      "vic": {
+        "price": 3,
+        "promoText": " ",
+        "packageSize": "120g",
+        "packagePrice": "$25.00 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-salad-family-spinach-prepacked",
+    "brand": "Coles",
+    "name": "Baby Spinach Salad Leaves Prepacked",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/8/6/5/8658588-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "mixed-leaf-lettuce"],
+    "locations": {
+      "vic": {
+        "price": 5,
+        "promoText": " ",
+        "packageSize": "280g",
+        "packagePrice": "$17.86 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-fresh-lettuce---rocket-prepacked-1499475p",
+    "brand": "Coles",
+    "name": "Baby Rocket Lettuce Prepacked",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/1/4/9/1499475-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "mixed-leaf-lettuce"],
+    "locations": {
+      "vic": {
+        "price": 3,
+        "promoText": " ",
+        "packageSize": "120g",
+        "packagePrice": "$25.00 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-salad-mixed-leaves-4-leaf-prepacked",
+    "brand": "Coles",
+    "name": "4 Leaf Salad Mix Prepacked",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/8/2/0/8209722-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "mixed-leaf-lettuce"],
+    "locations": {
+      "vic": {
+        "price": 3,
+        "promoText": " ",
+        "packageSize": "200g",
+        "packagePrice": "$15.00 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-salad-mix-4-leaf-prepacked",
+    "brand": "Coles",
+    "name": "4 Leaf Salad Mix Prepacked",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/6/8/8/6885716-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "mixed-leaf-lettuce"],
+    "locations": {
+      "vic": {
+        "price": 2,
+        "promoText": " ",
+        "packageSize": "120g",
+        "packagePrice": "$16.67 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-fresh-lettuce---rocket-prepacked-1499759p",
+    "brand": "Coles",
+    "name": "Baby Rocket Prepacked",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/1/4/9/1499759-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "mixed-leaf-lettuce"],
+    "locations": {
+      "vic": {
+        "price": 2,
+        "promoText": " ",
+        "packageSize": "60g",
+        "packagePrice": "$0.33 per 10G"
+      }
+    }
+  },
+  {
+    "id": "coles-spinach-rocket",
+    "brand": "Coles",
+    "name": "Baby Spinach & Rocket",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/6/1/3613141-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "mixed-leaf-lettuce"],
+    "locations": {
+      "vic": {
+        "price": 2,
+        "promoText": " ",
+        "packageSize": "60g",
+        "packagePrice": "$3.33 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-italian-leaf-blend",
+    "brand": "Coles",
+    "name": "Leaf Blend Italian Style",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/6/1/3613119-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "mixed-leaf-lettuce"],
+    "locations": {
+      "vic": {
+        "price": 4,
+        "promoText": " ",
+        "packageSize": "150g",
+        "packagePrice": "$2.67 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-american-bbq-dressing",
+    "brand": "Coles",
+    "name": "Smokey American BBQ Dressing",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/2/9/3294418-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "salad-dressing-sauce"],
+    "locations": {
+      "vic": {
+        "price": 3,
+        "promoText": " ",
+        "packageSize": "200mL",
+        "packagePrice": "$1.50 per 100mL"
+      }
+    }
+  },
+  {
+    "id": "coles-kaleslaw-dressing",
+    "brand": "Coles",
+    "name": "Kaleslaw Dressing",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/2/9/3294440-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["packaged-salads", "salad-dressing-sauce"],
+    "locations": {
+      "vic": {
+        "price": 3,
+        "promoText": " ",
+        "packageSize": "200mL",
+        "packagePrice": "$1.50 per 100mL"
+      }
+    }
+  },
+  {
+    "id": "coles-zucchini-noodles",
+    "brand": "Coles",
+    "name": "Australian Zucchini Noodles",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/1/6/3164263-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["prepared-vegetables", "carb-clever"],
+    "locations": {
+      "vic": {
+        "price": 3,
+        "promoText": " ",
+        "packageSize": "250g",
+        "packagePrice": "$12.00 per 1Kg"
+      }
+    }
+  },
+  {
+    "id": "coles-microwave-cauliflower-rice",
+    "brand": "Coles",
+    "name": "Microwave Cauliflower Rice",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/8/6/2860269-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["prepared-vegetables", "carb-clever"],
+    "locations": {
+      "vic": {
+        "price": 3,
+        "promoText": " ",
+        "packageSize": "300g",
+        "packagePrice": "$1.00 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-rst-veg-garlic-rosemary",
+    "brand": "Coles",
+    "name": "Roasting Vegetables With Garlic And Rosemary",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/3/5/0/3505819-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["prepared-vegetables", "ready-to-roast-steam"],
+    "locations": {
+      "vic": {
+        "price": 4.5,
+        "promoText": " ",
+        "packageSize": "500g",
+        "packagePrice": "$0.90 per 100G"
+      }
+    }
+  },
+  {
+    "id": "coles-carrots-and-green-beans",
+    "brand": "Coles",
+    "name": "Carrots And Green Beans Prepacked",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/6/7/2674683-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["prepared-vegetables", "ready-to-roast-steam"],
+    "locations": {
+      "vic": {
+        "price": 0,
+        "promoText": " ",
+        "packageSize": "150g",
+        "packagePrice": ""
+      }
+    }
+  },
+  {
+    "id": "coles-fresh-australian-carrot-batons",
+    "brand": "Coles",
+    "name": "Carrot Sticks",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/Coles-CAS/images/2/3/1/2313448-th.jpg",
+    "categories": ["convenience-meals"],
+    "tags": ["prepared-vegetables", "cut-trimmed-veggies"],
+    "locations": {
+      "vic": {
+        "price": 0,
+        "promoText": " ",
+        "packageSize": "150g",
+        "packagePrice": ""
+      }
+    }
+  },
+  {
+    "id": "coles-mango-3408222p",
+    "brand": "Coles",
+    "name": "Mango",
+    "imageUrl": "https://shop.coles.com.au/wcsstore/ColesResponsiveStorefrontAssetStore/dist/ccfc54aed6e361b650bcf0582f7b576b/img/img_product-placeholder.png",
+    "categories": ["convenience-meals"],
+    "tags": ["prepared-fruits", "ready-to-eat-fruits"],
+    "locations": {
+      "vic": {
+        "price": 0,
+        "promoText": " ",
+        "packageSize": "200g",
+        "packagePrice": ""
+      }
+    }
+  }
+]
+

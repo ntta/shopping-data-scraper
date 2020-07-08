@@ -19,10 +19,10 @@ module.exports.COOKIE_PATH = './cookie.txt';
 module.exports.FIRST_PAGES = {
   vic: {
     url:
-      'https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials',
+      'https://shop.coles.com.au/a/hoppers-crossing/specials/search/half-price-specials',
     cookiePath: './cookie/cookie_vic.txt',
     city: 'Melbourne',
-    postcode: '3000',
+    postcode: '3038',
   },
   sa: {
     url:

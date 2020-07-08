@@ -1,37 +1,49 @@
 {
   "vic": {
     "bakery": [
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404562&pageNumber=1"
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397063&pageNumber=1"
+    ],
+    "dairy-eggs-fridge": [
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397054&pageNumber=1"
     ],
     "pantry": [
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404551&pageNumber=1",
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404551&pageNumber=2",
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404551&pageNumber=3",
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404551&pageNumber=4",
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404551&pageNumber=5"
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397051&pageNumber=1",
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397051&pageNumber=2",
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397051&pageNumber=3",
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397051&pageNumber=4",
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397051&pageNumber=5"
     ],
     "freezer": [
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404565&pageNumber=1"
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397066&pageNumber=1"
     ],
     "drinks": [
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404552&pageNumber=1"
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397052&pageNumber=1"
     ],
     "international-foods": [
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404553&pageNumber=1"
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397053&pageNumber=1"
     ],
     "health-beauty": [
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404564&pageNumber=1",
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404564&pageNumber=2",
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404556&pageNumber=1",
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404556&pageNumber=2",
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404556&pageNumber=3",
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404556&pageNumber=4"
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397065&pageNumber=1",
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397065&pageNumber=2",
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397056&pageNumber=1",
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397056&pageNumber=2",
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397056&pageNumber=3",
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397056&pageNumber=4",
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397056&pageNumber=5",
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397056&pageNumber=6"
     ],
     "household": [
-      "https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials?categoryId=4404555&pageNumber=1"
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397055&pageNumber=1",
+      "https://shop.coles.com.au/a/deer-park/specials/search/half-price-specials?categoryId=4397055&pageNumber=2"
     ]
   },
   "sa": {
+    "bakery": [
+      "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406562&pageNumber=1"
+    ],
+    "dairy-eggs-fridge": [
+      "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406554&pageNumber=1"
+    ],
     "pantry": [
       "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406551&pageNumber=1",
       "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406551&pageNumber=2",
@@ -42,6 +54,12 @@
     "freezer": [
       "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406565&pageNumber=1"
     ],
+    "drinks": [
+      "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406552&pageNumber=1"
+    ],
+    "international-foods": [
+      "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406553&pageNumber=1"
+    ],
     "health-beauty": [
       "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406564&pageNumber=1",
       "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406564&pageNumber=2",
@@ -50,18 +68,20 @@
       "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406556&pageNumber=3",
       "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406556&pageNumber=4",
       "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406556&pageNumber=5",
-      "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406556&pageNumber=6",
-      "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406556&pageNumber=7",
-      "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406556&pageNumber=8"
+      "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406556&pageNumber=6"
     ],
     "household": [
       "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406555&pageNumber=1",
-      "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406555&pageNumber=2"
+      "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406555&pageNumber=2",
+      "https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials?categoryId=4406555&pageNumber=3"
     ]
   },
   "qld": {
     "bakery": [
       "https://shop.coles.com.au/a/fairfield/specials/search/half-price-specials?categoryId=198520&pageNumber=1"
+    ],
+    "dairy-eggs-fridge": [
+      "https://shop.coles.com.au/a/fairfield/specials/search/half-price-specials?categoryId=449561&pageNumber=1"
     ],
     "pantry": [
       "https://shop.coles.com.au/a/fairfield/specials/search/half-price-specials?categoryId=198501&pageNumber=1",
@@ -87,18 +107,20 @@
       "https://shop.coles.com.au/a/fairfield/specials/search/half-price-specials?categoryId=198509&pageNumber=3",
       "https://shop.coles.com.au/a/fairfield/specials/search/half-price-specials?categoryId=198509&pageNumber=4",
       "https://shop.coles.com.au/a/fairfield/specials/search/half-price-specials?categoryId=198509&pageNumber=5",
-      "https://shop.coles.com.au/a/fairfield/specials/search/half-price-specials?categoryId=198509&pageNumber=6",
-      "https://shop.coles.com.au/a/fairfield/specials/search/half-price-specials?categoryId=198509&pageNumber=7",
-      "https://shop.coles.com.au/a/fairfield/specials/search/half-price-specials?categoryId=198509&pageNumber=8"
+      "https://shop.coles.com.au/a/fairfield/specials/search/half-price-specials?categoryId=198509&pageNumber=6"
     ],
     "household": [
       "https://shop.coles.com.au/a/fairfield/specials/search/half-price-specials?categoryId=198507&pageNumber=1",
-      "https://shop.coles.com.au/a/fairfield/specials/search/half-price-specials?categoryId=198507&pageNumber=2"
+      "https://shop.coles.com.au/a/fairfield/specials/search/half-price-specials?categoryId=198507&pageNumber=2",
+      "https://shop.coles.com.au/a/fairfield/specials/search/half-price-specials?categoryId=198507&pageNumber=3"
     ]
   },
   "nsw": {
     "bakery": [
       "https://shop.coles.com.au/a/alexandria/specials/search/half-price-specials?categoryId=4314064&pageNumber=1"
+    ],
+    "dairy-eggs-fridge": [
+      "https://shop.coles.com.au/a/alexandria/specials/search/half-price-specials?categoryId=4314054&pageNumber=1"
     ],
     "pantry": [
       "https://shop.coles.com.au/a/alexandria/specials/search/half-price-specials?categoryId=4314051&pageNumber=1",
@@ -124,18 +146,20 @@
       "https://shop.coles.com.au/a/alexandria/specials/search/half-price-specials?categoryId=4314056&pageNumber=3",
       "https://shop.coles.com.au/a/alexandria/specials/search/half-price-specials?categoryId=4314056&pageNumber=4",
       "https://shop.coles.com.au/a/alexandria/specials/search/half-price-specials?categoryId=4314056&pageNumber=5",
-      "https://shop.coles.com.au/a/alexandria/specials/search/half-price-specials?categoryId=4314056&pageNumber=6",
-      "https://shop.coles.com.au/a/alexandria/specials/search/half-price-specials?categoryId=4314056&pageNumber=7",
-      "https://shop.coles.com.au/a/alexandria/specials/search/half-price-specials?categoryId=4314056&pageNumber=8"
+      "https://shop.coles.com.au/a/alexandria/specials/search/half-price-specials?categoryId=4314056&pageNumber=6"
     ],
     "household": [
       "https://shop.coles.com.au/a/alexandria/specials/search/half-price-specials?categoryId=4314055&pageNumber=1",
-      "https://shop.coles.com.au/a/alexandria/specials/search/half-price-specials?categoryId=4314055&pageNumber=2"
+      "https://shop.coles.com.au/a/alexandria/specials/search/half-price-specials?categoryId=4314055&pageNumber=2",
+      "https://shop.coles.com.au/a/alexandria/specials/search/half-price-specials?categoryId=4314055&pageNumber=3"
     ]
   },
   "wa": {
     "bakery": [
       "https://shop.coles.com.au/a/dianella/specials/search/half-price-specials?categoryId=4421598&pageNumber=1"
+    ],
+    "dairy-eggs-fridge": [
+      "https://shop.coles.com.au/a/dianella/specials/search/half-price-specials?categoryId=4421566&pageNumber=1"
     ],
     "pantry": [
       "https://shop.coles.com.au/a/dianella/specials/search/half-price-specials?categoryId=4421554&pageNumber=1",
@@ -150,9 +174,6 @@
     "drinks": [
       "https://shop.coles.com.au/a/dianella/specials/search/half-price-specials?categoryId=4421558&pageNumber=1"
     ],
-    "international-foods": [
-      "https://shop.coles.com.au/a/dianella/specials/search/half-price-specials?categoryId=4421562&pageNumber=1"
-    ],
     "health-beauty": [
       "https://shop.coles.com.au/a/dianella/specials/search/half-price-specials?categoryId=4421606&pageNumber=1",
       "https://shop.coles.com.au/a/dianella/specials/search/half-price-specials?categoryId=4421606&pageNumber=2",
@@ -161,8 +182,7 @@
       "https://shop.coles.com.au/a/dianella/specials/search/half-price-specials?categoryId=4421574&pageNumber=3",
       "https://shop.coles.com.au/a/dianella/specials/search/half-price-specials?categoryId=4421574&pageNumber=4",
       "https://shop.coles.com.au/a/dianella/specials/search/half-price-specials?categoryId=4421574&pageNumber=5",
-      "https://shop.coles.com.au/a/dianella/specials/search/half-price-specials?categoryId=4421574&pageNumber=6",
-      "https://shop.coles.com.au/a/dianella/specials/search/half-price-specials?categoryId=4421574&pageNumber=7"
+      "https://shop.coles.com.au/a/dianella/specials/search/half-price-specials?categoryId=4421574&pageNumber=6"
     ],
     "household": [
       "https://shop.coles.com.au/a/dianella/specials/search/half-price-specials?categoryId=4421570&pageNumber=1",
@@ -172,6 +192,9 @@
   "tas": {
     "bakery": [
       "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=89507&pageNumber=1"
+    ],
+    "dairy-eggs-fridge": [
+      "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=449574&pageNumber=1"
     ],
     "pantry": [
       "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=89501&pageNumber=1",
@@ -186,22 +209,26 @@
     "drinks": [
       "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=89514&pageNumber=1"
     ],
-    "international-foods": [
-      "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=89515&pageNumber=1"
-    ],
     "health-beauty": [
       "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=811557&pageNumber=1",
       "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=811557&pageNumber=2",
-      "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=89512&pageNumber=1"
+      "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=89512&pageNumber=1",
+      "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=89512&pageNumber=2",
+      "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=89512&pageNumber=3",
+      "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=89512&pageNumber=4",
+      "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=89512&pageNumber=5",
+      "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=89512&pageNumber=6"
     ],
     "household": [
-      "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=89516&pageNumber=1",
-      "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=89516&pageNumber=2"
+      "https://shop.coles.com.au/a/glenorchy/specials/search/half-price-specials?categoryId=89516&pageNumber=1"
     ]
   },
   "act": {
     "bakery": [
       "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25571&pageNumber=1"
+    ],
+    "dairy-eggs-fridge": [
+      "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=449560&pageNumber=1"
     ],
     "pantry": [
       "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25502&pageNumber=1",
@@ -216,9 +243,6 @@
     "drinks": [
       "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25560&pageNumber=1"
     ],
-    "international-foods": [
-      "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25510&pageNumber=1"
-    ],
     "health-beauty": [
       "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=811553&pageNumber=1",
       "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=811553&pageNumber=2",
@@ -227,24 +251,23 @@
       "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25515&pageNumber=3",
       "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25515&pageNumber=4",
       "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25515&pageNumber=5",
-      "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25515&pageNumber=6",
-      "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25515&pageNumber=7",
-      "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25515&pageNumber=8"
+      "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25515&pageNumber=6"
     ],
     "household": [
-      "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25563&pageNumber=1"
+      "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25563&pageNumber=1",
+      "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25563&pageNumber=2",
+      "https://shop.coles.com.au/a/queabeyan/specials/search/half-price-specials?categoryId=25563&pageNumber=3"
     ]
   },
   "nt": {
     "bakery": [
       "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36025&pageNumber=1"
     ],
+    "dairy-eggs-fridge": [
+      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=449552&pageNumber=1"
+    ],
     "pantry": [
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36001&pageNumber=1",
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36001&pageNumber=2",
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36001&pageNumber=3",
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36001&pageNumber=4",
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36001&pageNumber=5"
+      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36001&pageNumber=1"
     ],
     "freezer": [
       "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=1182054&pageNumber=1"
@@ -257,19 +280,10 @@
     ],
     "health-beauty": [
       "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=811564&pageNumber=1",
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=811564&pageNumber=2",
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36006&pageNumber=1",
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36006&pageNumber=2",
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36006&pageNumber=3",
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36006&pageNumber=4",
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36006&pageNumber=5",
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36006&pageNumber=6",
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36006&pageNumber=7",
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36006&pageNumber=8"
+      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36006&pageNumber=1"
     ],
     "household": [
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36037&pageNumber=1",
-      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36037&pageNumber=2"
+      "https://shop.coles.com.au/a/casuarina/specials/search/half-price-specials?categoryId=36037&pageNumber=1"
     ]
   }
 }

@@ -1,11 +1,19 @@
 import inquirer from 'inquirer';
-import getAllColesProducts from './actions/getAllColesProducts';
+import getCategorisedColesProducts from './actions/getCategorisedColesProducts';
+import { readLineFromFile } from './playground';
 
 // Actions
-const GET_ALL_COLES_PRODUCTS = 'get_coles_products';
+const GET_PRODUCTS_FROM_COLES_CATEGORY = 'get_products_from_coles_category';
+const PLAYGROUND = 'playground';
+const EXIT = 'exit';
 
 const choices = [
-  { title: 'Get all products from Coles', action: GET_ALL_COLES_PRODUCTS },
+  {
+    title: 'Get all products of one category of Coles',
+    action: GET_PRODUCTS_FROM_COLES_CATEGORY,
+  },
+  { title: 'Playground', action: PLAYGROUND },
+  { title: 'Exit', action: EXIT },
 ];
 
 inquirer
@@ -26,10 +34,19 @@ inquirer
       },
     },
   ])
-  .then((answers) => {
+  .then(async (answers) => {
     switch (answers.action) {
-      case GET_ALL_COLES_PRODUCTS:
-        getAllColesProducts();
+      case GET_PRODUCTS_FROM_COLES_CATEGORY:
+        const urls = readLineFromFile('./data/urls.txt');
+        for (let url of urls) {
+          await getCategorisedColesProducts(url);
+        }
+        return;
+      case PLAYGROUND:
+        const data = readLineFromFile('./data/urls.txt');
+        console.log(data);
+        return;
+      case EXIT:
         return;
     }
   });

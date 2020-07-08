@@ -14,28 +14,28 @@ import { colesEverything, colesUrl, ignoredCategoryList } from '../variables';
  *  brand: string,
  *  name: string,
  *  imageUrl: string,
+ *  categories: Array of string,
  *  locations: {
  *    vic: {
  *      price: double,
  *      promoText: string,
  *      package-size: string,
  *      package-price: string,
- *      categories: Array of string,
  *    }
  *  }
  * }
  */
 
 const postcode = colesEverything.postcode;
-let categoryUrlList = [];
 let allProducts = [];
 
-const getAllColesProducts = async () => {
+const getCategorisedColesProducts = async (url) => {
   try {
     puppeteer.use(StealthPlugin());
     let browser = await puppeteer.launch({ headless: false });
     let page = await browser.newPage();
-    let url = colesEverything.url;
+    let category = getProductCategory(url);
+    console.log(`Getting products from ${category}`);
 
     // Navigate to url and enter postcode
     await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
@@ -48,7 +48,10 @@ const getAllColesProducts = async () => {
     await page.waitForNavigation({ timeout: 0, waitUntil: 'networkidle2' });
     await getDeepestSubCategoryList(page, url);
     await browser.close();
-    fs.writeFileSync('./data/products.json', JSON.stringify(allProducts));
+    fs.writeFileSync(
+      `./data/products/${category}.json`,
+      JSON.stringify(allProducts)
+    );
   } catch (err) {
     console.log(err);
     return;
@@ -75,7 +78,6 @@ const getDeepestSubCategoryList = async (page, url) => {
     }
   } else {
     await getProductsOfCategory(page, url);
-    categoryUrlList.push(url);
   }
 };
 
@@ -107,6 +109,8 @@ const getProductsEachPage = async (page, url) => {
   let bodyHtml = await page.evaluate(() => document.body.innerHTML);
   let $ = cheerio.load(bodyHtml);
   let category = getProductCategory(url);
+  let tags = getProductTags(url);
+  console.log(tags);
   $('.product-header').each((i, elm) => {
     let id = getProductId(
       $(elm).find('.product-image-link').attr('href').toString()
@@ -124,11 +128,16 @@ const getProductsEachPage = async (page, url) => {
       $(elm).find('.dollar-value').text().trim() +
         $(elm).find('.cent-value').text().trim()
     );
-    let promoText = $(elm).find('.product-save-value').text().trim();
+    let promoText =
+      $(elm).find('.product-save-value').text().trim() +
+      getDiscountText($(elm).find('.discount-text').text().trim());
     if (allProducts.some((p) => p.id === id)) {
       allProducts.map((p) => {
         if (p.id === id) {
-          p.vic.categories.push(category);
+          p.categories.push(category);
+          p.categories = [...new Set(p.categories)];
+          p.tags.concat(tags);
+          p.tags = [...new Set(p.tags)];
         }
       });
     } else {
@@ -138,13 +147,14 @@ const getProductsEachPage = async (page, url) => {
         brand,
         name,
         imageUrl,
+        categories,
+        tags,
         locations: {
           vic: {
             price,
             promoText,
             packageSize,
             packagePrice,
-            categories,
           },
         },
       };
@@ -165,17 +175,39 @@ const getPaginationUrls = (url, pageNumber) => {
 
 const getProductId = (str) => {
   const parts = str.split('/');
-  return parts[parts.length - 1];
+  return parts[parts.length - 1].split('?')[0];
 };
 
 const getProductCategory = (str) => {
   const parts = str.split('/');
+  let result = '';
   for (let i = 0; i < parts.length; i++) {
     if (parts[i] === 'browse') {
-      return parts[i + 1];
+      result = parts[i + 1];
+      break;
     }
   }
-  return '';
+  return result.split('?')[0];
 };
 
-export default getAllColesProducts;
+const getDiscountText = (str) => {
+  const polishedStr = str.replace(/\n/g, '').replace(/\t/g, '');
+  const parts = polishedStr.split('$');
+  return polishedStr.replace(parts[0], parts[0] + ' ');
+};
+
+const getProductTags = (str) => {
+  const parts = str.split('/');
+  let result = [];
+  for (let i = 0; i < parts.length; i++) {
+    if (parts[i] === 'browse' && i + 1 < parts.length) {
+      result = parts.slice(parts.indexOf(parts[i + 1]), parts.length);
+      break;
+    }
+  }
+  const category = getProductCategory(str);
+  result = result.filter((tag) => tag !== category);
+  return result.map((tag) => tag.split('?')[0]);
+};
+
+export default getCategorisedColesProducts;
