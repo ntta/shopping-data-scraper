@@ -1,0 +1,579 @@
+[
+  {
+    "categoryId": "health",
+    "categoryName": "Health",
+    "categoryUrl": "https://www.chemistwarehouse.com.au/shop-online/256/health",
+    "subCategories": [
+      {
+        "categoryNumber": "81",
+        "subCategoryId": "vitamins",
+        "subCategoryName": "Vitamins",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/81/vitamins"
+      },
+      {
+        "categoryNumber": "82",
+        "subCategoryId": "tonics",
+        "subCategoryName": "Tonics",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/82/tonics"
+      },
+      {
+        "categoryNumber": "517",
+        "subCategoryId": "weight-loss",
+        "subCategoryName": "Weight Loss",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/517/weight-loss"
+      },
+      {
+        "categoryNumber": "523",
+        "subCategoryId": "natural-hormone-replacement",
+        "subCategoryName": "Natural Hormone Replacement",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/523/natural-hormone-replacement"
+      },
+      {
+        "categoryNumber": "527",
+        "subCategoryId": "aromatherapy",
+        "subCategoryName": "Aromatherapy",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/527/aromatherapy"
+      },
+      {
+        "categoryNumber": "608",
+        "subCategoryId": "arthritis-relief",
+        "subCategoryName": "Arthritis Relief",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/608/arthritis-relief"
+      },
+      {
+        "categoryNumber": "1255",
+        "subCategoryId": "sports-nutrition",
+        "subCategoryName": "Sports Nutrition",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/1255/sports-nutrition"
+      },
+      {
+        "categoryNumber": "3248",
+        "subCategoryId": "milk-supplements",
+        "subCategoryName": "Milk Supplements",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/3248/milk-supplements"
+      },
+      {
+        "categoryNumber": "539",
+        "subCategoryId": "brauer-natural-medicine",
+        "subCategoryName": "Brauer Natural Medicine",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/539/brauer-natural-medicine"
+      },
+      {
+        "categoryNumber": "4379",
+        "subCategoryId": "miscellaneous",
+        "subCategoryName": "Miscellaneous",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/4379/miscellaneous"
+      }
+    ]
+  },
+  {
+    "categoryId": "beauty",
+    "categoryName": "Beauty",
+    "categoryUrl": "https://www.chemistwarehouse.com.au/shop-online/257/beauty",
+    "subCategories": [
+      {
+        "categoryNumber": "230",
+        "subCategoryId": "acne",
+        "subCategoryName": "Acne",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/230/acne"
+      },
+      {
+        "categoryNumber": "232",
+        "subCategoryId": "hair-removal",
+        "subCategoryName": "Hair Removal",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/232/hair-removal"
+      },
+      {
+        "categoryNumber": "233",
+        "subCategoryId": "anti-itch",
+        "subCategoryName": "Anti-Itch",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/233/anti-itch"
+      },
+      {
+        "categoryNumber": "236",
+        "subCategoryId": "cleansers",
+        "subCategoryName": "Cleansers",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/236/cleansers"
+      },
+      {
+        "categoryNumber": "542",
+        "subCategoryId": "fragrances",
+        "subCategoryName": "Fragrances",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/542/fragrances"
+      },
+      {
+        "categoryNumber": "648",
+        "subCategoryId": "cosmetics",
+        "subCategoryName": "Cosmetics",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/648/cosmetics"
+      },
+      {
+        "categoryNumber": "665",
+        "subCategoryId": "skin-care",
+        "subCategoryName": "Skin Care",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/665/skin-care"
+      },
+      {
+        "categoryNumber": "770",
+        "subCategoryId": "scar-treatment",
+        "subCategoryName": "Scar Treatment",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/770/scar-treatment"
+      },
+      {
+        "categoryNumber": "1023",
+        "subCategoryId": "swisspers",
+        "subCategoryName": "Swisspers",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/1023/swisspers"
+      },
+      {
+        "categoryNumber": "3621",
+        "subCategoryId": "beauty-accessories",
+        "subCategoryName": "Beauty Accessories",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/3621/beauty-accessories"
+      },
+      {
+        "categoryNumber": "3722",
+        "subCategoryId": "beauty-miscellaneous",
+        "subCategoryName": "Beauty Miscellaneous",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/3722/beauty-miscellaneous"
+      }
+    ]
+  },
+  {
+    "categoryId": "medicines",
+    "categoryName": "Medicines",
+    "categoryUrl": "https://www.chemistwarehouse.com.au/shop-online/258/medicines",
+    "subCategories": [
+      {
+        "categoryNumber": "55",
+        "subCategoryId": "pharmaceutical-preparations",
+        "subCategoryName": "Pharmaceutical Preparations",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/55/pharmaceutical-preparations"
+      },
+      {
+        "categoryNumber": "99",
+        "subCategoryId": "first-aid",
+        "subCategoryName": "First Aid",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/99/first-aid"
+      },
+      {
+        "categoryNumber": "174",
+        "subCategoryId": "anti-inflammatory-and-heat-rubs",
+        "subCategoryName": "Anti-Inflammatory and Heat Rubs",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/174/anti-inflammatory-and-heat-rubs"
+      },
+      {
+        "categoryNumber": "175",
+        "subCategoryId": "stomach-and-anti-diarrhoea",
+        "subCategoryName": "Stomach and Anti-Diarrhoea",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/175/stomach-and-anti-diarrhoea"
+      },
+      {
+        "categoryNumber": "176",
+        "subCategoryId": "anti-nauseants",
+        "subCategoryName": "Anti-Nauseants",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/176/anti-nauseants"
+      },
+      {
+        "categoryNumber": "178",
+        "subCategoryId": "haemorrhoids",
+        "subCategoryName": "Haemorrhoids",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/178/haemorrhoids"
+      },
+      {
+        "categoryNumber": "181",
+        "subCategoryId": "laxatives",
+        "subCategoryName": "Laxatives",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/181/laxatives"
+      },
+      {
+        "categoryNumber": "182",
+        "subCategoryId": "eye-care-and-treatments",
+        "subCategoryName": "Eye Care and Treatments",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/182/eye-care-and-treatments"
+      },
+      {
+        "categoryNumber": "184",
+        "subCategoryId": "ear-care-and-treatments",
+        "subCategoryName": "Ear Care and Treatments",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/184/ear-care-and-treatments"
+      },
+      {
+        "categoryNumber": "185",
+        "subCategoryId": "worming-treatments",
+        "subCategoryName": "Worming Treatments",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/185/worming-treatments"
+      },
+      {
+        "categoryNumber": "186",
+        "subCategoryId": "sedatives",
+        "subCategoryName": "Sedatives",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/186/sedatives"
+      },
+      {
+        "categoryNumber": "188",
+        "subCategoryId": "stimulants",
+        "subCategoryName": "Stimulants",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/188/stimulants"
+      },
+      {
+        "categoryNumber": "191",
+        "subCategoryId": "electrolyte-replacements",
+        "subCategoryName": "Electrolyte Replacements",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/191/electrolyte-replacements"
+      },
+      {
+        "categoryNumber": "192",
+        "subCategoryId": "miscellaneous-medicines",
+        "subCategoryName": "Miscellaneous Medicines",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/192/miscellaneous-medicines"
+      },
+      {
+        "categoryNumber": "196",
+        "subCategoryId": "analgesics",
+        "subCategoryName": "Analgesics",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/196/analgesics"
+      },
+      {
+        "categoryNumber": "198",
+        "subCategoryId": "smoking-deterrents",
+        "subCategoryName": "Smoking Deterrents",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/198/smoking-deterrents"
+      },
+      {
+        "categoryNumber": "238",
+        "subCategoryId": "anti-fungal-warts",
+        "subCategoryName": "Anti-fungal & Warts",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/238/anti-fungal-warts"
+      },
+      {
+        "categoryNumber": "553",
+        "subCategoryId": "hair-loss-treatments",
+        "subCategoryName": "Hair Loss Treatments",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/553/hair-loss-treatments"
+      },
+      {
+        "categoryNumber": "607",
+        "subCategoryId": "hangover-preparations",
+        "subCategoryName": "Hangover Preparations",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/607/hangover-preparations"
+      },
+      {
+        "categoryNumber": "609",
+        "subCategoryId": "topical-ointments",
+        "subCategoryName": "Topical Ointments",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/609/topical-ointments"
+      },
+      {
+        "categoryNumber": "664",
+        "subCategoryId": "travel",
+        "subCategoryName": "Travel",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/664/travel"
+      },
+      {
+        "categoryNumber": "723",
+        "subCategoryId": "low-dose-aspirin",
+        "subCategoryName": "Low Dose Aspirin",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/723/low-dose-aspirin"
+      },
+      {
+        "categoryNumber": "783",
+        "subCategoryId": "fibre-supplements",
+        "subCategoryName": "Fibre Supplements",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/783/fibre-supplements"
+      },
+      {
+        "categoryNumber": "1092",
+        "subCategoryId": "allergy,-hayfever-anti-histamines",
+        "subCategoryName": "Allergy, Hayfever & Anti-Histamines",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/1092/allergy,-hayfever-anti-histamines"
+      },
+      {
+        "categoryNumber": "1093",
+        "subCategoryId": "cold-flu",
+        "subCategoryName": "Cold & Flu",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/1093/cold-flu"
+      },
+      {
+        "categoryNumber": "1094",
+        "subCategoryId": "coughs",
+        "subCategoryName": "Coughs",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/1094/coughs"
+      },
+      {
+        "categoryNumber": "1450",
+        "subCategoryId": "cold-sore-treatments",
+        "subCategoryName": "Cold Sore Treatments",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/1450/cold-sore-treatments"
+      },
+      {
+        "categoryNumber": "2596",
+        "subCategoryId": "essential-oils",
+        "subCategoryName": "Essential Oils",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/2596/essential-oils"
+      },
+      {
+        "categoryNumber": "3084",
+        "subCategoryId": "irritable-bowel-syndrome-ibs",
+        "subCategoryName": "Irritable Bowel Syndrome - IBS",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/3084/irritable-bowel-syndrome-ibs"
+      },
+      {
+        "categoryNumber": "3409",
+        "subCategoryId": "urinary-tract-infections-uti",
+        "subCategoryName": "Urinary Tract Infections UTI",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/3409/urinary-tract-infections-uti"
+      }
+    ]
+  },
+  {
+    "categoryId": "personal-care",
+    "categoryName": "Personal Care",
+    "categoryUrl": "https://www.chemistwarehouse.com.au/shop-online/259/personal-care",
+    "subCategories": [
+      {
+        "categoryNumber": "20",
+        "subCategoryId": "baby-care",
+        "subCategoryName": "Baby Care",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/20/baby-care"
+      },
+      {
+        "categoryNumber": "2011",
+        "subCategoryId": "pantyhose",
+        "subCategoryName": "Pantyhose",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/2011/pantyhose"
+      },
+      {
+        "categoryNumber": "89",
+        "subCategoryId": "sexual-health",
+        "subCategoryName": "Sexual Health",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/89/sexual-health"
+      },
+      {
+        "categoryNumber": "90",
+        "subCategoryId": "feminine-hygiene",
+        "subCategoryName": "Feminine Hygiene",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/90/feminine-hygiene"
+      },
+      {
+        "categoryNumber": "109",
+        "subCategoryId": "foot-care",
+        "subCategoryName": "Foot Care",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/109/foot-care"
+      },
+      {
+        "categoryNumber": "129",
+        "subCategoryId": "hair-care",
+        "subCategoryName": "Hair Care",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/129/hair-care"
+      },
+      {
+        "categoryNumber": "149",
+        "subCategoryId": "men-s-toiletries",
+        "subCategoryName": "Men's Toiletries",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/149/men-s-toiletries"
+      },
+      {
+        "categoryNumber": "159",
+        "subCategoryId": "oral-hygiene-and-dental-care",
+        "subCategoryName": "Oral Hygiene and Dental Care",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/159/oral-hygiene-and-dental-care"
+      },
+      {
+        "categoryNumber": "209",
+        "subCategoryId": "sun-care",
+        "subCategoryName": "Sun Care",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/209/sun-care"
+      },
+      {
+        "categoryNumber": "229",
+        "subCategoryId": "batteries",
+        "subCategoryName": "Batteries",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/229/batteries"
+      },
+      {
+        "categoryNumber": "234",
+        "subCategoryId": "hand-and-body",
+        "subCategoryName": "Hand and Body",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/234/hand-and-body"
+      },
+      {
+        "categoryNumber": "514",
+        "subCategoryId": "insect-repellents",
+        "subCategoryName": "Insect Repellents",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/514/insect-repellents"
+      },
+      {
+        "categoryNumber": "564",
+        "subCategoryId": "women-s-toiletries",
+        "subCategoryName": "Women's Toiletries",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/564/women-s-toiletries"
+      },
+      {
+        "categoryNumber": "617",
+        "subCategoryId": "men-s-and-women-s-incontinence",
+        "subCategoryName": "Men's and Women's Incontinence",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/617/men-s-and-women-s-incontinence"
+      },
+      {
+        "categoryNumber": "792",
+        "subCategoryId": "household",
+        "subCategoryName": "Household",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/792/household"
+      },
+      {
+        "categoryNumber": "1111",
+        "subCategoryId": "tissues-cotton-wool",
+        "subCategoryName": "Tissues & Cotton Wool",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/1111/tissues-cotton-wool"
+      },
+      {
+        "categoryNumber": "1183",
+        "subCategoryId": "deodorants",
+        "subCategoryName": "Deodorants",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/1183/deodorants"
+      },
+      {
+        "categoryNumber": "4493",
+        "subCategoryId": "natio-bath-body",
+        "subCategoryName": "Natio Bath & Body",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/4493/natio-bath-body"
+      }
+    ]
+  },
+  {
+    "categoryId": "medical-aids",
+    "categoryName": "Medical Aids",
+    "categoryUrl": "https://www.chemistwarehouse.com.au/shop-online/260/medical-aids",
+    "subCategories": [
+      {
+        "categoryNumber": "224",
+        "subCategoryId": "medical-equipment",
+        "subCategoryName": "Medical Equipment",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/224/medical-equipment"
+      },
+      {
+        "categoryNumber": "226",
+        "subCategoryId": "sport-braces-therapy",
+        "subCategoryName": "Sport Braces & Therapy",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/226/sport-braces-therapy"
+      },
+      {
+        "categoryNumber": "724",
+        "subCategoryId": "blood-pressure-monitors",
+        "subCategoryName": "Blood Pressure Monitors",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/724/blood-pressure-monitors"
+      },
+      {
+        "categoryNumber": "725",
+        "subCategoryId": "blood-glucose-monitors",
+        "subCategoryName": "Blood Glucose Monitors",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/725/blood-glucose-monitors"
+      },
+      {
+        "categoryNumber": "726",
+        "subCategoryId": "tens-and-massage-therapy",
+        "subCategoryName": "TENS and Massage Therapy",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/726/tens-and-massage-therapy"
+      },
+      {
+        "categoryNumber": "727",
+        "subCategoryId": "snoring",
+        "subCategoryName": "Snoring",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/727/snoring"
+      },
+      {
+        "categoryNumber": "803",
+        "subCategoryId": "asthma-relief",
+        "subCategoryName": "Asthma Relief",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/803/asthma-relief"
+      },
+      {
+        "categoryNumber": "814",
+        "subCategoryId": "thermometers",
+        "subCategoryName": "Thermometers",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/814/thermometers"
+      },
+      {
+        "categoryNumber": "3216",
+        "subCategoryId": "mobility-aids",
+        "subCategoryName": "Mobility Aids",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/3216/mobility-aids"
+      }
+    ]
+  },
+  {
+    "categoryId": "prescriptions",
+    "categoryName": "Prescriptions",
+    "categoryUrl": "https://www.chemistwarehouse.com.au/shop-online/261/prescriptions",
+    "subCategories": []
+  },
+  {
+    "categoryId": "veterinary-and-pet-care",
+    "categoryName": "Veterinary and Pet Care",
+    "categoryUrl": "https://www.chemistwarehouse.com.au/shop-online/651/veterinary-and-pet-care",
+    "subCategories": [
+      {
+        "categoryNumber": "653",
+        "subCategoryId": "heartworm-control-products",
+        "subCategoryName": "Heartworm Control Products",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/653/heartworm-control-products"
+      },
+      {
+        "categoryNumber": "654",
+        "subCategoryId": "combined-flea-heartworm-products",
+        "subCategoryName": "Combined Flea & Heartworm Products",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/654/combined-flea-heartworm-products"
+      },
+      {
+        "categoryNumber": "656",
+        "subCategoryId": "worming-products",
+        "subCategoryName": "Worming Products",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/656/worming-products"
+      },
+      {
+        "categoryNumber": "659",
+        "subCategoryId": "combined-flea-tick-products",
+        "subCategoryName": "Combined Flea & Tick Products",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/659/combined-flea-tick-products"
+      },
+      {
+        "categoryNumber": "652",
+        "subCategoryId": "flea-control-products",
+        "subCategoryName": "Flea Control Products",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/652/flea-control-products"
+      },
+      {
+        "categoryNumber": "3127",
+        "subCategoryId": "paw-pure-animal-wellbeing-by-blackmores",
+        "subCategoryName": "PAW Pure Animal Wellbeing by Blackmores",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/3127/paw-pure-animal-wellbeing-by-blackmores"
+      },
+      {
+        "categoryNumber": "4343",
+        "subCategoryId": "daily-dog",
+        "subCategoryName": "Daily Dog",
+        "subCategoryUrl": "https://www.chemistwarehouse.com.au/shop-online/4343/daily-dog"
+      }
+    ]
+  },
+  {
+    "categoryId": "confectionery",
+    "categoryName": "Confectionery",
+    "categoryUrl": "https://www.chemistwarehouse.com.au/shop-online/694/confectionery",
+    "subCategories": []
+  },
+  {
+    "categoryId": "travel-medicine-tma-b2b-products-only",
+    "categoryName": "Travel Medicine(TMA B2B Products only)",
+    "categoryUrl": "https://www.chemistwarehouse.com.au/shop-online/731/travel-medicine-tma-b2b-products-only",
+    "subCategories": []
+  },
+  {
+    "categoryId": "samples",
+    "categoryName": "Samples",
+    "categoryUrl": "https://www.chemistwarehouse.com.au/shop-online/1053/samples",
+    "subCategories": []
+  }
+]
+

@@ -8,35 +8,31 @@ var _asyncToGenerator2 = _interopRequireDefault(require("@babel/runtime/helpers/
 
 var _inquirer = _interopRequireDefault(require("inquirer"));
 
-var _getAllColesProducts = _interopRequireDefault(require("./actions/getAllColesProducts"));
+var _fs = _interopRequireDefault(require("fs"));
 
-var _getCategorisedColesProducts = _interopRequireDefault(require("./actions/getCategorisedColesProducts"));
+var _fetchHalfPriceColes = _interopRequireDefault(require("./actions/half-price/fetchHalfPriceColes"));
 
-var _playground = require("./playground");
+var _fillCategoryIds = _interopRequireDefault(require("./actions/half-price/fillCategoryIds"));
 
-function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-// Actions
-var GET_ALL_COLES_PRODUCTS = 'get_coles_products';
-var GET_PRODUCTS_FROM_COLES_CATEGORY = 'get_products_from_coles_category';
-var PLAYGROUND = 'playground';
 var EXIT = 'exit';
+var GET_HALF_PRICES = 'get_half_prices';
+var FILL_CATEGORY_IDS = 'fill_category_ids';
 var choices = [{
-  title: 'Get all products of one category of Coles',
-  action: GET_PRODUCTS_FROM_COLES_CATEGORY
+  title: 'Get half-price products',
+  action: GET_HALF_PRICES
 }, {
-  title: 'Get all products from Coles',
-  action: GET_ALL_COLES_PRODUCTS
-}, {
-  title: 'Playground',
-  action: PLAYGROUND
+  title: 'Fill category IDs',
+  action: FILL_CATEGORY_IDS
 }, {
   title: 'Exit',
   action: EXIT
+}];
+var stores = [{
+  name: 'Coles',
+  id: 'coles'
+}, {
+  name: 'Woolworths',
+  id: 'woolworths'
 }];
 
 _inquirer["default"].prompt([{
@@ -54,87 +50,80 @@ _inquirer["default"].prompt([{
     })[0].action;
   }
 }]).then( /*#__PURE__*/function () {
-  var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee(answers) {
-    var urls, _iterator, _step, url, data;
-
-    return _regenerator["default"].wrap(function _callee$(_context) {
+  var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(answers) {
+    var data;
+    return _regenerator["default"].wrap(function _callee2$(_context2) {
       while (1) {
-        switch (_context.prev = _context.next) {
+        switch (_context2.prev = _context2.next) {
           case 0:
-            _context.t0 = answers.action;
-            _context.next = _context.t0 === GET_PRODUCTS_FROM_COLES_CATEGORY ? 3 : _context.t0 === GET_ALL_COLES_PRODUCTS ? 22 : _context.t0 === PLAYGROUND ? 24 : _context.t0 === EXIT ? 27 : 28;
+            _context2.t0 = answers.action;
+            _context2.next = _context2.t0 === GET_HALF_PRICES ? 3 : _context2.t0 === FILL_CATEGORY_IDS ? 5 : _context2.t0 === EXIT ? 8 : 9;
             break;
 
           case 3:
-            // inquirer
-            //   .prompt([
-            //     {
-            //       type: 'input',
-            //       name: 'url',
-            //       message: 'Category URL:',
-            //     },
-            //   ])
-            //   .then((subAns) => {
-            //     getCategorisedColesProducts(subAns.url);
-            //   });
-            urls = (0, _playground.readLineFromFile)('./data/urls.txt');
-            _iterator = _createForOfIteratorHelper(urls);
-            _context.prev = 5;
+            _inquirer["default"].prompt([{
+              type: 'list',
+              name: 'store',
+              message: 'Store: ',
+              choices: Object.values(stores).map(function (s) {
+                return s.name;
+              }),
+              filter: function filter(val) {
+                return stores.filter(function (s) {
+                  if (s.name === val) {
+                    return s.id;
+                  }
+                })[0].id;
+              }
+            }]).then( /*#__PURE__*/function () {
+              var _ref2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee(subAnswers) {
+                return _regenerator["default"].wrap(function _callee$(_context) {
+                  while (1) {
+                    switch (_context.prev = _context.next) {
+                      case 0:
+                        _context.t0 = subAnswers.store;
+                        _context.next = _context.t0 === 'coles' ? 3 : _context.t0 === 'woolworths' ? 6 : 7;
+                        break;
 
-            _iterator.s();
+                      case 3:
+                        _context.next = 5;
+                        return (0, _fetchHalfPriceColes["default"])();
 
-          case 7:
-            if ((_step = _iterator.n()).done) {
-              _context.next = 13;
-              break;
-            }
+                      case 5:
+                        return _context.abrupt("return");
 
-            url = _step.value;
-            _context.next = 11;
-            return (0, _getCategorisedColesProducts["default"])(url);
+                      case 6:
+                        return _context.abrupt("return");
 
-          case 11:
-            _context.next = 7;
-            break;
+                      case 7:
+                      case "end":
+                        return _context.stop();
+                    }
+                  }
+                }, _callee);
+              }));
 
-          case 13:
-            _context.next = 18;
-            break;
+              return function (_x2) {
+                return _ref2.apply(this, arguments);
+              };
+            }());
 
-          case 15:
-            _context.prev = 15;
-            _context.t1 = _context["catch"](5);
+            return _context2.abrupt("return");
 
-            _iterator.e(_context.t1);
+          case 5:
+            data = _fs["default"].readFileSync('./data/products/half-price-coles.json', 'utf8');
+            (0, _fillCategoryIds["default"])(JSON.parse(data));
+            return _context2.abrupt("return");
 
-          case 18:
-            _context.prev = 18;
+          case 8:
+            return _context2.abrupt("return");
 
-            _iterator.f();
-
-            return _context.finish(18);
-
-          case 21:
-            return _context.abrupt("return");
-
-          case 22:
-            (0, _getAllColesProducts["default"])();
-            return _context.abrupt("return");
-
-          case 24:
-            data = (0, _playground.readLineFromFile)('./data/urls.txt');
-            console.log(data);
-            return _context.abrupt("return");
-
-          case 27:
-            return _context.abrupt("return");
-
-          case 28:
+          case 9:
           case "end":
-            return _context.stop();
+            return _context2.stop();
         }
       }
-    }, _callee, null, [[5, 15, 18, 21]]);
+    }, _callee2);
   }));
 
   return function (_x) {
