@@ -19,8 +19,8 @@ var chemistUrl = 'https://www.chemistwarehouse.com.au';
 exports.chemistUrl = chemistUrl;
 var colesLocations = [{
   id: 'vic',
-  url: 'https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials',
-  postcode: '3000'
+  url: 'https://shop.coles.com.au/a/hoppers-crossing/specials/search/half-price-specials',
+  postcode: '3038'
 }, {
   id: 'sa',
   url: 'https://shop.coles.com.au/a/churchill-centre/specials/search/half-price-specials',

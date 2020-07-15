@@ -13,8 +13,8 @@ export const colesLocations = [
   {
     id: 'vic',
     url:
-      'https://shop.coles.com.au/a/richmond-south/specials/search/half-price-specials',
-    postcode: '3000',
+      'https://shop.coles.com.au/a/hoppers-crossing/specials/search/half-price-specials',
+    postcode: '3038',
   },
   {
     id: 'sa',
