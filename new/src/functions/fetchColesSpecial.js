@@ -55,9 +55,7 @@ const fetchEachLocation = async (location) => {
 };
 
 const fetchProducts = async (page, url) => {
-  console.log(url);
   await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
-  await page.waitForNavigation({ timeout: 0, waitUntil: 'networkidle2' });
   let bodyHtml = await page.evaluate(() => document.body.innerHTML);
   let $ = cheerio.load(bodyHtml);
   let categoryList = $("li[class='cat-nav-item']")
@@ -104,8 +102,9 @@ const fetchProductsOfDeepestCategory = async (page, url) => {
 
   for (let i = 0; i < urls.length; i++) {
     await page.goto(urls[i], { timeout: 0, waitUntil: 'networkidle2' });
-    let bodyHtml = await page.evaluate(() => document.body.innerHTML);
-    getProductsEachPage(bodyHtml, urls[i]);
+    let html = await page.evaluate(() => document.body.innerHTML);
+    console.log(urls[i]);
+    getProductsEachPage(html, urls[i]);
   }
 };
 
@@ -137,11 +136,10 @@ const getProductsEachPage = (bodyHtml, url) => {
     let price = Number(
       $(elm).find('.dollar-value').text().trim() +
         $(elm).find('.cent-value').text().trim()
-    ).toFixed(2);
+    );
     let promo = getPromoText($(elm).find('.discount-text').text().trim());
-    let orgPrice = (
-      price + getSaveValue($(elm).find('.product-save-value').text().trim())
-    ).toFixed(2);
+    let orgPrice =
+      price + getSaveValue($(elm).find('.product-save-value').text().trim());
     let localPrice = {
       price,
       promo,
@@ -150,7 +148,7 @@ const getProductsEachPage = (bodyHtml, url) => {
     let locations = {};
     locations[currentLocation] = localPrice;
     let categoryIdPath = getCategoryIdPath(url);
-    let categoryIdPaths = [categoryIdPathe];
+    let categoryIdPaths = [categoryIdPath];
 
     let foundIndex = PRODUCTS.findIndex((p) => p.id === id);
     if (foundIndex > -1) {
@@ -165,6 +163,7 @@ const getProductsEachPage = (bodyHtml, url) => {
           ...new Set(PRODUCTS[foundIndex].categoryIdPaths),
         ];
       }
+      console.log(PRODUCTS[foundIndex]);
     } else {
       let newProduct = {
         id,
@@ -200,7 +199,7 @@ const getCategoryIdPath = (str) => {
     }
   }
   let result = parts.slice(savedIndex, parts.length);
-  result[result.length] = result[result.length].split('?')[0];
+  result[result.length - 1] = result[result.length - 1].split('?')[0];
   return result.join('/');
 };
 

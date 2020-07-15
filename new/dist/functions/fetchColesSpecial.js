@@ -209,46 +209,38 @@ var fetchProducts = /*#__PURE__*/function () {
       while (1) {
         switch (_context4.prev = _context4.next) {
           case 0:
-            console.log(url);
-            _context4.next = 3;
+            _context4.next = 2;
             return page["goto"](url, {
               timeout: 0,
               waitUntil: 'networkidle2'
             });
 
-          case 3:
-            _context4.next = 5;
-            return page.waitForNavigation({
-              timeout: 0,
-              waitUntil: 'networkidle2'
-            });
-
-          case 5:
-            _context4.next = 7;
+          case 2:
+            _context4.next = 4;
             return page.evaluate(function () {
               return document.body.innerHTML;
             });
 
-          case 7:
+          case 4:
             bodyHtml = _context4.sent;
             $ = _cheerio["default"].load(bodyHtml);
             categoryList = $("li[class='cat-nav-item']").not('.is-disabled').find($('.item-title'));
 
             if (!(categoryList.length > 0)) {
-              _context4.next = 20;
+              _context4.next = 17;
               break;
             }
 
             i = 0;
 
-          case 12:
+          case 9:
             if (!(i < categoryList.length)) {
-              _context4.next = 18;
+              _context4.next = 15;
               break;
             }
 
             if (_colesVariables.categoryBlacklist.includes(categoryList[i].children[0].data)) {
-              _context4.next = 15;
+              _context4.next = 12;
               break;
             }
 
@@ -281,22 +273,22 @@ var fetchProducts = /*#__PURE__*/function () {
                   }
                 }
               }, _callee3);
-            })(), "t0", 15);
+            })(), "t0", 12);
+
+          case 12:
+            i++;
+            _context4.next = 9;
+            break;
 
           case 15:
-            i++;
-            _context4.next = 12;
+            _context4.next = 19;
             break;
 
-          case 18:
-            _context4.next = 22;
-            break;
-
-          case 20:
-            _context4.next = 22;
+          case 17:
+            _context4.next = 19;
             return fetchProductsOfDeepestCategory(page, url);
 
-          case 22:
+          case 19:
           case "end":
             return _context4.stop();
         }
@@ -311,8 +303,7 @@ var fetchProducts = /*#__PURE__*/function () {
 
 var fetchProductsOfDeepestCategory = /*#__PURE__*/function () {
   var _ref4 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee5(page, url) {
-    var bodyHtml, $, pageNumber, urls, i, _bodyHtml;
-
+    var bodyHtml, $, pageNumber, urls, i, html;
     return _regenerator["default"].wrap(function _callee5$(_context5) {
       while (1) {
         switch (_context5.prev = _context5.next) {
@@ -345,7 +336,7 @@ var fetchProductsOfDeepestCategory = /*#__PURE__*/function () {
 
           case 10:
             if (!(i < urls.length)) {
-              _context5.next = 20;
+              _context5.next = 21;
               break;
             }
 
@@ -362,15 +353,16 @@ var fetchProductsOfDeepestCategory = /*#__PURE__*/function () {
             });
 
           case 15:
-            _bodyHtml = _context5.sent;
-            getProductsEachPage(_bodyHtml, urls[i]);
+            html = _context5.sent;
+            console.log(urls[i]);
+            getProductsEachPage(html, urls[i]);
 
-          case 17:
+          case 18:
             i++;
             _context5.next = 10;
             break;
 
-          case 20:
+          case 21:
           case "end":
             return _context5.stop();
         }
@@ -405,9 +397,9 @@ var getProductsEachPage = function getProductsEachPage(bodyHtml, url) {
     var storeId = 'coles';
     var packageSize = $(elm).find('.product-info .package-size').text().trim();
     var cupPrice = $(elm).find('.product-info .package-price').text().trim();
-    var price = Number($(elm).find('.dollar-value').text().trim() + $(elm).find('.cent-value').text().trim()).toFixed(2);
+    var price = Number($(elm).find('.dollar-value').text().trim() + $(elm).find('.cent-value').text().trim());
     var promo = getPromoText($(elm).find('.discount-text').text().trim());
-    var orgPrice = (price + getSaveValue($(elm).find('.product-save-value').text().trim())).toFixed(2);
+    var orgPrice = price + getSaveValue($(elm).find('.product-save-value').text().trim());
     var localPrice = {
       price: price,
       promo: promo,
@@ -416,7 +408,7 @@ var getProductsEachPage = function getProductsEachPage(bodyHtml, url) {
     var locations = {};
     locations[currentLocation] = localPrice;
     var categoryIdPath = getCategoryIdPath(url);
-    var categoryIdPaths = [categoryIdPathe];
+    var categoryIdPaths = [categoryIdPath];
     var foundIndex = PRODUCTS.findIndex(function (p) {
       return p.id === id;
     });
@@ -430,6 +422,8 @@ var getProductsEachPage = function getProductsEachPage(bodyHtml, url) {
         PRODUCTS[foundIndex].categoryIdPaths.push(categoryIdPath);
         PRODUCTS[foundIndex].categoryIdPaths = (0, _toConsumableArray2["default"])(new Set(PRODUCTS[foundIndex].categoryIdPaths));
       }
+
+      console.log(PRODUCTS[foundIndex]);
     } else {
       var newProduct = {
         id: id,
@@ -466,7 +460,7 @@ var getCategoryIdPath = function getCategoryIdPath(str) {
   }
 
   var result = parts.slice(savedIndex, parts.length);
-  result[result.length] = result[result.length].split('?')[0];
+  result[result.length - 1] = result[result.length - 1].split('?')[0];
   return result.join('/');
 };
 
