@@ -76,25 +76,22 @@ _inquirer["default"].prompt([{
                     switch (_context.prev = _context.next) {
                       case 0:
                         _context.t0 = subAnswers.store;
-                        _context.next = _context.t0 === 'coles' ? 3 : _context.t0 === 'woolworths' ? 6 : _context.t0 === 'chemist' ? 8 : 10;
+                        _context.next = _context.t0 === 'coles' ? 3 : _context.t0 === 'woolworths' ? 5 : _context.t0 === 'chemist' ? 7 : 9;
                         break;
 
                       case 3:
-                        _context.next = 5;
-                        return (0, _fetchColesSpecial["default"])();
-
-                      case 5:
+                        Promise.all([(0, _fetchColesSpecial["default"])('VIC'), (0, _fetchColesSpecial["default"])('NSW'), (0, _fetchColesSpecial["default"])('QLD'), (0, _fetchColesSpecial["default"])('TAS'), (0, _fetchColesSpecial["default"])('WA'), (0, _fetchColesSpecial["default"])('SA'), (0, _fetchColesSpecial["default"])('ACT'), (0, _fetchColesSpecial["default"])('NT')]);
                         return _context.abrupt("return");
 
-                      case 6:
+                      case 5:
                         console.log('Fetching Woolworths');
                         return _context.abrupt("return");
 
-                      case 8:
+                      case 7:
                         console.log('Fetching Chemist Warehouse');
                         return _context.abrupt("return");
 
-                      case 10:
+                      case 9:
                       case "end":
                         return _context.stop();
                     }

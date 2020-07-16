@@ -57,7 +57,16 @@ inquirer
           .then(async (subAnswers) => {
             switch (subAnswers.store) {
               case 'coles':
-                await fetchColesSpecial();
+                Promise.all([
+                  fetchColesSpecial('VIC'),
+                  fetchColesSpecial('NSW'),
+                  fetchColesSpecial('QLD'),
+                  fetchColesSpecial('TAS'),
+                  fetchColesSpecial('WA'),
+                  fetchColesSpecial('SA'),
+                  fetchColesSpecial('ACT'),
+                  fetchColesSpecial('NT'),
+                ]);
                 return;
               case 'woolworths':
                 console.log('Fetching Woolworths');

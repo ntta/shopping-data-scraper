@@ -34,64 +34,36 @@ var CATEGORIES = [];
 var currentLocation = '';
 
 var fetchColesSpecial = /*#__PURE__*/function () {
-  var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee() {
-    var _iterator, _step, location;
-
+  var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee(locationId) {
+    var location;
     return _regenerator["default"].wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            _iterator = _createForOfIteratorHelper(_colesVariables.colesLocations);
-            _context.prev = 1;
-
-            _iterator.s();
-
-          case 3:
-            if ((_step = _iterator.n()).done) {
-              _context.next = 10;
-              break;
-            }
-
-            location = _step.value;
-            currentLocation = location.id;
-            _context.next = 8;
+            location = _colesVariables.colesLocations.find(function (l) {
+              return l.id === locationId;
+            });
+            _context.next = 3;
             return fetchEachLocation(location);
 
-          case 8:
-            _context.next = 3;
-            break;
+          case 3:
+            // for (let location of colesLocations) {
+            //   currentLocation = location.id;
+            //   await fetchEachLocation(location);
+            // }
+            _fs["default"].writeFileSync("./data/products/coles-special-products-".concat(locationId, ".json"), JSON.stringify(PRODUCTS));
 
-          case 10:
-            _context.next = 15;
-            break;
+            _fs["default"].writeFileSync("./data/products/coles-special-categories-".concat(locationId, ".json"), JSON.stringify(CATEGORIES));
 
-          case 12:
-            _context.prev = 12;
-            _context.t0 = _context["catch"](1);
-
-            _iterator.e(_context.t0);
-
-          case 15:
-            _context.prev = 15;
-
-            _iterator.f();
-
-            return _context.finish(15);
-
-          case 18:
-            _fs["default"].writeFileSync("./data/products/coles-special-products.json", JSON.stringify(PRODUCTS));
-
-            _fs["default"].writeFileSync("./data/products/coles-special-categories.json", JSON.stringify(CATEGORIES));
-
-          case 20:
+          case 5:
           case "end":
             return _context.stop();
         }
       }
-    }, _callee, null, [[1, 12, 15, 18]]);
+    }, _callee);
   }));
 
-  return function fetchColesSpecial() {
+  return function fetchColesSpecial(_x) {
     return _ref.apply(this, arguments);
   };
 }();
@@ -124,23 +96,21 @@ var fetchEachLocation = /*#__PURE__*/function () {
             page = _context2.sent;
             _context2.next = 13;
             return page["goto"](url, {
-              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
           case 13:
-            _context2.next = 15;
-            return page["goto"](url, {
-              timeout: 0,
-              waitUntil: 'networkidle2'
-            });
-
-          case 15:
             if (page.url().includes(location.area)) {
               _context2.next = 30;
               break;
             }
 
+            _context2.next = 16;
+            return page["goto"](url, {
+              waitUntil: 'networkidle2'
+            });
+
+          case 16:
             _context2.next = 18;
             return page.click('#changeLocationBar');
 
@@ -163,12 +133,11 @@ var fetchEachLocation = /*#__PURE__*/function () {
           case 26:
             _context2.next = 28;
             return page.waitForNavigation({
-              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
           case 28:
-            _context2.next = 15;
+            _context2.next = 13;
             break;
 
           case 30:
@@ -197,7 +166,7 @@ var fetchEachLocation = /*#__PURE__*/function () {
     }, _callee2, null, [[3, 36]]);
   }));
 
-  return function fetchEachLocation(_x) {
+  return function fetchEachLocation(_x2) {
     return _ref2.apply(this, arguments);
   };
 }();
@@ -211,7 +180,6 @@ var fetchProducts = /*#__PURE__*/function () {
           case 0:
             _context4.next = 2;
             return page["goto"](url, {
-              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
@@ -288,7 +256,7 @@ var fetchProducts = /*#__PURE__*/function () {
     }, _callee4);
   }));
 
-  return function fetchProducts(_x2, _x3) {
+  return function fetchProducts(_x3, _x4) {
     return _ref3.apply(this, arguments);
   };
 }();
@@ -302,7 +270,6 @@ var fetchProductsOfCategory = /*#__PURE__*/function () {
           case 0:
             _context5.next = 2;
             return page["goto"](url, {
-              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
@@ -341,7 +308,6 @@ var fetchProductsOfCategory = /*#__PURE__*/function () {
 
             _context5.next = 15;
             return page["goto"](urls[i], {
-              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
@@ -369,7 +335,7 @@ var fetchProductsOfCategory = /*#__PURE__*/function () {
     }, _callee5);
   }));
 
-  return function fetchProductsOfCategory(_x4, _x5) {
+  return function fetchProductsOfCategory(_x5, _x6) {
     return _ref4.apply(this, arguments);
   };
 }();
@@ -455,12 +421,12 @@ var getDiscountRate = function getDiscountRate(price, orgPrice, promo) {
     var quantity = null;
     var amount = null;
 
-    var _iterator2 = _createForOfIteratorHelper(parts),
-        _step2;
+    var _iterator = _createForOfIteratorHelper(parts),
+        _step;
 
     try {
-      for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
-        var part = _step2.value;
+      for (_iterator.s(); !(_step = _iterator.n()).done;) {
+        var part = _step.value;
 
         if (!isNaN(part)) {
           quantity = Number(part);
@@ -471,9 +437,9 @@ var getDiscountRate = function getDiscountRate(price, orgPrice, promo) {
         }
       }
     } catch (err) {
-      _iterator2.e(err);
+      _iterator.e(err);
     } finally {
-      _iterator2.f();
+      _iterator.f();
     }
 
     if (quantity && amount) {
