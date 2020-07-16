@@ -38,7 +38,7 @@ const fetchEachLocation = async (location) => {
     let page = await browser.newPage();
     await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
     await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
-    while (!page.url().includes(url)) {
+    while (!page.url().includes(location.area)) {
       await page.click('#changeLocationBar');
       await page.waitFor(1000);
       await page.type('#search-form > p', postcode);
@@ -75,15 +75,14 @@ const fetchProducts = async (page, url) => {
             name: categoryName,
           });
         }
-        await fetchProducts(page, colesUrl + href);
+        await fetchProductsOfCategory(page, colesUrl + href);
+        //await fetchProducts(page, colesUrl + href);
       }
     }
-  } else {
-    await fetchProductsOfDeepestCategory(page, url);
   }
 };
 
-const fetchProductsOfDeepestCategory = async (page, url) => {
+const fetchProductsOfCategory = async (page, url) => {
   await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
   let bodyHtml = await page.evaluate(() => document.body.innerHTML);
   let $ = cheerio.load(bodyHtml);
@@ -100,11 +99,14 @@ const fetchProductsOfDeepestCategory = async (page, url) => {
 
   let urls = getPaginationUrls(url, pageNumber);
 
-  for (let i = 0; i < urls.length; i++) {
-    await page.goto(urls[i], { timeout: 0, waitUntil: 'networkidle2' });
-    let html = await page.evaluate(() => document.body.innerHTML);
-    console.log(urls[i]);
-    getProductsEachPage(html, urls[i]);
+  getProductsEachPage(bodyHtml, url);
+  if (urls.length > 1) {
+    for (let i = 1; i < urls.length; i++) {
+      await page.goto(urls[i], { timeout: 0, waitUntil: 'networkidle2' });
+      let html = await page.evaluate(() => document.body.innerHTML);
+      console.log(urls[i]);
+      getProductsEachPage(html, urls[i]);
+    }
   }
 };
 
@@ -142,13 +144,14 @@ const getProductsEachPage = (bodyHtml, url) => {
       price + getSaveValue($(elm).find('.product-save-value').text().trim());
     let localPrice = {
       price,
+      discountRate: getDiscountRate(price, orgPrice, promo),
       promo,
       orgPrice,
     };
     let locations = {};
     locations[currentLocation] = localPrice;
-    let categoryIdPath = getCategoryIdPath(url);
-    let categoryIdPaths = [categoryIdPath];
+    let categoryId = getCategoryId(url);
+    let categoryIds = [categoryId];
 
     let foundIndex = PRODUCTS.findIndex((p) => p.id === id);
     if (foundIndex > -1) {
@@ -157,10 +160,10 @@ const getProductsEachPage = (bodyHtml, url) => {
       ) {
         PRODUCTS[foundIndex].locations[currentLocation] = localPrice;
       }
-      if (!categoryIdPaths.includes(categoryIdPath)) {
-        PRODUCTS[foundIndex].categoryIdPaths.push(categoryIdPath);
-        PRODUCTS[foundIndex].categoryIdPaths = [
-          ...new Set(PRODUCTS[foundIndex].categoryIdPaths),
+      if (!PRODUCTS[foundIndex].categoryIds.includes(categoryId)) {
+        PRODUCTS[foundIndex].categoryIds.push(categoryId);
+        PRODUCTS[foundIndex].categoryIds = [
+          ...new Set(PRODUCTS[foundIndex].categoryIds),
         ];
       }
       console.log(PRODUCTS[foundIndex]);
@@ -174,14 +177,38 @@ const getProductsEachPage = (bodyHtml, url) => {
         packageSize,
         cupPrice,
         locations,
-        categoryIdPaths,
+        categoryIds,
         similarProductIds: [],
       };
-
       console.log(newProduct);
       PRODUCTS.push(newProduct);
     }
   });
+};
+
+const getDiscountRate = (price, orgPrice, promo) => {
+  let rate;
+  if (orgPrice) {
+    rate = Math.round(100 - (price / orgPrice) * 100);
+  }
+  if (promo.trim() !== '') {
+    const parts = promo.trim().split(' ');
+    let quantity = null;
+    let amount = null;
+    for (let part of parts) {
+      if (!isNaN(part)) {
+        quantity = Number(part);
+      }
+      if (part[0] === '$') {
+        amount = Number(part.replace('$', ''));
+      }
+    }
+    if (quantity && amount) {
+      let one = amount / quantity;
+      rate = Math.round(100 - (one / price) * 100);
+    }
+  }
+  return rate;
 };
 
 const getLastPart = (str) => {
@@ -189,7 +216,7 @@ const getLastPart = (str) => {
   return parts[parts.length - 1].split('?')[0];
 };
 
-const getCategoryIdPath = (str) => {
+const getCategoryId = (str) => {
   const parts = str.split('/');
   let savedIndex = 0;
   for (let i = 0; i < parts.length; i++) {
@@ -206,7 +233,7 @@ const getCategoryIdPath = (str) => {
 const getPromoText = (str) => {
   const polishedStr = str.replace(/\n/g, '').replace(/\t/g, '');
   const parts = polishedStr.split('$');
-  return polishedStr.replace(parts[0], parts[0] + ' ');
+  return polishedStr.replace(parts[0], parts[0] + ' ').trim();
 };
 
 const getImageUrl = (str) => {

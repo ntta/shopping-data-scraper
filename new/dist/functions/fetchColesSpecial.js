@@ -136,7 +136,7 @@ var fetchEachLocation = /*#__PURE__*/function () {
             });
 
           case 15:
-            if (page.url().includes(url)) {
+            if (page.url().includes(location.area)) {
               _context2.next = 30;
               break;
             }
@@ -227,7 +227,7 @@ var fetchProducts = /*#__PURE__*/function () {
             categoryList = $("li[class='cat-nav-item']").not('.is-disabled').find($('.item-title'));
 
             if (!(categoryList.length > 0)) {
-              _context4.next = 17;
+              _context4.next = 15;
               break;
             }
 
@@ -265,7 +265,7 @@ var fetchProducts = /*#__PURE__*/function () {
                       }
 
                       _context3.next = 7;
-                      return fetchProducts(page, _colesVariables.colesUrl + href);
+                      return fetchProductsOfCategory(page, _colesVariables.colesUrl + href);
 
                     case 7:
                     case "end":
@@ -281,14 +281,6 @@ var fetchProducts = /*#__PURE__*/function () {
             break;
 
           case 15:
-            _context4.next = 19;
-            break;
-
-          case 17:
-            _context4.next = 19;
-            return fetchProductsOfDeepestCategory(page, url);
-
-          case 19:
           case "end":
             return _context4.stop();
         }
@@ -301,7 +293,7 @@ var fetchProducts = /*#__PURE__*/function () {
   };
 }();
 
-var fetchProductsOfDeepestCategory = /*#__PURE__*/function () {
+var fetchProductsOfCategory = /*#__PURE__*/function () {
   var _ref4 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee5(page, url) {
     var bodyHtml, $, pageNumber, urls, i, html;
     return _regenerator["default"].wrap(function _callee5$(_context5) {
@@ -332,37 +324,44 @@ var fetchProductsOfDeepestCategory = /*#__PURE__*/function () {
             }
 
             urls = getPaginationUrls(url, pageNumber);
-            i = 0;
+            getProductsEachPage(bodyHtml, url);
 
-          case 10:
-            if (!(i < urls.length)) {
-              _context5.next = 21;
+            if (!(urls.length > 1)) {
+              _context5.next = 23;
               break;
             }
 
-            _context5.next = 13;
+            i = 1;
+
+          case 12:
+            if (!(i < urls.length)) {
+              _context5.next = 23;
+              break;
+            }
+
+            _context5.next = 15;
             return page["goto"](urls[i], {
               timeout: 0,
               waitUntil: 'networkidle2'
             });
 
-          case 13:
-            _context5.next = 15;
+          case 15:
+            _context5.next = 17;
             return page.evaluate(function () {
               return document.body.innerHTML;
             });
 
-          case 15:
+          case 17:
             html = _context5.sent;
             console.log(urls[i]);
             getProductsEachPage(html, urls[i]);
 
-          case 18:
+          case 20:
             i++;
-            _context5.next = 10;
+            _context5.next = 12;
             break;
 
-          case 21:
+          case 23:
           case "end":
             return _context5.stop();
         }
@@ -370,7 +369,7 @@ var fetchProductsOfDeepestCategory = /*#__PURE__*/function () {
     }, _callee5);
   }));
 
-  return function fetchProductsOfDeepestCategory(_x4, _x5) {
+  return function fetchProductsOfCategory(_x4, _x5) {
     return _ref4.apply(this, arguments);
   };
 }();
@@ -402,13 +401,14 @@ var getProductsEachPage = function getProductsEachPage(bodyHtml, url) {
     var orgPrice = price + getSaveValue($(elm).find('.product-save-value').text().trim());
     var localPrice = {
       price: price,
+      discountRate: getDiscountRate(price, orgPrice, promo),
       promo: promo,
       orgPrice: orgPrice
     };
     var locations = {};
     locations[currentLocation] = localPrice;
-    var categoryIdPath = getCategoryIdPath(url);
-    var categoryIdPaths = [categoryIdPath];
+    var categoryId = getCategoryId(url);
+    var categoryIds = [categoryId];
     var foundIndex = PRODUCTS.findIndex(function (p) {
       return p.id === id;
     });
@@ -418,9 +418,9 @@ var getProductsEachPage = function getProductsEachPage(bodyHtml, url) {
         PRODUCTS[foundIndex].locations[currentLocation] = localPrice;
       }
 
-      if (!categoryIdPaths.includes(categoryIdPath)) {
-        PRODUCTS[foundIndex].categoryIdPaths.push(categoryIdPath);
-        PRODUCTS[foundIndex].categoryIdPaths = (0, _toConsumableArray2["default"])(new Set(PRODUCTS[foundIndex].categoryIdPaths));
+      if (!PRODUCTS[foundIndex].categoryIds.includes(categoryId)) {
+        PRODUCTS[foundIndex].categoryIds.push(categoryId);
+        PRODUCTS[foundIndex].categoryIds = (0, _toConsumableArray2["default"])(new Set(PRODUCTS[foundIndex].categoryIds));
       }
 
       console.log(PRODUCTS[foundIndex]);
@@ -434,7 +434,7 @@ var getProductsEachPage = function getProductsEachPage(bodyHtml, url) {
         packageSize: packageSize,
         cupPrice: cupPrice,
         locations: locations,
-        categoryIdPaths: categoryIdPaths,
+        categoryIds: categoryIds,
         similarProductIds: []
       };
       console.log(newProduct);
@@ -443,12 +443,54 @@ var getProductsEachPage = function getProductsEachPage(bodyHtml, url) {
   });
 };
 
+var getDiscountRate = function getDiscountRate(price, orgPrice, promo) {
+  var rate;
+
+  if (orgPrice) {
+    rate = Math.round(100 - price / orgPrice * 100);
+  }
+
+  if (promo.trim() !== '') {
+    var parts = promo.trim().split(' ');
+    var quantity = null;
+    var amount = null;
+
+    var _iterator2 = _createForOfIteratorHelper(parts),
+        _step2;
+
+    try {
+      for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
+        var part = _step2.value;
+
+        if (!isNaN(part)) {
+          quantity = Number(part);
+        }
+
+        if (part[0] === '$') {
+          amount = Number(part.replace('$', ''));
+        }
+      }
+    } catch (err) {
+      _iterator2.e(err);
+    } finally {
+      _iterator2.f();
+    }
+
+    if (quantity && amount) {
+      var one = amount / quantity;
+      rate = Math.round(100 - one / price * 100);
+    }
+  }
+
+  return rate;
+};
+
 var getLastPart = function getLastPart(str) {
   var parts = str.split('/');
   return parts[parts.length - 1].split('?')[0];
 };
 
-var getCategoryIdPath = function getCategoryIdPath(str) {
+var getCategoryId = function getCategoryId(str) {
   var parts = str.split('/');
   var savedIndex = 0;
 
@@ -467,7 +509,7 @@ var getCategoryIdPath = function getCategoryIdPath(str) {
 var getPromoText = function getPromoText(str) {
   var polishedStr = str.replace(/\n/g, '').replace(/\t/g, '');
   var parts = polishedStr.split('$');
-  return polishedStr.replace(parts[0], parts[0] + ' ');
+  return polishedStr.replace(parts[0], parts[0] + ' ').trim();
 };
 
 var getImageUrl = function getImageUrl(str) {
