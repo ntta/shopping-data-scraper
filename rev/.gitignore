@@ -1,6 +1,0 @@
-node_modules/**/*
-npm-debug.*
-package-lock.json
-
-# macOS
-.DS_Store
