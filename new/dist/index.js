@@ -10,11 +10,19 @@ var _inquirer = _interopRequireDefault(require("inquirer"));
 
 var _fetchColesSpecial = _interopRequireDefault(require("./functions/fetchColesSpecial"));
 
+var _fetchWoolworthsSpecial = _interopRequireDefault(require("./functions/fetchWoolworthsSpecial"));
+
+var _mergeProductsCategories = _interopRequireDefault(require("./functions/mergeProductsCategories"));
+
 var EXIT = 'exit';
 var GET_SPECIAL_PRODUCTS = 'get_special_prices';
+var MERGE_PRODUCTS_CATEGORIES = 'merge_products_categories';
 var choices = [{
   title: 'Get special products',
   action: GET_SPECIAL_PRODUCTS
+}, {
+  title: 'Merge Coles products & categories',
+  action: MERGE_PRODUCTS_CATEGORIES
 }, {
   title: 'Exit',
   action: EXIT
@@ -51,7 +59,7 @@ _inquirer["default"].prompt([{
         switch (_context3.prev = _context3.next) {
           case 0:
             _context3.t0 = answers.action;
-            _context3.next = _context3.t0 === GET_SPECIAL_PRODUCTS ? 3 : _context3.t0 === EXIT ? 5 : 6;
+            _context3.next = _context3.t0 === GET_SPECIAL_PRODUCTS ? 3 : _context3.t0 === MERGE_PRODUCTS_CATEGORIES ? 5 : _context3.t0 === EXIT ? 7 : 8;
             break;
 
           case 3:
@@ -76,7 +84,7 @@ _inquirer["default"].prompt([{
                     switch (_context2.prev = _context2.next) {
                       case 0:
                         _context2.t0 = subAnswers.store;
-                        _context2.next = _context2.t0 === 'coles' ? 3 : _context2.t0 === 'woolworths' ? 5 : _context2.t0 === 'chemist' ? 7 : 9;
+                        _context2.next = _context2.t0 === 'coles' ? 3 : _context2.t0 === 'woolworths' ? 5 : _context2.t0 === 'chemist' ? 9 : 11;
                         break;
 
                       case 3:
@@ -119,13 +127,17 @@ _inquirer["default"].prompt([{
 
                       case 5:
                         console.log('Fetching Woolworths');
-                        return _context2.abrupt("return");
+                        _context2.next = 8;
+                        return (0, _fetchWoolworthsSpecial["default"])();
 
-                      case 7:
-                        console.log('Fetching Chemist Warehouse');
+                      case 8:
                         return _context2.abrupt("return");
 
                       case 9:
+                        console.log('Fetching Chemist Warehouse');
+                        return _context2.abrupt("return");
+
+                      case 11:
                       case "end":
                         return _context2.stop();
                     }
@@ -141,9 +153,13 @@ _inquirer["default"].prompt([{
             return _context3.abrupt("return");
 
           case 5:
+            (0, _mergeProductsCategories["default"])();
             return _context3.abrupt("return");
 
-          case 6:
+          case 7:
+            return _context3.abrupt("return");
+
+          case 8:
           case "end":
             return _context3.stop();
         }

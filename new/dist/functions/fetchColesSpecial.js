@@ -206,54 +206,63 @@ var fetchProducts = /*#__PURE__*/function () {
       while (1) {
         switch (_context5.prev = _context5.next) {
           case 0:
-            _context5.next = 2;
+            if (page.url().includes(location.area)) {
+              _context5.next = 5;
+              break;
+            }
+
+            _context5.next = 3;
             return ensureCorrectUrl(page, url, location);
 
-          case 2:
-            _context5.next = 4;
+          case 3:
+            _context5.next = 0;
+            break;
+
+          case 5:
+            _context5.next = 7;
             return page["goto"](url, {
               timeout: 0,
               waitUntil: 'networkidle2'
             });
 
-          case 4:
-            _context5.next = 6;
+          case 7:
+            _context5.next = 9;
             return page.evaluate(function () {
               return document.body.innerHTML;
             });
 
-          case 6:
+          case 9:
             bodyHtml = _context5.sent;
             $ = _cheerio["default"].load(bodyHtml);
             categoryList = $("li[class='cat-nav-item']").not('.is-disabled').find($('.item-title'));
 
             if (!(categoryList.length > 0)) {
-              _context5.next = 17;
+              _context5.next = 20;
               break;
             }
 
             i = 0;
 
-          case 11:
+          case 14:
             if (!(i < categoryList.length)) {
-              _context5.next = 17;
+              _context5.next = 20;
               break;
             }
 
             if (_colesVariables.categoryBlacklist.includes(categoryList[i].children[0].data)) {
-              _context5.next = 14;
+              _context5.next = 17;
               break;
             }
 
             return _context5.delegateYield( /*#__PURE__*/_regenerator["default"].mark(function _callee4() {
-              var href, categoryId, categoryName, foundCatIndex;
+              var href, categoryName, categoryId, foundCatIndex;
               return _regenerator["default"].wrap(function _callee4$(_context4) {
                 while (1) {
                   switch (_context4.prev = _context4.next) {
                     case 0:
                       href = categoryList[i].parent.parent.attribs.href;
-                      categoryId = getLastPart(href);
                       categoryName = categoryList[i].children[0].data;
+                      categoryId = getCategoryId(categoryName);
                       foundCatIndex = CATEGORIES.findIndex(function (c) {
                         return c.id === categoryId;
                       });
@@ -266,7 +275,7 @@ var fetchProducts = /*#__PURE__*/function () {
                       }
 
                       _context4.next = 7;
-                      return fetchProductsOfCategory(page, _colesVariables.colesUrl + href);
+                      return fetchProductsOfCategory(page, _colesVariables.colesUrl + href, categoryId);
 
                     case 7:
                     case "end":
@@ -274,14 +283,14 @@ var fetchProducts = /*#__PURE__*/function () {
                   }
                 }
               }, _callee4);
-            })(), "t0", 14);
-
-          case 14:
-            i++;
-            _context5.next = 11;
-            break;
+            })(), "t0", 17);
 
           case 17:
+            i++;
+            _context5.next = 14;
+            break;
+
+          case 20:
           case "end":
             return _context5.stop();
         }
@@ -295,7 +304,7 @@ var fetchProducts = /*#__PURE__*/function () {
 }();
 
 var fetchProductsOfCategory = /*#__PURE__*/function () {
-  var _ref5 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee6(page, url) {
+  var _ref5 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee6(page, url, categoryId) {
     var bodyHtml, $, pageNumber, urls, i, html;
     return _regenerator["default"].wrap(function _callee6$(_context6) {
       while (1) {
@@ -325,7 +334,7 @@ var fetchProductsOfCategory = /*#__PURE__*/function () {
             }
 
             urls = getPaginationUrls(url, pageNumber);
-            getProductsEachPage(bodyHtml, url);
+            getProductsEachPage(bodyHtml, categoryId);
 
             if (!(urls.length > 1)) {
               _context6.next = 23;
@@ -355,7 +364,7 @@ var fetchProductsOfCategory = /*#__PURE__*/function () {
           case 17:
             html = _context6.sent;
             console.log(urls[i]);
-            getProductsEachPage(html, urls[i]);
+            getProductsEachPage(html, categoryId);
 
           case 20:
             i++;
@@ -370,7 +379,7 @@ var fetchProductsOfCategory = /*#__PURE__*/function () {
     }, _callee6);
   }));
 
-  return function fetchProductsOfCategory(_x9, _x10) {
+  return function fetchProductsOfCategory(_x9, _x10, _x11) {
     return _ref5.apply(this, arguments);
   };
 }();
@@ -386,7 +395,7 @@ var getPaginationUrls = function getPaginationUrls(url, pageNumber) {
   return urls;
 };
 
-var getProductsEachPage = function getProductsEachPage(bodyHtml, url) {
+var getProductsEachPage = function getProductsEachPage(bodyHtml, categoryId) {
   var $ = _cheerio["default"].load(bodyHtml);
 
   $('.product-header').each(function (_, elm) {
@@ -408,7 +417,6 @@ var getProductsEachPage = function getProductsEachPage(bodyHtml, url) {
     };
     var locations = {};
     locations[currentLocation] = localPrice;
-    var categoryId = getCategoryId(url);
     var categoryIds = [categoryId];
     var foundIndex = PRODUCTS.findIndex(function (p) {
       return p.id === id;
@@ -492,19 +500,7 @@ var getLastPart = function getLastPart(str) {
 };
 
 var getCategoryId = function getCategoryId(str) {
-  var parts = str.split('/');
-  var savedIndex = 0;
-
-  for (var i = 0; i < parts.length; i++) {
-    if (parts[i] === 'browse') {
-      savedIndex = i + 1;
-      break;
-    }
-  }
-
-  var result = parts.slice(savedIndex, parts.length);
-  result[result.length - 1] = result[result.length - 1].split('?')[0];
-  return result.join('/');
+  return 'c-' + str.toLowerCase().trim().replace('&', '').replace(',', '').replace(/\s/g, '-');
 };
 
 var getPromoText = function getPromoText(str) {

@@ -58,7 +58,9 @@ const fetchEachLocation = async (location) => {
 };
 
 const fetchProducts = async (page, url, location) => {
-  await ensureCorrectUrl(page, url, location);
+  while (!page.url().includes(location.area)) {
+    await ensureCorrectUrl(page, url, location);
+  }
   await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
   let bodyHtml = await page.evaluate(() => document.body.innerHTML);
   let $ = cheerio.load(bodyHtml);
@@ -70,8 +72,8 @@ const fetchProducts = async (page, url, location) => {
     for (let i = 0; i < categoryList.length; i++) {
       if (!categoryBlacklist.includes(categoryList[i].children[0].data)) {
         let href = categoryList[i].parent.parent.attribs.href;
-        let categoryId = getLastPart(href);
         let categoryName = categoryList[i].children[0].data;
+        let categoryId = getCategoryId(categoryName);
         let foundCatIndex = CATEGORIES.findIndex((c) => c.id === categoryId);
         if (foundCatIndex < 0) {
           CATEGORIES.push({
@@ -79,14 +81,14 @@ const fetchProducts = async (page, url, location) => {
             name: categoryName,
           });
         }
-        await fetchProductsOfCategory(page, colesUrl + href);
+        await fetchProductsOfCategory(page, colesUrl + href, categoryId);
         //await fetchProducts(page, colesUrl + href);
       }
     }
   }
 };
 
-const fetchProductsOfCategory = async (page, url) => {
+const fetchProductsOfCategory = async (page, url, categoryId) => {
   await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
   let bodyHtml = await page.evaluate(() => document.body.innerHTML);
   let $ = cheerio.load(bodyHtml);
@@ -103,13 +105,13 @@ const fetchProductsOfCategory = async (page, url) => {
 
   let urls = getPaginationUrls(url, pageNumber);
 
-  getProductsEachPage(bodyHtml, url);
+  getProductsEachPage(bodyHtml, categoryId);
   if (urls.length > 1) {
     for (let i = 1; i < urls.length; i++) {
       await page.goto(urls[i], { timeout: 0, waitUntil: 'networkidle2' });
       let html = await page.evaluate(() => document.body.innerHTML);
       console.log(urls[i]);
-      getProductsEachPage(html, urls[i]);
+      getProductsEachPage(html, categoryId);
     }
   }
 };
@@ -123,7 +125,7 @@ const getPaginationUrls = (url, pageNumber) => {
   return urls;
 };
 
-const getProductsEachPage = (bodyHtml, url) => {
+const getProductsEachPage = (bodyHtml, categoryId) => {
   let $ = cheerio.load(bodyHtml);
   $('.product-header').each((_, elm) => {
     let id = getLastPart(
@@ -154,7 +156,6 @@ const getProductsEachPage = (bodyHtml, url) => {
     };
     let locations = {};
     locations[currentLocation] = localPrice;
-    let categoryId = getCategoryId(url);
     let categoryIds = [categoryId];
 
     let foundIndex = PRODUCTS.findIndex((p) => p.id === id);
@@ -221,17 +222,15 @@ const getLastPart = (str) => {
 };
 
 const getCategoryId = (str) => {
-  const parts = str.split('/');
-  let savedIndex = 0;
-  for (let i = 0; i < parts.length; i++) {
-    if (parts[i] === 'browse') {
-      savedIndex = i + 1;
-      break;
-    }
-  }
-  let result = parts.slice(savedIndex, parts.length);
-  result[result.length - 1] = result[result.length - 1].split('?')[0];
-  return result.join('/');
+  return (
+    'c-' +
+    str
+      .toLowerCase()
+      .trim()
+      .replace('&', '')
+      .replace(',', '')
+      .replace(/\s/g, '-')
+  );
 };
 
 const getPromoText = (str) => {

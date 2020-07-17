@@ -1,11 +1,18 @@
 import inquirer from 'inquirer';
 import fetchColesSpecial from './functions/fetchColesSpecial';
+import fetchWoolworthsSpecial from './functions/fetchWoolworthsSpecial';
+import mergeProductsCategories from './functions/mergeProductsCategories';
 
 const EXIT = 'exit';
 const GET_SPECIAL_PRODUCTS = 'get_special_prices';
+const MERGE_PRODUCTS_CATEGORIES = 'merge_products_categories';
 
 const choices = [
   { title: 'Get special products', action: GET_SPECIAL_PRODUCTS },
+  {
+    title: 'Merge Coles products & categories',
+    action: MERGE_PRODUCTS_CATEGORIES,
+  },
   { title: 'Exit', action: EXIT },
 ];
 
@@ -80,12 +87,16 @@ inquirer
                 return;
               case 'woolworths':
                 console.log('Fetching Woolworths');
+                await fetchWoolworthsSpecial();
                 return;
               case 'chemist':
                 console.log('Fetching Chemist Warehouse');
                 return;
             }
           });
+        return;
+      case MERGE_PRODUCTS_CATEGORIES:
+        mergeProductsCategories();
         return;
       case EXIT:
         return;
