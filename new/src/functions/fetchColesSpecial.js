@@ -16,10 +16,6 @@ const fetchColesSpecial = async (locationId) => {
   let location = colesLocations.find((l) => l.id === locationId);
   currentLocation = locationId;
   await fetchEachLocation(location);
-  // for (let location of colesLocations) {
-  //   currentLocation = location.id;
-  //   await fetchEachLocation(location);
-  // }
   fs.writeFileSync(
     `./data/products/coles-special-products-${locationId}.json`,
     JSON.stringify(PRODUCTS)
@@ -30,8 +26,20 @@ const fetchColesSpecial = async (locationId) => {
   );
 };
 
+const ensureCorrectUrl = async (page, url, location) => {
+  while (!page.url().includes(location.area)) {
+    await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
+    await page.click('#changeLocationBar');
+    await page.waitFor(1000);
+    await page.type('#search-form > p', location.postcode);
+    await page.waitFor(1000);
+    await page.keyboard.press('Enter');
+    await page.waitForNavigation({ timeout: 0, waitUntil: 'networkidle2' });
+    await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
+  }
+};
+
 const fetchEachLocation = async (location) => {
-  let postcode = location.postcode;
   let url = location.url;
   console.log(`Getting special products from ${location.id}`);
 
@@ -39,18 +47,9 @@ const fetchEachLocation = async (location) => {
     puppeteer.use(StealthPlugin());
     let browser = await puppeteer.launch({ headless: false });
     let page = await browser.newPage();
-    await page.goto(url, { waitUntil: 'networkidle2' });
-    while (!page.url().includes(location.area)) {
-      await page.goto(url, { waitUntil: 'networkidle2' });
-      await page.click('#changeLocationBar');
-      await page.waitFor(1000);
-      await page.type('#search-form > p', postcode);
-      await page.waitFor(1000);
-      await page.keyboard.press('Enter');
-      await page.waitForNavigation({ waitUntil: 'networkidle2' });
-      await page.goto(url, { waitUntil: 'networkidle2' });
-    }
-    await fetchProducts(page, url);
+    await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
+    await ensureCorrectUrl(page, url, location);
+    await fetchProducts(page, url, location);
     await browser.close();
   } catch (err) {
     console.log(err);
@@ -58,8 +57,9 @@ const fetchEachLocation = async (location) => {
   }
 };
 
-const fetchProducts = async (page, url) => {
-  await page.goto(url, { waitUntil: 'networkidle2' });
+const fetchProducts = async (page, url, location) => {
+  await ensureCorrectUrl(page, url, location);
+  await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
   let bodyHtml = await page.evaluate(() => document.body.innerHTML);
   let $ = cheerio.load(bodyHtml);
   let categoryList = $("li[class='cat-nav-item']")
@@ -87,7 +87,7 @@ const fetchProducts = async (page, url) => {
 };
 
 const fetchProductsOfCategory = async (page, url) => {
-  await page.goto(url, { waitUntil: 'networkidle2' });
+  await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
   let bodyHtml = await page.evaluate(() => document.body.innerHTML);
   let $ = cheerio.load(bodyHtml);
   let pageNumber = 0;
@@ -106,7 +106,7 @@ const fetchProductsOfCategory = async (page, url) => {
   getProductsEachPage(bodyHtml, url);
   if (urls.length > 1) {
     for (let i = 1; i < urls.length; i++) {
-      await page.goto(urls[i], { waitUntil: 'networkidle2' });
+      await page.goto(urls[i], { timeout: 0, waitUntil: 'networkidle2' });
       let html = await page.evaluate(() => document.body.innerHTML);
       console.log(urls[i]);
       getProductsEachPage(html, urls[i]);

@@ -43,19 +43,16 @@ var fetchColesSpecial = /*#__PURE__*/function () {
             location = _colesVariables.colesLocations.find(function (l) {
               return l.id === locationId;
             });
-            _context.next = 3;
+            currentLocation = locationId;
+            _context.next = 4;
             return fetchEachLocation(location);
 
-          case 3:
-            // for (let location of colesLocations) {
-            //   currentLocation = location.id;
-            //   await fetchEachLocation(location);
-            // }
+          case 4:
             _fs["default"].writeFileSync("./data/products/coles-special-products-".concat(locationId, ".json"), JSON.stringify(PRODUCTS));
 
             _fs["default"].writeFileSync("./data/products/coles-special-categories-".concat(locationId, ".json"), JSON.stringify(CATEGORIES));
 
-          case 5:
+          case 6:
           case "end":
             return _context.stop();
         }
@@ -68,155 +65,191 @@ var fetchColesSpecial = /*#__PURE__*/function () {
   };
 }();
 
-var fetchEachLocation = /*#__PURE__*/function () {
-  var _ref2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(location) {
-    var postcode, url, browser, page;
+var ensureCorrectUrl = /*#__PURE__*/function () {
+  var _ref2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(page, url, location) {
     return _regenerator["default"].wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
-            postcode = location.postcode;
-            url = location.url;
-            console.log("Getting special products from ".concat(location.id));
-            _context2.prev = 3;
-
-            _puppeteerExtra["default"].use((0, _puppeteerExtraPluginStealth["default"])());
-
-            _context2.next = 7;
-            return _puppeteerExtra["default"].launch({
-              headless: false
-            });
-
-          case 7:
-            browser = _context2.sent;
-            _context2.next = 10;
-            return browser.newPage();
-
-          case 10:
-            page = _context2.sent;
-            _context2.next = 13;
-            return page["goto"](url, {
-              waitUntil: 'networkidle2'
-            });
-
-          case 13:
             if (page.url().includes(location.area)) {
-              _context2.next = 30;
+              _context2.next = 19;
               break;
             }
 
-            _context2.next = 16;
+            _context2.next = 3;
             return page["goto"](url, {
+              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
-          case 16:
-            _context2.next = 18;
+          case 3:
+            _context2.next = 5;
             return page.click('#changeLocationBar');
 
-          case 18:
-            _context2.next = 20;
+          case 5:
+            _context2.next = 7;
             return page.waitFor(1000);
 
-          case 20:
-            _context2.next = 22;
-            return page.type('#search-form > p', postcode);
+          case 7:
+            _context2.next = 9;
+            return page.type('#search-form > p', location.postcode);
 
-          case 22:
-            _context2.next = 24;
+          case 9:
+            _context2.next = 11;
             return page.waitFor(1000);
 
-          case 24:
-            _context2.next = 26;
+          case 11:
+            _context2.next = 13;
             return page.keyboard.press('Enter');
 
-          case 26:
-            _context2.next = 28;
+          case 13:
+            _context2.next = 15;
             return page.waitForNavigation({
+              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
-          case 28:
-            _context2.next = 13;
+          case 15:
+            _context2.next = 17;
+            return page["goto"](url, {
+              timeout: 0,
+              waitUntil: 'networkidle2'
+            });
+
+          case 17:
+            _context2.next = 0;
             break;
 
-          case 30:
-            _context2.next = 32;
-            return fetchProducts(page, url);
-
-          case 32:
-            _context2.next = 34;
-            return browser.close();
-
-          case 34:
-            _context2.next = 40;
-            break;
-
-          case 36:
-            _context2.prev = 36;
-            _context2.t0 = _context2["catch"](3);
-            console.log(_context2.t0);
-            return _context2.abrupt("return");
-
-          case 40:
+          case 19:
           case "end":
             return _context2.stop();
         }
       }
-    }, _callee2, null, [[3, 36]]);
+    }, _callee2);
   }));
 
-  return function fetchEachLocation(_x2) {
+  return function ensureCorrectUrl(_x2, _x3, _x4) {
     return _ref2.apply(this, arguments);
   };
 }();
 
-var fetchProducts = /*#__PURE__*/function () {
-  var _ref3 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee4(page, url) {
-    var bodyHtml, $, categoryList, i;
-    return _regenerator["default"].wrap(function _callee4$(_context4) {
+var fetchEachLocation = /*#__PURE__*/function () {
+  var _ref3 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee3(location) {
+    var url, browser, page;
+    return _regenerator["default"].wrap(function _callee3$(_context3) {
       while (1) {
-        switch (_context4.prev = _context4.next) {
+        switch (_context3.prev = _context3.next) {
           case 0:
-            _context4.next = 2;
+            url = location.url;
+            console.log("Getting special products from ".concat(location.id));
+            _context3.prev = 2;
+
+            _puppeteerExtra["default"].use((0, _puppeteerExtraPluginStealth["default"])());
+
+            _context3.next = 6;
+            return _puppeteerExtra["default"].launch({
+              headless: false
+            });
+
+          case 6:
+            browser = _context3.sent;
+            _context3.next = 9;
+            return browser.newPage();
+
+          case 9:
+            page = _context3.sent;
+            _context3.next = 12;
             return page["goto"](url, {
+              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
+          case 12:
+            _context3.next = 14;
+            return ensureCorrectUrl(page, url, location);
+
+          case 14:
+            _context3.next = 16;
+            return fetchProducts(page, url, location);
+
+          case 16:
+            _context3.next = 18;
+            return browser.close();
+
+          case 18:
+            _context3.next = 24;
+            break;
+
+          case 20:
+            _context3.prev = 20;
+            _context3.t0 = _context3["catch"](2);
+            console.log(_context3.t0);
+            return _context3.abrupt("return");
+
+          case 24:
+          case "end":
+            return _context3.stop();
+        }
+      }
+    }, _callee3, null, [[2, 20]]);
+  }));
+
+  return function fetchEachLocation(_x5) {
+    return _ref3.apply(this, arguments);
+  };
+}();
+
+var fetchProducts = /*#__PURE__*/function () {
+  var _ref4 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee5(page, url, location) {
+    var bodyHtml, $, categoryList, i;
+    return _regenerator["default"].wrap(function _callee5$(_context5) {
+      while (1) {
+        switch (_context5.prev = _context5.next) {
+          case 0:
+            _context5.next = 2;
+            return ensureCorrectUrl(page, url, location);
+
           case 2:
-            _context4.next = 4;
+            _context5.next = 4;
+            return page["goto"](url, {
+              timeout: 0,
+              waitUntil: 'networkidle2'
+            });
+
+          case 4:
+            _context5.next = 6;
             return page.evaluate(function () {
               return document.body.innerHTML;
             });
 
-          case 4:
-            bodyHtml = _context4.sent;
+          case 6:
+            bodyHtml = _context5.sent;
             $ = _cheerio["default"].load(bodyHtml);
             categoryList = $("li[class='cat-nav-item']").not('.is-disabled').find($('.item-title'));
 
             if (!(categoryList.length > 0)) {
-              _context4.next = 15;
+              _context5.next = 17;
               break;
             }
 
             i = 0;
 
-          case 9:
+          case 11:
             if (!(i < categoryList.length)) {
-              _context4.next = 15;
+              _context5.next = 17;
               break;
             }
 
             if (_colesVariables.categoryBlacklist.includes(categoryList[i].children[0].data)) {
-              _context4.next = 12;
+              _context5.next = 14;
               break;
             }
 
-            return _context4.delegateYield( /*#__PURE__*/_regenerator["default"].mark(function _callee3() {
+            return _context5.delegateYield( /*#__PURE__*/_regenerator["default"].mark(function _callee4() {
               var href, categoryId, categoryName, foundCatIndex;
-              return _regenerator["default"].wrap(function _callee3$(_context3) {
+              return _regenerator["default"].wrap(function _callee4$(_context4) {
                 while (1) {
-                  switch (_context3.prev = _context3.next) {
+                  switch (_context4.prev = _context4.next) {
                     case 0:
                       href = categoryList[i].parent.parent.attribs.href;
                       categoryId = getLastPart(href);
@@ -232,55 +265,56 @@ var fetchProducts = /*#__PURE__*/function () {
                         });
                       }
 
-                      _context3.next = 7;
+                      _context4.next = 7;
                       return fetchProductsOfCategory(page, _colesVariables.colesUrl + href);
 
                     case 7:
                     case "end":
-                      return _context3.stop();
+                      return _context4.stop();
                   }
                 }
-              }, _callee3);
-            })(), "t0", 12);
+              }, _callee4);
+            })(), "t0", 14);
 
-          case 12:
+          case 14:
             i++;
-            _context4.next = 9;
+            _context5.next = 11;
             break;
 
-          case 15:
+          case 17:
           case "end":
-            return _context4.stop();
+            return _context5.stop();
         }
       }
-    }, _callee4);
+    }, _callee5);
   }));
 
-  return function fetchProducts(_x3, _x4) {
-    return _ref3.apply(this, arguments);
+  return function fetchProducts(_x6, _x7, _x8) {
+    return _ref4.apply(this, arguments);
   };
 }();
 
 var fetchProductsOfCategory = /*#__PURE__*/function () {
-  var _ref4 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee5(page, url) {
+  var _ref5 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee6(page, url) {
     var bodyHtml, $, pageNumber, urls, i, html;
-    return _regenerator["default"].wrap(function _callee5$(_context5) {
+    return _regenerator["default"].wrap(function _callee6$(_context6) {
       while (1) {
-        switch (_context5.prev = _context5.next) {
+        switch (_context6.prev = _context6.next) {
           case 0:
-            _context5.next = 2;
+            _context6.next = 2;
             return page["goto"](url, {
+              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
           case 2:
-            _context5.next = 4;
+            _context6.next = 4;
             return page.evaluate(function () {
               return document.body.innerHTML;
             });
 
           case 4:
-            bodyHtml = _context5.sent;
+            bodyHtml = _context6.sent;
             $ = _cheerio["default"].load(bodyHtml);
             pageNumber = 0;
 
@@ -294,7 +328,7 @@ var fetchProductsOfCategory = /*#__PURE__*/function () {
             getProductsEachPage(bodyHtml, url);
 
             if (!(urls.length > 1)) {
-              _context5.next = 23;
+              _context6.next = 23;
               break;
             }
 
@@ -302,41 +336,42 @@ var fetchProductsOfCategory = /*#__PURE__*/function () {
 
           case 12:
             if (!(i < urls.length)) {
-              _context5.next = 23;
+              _context6.next = 23;
               break;
             }
 
-            _context5.next = 15;
+            _context6.next = 15;
             return page["goto"](urls[i], {
+              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
           case 15:
-            _context5.next = 17;
+            _context6.next = 17;
             return page.evaluate(function () {
               return document.body.innerHTML;
             });
 
           case 17:
-            html = _context5.sent;
+            html = _context6.sent;
             console.log(urls[i]);
             getProductsEachPage(html, urls[i]);
 
           case 20:
             i++;
-            _context5.next = 12;
+            _context6.next = 12;
             break;
 
           case 23:
           case "end":
-            return _context5.stop();
+            return _context6.stop();
         }
       }
-    }, _callee5);
+    }, _callee6);
   }));
 
-  return function fetchProductsOfCategory(_x5, _x6) {
-    return _ref4.apply(this, arguments);
+  return function fetchProductsOfCategory(_x9, _x10) {
+    return _ref5.apply(this, arguments);
   };
 }();
 

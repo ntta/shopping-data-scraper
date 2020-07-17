@@ -57,16 +57,26 @@ inquirer
           .then(async (subAnswers) => {
             switch (subAnswers.store) {
               case 'coles':
-                Promise.all([
-                  fetchColesSpecial('VIC'),
-                  fetchColesSpecial('NSW'),
-                  fetchColesSpecial('QLD'),
-                  fetchColesSpecial('TAS'),
-                  fetchColesSpecial('WA'),
-                  fetchColesSpecial('SA'),
-                  fetchColesSpecial('ACT'),
-                  fetchColesSpecial('NT'),
-                ]);
+                inquirer
+                  .prompt([
+                    {
+                      type: 'input',
+                      name: 'location',
+                      message: 'Enter Location: ',
+                      default: 'VIC',
+                    },
+                  ])
+                  .then(async (subSubAnswers) => {
+                    await fetchColesSpecial(subSubAnswers.location);
+                  });
+                // fetchColesSpecial('VIC'),
+                // fetchColesSpecial('NSW'),
+                // fetchColesSpecial('QLD'),
+                // fetchColesSpecial('TAS'),
+                // fetchColesSpecial('WA'),
+                // fetchColesSpecial('SA'),
+                // fetchColesSpecial('ACT'),
+                // fetchColesSpecial('NT'),
                 return;
               case 'woolworths':
                 console.log('Fetching Woolworths');

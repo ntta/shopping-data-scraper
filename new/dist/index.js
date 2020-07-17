@@ -45,13 +45,13 @@ _inquirer["default"].prompt([{
     })[0].action;
   }
 }]).then( /*#__PURE__*/function () {
-  var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(answers) {
-    return _regenerator["default"].wrap(function _callee2$(_context2) {
+  var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee3(answers) {
+    return _regenerator["default"].wrap(function _callee3$(_context3) {
       while (1) {
-        switch (_context2.prev = _context2.next) {
+        switch (_context3.prev = _context3.next) {
           case 0:
-            _context2.t0 = answers.action;
-            _context2.next = _context2.t0 === GET_SPECIAL_PRODUCTS ? 3 : _context2.t0 === EXIT ? 5 : 6;
+            _context3.t0 = answers.action;
+            _context3.next = _context3.t0 === GET_SPECIAL_PRODUCTS ? 3 : _context3.t0 === EXIT ? 5 : 6;
             break;
 
           case 3:
@@ -70,33 +70,67 @@ _inquirer["default"].prompt([{
                 })[0].id;
               }
             }]).then( /*#__PURE__*/function () {
-              var _ref2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee(subAnswers) {
-                return _regenerator["default"].wrap(function _callee$(_context) {
+              var _ref2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(subAnswers) {
+                return _regenerator["default"].wrap(function _callee2$(_context2) {
                   while (1) {
-                    switch (_context.prev = _context.next) {
+                    switch (_context2.prev = _context2.next) {
                       case 0:
-                        _context.t0 = subAnswers.store;
-                        _context.next = _context.t0 === 'coles' ? 3 : _context.t0 === 'woolworths' ? 5 : _context.t0 === 'chemist' ? 7 : 9;
+                        _context2.t0 = subAnswers.store;
+                        _context2.next = _context2.t0 === 'coles' ? 3 : _context2.t0 === 'woolworths' ? 5 : _context2.t0 === 'chemist' ? 7 : 9;
                         break;
 
                       case 3:
-                        Promise.all([(0, _fetchColesSpecial["default"])('VIC'), (0, _fetchColesSpecial["default"])('NSW'), (0, _fetchColesSpecial["default"])('QLD'), (0, _fetchColesSpecial["default"])('TAS'), (0, _fetchColesSpecial["default"])('WA'), (0, _fetchColesSpecial["default"])('SA'), (0, _fetchColesSpecial["default"])('ACT'), (0, _fetchColesSpecial["default"])('NT')]);
-                        return _context.abrupt("return");
+                        _inquirer["default"].prompt([{
+                          type: 'input',
+                          name: 'location',
+                          message: 'Enter Location: ',
+                          "default": 'VIC'
+                        }]).then( /*#__PURE__*/function () {
+                          var _ref3 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee(subSubAnswers) {
+                            return _regenerator["default"].wrap(function _callee$(_context) {
+                              while (1) {
+                                switch (_context.prev = _context.next) {
+                                  case 0:
+                                    _context.next = 2;
+                                    return (0, _fetchColesSpecial["default"])(subSubAnswers.location);
+
+                                  case 2:
+                                  case "end":
+                                    return _context.stop();
+                                }
+                              }
+                            }, _callee);
+                          }));
+
+                          return function (_x3) {
+                            return _ref3.apply(this, arguments);
+                          };
+                        }()); // fetchColesSpecial('VIC'),
+                        // fetchColesSpecial('NSW'),
+                        // fetchColesSpecial('QLD'),
+                        // fetchColesSpecial('TAS'),
+                        // fetchColesSpecial('WA'),
+                        // fetchColesSpecial('SA'),
+                        // fetchColesSpecial('ACT'),
+                        // fetchColesSpecial('NT'),
+
+
+                        return _context2.abrupt("return");
 
                       case 5:
                         console.log('Fetching Woolworths');
-                        return _context.abrupt("return");
+                        return _context2.abrupt("return");
 
                       case 7:
                         console.log('Fetching Chemist Warehouse');
-                        return _context.abrupt("return");
+                        return _context2.abrupt("return");
 
                       case 9:
                       case "end":
-                        return _context.stop();
+                        return _context2.stop();
                     }
                   }
-                }, _callee);
+                }, _callee2);
               }));
 
               return function (_x2) {
@@ -104,17 +138,17 @@ _inquirer["default"].prompt([{
               };
             }());
 
-            return _context2.abrupt("return");
+            return _context3.abrupt("return");
 
           case 5:
-            return _context2.abrupt("return");
+            return _context3.abrupt("return");
 
           case 6:
           case "end":
-            return _context2.stop();
+            return _context3.stop();
         }
       }
-    }, _callee2);
+    }, _callee3);
   }));
 
   return function (_x) {
