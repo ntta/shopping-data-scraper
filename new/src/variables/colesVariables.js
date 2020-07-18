@@ -1,5 +1,8 @@
 export const colesUrl = 'https://shop.coles.com.au';
 export const categoryBlacklist = ['Liquor', 'Tobacco'];
+export const colesProductsPath = './data/products/coles-special-products.json';
+export const colesCategoriesPath =
+  './data/products/coles-special-categories.json';
 
 export const colesLocations = [
   {

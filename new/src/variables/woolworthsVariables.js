@@ -1,6 +1,11 @@
 export const categoriesApi =
   'https://www.woolworths.com.au/apis/ui/PiesCategoriesWithSpecials/';
 
+export const woolworthsProductsPath =
+  './data/products/woolworths-special-products.json';
+export const woolworthsCategoriesPath =
+  './data/products/woolworths-special-categories.json';
+
 export const productsApi =
   'https://www.woolworths.com.au/apis/ui/browse/category';
 

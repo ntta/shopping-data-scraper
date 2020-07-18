@@ -34,36 +34,80 @@ var CATEGORIES = [];
 var currentLocation = '';
 
 var fetchColesSpecial = /*#__PURE__*/function () {
-  var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee(locationId) {
-    var location;
+  var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee() {
+    var _iterator, _step, location;
+
     return _regenerator["default"].wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            location = _colesVariables.colesLocations.find(function (l) {
-              return l.id === locationId;
-            });
-            currentLocation = locationId;
-            _context.next = 4;
+            _iterator = _createForOfIteratorHelper(_colesVariables.colesLocations);
+            _context.prev = 1;
+
+            _iterator.s();
+
+          case 3:
+            if ((_step = _iterator.n()).done) {
+              _context.next = 10;
+              break;
+            }
+
+            location = _step.value;
+            currentLocation = location.id;
+            _context.next = 8;
             return fetchEachLocation(location);
 
-          case 4:
-            _fs["default"].writeFileSync("./data/products/coles-special-products-".concat(locationId, ".json"), JSON.stringify(PRODUCTS));
+          case 8:
+            _context.next = 3;
+            break;
 
-            _fs["default"].writeFileSync("./data/products/coles-special-categories-".concat(locationId, ".json"), JSON.stringify(CATEGORIES));
+          case 10:
+            _context.next = 15;
+            break;
 
-          case 6:
+          case 12:
+            _context.prev = 12;
+            _context.t0 = _context["catch"](1);
+
+            _iterator.e(_context.t0);
+
+          case 15:
+            _context.prev = 15;
+
+            _iterator.f();
+
+            return _context.finish(15);
+
+          case 18:
+            _fs["default"].writeFileSync(_colesVariables.colesProductsPath, JSON.stringify(PRODUCTS));
+
+            _fs["default"].writeFileSync(_colesVariables.colesCategoriesPath, JSON.stringify(CATEGORIES));
+
+          case 20:
           case "end":
             return _context.stop();
         }
       }
-    }, _callee);
+    }, _callee, null, [[1, 12, 15, 18]]);
   }));
 
-  return function fetchColesSpecial(_x) {
+  return function fetchColesSpecial() {
     return _ref.apply(this, arguments);
   };
-}();
+}(); // const fetchColesSpecial = async (locationId) => {
+//   let location = colesLocations.find((l) => l.id === locationId);
+//   currentLocation = locationId;
+//   await fetchEachLocation(location);
+//   fs.writeFileSync(
+//     `./data/products/coles-special-products-${locationId}.json`,
+//     JSON.stringify(PRODUCTS)
+//   );
+//   fs.writeFileSync(
+//     `./data/products/coles-special-categories-${locationId}.json`,
+//     JSON.stringify(CATEGORIES)
+//   );
+// };
+
 
 var ensureCorrectUrl = /*#__PURE__*/function () {
   var _ref2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(page, url, location) {
@@ -72,13 +116,12 @@ var ensureCorrectUrl = /*#__PURE__*/function () {
         switch (_context2.prev = _context2.next) {
           case 0:
             if (page.url().includes(location.area)) {
-              _context2.next = 19;
+              _context2.next = 21;
               break;
             }
 
             _context2.next = 3;
             return page["goto"](url, {
-              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
@@ -105,22 +148,24 @@ var ensureCorrectUrl = /*#__PURE__*/function () {
           case 13:
             _context2.next = 15;
             return page.waitForNavigation({
-              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
           case 15:
             _context2.next = 17;
             return page["goto"](url, {
-              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
           case 17:
+            _context2.next = 19;
+            return page.waitFor(5000);
+
+          case 19:
             _context2.next = 0;
             break;
 
-          case 19:
+          case 21:
           case "end":
             return _context2.stop();
         }
@@ -128,80 +173,92 @@ var ensureCorrectUrl = /*#__PURE__*/function () {
     }, _callee2);
   }));
 
-  return function ensureCorrectUrl(_x2, _x3, _x4) {
+  return function ensureCorrectUrl(_x, _x2, _x3) {
     return _ref2.apply(this, arguments);
   };
 }();
 
 var fetchEachLocation = /*#__PURE__*/function () {
   var _ref3 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee3(location) {
-    var url, browser, page;
+    var url, browser, page, error;
     return _regenerator["default"].wrap(function _callee3$(_context3) {
       while (1) {
         switch (_context3.prev = _context3.next) {
           case 0:
             url = location.url;
             console.log("Getting special products from ".concat(location.id));
-            _context3.prev = 2;
 
             _puppeteerExtra["default"].use((0, _puppeteerExtraPluginStealth["default"])());
 
-            _context3.next = 6;
+            _context3.next = 5;
             return _puppeteerExtra["default"].launch({
-              headless: false
+              headless: true
             });
 
-          case 6:
+          case 5:
             browser = _context3.sent;
-            _context3.next = 9;
+            _context3.next = 8;
             return browser.newPage();
 
-          case 9:
+          case 8:
             page = _context3.sent;
-            _context3.next = 12;
+            error = true;
+
+          case 10:
+            if (!error) {
+              _context3.next = 27;
+              break;
+            }
+
+            _context3.prev = 11;
+            _context3.next = 14;
             return page["goto"](url, {
-              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
-          case 12:
-            _context3.next = 14;
-            return ensureCorrectUrl(page, url, location);
-
           case 14:
             _context3.next = 16;
-            return fetchProducts(page, url, location);
+            return ensureCorrectUrl(page, url, location);
 
           case 16:
             _context3.next = 18;
-            return browser.close();
+            return fetchProducts(page, url, location);
 
           case 18:
-            _context3.next = 24;
+            error = false;
+            _context3.next = 25;
             break;
 
-          case 20:
-            _context3.prev = 20;
-            _context3.t0 = _context3["catch"](2);
-            console.log(_context3.t0);
-            return _context3.abrupt("return");
+          case 21:
+            _context3.prev = 21;
+            _context3.t0 = _context3["catch"](11);
+            console.log('Failed in fetchEachLocation. Trying again...');
+            error = true;
 
-          case 24:
+          case 25:
+            _context3.next = 10;
+            break;
+
+          case 27:
+            _context3.next = 29;
+            return browser.close();
+
+          case 29:
           case "end":
             return _context3.stop();
         }
       }
-    }, _callee3, null, [[2, 20]]);
+    }, _callee3, null, [[11, 21]]);
   }));
 
-  return function fetchEachLocation(_x5) {
+  return function fetchEachLocation(_x4) {
     return _ref3.apply(this, arguments);
   };
 }();
 
 var fetchProducts = /*#__PURE__*/function () {
   var _ref4 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee5(page, url, location) {
-    var bodyHtml, $, categoryList, i;
+    var error, bodyHtml, $, categoryList, i;
     return _regenerator["default"].wrap(function _callee5$(_context5) {
       while (1) {
         switch (_context5.prev = _context5.next) {
@@ -219,38 +276,61 @@ var fetchProducts = /*#__PURE__*/function () {
             break;
 
           case 5:
-            _context5.next = 7;
+            error = true;
+
+          case 6:
+            if (!error) {
+              _context5.next = 19;
+              break;
+            }
+
+            _context5.prev = 7;
+            _context5.next = 10;
             return page["goto"](url, {
-              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
-          case 7:
-            _context5.next = 9;
+          case 10:
+            error = false;
+            _context5.next = 17;
+            break;
+
+          case 13:
+            _context5.prev = 13;
+            _context5.t0 = _context5["catch"](7);
+            console.log('Failed in fetchProducts. Trying again...');
+            error = true;
+
+          case 17:
+            _context5.next = 6;
+            break;
+
+          case 19:
+            _context5.next = 21;
             return page.evaluate(function () {
               return document.body.innerHTML;
             });
 
-          case 9:
+          case 21:
             bodyHtml = _context5.sent;
             $ = _cheerio["default"].load(bodyHtml);
             categoryList = $("li[class='cat-nav-item']").not('.is-disabled').find($('.item-title'));
 
             if (!(categoryList.length > 0)) {
-              _context5.next = 20;
+              _context5.next = 32;
               break;
             }
 
             i = 0;
 
-          case 14:
+          case 26:
             if (!(i < categoryList.length)) {
-              _context5.next = 20;
+              _context5.next = 32;
               break;
             }
 
             if (_colesVariables.categoryBlacklist.includes(categoryList[i].children[0].data)) {
-              _context5.next = 17;
+              _context5.next = 29;
               break;
             }
 
@@ -283,22 +363,22 @@ var fetchProducts = /*#__PURE__*/function () {
                   }
                 }
               }, _callee4);
-            })(), "t0", 17);
+            })(), "t1", 29);
 
-          case 17:
+          case 29:
             i++;
-            _context5.next = 14;
+            _context5.next = 26;
             break;
 
-          case 20:
+          case 32:
           case "end":
             return _context5.stop();
         }
       }
-    }, _callee5);
+    }, _callee5, null, [[7, 13]]);
   }));
 
-  return function fetchProducts(_x6, _x7, _x8) {
+  return function fetchProducts(_x5, _x6, _x7) {
     return _ref4.apply(this, arguments);
   };
 }();
@@ -321,7 +401,6 @@ var fetchProductsOfCategory = /*#__PURE__*/function () {
             _context6.prev = 2;
             _context6.next = 5;
             return page["goto"](url, {
-              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
@@ -391,7 +470,6 @@ var fetchProductsOfCategory = /*#__PURE__*/function () {
             _context6.prev = 30;
             _context6.next = 33;
             return page["goto"](urls[i], {
-              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
@@ -440,7 +518,7 @@ var fetchProductsOfCategory = /*#__PURE__*/function () {
     }, _callee6, null, [[2, 10], [30, 38]]);
   }));
 
-  return function fetchProductsOfCategory(_x9, _x10, _x11) {
+  return function fetchProductsOfCategory(_x8, _x9, _x10) {
     return _ref5.apply(this, arguments);
   };
 }();
@@ -525,12 +603,12 @@ var getDiscountRate = function getDiscountRate(price, orgPrice, promo) {
     var quantity = null;
     var amount = null;
 
-    var _iterator = _createForOfIteratorHelper(parts),
-        _step;
+    var _iterator2 = _createForOfIteratorHelper(parts),
+        _step2;
 
     try {
-      for (_iterator.s(); !(_step = _iterator.n()).done;) {
-        var part = _step.value;
+      for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
+        var part = _step2.value;
 
         if (!isNaN(part)) {
           quantity = Number(part);
@@ -541,9 +619,9 @@ var getDiscountRate = function getDiscountRate(price, orgPrice, promo) {
         }
       }
     } catch (err) {
-      _iterator.e(err);
+      _iterator2.e(err);
     } finally {
-      _iterator.f();
+      _iterator2.f();
     }
 
     if (quantity && amount) {

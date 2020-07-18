@@ -3,11 +3,15 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.colesLocations = exports.categoryBlacklist = exports.colesUrl = void 0;
+exports.colesLocations = exports.colesCategoriesPath = exports.colesProductsPath = exports.categoryBlacklist = exports.colesUrl = void 0;
 var colesUrl = 'https://shop.coles.com.au';
 exports.colesUrl = colesUrl;
 var categoryBlacklist = ['Liquor', 'Tobacco'];
 exports.categoryBlacklist = categoryBlacklist;
+var colesProductsPath = './data/products/coles-special-products.json';
+exports.colesProductsPath = colesProductsPath;
+var colesCategoriesPath = './data/products/coles-special-categories.json';
+exports.colesCategoriesPath = colesCategoriesPath;
 var colesLocations = [{
   id: 'VIC',
   url: 'https://shop.coles.com.au/a/richmond-south/specials/browse',

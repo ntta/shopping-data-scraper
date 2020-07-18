@@ -1,18 +1,15 @@
 import inquirer from 'inquirer';
 import fetchColesSpecial from './functions/fetchColesSpecial';
 import fetchWoolworthsSpecial from './functions/fetchWoolworthsSpecial';
-import mergeProductsCategories from './functions/mergeProductsCategories';
+import findSimilarProducts from './functions/findSimilarProducts';
 
 const EXIT = 'exit';
 const GET_SPECIAL_PRODUCTS = 'get_special_prices';
-const MERGE_PRODUCTS_CATEGORIES = 'merge_products_categories';
+const FIND_SIMILAR_PRODUCTS = 'find_similar_products';
 
 const choices = [
   { title: 'Get special products', action: GET_SPECIAL_PRODUCTS },
-  {
-    title: 'Merge Coles products & categories',
-    action: MERGE_PRODUCTS_CATEGORIES,
-  },
+  { title: 'Find similar products', action: FIND_SIMILAR_PRODUCTS },
   { title: 'Exit', action: EXIT },
 ];
 
@@ -64,26 +61,19 @@ inquirer
           .then(async (subAnswers) => {
             switch (subAnswers.store) {
               case 'coles':
-                inquirer
-                  .prompt([
-                    {
-                      type: 'input',
-                      name: 'location',
-                      message: 'Enter Location: ',
-                      default: 'VIC',
-                    },
-                  ])
-                  .then(async (subSubAnswers) => {
-                    await fetchColesSpecial(subSubAnswers.location);
-                  });
-                // fetchColesSpecial('VIC'),
-                // fetchColesSpecial('NSW'),
-                // fetchColesSpecial('QLD'),
-                // fetchColesSpecial('TAS'),
-                // fetchColesSpecial('WA'),
-                // fetchColesSpecial('SA'),
-                // fetchColesSpecial('ACT'),
-                // fetchColesSpecial('NT'),
+                await fetchColesSpecial();
+                // inquirer
+                //   .prompt([
+                //     {
+                //       type: 'input',
+                //       name: 'location',
+                //       message: 'Enter Location: ',
+                //       default: 'VIC',
+                //     },
+                //   ])
+                //   .then(async (subSubAnswers) => {
+                //     await fetchColesSpecial(subSubAnswers.location);
+                //   });
                 return;
               case 'woolworths':
                 console.log('Fetching Woolworths');
@@ -95,8 +85,8 @@ inquirer
             }
           });
         return;
-      case MERGE_PRODUCTS_CATEGORIES:
-        mergeProductsCategories();
+      case FIND_SIMILAR_PRODUCTS:
+        findSimilarProducts();
         return;
       case EXIT:
         return;

@@ -83,7 +83,6 @@ const fetchProductsOfPage = async (categoryId, pageNumber) => {
       // ACT: localPrice,
     };
     let categoryIds = [categoryId];
-    let similarProductIds = [];
     let newProduct = {
       id,
       name,
@@ -94,7 +93,6 @@ const fetchProductsOfPage = async (categoryId, pageNumber) => {
       cupPrice,
       locations,
       categoryIds,
-      similarProductIds,
     };
     const foundIndex = PRODUCTS.findIndex((p) => p.id === id);
     if (foundIndex > -1) {

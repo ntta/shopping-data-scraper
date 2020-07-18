@@ -3,9 +3,13 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.categoryWhitelist = exports.productsApi = exports.categoriesApi = void 0;
+exports.categoryWhitelist = exports.productsApi = exports.woolworthsCategoriesPath = exports.woolworthsProductsPath = exports.categoriesApi = void 0;
 var categoriesApi = 'https://www.woolworths.com.au/apis/ui/PiesCategoriesWithSpecials/';
 exports.categoriesApi = categoriesApi;
+var woolworthsProductsPath = './data/products/woolworths-special-products.json';
+exports.woolworthsProductsPath = woolworthsProductsPath;
+var woolworthsCategoriesPath = './data/products/woolworths-special-categories.json';
+exports.woolworthsCategoriesPath = woolworthsCategoriesPath;
 var productsApi = 'https://www.woolworths.com.au/apis/ui/browse/category';
 exports.productsApi = productsApi;
 var categoryWhitelist = [{
