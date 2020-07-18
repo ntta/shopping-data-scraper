@@ -89,7 +89,17 @@ const fetchProducts = async (page, url, location) => {
 };
 
 const fetchProductsOfCategory = async (page, url, categoryId) => {
-  await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
+  let error = true;
+  while (error) {
+    try {
+      await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
+      await page.waitForSelector('.product-name', { visible: true });
+      error = false;
+    } catch (_) {
+      console.log(`Failed to get: ${url}. Trying again...`);
+      error = true;
+    }
+  }
   let bodyHtml = await page.evaluate(() => document.body.innerHTML);
   let $ = cheerio.load(bodyHtml);
   let pageNumber = 0;
@@ -99,16 +109,27 @@ const fetchProductsOfCategory = async (page, url, categoryId) => {
         $('.page-number').last().children().find($('.number'))
       )[0].children[0].data
     );
-  } catch (err) {
+  } catch (_) {
     pageNumber = 1;
   }
 
   let urls = getPaginationUrls(url, pageNumber);
 
+  console.log(url);
   getProductsEachPage(bodyHtml, categoryId);
   if (urls.length > 1) {
     for (let i = 1; i < urls.length; i++) {
-      await page.goto(urls[i], { timeout: 0, waitUntil: 'networkidle2' });
+      error = true;
+      while (error) {
+        try {
+          await page.goto(urls[i], { timeout: 0, waitUntil: 'networkidle2' });
+          await page.waitForSelector('.product-name', { visible: true });
+          error = false;
+        } catch (_) {
+          console.log(`Failed to get: ${urls[i]}. Trying again...`);
+          error = true;
+        }
+      }
       let html = await page.evaluate(() => document.body.innerHTML);
       console.log(urls[i]);
       getProductsEachPage(html, categoryId);
@@ -127,7 +148,9 @@ const getPaginationUrls = (url, pageNumber) => {
 
 const getProductsEachPage = (bodyHtml, categoryId) => {
   let $ = cheerio.load(bodyHtml);
+  let count = 0;
   $('.product-header').each((_, elm) => {
+    count++;
     let id = getLastPart(
       $(elm).find('.product-image-link').attr('href').toString()
     );
@@ -171,7 +194,6 @@ const getProductsEachPage = (bodyHtml, categoryId) => {
           ...new Set(PRODUCTS[foundIndex].categoryIds),
         ];
       }
-      console.log(PRODUCTS[foundIndex]);
     } else {
       let newProduct = {
         id,
@@ -185,10 +207,10 @@ const getProductsEachPage = (bodyHtml, categoryId) => {
         categoryIds,
         similarProductIds: [],
       };
-      console.log(newProduct);
       PRODUCTS.push(newProduct);
     }
   });
+  console.log(`Count: ${count}`);
 };
 
 const getDiscountRate = (price, orgPrice, promo) => {

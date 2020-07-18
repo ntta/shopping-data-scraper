@@ -305,78 +305,139 @@ var fetchProducts = /*#__PURE__*/function () {
 
 var fetchProductsOfCategory = /*#__PURE__*/function () {
   var _ref5 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee6(page, url, categoryId) {
-    var bodyHtml, $, pageNumber, urls, i, html;
+    var error, bodyHtml, $, pageNumber, urls, i, html;
     return _regenerator["default"].wrap(function _callee6$(_context6) {
       while (1) {
         switch (_context6.prev = _context6.next) {
           case 0:
-            _context6.next = 2;
+            error = true;
+
+          case 1:
+            if (!error) {
+              _context6.next = 16;
+              break;
+            }
+
+            _context6.prev = 2;
+            _context6.next = 5;
             return page["goto"](url, {
               timeout: 0,
               waitUntil: 'networkidle2'
             });
 
-          case 2:
-            _context6.next = 4;
+          case 5:
+            _context6.next = 7;
+            return page.waitForSelector('.product-name', {
+              visible: true
+            });
+
+          case 7:
+            error = false;
+            _context6.next = 14;
+            break;
+
+          case 10:
+            _context6.prev = 10;
+            _context6.t0 = _context6["catch"](2);
+            console.log("Failed to get: ".concat(url, ". Trying again..."));
+            error = true;
+
+          case 14:
+            _context6.next = 1;
+            break;
+
+          case 16:
+            _context6.next = 18;
             return page.evaluate(function () {
               return document.body.innerHTML;
             });
 
-          case 4:
+          case 18:
             bodyHtml = _context6.sent;
             $ = _cheerio["default"].load(bodyHtml);
             pageNumber = 0;
 
             try {
               pageNumber = Number($("ul[class='pagination']").find($('.page-number').last().children().find($('.number')))[0].children[0].data);
-            } catch (err) {
+            } catch (_) {
               pageNumber = 1;
             }
 
             urls = getPaginationUrls(url, pageNumber);
+            console.log(url);
             getProductsEachPage(bodyHtml, categoryId);
 
             if (!(urls.length > 1)) {
-              _context6.next = 23;
+              _context6.next = 52;
               break;
             }
 
             i = 1;
 
-          case 12:
+          case 27:
             if (!(i < urls.length)) {
-              _context6.next = 23;
+              _context6.next = 52;
               break;
             }
 
-            _context6.next = 15;
+            error = true;
+
+          case 29:
+            if (!error) {
+              _context6.next = 44;
+              break;
+            }
+
+            _context6.prev = 30;
+            _context6.next = 33;
             return page["goto"](urls[i], {
               timeout: 0,
               waitUntil: 'networkidle2'
             });
 
-          case 15:
-            _context6.next = 17;
+          case 33:
+            _context6.next = 35;
+            return page.waitForSelector('.product-name', {
+              visible: true
+            });
+
+          case 35:
+            error = false;
+            _context6.next = 42;
+            break;
+
+          case 38:
+            _context6.prev = 38;
+            _context6.t1 = _context6["catch"](30);
+            console.log("Failed to get: ".concat(urls[i], ". Trying again..."));
+            error = true;
+
+          case 42:
+            _context6.next = 29;
+            break;
+
+          case 44:
+            _context6.next = 46;
             return page.evaluate(function () {
               return document.body.innerHTML;
             });
 
-          case 17:
+          case 46:
             html = _context6.sent;
             console.log(urls[i]);
             getProductsEachPage(html, categoryId);
 
-          case 20:
+          case 49:
             i++;
-            _context6.next = 12;
+            _context6.next = 27;
             break;
 
-          case 23:
+          case 52:
           case "end":
             return _context6.stop();
         }
       }
-    }, _callee6);
+    }, _callee6, null, [[2, 10], [30, 38]]);
   }));
 
   return function fetchProductsOfCategory(_x9, _x10, _x11) {
@@ -398,7 +459,9 @@ var getPaginationUrls = function getPaginationUrls(url, pageNumber) {
 var getProductsEachPage = function getProductsEachPage(bodyHtml, categoryId) {
   var $ = _cheerio["default"].load(bodyHtml);
 
+  var count = 0;
   $('.product-header').each(function (_, elm) {
+    count++;
     var id = getLastPart($(elm).find('.product-image-link').attr('href').toString());
     var name = $(elm).find('.product-name').text().trim();
     var brand = $(elm).find('.product-brand').text().trim();
@@ -431,8 +494,6 @@ var getProductsEachPage = function getProductsEachPage(bodyHtml, categoryId) {
         PRODUCTS[foundIndex].categoryIds.push(categoryId);
         PRODUCTS[foundIndex].categoryIds = (0, _toConsumableArray2["default"])(new Set(PRODUCTS[foundIndex].categoryIds));
       }
-
-      console.log(PRODUCTS[foundIndex]);
     } else {
       var newProduct = {
         id: id,
@@ -446,10 +507,10 @@ var getProductsEachPage = function getProductsEachPage(bodyHtml, categoryId) {
         categoryIds: categoryIds,
         similarProductIds: []
       };
-      console.log(newProduct);
       PRODUCTS.push(newProduct);
     }
   });
+  console.log("Count: ".concat(count));
 };
 
 var getDiscountRate = function getDiscountRate(price, orgPrice, promo) {
