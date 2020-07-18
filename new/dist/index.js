@@ -12,17 +12,17 @@ var _fetchColesSpecial = _interopRequireDefault(require("./functions/fetchColesS
 
 var _fetchWoolworthsSpecial = _interopRequireDefault(require("./functions/fetchWoolworthsSpecial"));
 
-var _mergeProductsCategories = _interopRequireDefault(require("./functions/mergeProductsCategories"));
+var _findSimilarProducts = _interopRequireDefault(require("./functions/findSimilarProducts"));
 
 var EXIT = 'exit';
 var GET_SPECIAL_PRODUCTS = 'get_special_prices';
-var MERGE_PRODUCTS_CATEGORIES = 'merge_products_categories';
+var FIND_SIMILAR_PRODUCTS = 'find_similar_products';
 var choices = [{
   title: 'Get special products',
   action: GET_SPECIAL_PRODUCTS
 }, {
-  title: 'Merge Coles products & categories',
-  action: MERGE_PRODUCTS_CATEGORIES
+  title: 'Find similar products',
+  action: FIND_SIMILAR_PRODUCTS
 }, {
   title: 'Exit',
   action: EXIT
@@ -59,7 +59,7 @@ _inquirer["default"].prompt([{
         switch (_context2.prev = _context2.next) {
           case 0:
             _context2.t0 = answers.action;
-            _context2.next = _context2.t0 === GET_SPECIAL_PRODUCTS ? 3 : _context2.t0 === MERGE_PRODUCTS_CATEGORIES ? 5 : _context2.t0 === EXIT ? 7 : 8;
+            _context2.next = _context2.t0 === GET_SPECIAL_PRODUCTS ? 3 : _context2.t0 === FIND_SIMILAR_PRODUCTS ? 5 : _context2.t0 === EXIT ? 7 : 8;
             break;
 
           case 3:
@@ -122,7 +122,7 @@ _inquirer["default"].prompt([{
             return _context2.abrupt("return");
 
           case 5:
-            (0, _mergeProductsCategories["default"])();
+            (0, _findSimilarProducts["default"])();
             return _context2.abrupt("return");
 
           case 7:

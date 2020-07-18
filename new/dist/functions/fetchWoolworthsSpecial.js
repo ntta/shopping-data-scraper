@@ -225,7 +225,6 @@ var fetchProductsOfPage = /*#__PURE__*/function () {
 
               };
               var categoryIds = [categoryId];
-              var similarProductIds = [];
               var newProduct = {
                 id: id,
                 name: name,
@@ -235,8 +234,7 @@ var fetchProductsOfPage = /*#__PURE__*/function () {
                 packageSize: packageSize,
                 cupPrice: cupPrice,
                 locations: locations,
-                categoryIds: categoryIds,
-                similarProductIds: similarProductIds
+                categoryIds: categoryIds
               };
               var foundIndex = PRODUCTS.findIndex(function (p) {
                 return p.id === id;

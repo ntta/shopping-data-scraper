@@ -23,31 +23,22 @@ const fetchColesSpecial = async () => {
   fs.writeFileSync(colesCategoriesPath, JSON.stringify(CATEGORIES));
 };
 
-// const fetchColesSpecial = async (locationId) => {
-//   let location = colesLocations.find((l) => l.id === locationId);
-//   currentLocation = locationId;
-//   await fetchEachLocation(location);
-//   fs.writeFileSync(
-//     `./data/products/coles-special-products-${locationId}.json`,
-//     JSON.stringify(PRODUCTS)
-//   );
-//   fs.writeFileSync(
-//     `./data/products/coles-special-categories-${locationId}.json`,
-//     JSON.stringify(CATEGORIES)
-//   );
-// };
-
 const ensureCorrectUrl = async (page, url, location) => {
-  while (!page.url().includes(location.area)) {
-    await page.goto(url, { waitUntil: 'networkidle2' });
+  const strLocation = `, ${location.id}`;
+  let isLocalised = false;
+  while (!isLocalised) {
+    await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
     await page.click('#changeLocationBar');
     await page.waitFor(1000);
     await page.type('#search-form > p', location.postcode);
     await page.waitFor(1000);
     await page.keyboard.press('Enter');
     await page.waitForNavigation({ waitUntil: 'networkidle2' });
-    await page.goto(url, { waitUntil: 'networkidle2' });
-    await page.waitFor(20000);
+    await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
+    await page.waitForSelector('.localised-suburb');
+    let suburb = await page.$eval('.localised-suburb', (el) => el.innerText);
+    console.log(suburb);
+    isLocalised = suburb.includes(strLocation);
   }
 };
 
@@ -55,13 +46,13 @@ const fetchEachLocation = async (location) => {
   let url = location.url;
   console.log(`Getting special products from ${location.id}`);
   puppeteer.use(StealthPlugin());
-  let browser = await puppeteer.launch({ headless: true });
+  let browser = await puppeteer.launch({ headless: false });
   let page = await browser.newPage();
   let error = true;
 
   while (error) {
     try {
-      await page.goto(url, { waitUntil: 'networkidle2' });
+      await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
       await ensureCorrectUrl(page, url, location);
       await fetchProducts(page, url, location);
       error = false;
@@ -74,13 +65,13 @@ const fetchEachLocation = async (location) => {
 };
 
 const fetchProducts = async (page, url, location) => {
-  while (!page.url().includes(location.area)) {
-    await ensureCorrectUrl(page, url, location);
-  }
   let error = true;
   while (error) {
     try {
-      await page.goto(url, { waitUntil: 'networkidle2' });
+      while (!page.url().includes(location.area)) {
+        await ensureCorrectUrl(page, url, location);
+      }
+      await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
       error = false;
     } catch (_) {
       console.log('Failed in fetchProducts. Trying again...');
@@ -117,7 +108,7 @@ const fetchProductsOfCategory = async (page, url, categoryId) => {
   let error = true;
   while (error) {
     try {
-      await page.goto(url, { waitUntil: 'networkidle2' });
+      await page.goto(url, { timeout: 0, waitUntil: 'networkidle2' });
       await page.waitForSelector('.product-name', { visible: true });
       error = false;
     } catch (_) {
@@ -147,7 +138,7 @@ const fetchProductsOfCategory = async (page, url, categoryId) => {
       error = true;
       while (error) {
         try {
-          await page.goto(urls[i], { waitUntil: 'networkidle2' });
+          await page.goto(urls[i], { timeout: 0, waitUntil: 'networkidle2' });
           await page.waitForSelector('.product-name', { visible: true });
           error = false;
         } catch (_) {

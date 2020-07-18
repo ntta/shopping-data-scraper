@@ -94,78 +94,81 @@ var fetchColesSpecial = /*#__PURE__*/function () {
   return function fetchColesSpecial() {
     return _ref.apply(this, arguments);
   };
-}(); // const fetchColesSpecial = async (locationId) => {
-//   let location = colesLocations.find((l) => l.id === locationId);
-//   currentLocation = locationId;
-//   await fetchEachLocation(location);
-//   fs.writeFileSync(
-//     `./data/products/coles-special-products-${locationId}.json`,
-//     JSON.stringify(PRODUCTS)
-//   );
-//   fs.writeFileSync(
-//     `./data/products/coles-special-categories-${locationId}.json`,
-//     JSON.stringify(CATEGORIES)
-//   );
-// };
-
+}();
 
 var ensureCorrectUrl = /*#__PURE__*/function () {
   var _ref2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(page, url, location) {
+    var strLocation, isLocalised, suburb;
     return _regenerator["default"].wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
-            if (page.url().includes(location.area)) {
-              _context2.next = 21;
+            strLocation = ", ".concat(location.id);
+            isLocalised = false;
+
+          case 2:
+            if (isLocalised) {
+              _context2.next = 28;
               break;
             }
 
-            _context2.next = 3;
+            _context2.next = 5;
             return page["goto"](url, {
+              timeout: 0,
               waitUntil: 'networkidle2'
             });
-
-          case 3:
-            _context2.next = 5;
-            return page.click('#changeLocationBar');
 
           case 5:
             _context2.next = 7;
-            return page.waitFor(1000);
+            return page.click('#changeLocationBar');
 
           case 7:
             _context2.next = 9;
-            return page.type('#search-form > p', location.postcode);
+            return page.waitFor(1000);
 
           case 9:
             _context2.next = 11;
-            return page.waitFor(1000);
+            return page.type('#search-form > p', location.postcode);
 
           case 11:
             _context2.next = 13;
-            return page.keyboard.press('Enter');
+            return page.waitFor(1000);
 
           case 13:
             _context2.next = 15;
-            return page.waitForNavigation({
-              waitUntil: 'networkidle2'
-            });
+            return page.keyboard.press('Enter');
 
           case 15:
             _context2.next = 17;
-            return page["goto"](url, {
+            return page.waitForNavigation({
               waitUntil: 'networkidle2'
             });
 
           case 17:
             _context2.next = 19;
-            return page.waitFor(5000);
+            return page["goto"](url, {
+              timeout: 0,
+              waitUntil: 'networkidle2'
+            });
 
           case 19:
-            _context2.next = 0;
-            break;
+            _context2.next = 21;
+            return page.waitForSelector('.localised-suburb');
 
           case 21:
+            _context2.next = 23;
+            return page.$eval('.localised-suburb', function (el) {
+              return el.innerText;
+            });
+
+          case 23:
+            suburb = _context2.sent;
+            console.log(suburb);
+            isLocalised = suburb.includes(strLocation);
+            _context2.next = 2;
+            break;
+
+          case 28:
           case "end":
             return _context2.stop();
         }
@@ -192,7 +195,7 @@ var fetchEachLocation = /*#__PURE__*/function () {
 
             _context3.next = 5;
             return _puppeteerExtra["default"].launch({
-              headless: true
+              headless: false
             });
 
           case 5:
@@ -213,6 +216,7 @@ var fetchEachLocation = /*#__PURE__*/function () {
             _context3.prev = 11;
             _context3.next = 14;
             return page["goto"](url, {
+              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
@@ -263,30 +267,33 @@ var fetchProducts = /*#__PURE__*/function () {
       while (1) {
         switch (_context5.prev = _context5.next) {
           case 0:
-            if (page.url().includes(location.area)) {
-              _context5.next = 5;
-              break;
-            }
-
-            _context5.next = 3;
-            return ensureCorrectUrl(page, url, location);
-
-          case 3:
-            _context5.next = 0;
-            break;
-
-          case 5:
             error = true;
 
-          case 6:
+          case 1:
             if (!error) {
               _context5.next = 19;
               break;
             }
 
-            _context5.prev = 7;
+            _context5.prev = 2;
+
+          case 3:
+            if (page.url().includes(location.area)) {
+              _context5.next = 8;
+              break;
+            }
+
+            _context5.next = 6;
+            return ensureCorrectUrl(page, url, location);
+
+          case 6:
+            _context5.next = 3;
+            break;
+
+          case 8:
             _context5.next = 10;
             return page["goto"](url, {
+              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
@@ -297,12 +304,12 @@ var fetchProducts = /*#__PURE__*/function () {
 
           case 13:
             _context5.prev = 13;
-            _context5.t0 = _context5["catch"](7);
+            _context5.t0 = _context5["catch"](2);
             console.log('Failed in fetchProducts. Trying again...');
             error = true;
 
           case 17:
-            _context5.next = 6;
+            _context5.next = 1;
             break;
 
           case 19:
@@ -375,7 +382,7 @@ var fetchProducts = /*#__PURE__*/function () {
             return _context5.stop();
         }
       }
-    }, _callee5, null, [[7, 13]]);
+    }, _callee5, null, [[2, 13]]);
   }));
 
   return function fetchProducts(_x5, _x6, _x7) {
@@ -401,6 +408,7 @@ var fetchProductsOfCategory = /*#__PURE__*/function () {
             _context6.prev = 2;
             _context6.next = 5;
             return page["goto"](url, {
+              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
@@ -470,6 +478,7 @@ var fetchProductsOfCategory = /*#__PURE__*/function () {
             _context6.prev = 30;
             _context6.next = 33;
             return page["goto"](urls[i], {
+              timeout: 0,
               waitUntil: 'networkidle2'
             });
 
@@ -582,8 +591,7 @@ var getProductsEachPage = function getProductsEachPage(bodyHtml, categoryId) {
         packageSize: packageSize,
         cupPrice: cupPrice,
         locations: locations,
-        categoryIds: categoryIds,
-        similarProductIds: []
+        categoryIds: categoryIds
       };
       PRODUCTS.push(newProduct);
     }
