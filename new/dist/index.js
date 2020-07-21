@@ -14,15 +14,23 @@ var _fetchWoolworthsSpecial = _interopRequireDefault(require("./functions/fetchW
 
 var _findSimilarProducts = _interopRequireDefault(require("./functions/findSimilarProducts"));
 
+var _fetchChemistSpecial = _interopRequireDefault(require("./functions/fetchChemistSpecial"));
+
+var _createAppDataFile = _interopRequireDefault(require("./functions/createAppDataFile"));
+
 var EXIT = 'exit';
 var GET_SPECIAL_PRODUCTS = 'get_special_prices';
 var FIND_SIMILAR_PRODUCTS = 'find_similar_products';
+var CREATE_APP_DATA_FILE = 'create_app_data_file';
 var choices = [{
   title: 'Get special products',
   action: GET_SPECIAL_PRODUCTS
 }, {
   title: 'Find similar products',
   action: FIND_SIMILAR_PRODUCTS
+}, {
+  title: 'Create app data file',
+  action: CREATE_APP_DATA_FILE
 }, {
   title: 'Exit',
   action: EXIT
@@ -59,7 +67,7 @@ _inquirer["default"].prompt([{
         switch (_context2.prev = _context2.next) {
           case 0:
             _context2.t0 = answers.action;
-            _context2.next = _context2.t0 === GET_SPECIAL_PRODUCTS ? 3 : _context2.t0 === FIND_SIMILAR_PRODUCTS ? 5 : _context2.t0 === EXIT ? 7 : 8;
+            _context2.next = _context2.t0 === GET_SPECIAL_PRODUCTS ? 3 : _context2.t0 === FIND_SIMILAR_PRODUCTS ? 5 : _context2.t0 === CREATE_APP_DATA_FILE ? 7 : _context2.t0 === EXIT ? 9 : 10;
             break;
 
           case 3:
@@ -84,7 +92,7 @@ _inquirer["default"].prompt([{
                     switch (_context.prev = _context.next) {
                       case 0:
                         _context.t0 = subAnswers.store;
-                        _context.next = _context.t0 === 'coles' ? 3 : _context.t0 === 'woolworths' ? 6 : _context.t0 === 'chemist' ? 10 : 12;
+                        _context.next = _context.t0 === 'coles' ? 3 : _context.t0 === 'woolworths' ? 6 : _context.t0 === 'chemist' ? 10 : 14;
                         break;
 
                       case 3:
@@ -104,9 +112,13 @@ _inquirer["default"].prompt([{
 
                       case 10:
                         console.log('Fetching Chemist Warehouse');
+                        _context.next = 13;
+                        return (0, _fetchChemistSpecial["default"])();
+
+                      case 13:
                         return _context.abrupt("return");
 
-                      case 12:
+                      case 14:
                       case "end":
                         return _context.stop();
                     }
@@ -126,9 +138,32 @@ _inquirer["default"].prompt([{
             return _context2.abrupt("return");
 
           case 7:
+            _inquirer["default"].prompt([{
+              type: 'input',
+              name: 'store',
+              message: 'Store ID: '
+            }, {
+              type: 'input',
+              name: 'uploadDate',
+              message: 'Upload date (dd/MM/yyyy): '
+            }, {
+              type: 'input',
+              name: 'fromDate',
+              message: 'From date (dd/MM/yyyy): '
+            }, {
+              type: 'input',
+              name: 'toDate',
+              message: 'To date (dd/MM/yyyy): '
+            }]).then(function (subAnswers) {
+              (0, _createAppDataFile["default"])(subAnswers.store, subAnswers.uploadDate, subAnswers.fromDate, subAnswers.toDate);
+            });
+
             return _context2.abrupt("return");
 
-          case 8:
+          case 9:
+            return _context2.abrupt("return");
+
+          case 10:
           case "end":
             return _context2.stop();
         }

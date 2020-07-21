@@ -591,7 +591,8 @@ var getProductsEachPage = function getProductsEachPage(bodyHtml, categoryId) {
         packageSize: packageSize,
         cupPrice: cupPrice,
         locations: locations,
-        categoryIds: categoryIds
+        categoryIds: categoryIds,
+        similarProducts: []
       };
       PRODUCTS.push(newProduct);
     }
@@ -647,7 +648,9 @@ var getLastPart = function getLastPart(str) {
 };
 
 var getCategoryId = function getCategoryId(str) {
-  return 'c-' + str.toLowerCase().trim().replace('&', '').replace(',', '').replace(/\s/g, '-');
+  return 'c-' + str.toLowerCase().trim().replace('&', '').replace(',', '').split(' ').filter(function (c) {
+    return c !== '';
+  }).join('-');
 };
 
 var getPromoText = function getPromoText(str) {

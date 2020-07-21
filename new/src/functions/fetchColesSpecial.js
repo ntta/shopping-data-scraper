@@ -221,6 +221,7 @@ const getProductsEachPage = (bodyHtml, categoryId) => {
         cupPrice,
         locations,
         categoryIds,
+        similarProducts: [],
       };
       PRODUCTS.push(newProduct);
     }
@@ -266,7 +267,9 @@ const getCategoryId = (str) => {
       .trim()
       .replace('&', '')
       .replace(',', '')
-      .replace(/\s/g, '-')
+      .split(' ')
+      .filter((c) => c !== '')
+      .join('-')
   );
 };
 

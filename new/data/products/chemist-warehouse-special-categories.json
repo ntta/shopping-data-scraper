@@ -1,0 +1,130 @@
+[
+  { "id": "cw-health", "name": "Health" },
+  { "id": "cw-vitamins", "name": "Vitamins" },
+  { "id": "cw-weight-loss", "name": "Weight Loss" },
+  {
+    "id": "cw-natural-hormone-replacement",
+    "name": "Natural Hormone Replacement"
+  },
+  { "id": "cw-aromatherapy", "name": "Aromatherapy" },
+  { "id": "cw-arthritis-relief", "name": "Arthritis Relief" },
+  { "id": "cw-sports-nutrition", "name": "Sports Nutrition" },
+  { "id": "cw-milk-supplements", "name": "Milk Supplements" },
+  { "id": "cw-brauer-natural-medicine", "name": "Brauer Natural Medicine" },
+  { "id": "cw-miscellaneous", "name": "Miscellaneous" },
+  { "id": "cw-beauty", "name": "Beauty" },
+  { "id": "cw-acne", "name": "Acne" },
+  { "id": "cw-hair-removal", "name": "Hair Removal" },
+  { "id": "cw-anti-itch", "name": "Anti-Itch" },
+  { "id": "cw-cleansers", "name": "Cleansers" },
+  { "id": "cw-fragrances", "name": "Fragrances" },
+  { "id": "cw-cosmetics", "name": "Cosmetics" },
+  { "id": "cw-skin-care", "name": "Skin Care" },
+  { "id": "cw-scar-treatment", "name": "Scar Treatment" },
+  { "id": "cw-swisspers", "name": "Swisspers" },
+  { "id": "cw-beauty-accessories", "name": "Beauty Accessories" },
+  { "id": "cw-medicines", "name": "Medicines" },
+  {
+    "id": "cw-pharmaceutical-preparations",
+    "name": "Pharmaceutical Preparations"
+  },
+  { "id": "cw-first-aid", "name": "First Aid" },
+  {
+    "id": "cw-anti-inflammatory-and-heat-rubs",
+    "name": "Anti-Inflammatory and Heat Rubs"
+  },
+  {
+    "id": "cw-stomach-and-anti-diarrhoea",
+    "name": "Stomach and Anti-Diarrhoea"
+  },
+  { "id": "cw-anti-nauseants", "name": "Anti-Nauseants" },
+  { "id": "cw-haemorrhoids", "name": "Haemorrhoids" },
+  { "id": "cw-laxatives", "name": "Laxatives" },
+  { "id": "cw-eye-care-and-treatments", "name": "Eye Care and Treatments" },
+  { "id": "cw-ear-care-and-treatments", "name": "Ear Care and Treatments" },
+  { "id": "cw-worming-treatments", "name": "Worming Treatments" },
+  { "id": "cw-stimulants", "name": "Stimulants" },
+  { "id": "cw-electrolyte-replacements", "name": "Electrolyte Replacements" },
+  { "id": "cw-miscellaneous-medicines", "name": "Miscellaneous Medicines" },
+  { "id": "cw-analgesics", "name": "Analgesics" },
+  { "id": "cw-smoking-deterrents", "name": "Smoking Deterrents" },
+  { "id": "cw-anti-fungal-warts", "name": "Anti-fungal & Warts" },
+  { "id": "cw-hair-loss-treatments", "name": "Hair Loss Treatments" },
+  { "id": "cw-hangover-preparations", "name": "Hangover Preparations" },
+  { "id": "cw-topical-ointments", "name": "Topical Ointments" },
+  { "id": "cw-travel", "name": "Travel" },
+  { "id": "cw-low-dose-aspirin", "name": "Low Dose Aspirin" },
+  { "id": "cw-fibre-supplements", "name": "Fibre Supplements" },
+  {
+    "id": "cw-allergy-hayfever-anti-histamines",
+    "name": "Allergy, Hayfever & Anti-Histamines"
+  },
+  { "id": "cw-cold-flu", "name": "Cold & Flu" },
+  { "id": "cw-coughs", "name": "Coughs" },
+  { "id": "cw-cold-sore-treatments", "name": "Cold Sore Treatments" },
+  { "id": "cw-essential-oils", "name": "Essential Oils" },
+  {
+    "id": "cw-irritable-bowel-syndrome---ibs",
+    "name": "Irritable Bowel Syndrome - IBS"
+  },
+  {
+    "id": "cw-urinary-tract-infections-uti",
+    "name": "Urinary Tract Infections UTI"
+  },
+  { "id": "cw-personal-care", "name": "Personal Care" },
+  { "id": "cw-baby-care", "name": "Baby Care" },
+  { "id": "cw-pantyhose", "name": "Pantyhose" },
+  { "id": "cw-sexual-health", "name": "Sexual Health" },
+  { "id": "cw-feminine-hygiene", "name": "Feminine Hygiene" },
+  { "id": "cw-foot-care", "name": "Foot Care" },
+  { "id": "cw-hair-care", "name": "Hair Care" },
+  { "id": "cw-men's-toiletries", "name": "Men's Toiletries" },
+  {
+    "id": "cw-oral-hygiene-and-dental-care",
+    "name": "Oral Hygiene and Dental Care"
+  },
+  { "id": "cw-sun-care", "name": "Sun Care" },
+  { "id": "cw-batteries", "name": "Batteries" },
+  { "id": "cw-hand-and-body", "name": "Hand and Body" },
+  { "id": "cw-insect-repellents", "name": "Insect Repellents" },
+  { "id": "cw-women's-toiletries", "name": "Women's Toiletries" },
+  {
+    "id": "cw-men's-and-women's-incontinence",
+    "name": "Men's and Women's Incontinence"
+  },
+  { "id": "cw-household", "name": "Household" },
+  { "id": "cw-tissues-cotton-wool", "name": "Tissues & Cotton Wool" },
+  { "id": "cw-deodorants", "name": "Deodorants" },
+  { "id": "cw-natio-bath-body", "name": "Natio Bath & Body" },
+  { "id": "cw-medical-aids", "name": "Medical Aids" },
+  { "id": "cw-medical-equipment", "name": "Medical Equipment" },
+  { "id": "cw-sport-braces-therapy", "name": "Sport Braces & Therapy" },
+  { "id": "cw-blood-pressure-monitors", "name": "Blood Pressure Monitors" },
+  { "id": "cw-blood-glucose-monitors", "name": "Blood Glucose Monitors" },
+  { "id": "cw-tens-and-massage-therapy", "name": "TENS and Massage Therapy" },
+  { "id": "cw-snoring", "name": "Snoring" },
+  { "id": "cw-asthma-relief", "name": "Asthma Relief" },
+  { "id": "cw-thermometers", "name": "Thermometers" },
+  { "id": "cw-mobility-aids", "name": "Mobility Aids" },
+  { "id": "cw-veterinary-and-pet-care", "name": "Veterinary and Pet Care" },
+  {
+    "id": "cw-heartworm-control-products",
+    "name": "Heartworm Control Products"
+  },
+  {
+    "id": "cw-combined-flea-heartworm-products",
+    "name": "Combined Flea & Heartworm Products"
+  },
+  { "id": "cw-worming-products", "name": "Worming Products" },
+  {
+    "id": "cw-combined-flea-tick-products",
+    "name": "Combined Flea & Tick Products"
+  },
+  { "id": "cw-flea-control-products", "name": "Flea Control Products" },
+  {
+    "id": "cw-paw-pure-animal-wellbeing-by-blackmores",
+    "name": "PAW Pure Animal Wellbeing by Blackmores"
+  },
+  { "id": "cw-confectionery", "name": "Confectionery" }
+]
+

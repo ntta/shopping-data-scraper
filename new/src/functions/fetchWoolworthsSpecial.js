@@ -93,6 +93,7 @@ const fetchProductsOfPage = async (categoryId, pageNumber) => {
       cupPrice,
       locations,
       categoryIds,
+      similarProducts: [],
     };
     const foundIndex = PRODUCTS.findIndex((p) => p.id === id);
     if (foundIndex > -1) {

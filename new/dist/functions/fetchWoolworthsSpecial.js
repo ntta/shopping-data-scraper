@@ -234,7 +234,8 @@ var fetchProductsOfPage = /*#__PURE__*/function () {
                 packageSize: packageSize,
                 cupPrice: cupPrice,
                 locations: locations,
-                categoryIds: categoryIds
+                categoryIds: categoryIds,
+                similarProducts: []
               };
               var foundIndex = PRODUCTS.findIndex(function (p) {
                 return p.id === id;
