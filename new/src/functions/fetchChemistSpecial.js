@@ -94,10 +94,10 @@ const fetchProductsEachPage = async (currentIndex, category, subCategory) => {
           imageUrls = [getImageUrl(value)];
           break;
         case 'price_cw_au':
-          price = value;
+          price = Number(value);
           break;
         case 'rrp_cw_au':
-          orgPrice = value;
+          orgPrice = Number(value);
           break;
         case 'splat':
           promo = value;

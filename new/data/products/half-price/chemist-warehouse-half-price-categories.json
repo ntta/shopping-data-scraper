@@ -1,0 +1,63 @@
+[
+  {
+    "id": "cw-health",
+    "name": "Health",
+    "subCategories": [
+      { "id": "cw-vitamins", "name": "Vitamins" },
+      { "id": "cw-weight-loss", "name": "Weight Loss" },
+      { "id": "cw-sports-nutrition", "name": "Sports Nutrition" },
+      { "id": "cw-miscellaneous", "name": "Miscellaneous" }
+    ]
+  },
+  {
+    "id": "cw-beauty",
+    "name": "Beauty",
+    "subCategories": [
+      { "id": "cw-skin-care", "name": "Skin Care" },
+      { "id": "cw-fragrances", "name": "Fragrances" },
+      { "id": "cw-cosmetics", "name": "Cosmetics" }
+    ]
+  },
+  {
+    "id": "cw-personal-care",
+    "name": "Personal Care",
+    "subCategories": [
+      { "id": "cw-hand-and-body", "name": "Hand and Body" },
+      { "id": "cw-baby-care", "name": "Baby Care" },
+      { "id": "cw-sexual-health", "name": "Sexual Health" },
+      { "id": "cw-feminine-hygiene", "name": "Feminine Hygiene" },
+      { "id": "cw-foot-care", "name": "Foot Care" },
+      { "id": "cw-hair-care", "name": "Hair Care" },
+      { "id": "cw-men's-toiletries", "name": "Men's Toiletries" },
+      {
+        "id": "cw-oral-hygiene-and-dental-care",
+        "name": "Oral Hygiene and Dental Care"
+      },
+      { "id": "cw-sun-care", "name": "Sun Care" },
+      { "id": "cw-household", "name": "Household" },
+      { "id": "cw-deodorants", "name": "Deodorants" }
+    ]
+  },
+  {
+    "id": "cw-medicines",
+    "name": "Medicines",
+    "subCategories": [
+      { "id": "cw-first-aid", "name": "First Aid" },
+      { "id": "cw-laxatives", "name": "Laxatives" },
+      { "id": "cw-eye-care-and-treatments", "name": "Eye Care and Treatments" },
+      { "id": "cw-miscellaneous-medicines", "name": "Miscellaneous Medicines" },
+      { "id": "cw-analgesics", "name": "Analgesics" },
+      { "id": "cw-travel", "name": "Travel" },
+      { "id": "cw-low-dose-aspirin", "name": "Low Dose Aspirin" },
+      { "id": "cw-cold-flu", "name": "Cold & Flu" },
+      { "id": "cw-coughs", "name": "Coughs" },
+      { "id": "cw-essential-oils", "name": "Essential Oils" }
+    ]
+  },
+  {
+    "id": "cw-medical-aids",
+    "name": "Medical Aids",
+    "subCategories": [{ "id": "cw-thermometers", "name": "Thermometers" }]
+  }
+]
+

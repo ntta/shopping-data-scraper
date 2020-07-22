@@ -1,61 +1,43 @@
 import fs from 'fs';
-import {
-  colesProductsPath,
-  colesCategoriesPath,
-} from '../variables/colesVariables';
-import {
-  woolworthsProductsPath,
-  woolworthsCategoriesPath,
-} from '../variables/woolworthsVariables';
-import {
-  chemistWarehouseProductsPath,
-  chemistWarehouseCategoriesPath,
-} from '../variables/chemistVariables';
 
-const createAppDataFile = (store, uploadDate, fromDate, toDate) => {
+const coles = JSON.parse(fs.readFileSync('./data/coles.json'));
+const woolworths = JSON.parse(fs.readFileSync('./data/woolworths.json'));
+const chemistWarehouse = JSON.parse(
+  fs.readFileSync('./data/chemist-warehouse.json')
+);
+
+const createAppDataFile = (uploadDate, fromDate, toDate) => {
   let appData = {
-    version: {
-      'upload-date': uploadDate,
-      'from-date': fromDate,
-      'to-date': toDate,
+    'store-version': {
+      coles: {
+        name: 'Coles',
+        isAvailable: true,
+        uploadDate,
+        fromDate,
+        toDate,
+      },
+      woolworths: {
+        name: 'Woolworths',
+        isAvailable: true,
+        uploadDate,
+        fromDate,
+        toDate,
+      },
+      'chemist-warehouse': {
+        name: 'Chemist Warehouse',
+        isAvailable: true,
+        uploadDate,
+        fromDate,
+        toDate,
+      },
+    },
+    'store-data': {
+      coles,
+      woolworths,
+      'chemist-warehouse': chemistWarehouse,
     },
   };
-  let filename = '';
-  switch (store) {
-    case 'coles':
-      appData = {
-        coles: {
-          ...appData,
-          products: JSON.parse(fs.readFileSync(colesProductsPath)),
-          categories: JSON.parse(fs.readFileSync(colesCategoriesPath)),
-        },
-      };
-      filename = 'coles.json';
-      break;
-    case 'woolworths':
-      appData = {
-        woolworths: {
-          ...appData,
-          products: JSON.parse(fs.readFileSync(woolworthsProductsPath)),
-          categories: JSON.parse(fs.readFileSync(woolworthsCategoriesPath)),
-        },
-      };
-      filename = 'woolworths.json';
-      break;
-    case 'chemist-warehouse':
-      appData = {
-        'chemist-warehouse': {
-          ...appData,
-          products: JSON.parse(fs.readFileSync(chemistWarehouseProductsPath)),
-          categories: JSON.parse(
-            fs.readFileSync(chemistWarehouseCategoriesPath)
-          ),
-        },
-      };
-      filename = 'chemist-warehouse.json';
-      break;
-  }
-  fs.writeFileSync(`./data/${filename}`, JSON.stringify(appData));
+  fs.writeFileSync(`./data/app-data.json`, JSON.stringify(appData));
 };
 
 export default createAppDataFile;

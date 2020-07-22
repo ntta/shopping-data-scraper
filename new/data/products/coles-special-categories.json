@@ -1,1 +1,20 @@
-[{"id":"c-back-to-school","name":"Back To School"},{"id":"c-winter","name":"Winter"},{"id":"c-entertaining-at-home","name":"Entertaining at Home"},{"id":"c-bread-bakery","name":"Bread & Bakery"},{"id":"c-fruit-vegetables","name":"Fruit & Vegetables"},{"id":"c-meat-seafood-deli","name":"Meat, Seafood & Deli"},{"id":"c-dairy-eggs-meals","name":"Dairy, Eggs & Meals"},{"id":"c-pantry","name":"Pantry"},{"id":"c-convenience-meals","name":"Convenience Meals"},{"id":"c-frozen","name":"Frozen"},{"id":"c-drinks","name":"Drinks"},{"id":"c-international-foods","name":"International Foods"},{"id":"c-healthy-living","name":"Healthy Living"},{"id":"c-household","name":"Household"},{"id":"c-health-beauty","name":"Health & Beauty"},{"id":"c-baby","name":"Baby"},{"id":"c-pet","name":"Pet"}]
+[
+  { "id": "c-back-to-school", "name": "Back To School" },
+  { "id": "c-winter", "name": "Winter" },
+  { "id": "c-entertaining-at-home", "name": "Entertaining at Home" },
+  { "id": "c-bread-bakery", "name": "Bread & Bakery" },
+  { "id": "c-fruit-vegetables", "name": "Fruit & Vegetables" },
+  { "id": "c-meat-seafood-deli", "name": "Meat, Seafood & Deli" },
+  { "id": "c-dairy-eggs-meals", "name": "Dairy, Eggs & Meals" },
+  { "id": "c-pantry", "name": "Pantry" },
+  { "id": "c-convenience-meals", "name": "Convenience Meals" },
+  { "id": "c-frozen", "name": "Frozen" },
+  { "id": "c-drinks", "name": "Drinks" },
+  { "id": "c-international-foods", "name": "International Foods" },
+  { "id": "c-healthy-living", "name": "Healthy Living" },
+  { "id": "c-household", "name": "Household" },
+  { "id": "c-health-beauty", "name": "Health & Beauty" },
+  { "id": "c-baby", "name": "Baby" },
+  { "id": "c-pet", "name": "Pet" }
+]
+

@@ -18,10 +18,22 @@ var _fetchChemistSpecial = _interopRequireDefault(require("./functions/fetchChem
 
 var _createAppDataFile = _interopRequireDefault(require("./functions/createAppDataFile"));
 
+var _uploadToFirestore = _interopRequireDefault(require("./functions/uploadToFirestore"));
+
+var _getHalfPriceProducts = _interopRequireDefault(require("./functions/getHalfPriceProducts"));
+
+var _getHalfPriceCategories = _interopRequireDefault(require("./functions/getHalfPriceCategories"));
+
+var _createStoreDataFile = _interopRequireDefault(require("./functions/createStoreDataFile"));
+
 var EXIT = 'exit';
 var GET_SPECIAL_PRODUCTS = 'get_special_prices';
 var FIND_SIMILAR_PRODUCTS = 'find_similar_products';
+var GET_HALF_PRICE_PRODUCTS = 'get_half_price_products';
+var GET_HALF_PRICE_CATEGORIES = 'get_half_price_categories';
+var UPLOAD_TO_FIRESTORE = 'upload_to_firestore';
 var CREATE_APP_DATA_FILE = 'create_app_data_file';
+var CREATE_STORE_DATA_FILE = 'create_store_data_file';
 var choices = [{
   title: 'Get special products',
   action: GET_SPECIAL_PRODUCTS
@@ -29,8 +41,17 @@ var choices = [{
   title: 'Find similar products',
   action: FIND_SIMILAR_PRODUCTS
 }, {
+  title: 'Get half price products',
+  action: GET_HALF_PRICE_PRODUCTS
+}, {
+  title: 'Get half price categories',
+  action: GET_HALF_PRICE_CATEGORIES
+}, {
   title: 'Create app data file',
   action: CREATE_APP_DATA_FILE
+}, {
+  title: 'Create store data file',
+  action: CREATE_STORE_DATA_FILE
 }, {
   title: 'Exit',
   action: EXIT
@@ -67,7 +88,7 @@ _inquirer["default"].prompt([{
         switch (_context2.prev = _context2.next) {
           case 0:
             _context2.t0 = answers.action;
-            _context2.next = _context2.t0 === GET_SPECIAL_PRODUCTS ? 3 : _context2.t0 === FIND_SIMILAR_PRODUCTS ? 5 : _context2.t0 === CREATE_APP_DATA_FILE ? 7 : _context2.t0 === EXIT ? 9 : 10;
+            _context2.next = _context2.t0 === GET_SPECIAL_PRODUCTS ? 3 : _context2.t0 === FIND_SIMILAR_PRODUCTS ? 5 : _context2.t0 === CREATE_STORE_DATA_FILE ? 7 : _context2.t0 === CREATE_APP_DATA_FILE ? 9 : _context2.t0 === UPLOAD_TO_FIRESTORE ? 11 : _context2.t0 === GET_HALF_PRICE_PRODUCTS ? 14 : _context2.t0 === GET_HALF_PRICE_CATEGORIES ? 16 : _context2.t0 === EXIT ? 18 : 19;
             break;
 
           case 3:
@@ -142,7 +163,14 @@ _inquirer["default"].prompt([{
               type: 'input',
               name: 'store',
               message: 'Store ID: '
-            }, {
+            }]).then(function (subAnswers) {
+              (0, _createStoreDataFile["default"])(subAnswers.store);
+            });
+
+            return _context2.abrupt("return");
+
+          case 9:
+            _inquirer["default"].prompt([{
               type: 'input',
               name: 'uploadDate',
               message: 'Upload date (dd/MM/yyyy): '
@@ -155,15 +183,30 @@ _inquirer["default"].prompt([{
               name: 'toDate',
               message: 'To date (dd/MM/yyyy): '
             }]).then(function (subAnswers) {
-              (0, _createAppDataFile["default"])(subAnswers.store, subAnswers.uploadDate, subAnswers.fromDate, subAnswers.toDate);
+              (0, _createAppDataFile["default"])(subAnswers.uploadDate, subAnswers.fromDate, subAnswers.toDate);
             });
 
             return _context2.abrupt("return");
 
-          case 9:
+          case 11:
+            _context2.next = 13;
+            return (0, _uploadToFirestore["default"])();
+
+          case 13:
             return _context2.abrupt("return");
 
-          case 10:
+          case 14:
+            (0, _getHalfPriceProducts["default"])();
+            return _context2.abrupt("return");
+
+          case 16:
+            (0, _getHalfPriceCategories["default"])();
+            return _context2.abrupt("return");
+
+          case 18:
+            return _context2.abrupt("return");
+
+          case 19:
           case "end":
             return _context2.stop();
         }

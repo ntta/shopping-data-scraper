@@ -1,7 +1,14 @@
-import { colesProductsPath } from '../variables/colesVariables';
-import { woolworthsProductsPath } from '../variables/woolworthsVariables';
-import { chemistWarehouseProductsPath } from '../variables/chemistVariables';
+// import { colesProductsPath } from '../variables/colesVariables';
+// import { woolworthsProductsPath } from '../variables/woolworthsVariables';
+// import { chemistWarehouseProductsPath } from '../variables/chemistVariables';
 import fs from 'fs';
+
+const colesProductsPath =
+  './data/products/half-price/coles-half-price-products.json';
+const woolworthsProductsPath =
+  './data/products/half-price/woolworths-half-price-products.json';
+const chemistWarehouseProductsPath =
+  './data/products/half-price/chemist-warehouse-half-price-products.json';
 
 let allProducts = {};
 
@@ -59,9 +66,13 @@ const findSimilarProducts = () => {
 const rewriteToFile = () => {
   for (let store of Object.keys(allProducts)) {
     fs.writeFileSync(
-      `./data/products/${store}-special-products.json`,
+      `./data/products/half-price/${store}-half-price-products.json`,
       JSON.stringify(allProducts[store])
     );
+    // fs.writeFileSync(
+    //   `./data/products/${store}-special-products.json`,
+    //   JSON.stringify(allProducts[store])
+    // );
   }
 };
 

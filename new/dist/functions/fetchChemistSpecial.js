@@ -144,11 +144,11 @@ var fetchProductsEachPage = /*#__PURE__*/function () {
                       break;
 
                     case 'price_cw_au':
-                      price = value;
+                      price = Number(value);
                       break;
 
                     case 'rrp_cw_au':
-                      orgPrice = value;
+                      orgPrice = Number(value);
                       break;
 
                     case 'splat':

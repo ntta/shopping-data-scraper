@@ -62,7 +62,7 @@ const fetchProductsOfPage = async (categoryId, pageNumber) => {
     }
     let name = data.Name ? data.Name.trim() : '';
     let brand = data.Brand ? getBrand(data.Brand.trim()) : 'Woolworths';
-    let imageUrls = data.DetailsImagePaths[0];
+    let imageUrls = [data.DetailsImagePaths[0]];
     let storeId = 'woolworths';
     let packageSize = data.PackageSize ? data.PackageSize.trim() : null;
     let cupPrice = data.InstoreCupString ? data.InstoreCupString.trim() : null;

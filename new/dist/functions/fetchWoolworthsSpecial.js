@@ -204,7 +204,7 @@ var fetchProductsOfPage = /*#__PURE__*/function () {
 
               var name = data.Name ? data.Name.trim() : '';
               var brand = data.Brand ? getBrand(data.Brand.trim()) : 'Woolworths';
-              var imageUrls = data.DetailsImagePaths[0];
+              var imageUrls = [data.DetailsImagePaths[0]];
               var storeId = 'woolworths';
               var packageSize = data.PackageSize ? data.PackageSize.trim() : null;
               var cupPrice = data.InstoreCupString ? data.InstoreCupString.trim() : null;

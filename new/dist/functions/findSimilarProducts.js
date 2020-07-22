@@ -7,12 +7,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
-var _colesVariables = require("../variables/colesVariables");
-
-var _woolworthsVariables = require("../variables/woolworthsVariables");
-
-var _chemistVariables = require("../variables/chemistVariables");
-
 var _fs = _interopRequireDefault(require("fs"));
 
 function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
@@ -21,23 +15,26 @@ function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o =
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
+var colesProductsPath = './data/products/half-price/coles-half-price-products.json';
+var woolworthsProductsPath = './data/products/half-price/woolworths-half-price-products.json';
+var chemistWarehouseProductsPath = './data/products/half-price/chemist-warehouse-half-price-products.json';
 var allProducts = {};
 
 var collectProductsFromStores = function collectProductsFromStores() {
-  if (_fs["default"].existsSync(_colesVariables.colesProductsPath)) {
-    var data = _fs["default"].readFileSync(_colesVariables.colesProductsPath);
+  if (_fs["default"].existsSync(colesProductsPath)) {
+    var data = _fs["default"].readFileSync(colesProductsPath);
 
     allProducts['coles'] = JSON.parse(data);
   }
 
-  if (_fs["default"].existsSync(_woolworthsVariables.woolworthsProductsPath)) {
-    var _data = _fs["default"].readFileSync(_woolworthsVariables.woolworthsProductsPath);
+  if (_fs["default"].existsSync(woolworthsProductsPath)) {
+    var _data = _fs["default"].readFileSync(woolworthsProductsPath);
 
     allProducts['woolworths'] = JSON.parse(_data);
   }
 
-  if (_fs["default"].existsSync(_chemistVariables.chemistWarehouseProductsPath)) {
-    var _data2 = _fs["default"].readFileSync(_chemistVariables.chemistWarehouseProductsPath);
+  if (_fs["default"].existsSync(chemistWarehouseProductsPath)) {
+    var _data2 = _fs["default"].readFileSync(chemistWarehouseProductsPath);
 
     allProducts['chemist-warehouse'] = JSON.parse(_data2);
   }
@@ -127,7 +124,11 @@ var rewriteToFile = function rewriteToFile() {
   for (var _i2 = 0, _Object$keys2 = Object.keys(allProducts); _i2 < _Object$keys2.length; _i2++) {
     var store = _Object$keys2[_i2];
 
-    _fs["default"].writeFileSync("./data/products/".concat(store, "-special-products.json"), JSON.stringify(allProducts[store]));
+    _fs["default"].writeFileSync("./data/products/half-price/".concat(store, "-half-price-products.json"), JSON.stringify(allProducts[store])); // fs.writeFileSync(
+    //   `./data/products/${store}-special-products.json`,
+    //   JSON.stringify(allProducts[store])
+    // );
+
   }
 };
 
